@@ -1,0 +1,35 @@
+= Structure of this document
+
+This Guide contains...
+
+== Use scenario tags
+
+In this section we define...
+
+=== `Integration` Scenario
+
+This scenario may involve...
+
+=== `Adaptation` Scenario
+
+This scenario might involve...
+
+=== `Plugin` Scenario
+
+This is a scenario...
+
+=== `NewProduct` Scenario
+
+When there is...
+
+=== `Publication` Scenario
+
+Barcelona City Council owns...
+
+=== `Document` Scenario
+
+Sometimes you may...
+
+== Tags for stages and times in projects
+
+When classifying measures...

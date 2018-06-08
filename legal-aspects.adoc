@@ -1,0 +1,15 @@
+= Legal aspects
+
+Open source projects are...
+
+== Intellectual property
+
+Until now, contracts with suppliers stipulated that...
+
+== Choose a licence for the code
+
+There are three options...
+
+== Comply with the licence obligations
+
+Measure: Write a checklist with...

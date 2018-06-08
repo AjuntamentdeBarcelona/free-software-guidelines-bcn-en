@@ -1,0 +1,13 @@
+= Component management
+
+== Look for and select open code components
+
+In all likelihood, unless our need is...
+
+== Managing dependencies
+
+Measure: Keep a thorough record of...
+
+== Replace the usual private services
+
+Measure: Use Piwik...

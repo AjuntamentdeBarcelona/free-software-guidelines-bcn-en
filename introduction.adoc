@@ -1,0 +1,76 @@
+= Introduction
+
+Barcelona City Council has a policy for using and developing free or open source software which is set out in the http://ajuntament.barcelona.cat/digital/ca/documentacio[Government Measure on Open Digitisation: Free software and agile development of public administration services], approved in October 2017.
+
+This policy includes a series of principles and guidelines that are outlined in the following documents, annexed to the measure:
+
+* http://ajuntament.barcelona.cat/digital/sites/default/files/guia_adt_2_codi_de_practiques_tecnologiques_cat_2017_af.pdf[Code of Technological Practices]
+* http://ajuntament.barcelona.cat/digital/sites/default/files/guia_adt_4_guia_sobre_sobirania_tecnologica_cat_2017_af_2.pdf[Guide to Technological Sovereignty]
+* http://ajuntament.barcelona.cat/digital/sites/default/files/guia_adt_6_guia_de_compra_publica_tic_cat_af_9en.pdf[Guide to Public ICT Procurement]
+
+This Guide spells out these principles and guidelines in a series of measures and recommendations to help municipal IT (IMI) staff in their daily work on projects based on open source software.
+It covers aspects such as:
+
+* Looking for and designing solutions
+* Service procurement
+* Developing, implementing and maintaining information systems
+* Participation in open communities
+
+== Purpose of this Guide
+
+This Guide serves a double purpose:
+
+. To help IMI staff use technologies based on open source software so they make the most of the advantages and minimise the potential risks.
+
+. To help maintain Barcelona City Council’s reputation as a transparent and reliable
+institutional collaborator in open source software projects that takes the sector’s best practices into account.
+
+The benefits expected from using free software and open standards are explained in the http://ajuntament.barcelona.cat/digital/sites/default/files/le_mesuradegovern_v2.pdf[Government Measure on Open Digitisation] (page 22).
+We reproduce them here:
+
+* *Transparency*: the source code can be examined and audited by anyone with sufficient technical knowledge, with no need for explicit permission from the manufacturer or the City Council.
+Without this property it is difficult to trust the neutrality and security of a growing number of governmental and administrative processes that are implemented in the form of software, such as voting processes.
+* *Interoperability*: the use of open formats and standards enables different systems, possibly made by different manufacturers, to operate together without any legal or technical barriers.
+This opens up possibilities of integrating different systems, to reuse data and improve processes, for example.
+It also ensures that the general public are not forced to use the technological solutions of specific providers to interact with the public authority.
+* *Sovereignty*: transparency and interoperability greatly reduce dependence on the commercial strategies of manufacturers.
+Users, in this case the City Council, are free to decide which systems they want to develop, resize or replace, as well as their own policies on security, privacy, updates and access to the systems.
+In the case of organisations, sovereignty also encourages control over their own processes and knowledge generation and conservation.
+* *Flexibility*: systems can be better adapted to the users’ needs, and they can be adapted and extended as those needs evolve, without depending on a particular provider.
+Not only is development more flexible, it is much easier and cheaper to assess alternatives as well, while operating conditions and maintenance can be modified more easily too.
+* *Sustainability*: interoperability enables system parts that need renewing to be replaced without the need for data to ever be unavailable
+Greater sovereignty also means less risk of any part of the system, including the hardware, becoming obsolete
+The collaboration (between people and organisations) that is encouraged by free licences can be a great help in making a system more durable and stable.
+* *Efficiency*: factors such as cost savings on paying for licences, more competition between suppliers, less risk of obsolescence and the possibility of sharing costs with other bodies or organisations, mean free software based on open standards is the best option for ensuring public authorities are efficient, as they are required to be by law
+The huge amount of software that can be combined allows many domains to achieve solutions that are much better adapted to the end requirements with little use of resources.
+* *Reliability and security*: being free of commercial strategies means users can demand better quality services and take advantage of all the adjustments and improvements provided by the development and support community of each tool.
+* *Innovation*: transparency, and a fortunate combination of collaboration and competition, means open source software is enormously fertile terrain for technological, social and process innovation
+The direct beneficiaries of this knowledge production are the people who produce and use the software but the whole of society benefits indirectly.
+
+Besides the commitment to base IMI’s technological architecture on open source software, we need to know and exploit the particular features of the projects and open communities.
+
+Despite the enormous diversity that currently exists among open source projects, a series of practices have gradually arisen that are shared by most projects and organisations which achieve a certain degree of success
+That includes technical and legal aspects, as well as project management
+We could say that some of these are must-adopt practices, in the sense that the working dynamics of open source projects reward certain types of conduct and penalise others.
+
+These practices are geared towards facilitating the widest possible diversity among the participants, very often without any centralised coordination, while maintaining the quality of the product at the same time
+In some cases they might be very different from the way of working when there is no intention of publishing the source code
+That means IMI’s learning process and adaptation will have a cost but we believe that it will be far outweighed by the organisational improvements it will bring – together with the incorporation of agile methods – as well as all the benefits mentioned above
+As Karl Fogel says in https://producingoss.com/en/introduction.html[Producing Open Source Software]:
+
+____
+“the open source projects your organisation participates in are a membrane through which your managers and developers are regularly exposed to people and ideas outside your organisational hierarchy
+It’s like having the benefits of attending a conference but still getting daily work done and without incurring travel expenses
+In a successful open source project these benefits, once they start arriving, greatly outweigh the costs”.
+____
+
+To sum up, this guide intends to explain the best practices available for using and developing open source software
+It does so by codifying and adapting these best practices to IMI, so they may serve as a guide in the learning process and in decision-making.
+
+== To find out more
+
+A very good resource for understanding all the technical, legal and social aspects of open source software is Karl Fogel’s book https://producingoss.com/en/index.html[Producing Open Source Software] (the 2017 edition, only available in an e-version, which can be freely consulted online)
+We have taken many of the recommendations in that book into account in drawing up this Guide
+
+The Guide also contains lots of recommendations on service procurement
+A good document for understanding the particular features of public procurement of open source software is https://joinup.ec.europa.eu/document/guideline-public-procurement-open-source-software[Guideline on public procurement of Open Source Software], published in 2010 by Rishab Aiyer Ghosh, Ruediger Glott, Patrice-Emmanuel Schmitz and Abdelkrim Boujraf, and commissioned by the European Commission under the https://joinup.ec.europa.eu//[Join Up] initiative.

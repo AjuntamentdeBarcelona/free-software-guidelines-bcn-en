@@ -1,0 +1,35 @@
+= Open development
+
+In free or open source software...
+
+== Work in the open from day one
+
+A really important aspect to bear in mind is...
+
+== Procurement for open development
+
+Measure: Award the contract to...
+
+== Dissemination of the project
+
+Measure: Chose a good name for...
+
+== Parametrisation, configuration and installation
+
+Measure: Get the successful bidders to...
+
+== Packaging and rollout
+
+Measure: Get the successful bidder responsible for...
+
+== Use open formats and standards
+
+Measure: Check the user interface meets...
+
+== Internationalisation
+
+Measure: Define and budget the technical requirements so...
+
+== Opening a code that was initially closed
+
+This section will explain how to...

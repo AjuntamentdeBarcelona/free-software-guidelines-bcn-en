@@ -1,0 +1,23 @@
+= Technical infrastructure
+
+The technical infrastructure required for...
+
+== Websites associated with the project
+
+A typical software project might have...
+
+== Code repository and version control
+
+A key element of the project development website is...
+
+== Incident management tool
+
+One tool all open code projects need is...
+
+== Integration infrastructure and testing
+
+Recommendation: Link the main repository to...
+
+== Internal and external communication channels
+
+The first lines of communication between developers are...

@@ -1,35 +1,165 @@
 = Structure of this document
 
-This Guide contains...
+This Guide contains a series of guidelines that we have divided into:
 
-== Use scenario tags
+*Measures* that must be adopted and implemented in all projects.
 
-In this section we define...
+*Recommendations* that do not have to be followed but which could be useful in certain situations.
 
-=== `Integration` Scenario
+Project managers are responsible for checking whether the measures are being implemented properly and deciding which recommendations to follow.
 
-This scenario may involve...
+Some measures are sufficiently complex to merit being broken down into *sub-measures* that can be individually validated.
 
-=== `Adaptation` Scenario
+Some are impossible to adopt in certain projects, so in those cases we have tried to offer some *alternatives* (guidelines that will be tagged as such throughout the guide).
+Each measure and its sub-measures are interlinked.
 
-This scenario might involve...
+Each measure, recommendation or alternative consists of:
 
-=== `Plugin` Scenario
+* A unique identifier throughout the document.
+* A list of tags.
 
-This is a scenario...
+The *tags* help to restrict when and in what types of projects each measure and recommendation are important.
+For example, they can serve to generate a checklist of things that project management needs to check.
 
-=== `NewProduct` Scenario
+This chapter explains which type of tags are used throughout the guide.
+The other chapters set out the measures and recommendations by subject areas and provide some necessary context for understanding the relevance of each measure.
 
-When there is...
+In the [Annex: Lists of measure and recommendations by tag] you will find various lists of measures and recommendations classified by tags.
 
-=== `Publication` Scenario
+== Use-case tags
 
-Barcelona City Council owns...
+In this section we define the different situations or *use-cases* that can arise in technological projects in relation to the free software components they are based on.
+These Use-Cases then determine which measures and recommendations affect each project.
 
-=== `Document` Scenario
+Each *project* defines an information system, and each system has a certain number of software *components*.
+Some components are distinguished from the rest because each component has its own source code *repository*.
+(Occasionally we find complex components whose code, for practical reasons, is shared between different repositories which are tagged and distributed jointly).
+The different components in a particular system can be run on the same equipment or be distributed between different machines.
+Likewise, they may operate as part of the same process or various processes.
 
-Sometimes you may...
+The following use-cases are contemplated:
 
-== Tags for stages and times in projects
+[cols=",",options="header",]
+|===========================================================================================================================================================================================================
+|Tag |Description
+|`Integration` |*Integrate existing components*: it is necessary to install a new system that can be built on the basis of existing components.
+|`Adaptation` |*Modify an external component*: feature needs to be added to a component that is already available, or it needs to be improved by solving defects, adding translations, etc.
+|`Plugin` |*Expand a platform with plugins*: new components need to be created that can be integrated into a platform or framework already available and which facilitates this task.
+|`NewProduct` |*Create a new component*: a new solution needs to be created from scratch.
+|`Publication` |*Publish code from an existing own component*: we have our own code, developed under previous contracts and never published, and we want to make it freely available in a public repository.
+|`Document` |*Publish documents not linked to a single project*: we have documentation that is not directly linked to a piece of software but we want to make it freely available in a public repository.
+|===========================================================================================================================================================================================================
 
-When classifying measures...
+All the Use-Cases, except the `Integration` and `Document` Use-Cases, refer to a single software component.
+This means different Use-Cases can coincide in the same project if different components are affected in a different way.
+
+We exclude from the analysis contributions to projects that do not involve modifying the code of a component, or creating a repository, such as contributions to documenting or facilitating the adoption of certain tools by third parties.
+
+The `Integration`, `Adaptation`, `Plugin` and `NewProduct` use-cases may occasionally require a *migration*, if we find ourselves in a situation of implementing a system that partially or totally replaces the functions of a previous system.
+
+=== `Integration` Use-Case
+
+This Use-Case may involve creating one or more own repositories, not to manage the code of any software _per se_ but to:
+
+* Link it to project management tools such as incident management tools.
+* Save and link documents relating to using and operating the system
+* Save configuration files and scripts necessary for deploying the system
+* Save configuration files and scripts necessary for running testing and continuous integration environments, including _virtualisation_ and _containerisation_
+* Save system design and customisation features
+* Save instructions for installing and using the system
+* Save integration tests of the various components
+
+With regard to customisation elements, we highlight the need for *translating* user interface texts and other aspects of localisation and internationalisation (l10n, i18n).
+We contemplate two possibilities:
+
+* The following conditions are met: (1) the software to be translated is designed to incorporate translations of the interface, and (2) the translations to be carried out may be of general interest to other potential users of the tool.
+In this case, we will try to fit the translations into the original project, which means we would find ourselves in the link:#escenari-adaptacio[Adaptation Use-Case].
+* One of the two conditions mentioned above is not met: we store the files needed for doing the translation in an own repository.
+
+Example:
+
+A hypothetical example would be a web portal built using a content management system such as Wordpress, with a MariaDB database.
+
+[[escenari-integracio]]These are standard free software components but to make managing them easier, it might be useful to save customised elements such as CSS files or a list of Wordpress extensions to be uploaded in a repository, along with Docker images that include all the necessary elements for its deployment.
+
+=== `Adaptation` Use-Case
+
+This use-case might involve creating one or more own repositories with the same contents described for the link:#escenari-integracio[Integration Use-Case].
+A distinctive feature of this use-case, however, is that Barcelona City Council is sponsoring the development of a significant contribution to a free software product that could potentially be incorporated into the original product (even if this integration does not take place while it is being developed).
+These contributions must take the form of a series of commits in a repository linked in some way to that of the original product.
+
+There may be various types of contributions:
+
+* New features that Barcelona City Council needs and which could be of interest to other entities or users
+* Complete translations (or significant coverage) of the user interface, as well as other localisation (l10n) and internationalisation (i18n) improvements that might be of general use to other potential users of the tool.
+
+If the translations and localisation elements are mixed with the City Council’s own customised elements, or if the original product is not designed to incorporate new translations and localisations, then it is not possible to plan a contribution like this because we would be in the link:#escenari-integracio[Integration Use-case].
+
+Example: Barcelona City Council’s ethical mail box
+
+There was an original piece of software, that of https://www.globaleaks.org/[Globaleaks], and the features of generating an internal file and sending a reply to the user in the form of a PDF were incorporated into that.
+These features are now part of the https://github.com/globaleaks/GlobaLeaks[Globaleaks main repository]’s master branch.
+
+[[escenari-adaptacio]]Customisation tasks have been carried out in the same project, including the translation of the interface into Catalan, but as some user texts are not for general use but instead are the City Council’s own customisations, it has not been possible to contribute the translation itself to the original project.
+
+=== `Plugin` Use-case
+
+This is a use-case half way between integrating new features into an already existing product (link:#escenari-adaptacio[Adaptation Use-case]) and developing a new product (link:\l[NewProduct Use-case]), and it shares features of both.
+
+On the one hand, it starts with an existing piece of software to which a feature has to be added.
+On the other hand, the software architecture is modular and provides for extension by means of a standardised mechanism that enables semi-independent development of the new modules in such a way that some aspects are quite similar to a new product.
+In particular, the new modules have their own repository (which is not a copy of the original product’s repository) and the releases are not linked to those of the framework product.
+
+Example: Open Data Barcelona
+
+The http://opendata-ajuntament.barcelona.cat/[City Council’s open data portal] is based on https://ckan.org/[CKAN] open data portal software.
+This product is http://docs.ckan.org/en/latest/extensions/plugin-interfaces.html[easily extendible] by means of plugins or extensions and when the new portal was being developed it was necessary to modify an existing plugin (which would also correspond to the link:#escenari-adaptacio[Adaptation Use-case]) as well as create new ones.
+
+=== `NewProduct` Use-case
+
+When there is no component or combination of components available that satisfy a specific need, a new product has to be developed.
+This product may be based on other, already existing components, such as frameworks, libraries, database management systems, etc.
+
+Example: Decidim.Barcelona.
+
+https://decidim.org/[Decidim] is a participative democracy tool for cities and organisations.
+From the outset, its development was sponsored by Barcelona City Council, although other organisations that use it are now beginning to contribute resources. It is based on the website development framework http://rubyonrails.org/[Ruby on Rails].
+This framework greatly facilitates the development of new website applications but these do not merely consist of integrating and configuring components.
+
+https://decidim.org/[Decidim]’s history is a little odd because it began with an attempt to adapt existing software, https://github.com/consul/consul[Consul].
+Later it was necessary to make a fork from the original software and, finally, it was decided to rewrite the program (improving the modularity of the code, among other things).
+
+=== `Publication` Use-case
+
+Barcelona City Council owns a lot of software that is currently in use but which has never been published.
+The specific measures and recommendations for this use-case explain the additional checks that are necessary for publishing, under licence, a software code that initially was not conceived for free distribution.
+
+There may be several reasons that might justify publishing a software program, provided it meets certain quality requirements.
+One possible situation is you might want to launch a new development contract for extending or adapting “ manner” an existing component (that would be the equivalent of combining the link:#escenari-adaptacio[Adaptation Use-case] and the link:#escenari-publicacio[Publication Use-case][[escenari-publicacio]]).
+
+=== `Document` Use-case
+
+Sometimes you may want to publish a document that has been drafted (or commissioned) that might not be linked directly to a single software project.
+Examples would be market studies, research projects, graphic design elements (such as logos) and so on.
+
+== Tags for project stages and milestones
+
+When classifying measures and recommendations, it is also worth taking into account at what point they should be applied.
+As a general rule, we could say that technological projects go through the following stages:
+
+* *Conception*: stage when a new need is detected and the idea of the project arises, which usually includes drawing up a preliminary design and possibly carrying out other preliminary studies.
+* *Procurement*: drawing up the specifications for acquiring services (development or other types of services).
+* *Development*: creating the source code, documents and other tools, including the infrastructure necessary for building them.
+* *Putting into production*: deploying the service, including the possible migration of data and processes from one or more previous systems.
+* *Exploitation*: stage which lasts throughout the useful life of the system in production, including operational and maintenance tasks.
+
+Taking all this into account, the Guide uses the following tags to highlight key project stages:
+
+[cols=",",options="header",]
+|====================================================================================================
+|Tag |Description
+|`Preliminary design` |Measures to take into account when drawing up preliminary designs.
+|`Procurement` |Measures to take into account when drawing up the service procurement specifications.
+|`Day1` |Measures to be applied from the first day of the development stage (see the section ).
+|`Release` |Measures to take into account when a new version of the product is released.
+|====================================================================================================

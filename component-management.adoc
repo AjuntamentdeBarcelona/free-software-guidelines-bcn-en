@@ -2,12 +2,519 @@
 
 == Look for and select open code components
 
-In all likelihood, unless our need is...
+In all likelihood, unless our need is very specialised, there will already be an open solution (or combination of solutions) that would solve the problem, at least partly.
+
+It is important to bear in mind that open code, or open source projects offer more possibilities of being transformed and adapted to our needs than traditional applications.
+
+Finding out if a project suits our needs and meets the minimum requirements on a technical, legal and social level could prove costly. But the benefits of finding an existing project to join, instead of reinventing the wheel (and avoiding the so-called *Not invented here* or *NIH* syndrome”) can be extraordinary, in the short and long terms:
+
+To start with, maybe many of the features we need are already being implemented, so we could build prototypes and carry out concept tests very quickly.
+
+We can take advantage of the experience acquired by other users who have tried to implement a system similar to the one we want, possibly discovering opportunities we had not thought about.
+
+We can share the cost of building a complex tool with other users and organisations. This includes potential future features and applications, which could in turn interest other users.
+
+If the product has a sufficiently large user base, we get a tool that develops over time, improving with the contributions of others, adapting to future technological changes and incorporating our new features or those of third parties. With very little outlay on maintenance we get long-term sustainability and less danger of creating a *technological debt*.
+
+Measure: Look for an existing project or component that might solve the problem, perhaps partially M_323::
+  tags: Preliminary design Integration Adaptation Plugin NewProduct
+  +
+  links incoming: None
+  +
+  links outgoing: None
+  +
+  Besides using the normal search engines, it is worth going directly to the following sites:
+  +
+  https://github.com/[GitHub]
+  +
+  https://freshcode.club/[Freshcode.club]
+  +
+  https://openhub.net/[OpenHub:]
+  +
+  https://joinup.ec.europa.eu/solutions[Repository of the EU Joinup initiative solutions]
+  +
+  https://administracionelectronica.gob.es/ctt/buscadorSoluciones.htm[Centro de Transferencia de Tecnología Solutions finder]
+  +
+  Depending on the platform or technological architecture being worked on, it is also necessary to search for specialised repositories, such as the:
+  +
+  Drupal repository
+  +
+  CKAN repository
+
+[[M_408]]
+
+Measure: Fill in a comparative grid of the different components to be assessed to cover a need M_408::
+  tags: Preliminary design Integration Adaptation Plugin NewProduct
+  +
+  links incoming: None
+  +
+  links outgoing: link:#mesura-s-58b[_S_58B_] link:#S_453[_S_453_] link:#S_223[_S_223_] link:#S_5BD[_S_5BD_] link:#S_160[_S_160_] link:#S_0F3[_S_0F3_] link:#S_1C4[_S_1C4_] link:#S_24A[_S_24A_] link:#S_2F1[_S_2F1_]
+  +
+  This might have to be repeated for every component in a system
+  +
+  Example grid
+
+[cols=",,,",options="header",]
+|============================================================
+a|
+Element
+
+ a|
+Component A
+
+ a|
+Component B
+
+ a|
+Component C
+
+a|
+Name
+
+ a|
+ 
+
+ a|
+ 
+
+ a|
+ 
+
+a|
+Licence (and conditions that might affect us)
+
+ a|
+ 
+
+ a|
+ 
+
+ a|
+ 
+
+a|
+% of the feature we need
+
+ a|
+ 
+
+ a|
+ 
+
+ a|
+ 
+
+a|
+IMI projects that already use it and people familiar with it.
+
+ a|
+ 
+
+ a|
+ 
+
+ a|
+ 
+
+a|
+Commercial support
+
+ a|
+ 
+
+ a|
+ 
+
+ a|
+ 
+
+a|
+Other large organisations that use it
+
+ a|
+ 
+
+ a|
+ 
+
+ a|
+ 
+
+a|
+Activate the bug tracker
+
+ a|
+ 
+
+ a|
+ 
+
+ a|
+ 
+
+a|
+Diversity of commits
+
+ a|
+ 
+
+ a|
+ 
+
+ a|
+ 
+
+a|
+Diversity of organisations
+
+ a|
+ 
+
+ a|
+ 
+
+ a|
+ 
+
+a|
+Tone and usefulness of the discussion forums
+
+ a|
+ 
+
+ a|
+ 
+
+ a|
+ 
+
+a|
+Public communication of the project
+
+ a|
+ 
+
+ a|
+ 
+
+ a|
+ 
+
+a|
+Code quality metrics
+
+ a|
+ 
+
+ a|
+ 
+
+ a|
+ 
+
+a|
+Other considerations
+
+ a|
+ 
+
+ a|
+ 
+
+ a|
+ 
+
+|============================================================
+
+Other things that could be taken into account, besides the sub-measures below:
+
+How easy the different components are to adapt and develop
+
+Immediate and long-term costs, including starting costs
+
+Existence of a local or global support network or informal community
+
+Innovative solutions (and the value that brings)
+
+Impact on data privacy and sovereignty
+
+[[mesura-s-58b]]
+
+Sub-measure: Choose components with a licence approved by the OSI or the FSF S_58B::
+  tags: Integration Adaptation Plugin
+  +
+  links incoming: link:#M_408[_M_408_]
+  +
+  links outgoing: None
+  +
+  The two sets of valid licences are almost identical:
+  +
+  https://opensource.org/licenses
+  +
+  https://www.gnu.org/licenses/license-list.en.html
+
+[[S_453]]
+
+Submeasure: Go for components with a greater diversity and weight of contributors S_453::
+  tags: Preliminary design Integration Adaptation Plugin NewProduct
+  +
+  links incoming: link:#M_408[_M_408_]
+  +
+  links outgoing: None
+  +
+  Here we understand contributions in a broad sense: commits in the code repository, bug reports, translations, etc.
+  +
+  Diversity (different people and organisations involved) is more important than the number of contributions (e.g. the number of commits per month).
+  +
+  If the component shows contributions by important organisations (companies of a certain size, universities, institutions), it is very likely that, even if some contributions fail, the project will continue. But it could also be a very good sign that lots of people make contributions on an individual basis and these are taken into account.
+
+[[S_223]]
+
+Submeasure: Go for components with recent activity S_223::
+  links incoming: link:#M_408[_M_408_]
+  +
+  links outgoing: None
+  +
+  First of all we need to look at the bug tracker, noting:
+  +
+  The number of defects notified. We shouldn’t panic if there are a lot of open and unsolved notifications, because the number of incidents tends to grow in a straight line with the number of users but the number of developers usually grows more slowly.
+  +
+  Let the developers gradually respond to the incidents. We want to stress this point: if there are a large number of users, there will always be lots of open incidents. The important thing is to see whether the developers are regularly involved in the bug tracker, that they haven’t abandoned it.
+  +
+  Then it is important to look at the project’s public activity, bearing in mind:
+  +
+  How long ago the latest releases were published, news items were posted in a blog or similar site.
+  +
+  The tone, usefulness and diversity of the participants in the project’s discussion forums and public communication channels.
+
+[[S_5BD]]
+
+Sub-measure: Go for components with full and up-to-date documentation S_5BD::
+  links incoming: link:#M_408[_M_408_]
+  +
+  links outgoing: None
+  +
+  When the documentation is in a public repository and there is a good range of people contributing to it, that too is a very good sign,
+
+[[S_160]]
+
+Sub-measure: Go for components where there is commercial support available S_160::
+  tags: Preliminary design Integration Adaptation Plugin NewProduct
+  +
+  links incoming: link:#M_408[_M_408_]
+  +
+  links outgoing: None
+  +
+  When products have a free or open source licence, it will always be possible to contact someone to get them modified, maintained or have problems solved. However, we have more guarantee of success if there are already companies or people offering professional support for the component in question, and it can therefore be assumed they are very familiar with it.
+  +
+  It is better if there are various companies offering commercial services in relation to the product than just one, because in the latter case we would be more dependent on that company. It is a normal business model for the company that develops the product (perhaps without hardly any external community support) to also offer commercial support for it. So it should not simply be discarded but it is better if the professional support is diversified.
+  +
+  The fact that there are already companies offering professional services in relation to a product at the start could also make it easier to carry out a tentative evaluation of the cost of adapting or maintaining it.
+
+[[S_0F3]]
+
+Submeasure: Go for components that provide access to development and installation information S_0F3::
+  tags: Preliminary design Integration Adaptation Plugin NewProduct
+  +
+  links incoming: link:#M_408[_M_408_]
+  +
+  links outgoing: None
+  +
+  Transparency is a basic cornerstone of open source software. Without it, it would be very difficult for all the rest to work well.
+  +
+  If a component has precise, detailed instructions on how to install it, that makes the possibility of carrying out an independent technical assessment of it easier.
+
+[[S_1C4]]
+
+Submeasure: Go for components with good code quality metrics S_1C4::
+  tags: Preliminary design Integration Adaptation Plugin NewProduct
+  +
+  links incoming: link:#M_408[_M_408_]
+  +
+  links outgoing: None
+  +
+  The fact that project source codes and management tools (bug trackers, mail lists, forums) are public means that it is possible to obtain some objective metrics on open source software that it would be very difficult to get in the case of privately owned software.
+  +
+  Some metrics that can be obtained for certain projects:
+  +
+  Number of comments, from https://openhub.net/[OpenHub].
+  +
+  Percentage of source code in test cases
+
+[[S_24A]]
+
+Sub-measure: Go for components that IMI is already familiar with S_24A::
+  tags: Preliminary design Integration Adaptation Plugin NewProduct
+  +
+  links incoming: link:#M_408[_M_408_]
+  +
+  links outgoing: None
+  +
+  When we need to adapt an existing source code, if we know the project and the community that sustains it beforehand, it has lots of advantages:
+  +
+  Perhaps IMI has already identified key people in the community.
+  +
+  It is possible to make a more realistic estimate, in terms of time and money, of the cost of any intended modifications and the possibilities of them being integrated in to the original product.
+
+Sub-measure: Go for components that have a licence compatible with the GPL licence S_79A::
+  tags: Integration Adaptation Plugin
+  +
+  links incoming: None
+  +
+  links outgoing: None
+  +
+  The Free Software Foundation gives this information in its list of licences: https://www.gnu.org/licenses/license-list.en.html.
+  +
+  The licences in the GPL family are some of the most common. To avoid licence conflicts with other components we might need, all our components should be GPL-compatible.
+
+[[S_2F1]]
+
+Sub-measure: Go for Debian stable components S_2F1::
+  tags: Preliminary design Integration Adaptation Plugin NewProduct
+  +
+  links incoming: link:#M_408[_M_408_]
+  +
+  links outgoing: None
+  +
+  Any solution component included in Debian’s stable distribution at the project design stage, or which can be run in the stable version without having to be adapted and which is multi-architecture, is considered to be a durable and reliable component.
+  +
+  Otherwise, go for components which, in their standard version downloadable to the project website, can be run on free or open source platforms, preferably GNU/Linux and without any restrictions in terms of:
+  +
+  Requiring a particular GNU/Linux distribution (e.g. a program that only runs in CentOS environments and not on Debian).
+  +
+  Versions of the main platform elements that are too specific, especially if they are too old or beyond their standard maintenance period (e.g. a program that requires a Linux kernal in a 3.* version, or some basic libraries of the system that are obsolete.
+  +
+  Requiring a specific hardware architecture (e.g. solutions that only run on Intel machines).
+
+Measure: Consider all the possibilities and implications before initiating a social fork M_B61::
+  tags: Preliminary design Adaptation NewProduct
+  +
+  links incoming: None
+  +
+  links outgoing: None
+  +
+  When there is a code that has been published with a free licence but the product needs to be developed in a direction that is incompatible with the plans governing the project, it might be necessary to make a fork (in the strict sense of the word, a social fork).
+  +
+  Creating a fork has many disadvantages, so it has to be the last resort. It is much more difficult to share code with the original product once the fork has been created. And perhaps even more significant, it implies splitting the original community and forcing each developer to decide which product to prioritise.
 
 == Managing dependencies
 
-Measure: Keep a thorough record of...
+Measure: Keep a thorough record of all the software packages used, which have to be open source M_0C2::
+  tags: Procurement Integration Adaptation Plugin NewProduct Publication
+  +
+  links incoming: None
+  +
+  links outgoing: None
+  +
+  In the case of a contract, include this in the specifications and add that IMI has the last word on including a dependency.
+  +
+  Example clause: *Managing software dependencies*.
+  +
+  The successful bidder should keep a thorough record of all the software packages used in the solution, which have to be distributed under a software licence accepted by the Open Source Initiative (OSI, https://opensource.org/licenses) or the GNU project (https://www.gnu.org/licenses/license-list.en.html). As an additional requirement, the licence for all packages used should not pose any incompatibility problems with the main product licence, EUPL-1.2. Barcelona City Council reserves the right to demand a software dependency be removed if it considers that it constitutes a legal risk and the successful bidder has to replace the package with another one, or cover the feature with a development of its own.
+
+Recommendation: Use a licence monitoring program R_5D2::
+  tags: Integration Adaptation Plugin NewProduct Publication
+  +
+  links incoming: None
+  +
+  links outgoing: None
+  +
+  For example:
+  +
+  https://www.fossology.org/
+  +
+  http://creadur.apache.org/
+
+Measure: Don’t copy external dependencies to the repository unless it is an exceptional case M_582::
+  tags: Plugin NewProduct Publication
+  +
+  links incoming: None
+  +
+  links outgoing: None
+  +
+  Sometimes it is decided to copy a sub-component that is available in an own repository to the repository of the component we are building (whether it is in source, binary or byte code). The term for this is a bundled dependency. The idea behind it is to make a rollout or development cycle easier, but it is regarded as bad practice because:
+  +
+  Changes and updates in the sub-component dirty the record of changes to the main component.
+  +
+  It is more difficult to properly account for the authorship and licensing of each part of the code.
+  +
+  There might be exceptional circumstances that justify ignoring this measure.
+
+Measure: Look for unsuitable dependencies and find replacements with a free licence M_CA0::
+  tags: Publication
+  +
+  links incoming: None
+  +
+  links outgoing: None
+  +
+  The following components need to be deleted:
+  +
+  Any with a proprietary licence.
+  +
+  Any that are owned by Barcelona City Council but cannot be opened for the moment.
+  +
+  Any that show any kind of licence incompatibility with the other product components to be opened.
+  +
+  Any that cannot be installed in a free or open source operating system.
+
+Recommendation: Finance a security audit of the component to be used R_377::
+  tags: Integration Adaptation Plugin
+  +
+  links incoming: None
+  +
+  links outgoing: None
+
+Recommendation: Finance meetings and hackathons on the component to be used R_D16::
+  tags: Integration Adaptation Plugin
+  +
+  links incoming: None
+  +
+  links outgoing: None
+
+Recommendation: Involve IMI staff in development tasks R_BBA::
+  tags: Procurement Integration Adaptation Plugin NewProduct
+  +
+  links incoming: None
+  +
+  links outgoing: None
+  +
+  This can be done on a contract basis and for any development-related task:
+  +
+  Writing code
+  +
+  Writing documents
+  +
+  Revising code
+  +
+  Creating, performing and analysing batteries of tests
+  +
+  We want all our staff to be familiar with software that will continue to be used in the future, once the current contract has expired. The idea being to increase our technological sovereignty and avoid being dependent on single suppliers as much as possible.
 
 == Replace the usual private services
 
-Measure: Use Piwik...
+Measure: Use Piwik (if a web analytics tool is needed) M_116::
+  tags: Procurement Integration Adaptation Plugin NewProduct Publication
+  +
+  links incoming: None
+  +
+  links outgoing: None
+  +
+  Don’t use Google Analytics Use tools such as Piwik instead.
+
+Measure: Publish Android apps in F-Droid (if one of the products is an Android app) M_CDB::
+  tags: Integration Adaptation Plugin NewProduct Publication
+  +
+  links incoming: None
+  +
+  links outgoing: None
+  +
+  Apps for the Android platform should be published in the free F-Droid repository, as well as Google Play and those most people use.
+
+Measure: Use OpenStreetMap (if it is necessary to show cartographic information in this tool) M_600::
+  tags: Procurement Integration Adaptation Plugin NewProduct Publication
+  +
+  links incoming: None
+  +
+  links outgoing: None
+  +
+  Don’t use Google Maps

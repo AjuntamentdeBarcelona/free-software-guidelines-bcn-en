@@ -39,16 +39,29 @@ Likewise, they may operate as part of the same process or various processes.
 
 The following use-cases are contemplated:
 
-[cols=",",options="header",]
-|===========================================================================================================================================================================================================
-|Tag |Description
-|`Integration` |*Integrate existing components*: it is necessary to install a new system that can be built on the basis of existing components.
-|`Adaptation` |*Modify an external component*: feature needs to be added to a component that is already available, or it needs to be improved by solving defects, adding translations, etc.
-|`Plugin` |*Expand a platform with plugins*: new components need to be created that can be integrated into a platform or framework already available and which facilitates this task.
-|`NewProduct` |*Create a new component*: a new solution needs to be created from scratch.
-|`Publication` |*Publish code from an existing own component*: we have our own code, developed under previous contracts and never published, and we want to make it freely available in a public repository.
-|`Document` |*Publish documents not linked to a single project*: we have documentation that is not directly linked to a piece of software but we want to make it freely available in a public repository.
-|===========================================================================================================================================================================================================
+[cols="20,80",options="header",]
+|===
+| Tag
+| Description
+
+| `Integration`
+| *Integrate existing components*: it is necessary to install a new system that can be built on the basis of existing components.
+
+| `Adaptation`
+| *Modify an external component*: feature needs to be added to a component that is already available, or it needs to be improved by solving defects, adding translations, etc.
+
+| `Plugin`
+| *Expand a platform with plugins*: new components need to be created that can be integrated into a platform or framework already available and which facilitates this task.
+
+| `NewProduct`
+| *Create a new component*: a new solution needs to be created from scratch.
+
+| `Publication`
+| *Publish code from an existing own component*: we have our own code, developed under previous contracts and never published, and we want to make it freely available in a public repository.
+
+| `Document`
+| *Publish documents not linked to a single project*: we have documentation that is not directly linked to a piece of software but we want to make it freely available in a public repository.
+|===
 
 All the Use-Cases, except the `Integration` and `Document` Use-Cases, refer to a single software component.
 This means different Use-Cases can coincide in the same project if different components are affected in a different way.
@@ -123,7 +136,8 @@ This product may be based on other, already existing components, such as framewo
 Example: Decidim.Barcelona.
 
 https://decidim.org/[Decidim] is a participative democracy tool for cities and organisations.
-From the outset, its development was sponsored by Barcelona City Council, although other organisations that use it are now beginning to contribute resources. It is based on the website development framework http://rubyonrails.org/[Ruby on Rails].
+From the outset, its development was sponsored by Barcelona City Council, although other organisations that use it are now beginning to contribute resources.
+It is based on the website development framework http://rubyonrails.org/[Ruby on Rails].
 This framework greatly facilitates the development of new website applications but these do not merely consist of integrating and configuring components.
 
 https://decidim.org/[Decidim]’s history is a little odd because it began with an attempt to adapt existing software, https://github.com/consul/consul[Consul].
@@ -155,11 +169,20 @@ As a general rule, we could say that technological projects go through the follo
 
 Taking all this into account, the Guide uses the following tags to highlight key project stages:
 
-[cols=",",options="header",]
-|====================================================================================================
-|Tag |Description
-|`Preliminary design` |Measures to take into account when drawing up preliminary designs.
-|`Procurement` |Measures to take into account when drawing up the service procurement specifications.
-|`Day1` |Measures to be applied from the first day of the development stage (see the section ).
-|`Release` |Measures to take into account when a new version of the product is released.
-|====================================================================================================
+[cols="30,70",options="header",]
+|===
+| Tag
+| Description
+
+| `Preliminary design`
+| Measures to take into account when drawing up preliminary designs.
+
+| `Procurement`
+| Measures to take into account when drawing up the service procurement specifications.
+
+| `Day1`
+| Measures to be applied from the first day of the development stage (see the section ).
+
+| `Release`
+| Measures to take into account when a new version of the product is released.
+|===

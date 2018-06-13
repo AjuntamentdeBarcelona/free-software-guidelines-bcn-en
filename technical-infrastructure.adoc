@@ -1,6 +1,7 @@
 = Technical infrastructure
 
-The technical infrastructure required for hosting an open source software project usually consists of various elements and tools that are often interlinked in complex ways. In this chapter we recommend some common tools and practices for using them in the sector.
+The technical infrastructure required for hosting an open source software project usually consists of various elements and tools that are often interlinked in complex ways.
+In this chapter we recommend some common tools and practices for using them in the sector.
 
 A general principle that is spelt out in the measures in the chapter is that people who participate in a project must never be compelled to install private software on their equipment.
 
@@ -10,13 +11,18 @@ A typical software project might have two websites:
 
 *A development website* for people contributing code or technical documentation to the project, whether they are hired by the City Council or not.
 
-*A website for users and participants in general*. That includes people or organisations that might want to install and use the software outside the City Council but also people who are interested in the project even though they are not direct users of the software. On this website we need to facilitate and encourage people to participate in the project with contributions that are less (or not at all) technical: funding, user documents, pre-release testing, dissemination, translations and so on.
+*A website for users and participants in general*.
+That includes people or organisations that might want to install and use the software outside the City Council but also people who are interested in the project even though they are not direct users of the software.
+On this website we need to facilitate and encourage people to participate in the project with contributions that are less (or not at all) technical: funding, user documents, pre-release testing, dissemination, translations and so on.
 
-Usually both types of content are necessary but it is not always necessary to be in two separate places, with different domain names. In each project it leads, the City Council will have to assess to what extent the needs and mentalities of the two sets of people are different, therefore making it impossible for a single website model to accommodate both.
+Usually both types of content are necessary but it is not always necessary to be in two separate places, with different domain names.
+In each project it leads, the City Council will have to assess to what extent the needs and mentalities of the two sets of people are different, therefore making it impossible for a single website model to accommodate both.
 
-The section link:#repositori-de-codi-i-control-de-versions[Code repository and version control] explains how to set up the development site, the only one required from the outset. We can assess if there is also a need for a site geared towards other participant profiles as the project grows.
+The section link:#repositori-de-codi-i-control-de-versions[Code repository and version control] explains how to set up the development site, the only one required from the outset.
+We can assess if there is also a need for a site geared towards other participant profiles as the project grows.
 
-What is useful is for the project to have its own domain name (or a permanent URL under a City Council domain) from the outset. If necessary, this could be redirected to where the project website is (possibly a site such as GitHub).
+What is useful is for the project to have its own domain name (or a permanent URL under a City Council domain) from the outset.
+If necessary, this could be redirected to where the project website is (possibly a site such as GitHub).
 
 Recommendation: Keep a permanent project URL and always use it to refer to the project R_2D5::
   tags: Day1 Integration Plugin NewProduct Publication
@@ -25,7 +31,8 @@ Recommendation: Keep a permanent project URL and always use it to refer to the p
   +
   links outgoing: None
   +
-  This means from the outset the City Council having the URL that will serve to identify the project under its control. Even if the project website is hosted by a site such as GitHub, redirecting it will enable the same address to be kept public if it is decided to move the development website in the future.
+  This means from the outset the City Council having the URL that will serve to identify the project under its control.
+Even if the project website is hosted by a site such as GitHub, redirecting it will enable the same address to be kept public if it is decided to move the development website in the future.
   +
   There are two options:
   +
@@ -42,15 +49,19 @@ Recommendation: Set up a website for non-technical participation based on free t
   +
   This site can be created at the opportune moment, when the project achieves significant size and projection.
   +
-  It could be a multilingual site. Each project has to decide which languages it should be translated into, depending on its priority audiences.
+  It could be a multilingual site.
+Each project has to decide which languages it should be translated into, depending on its priority audiences.
   +
   This site must include:
   +
-  A link to the download site, with instructions on how to install the program. This link must feature prominently on the home page.
+  A link to the download site, with instructions on how to install the program.
+This link must feature prominently on the home page.
   +
-  A “Get involved” or “Community” section with information on the different ways of getting involved in the project. This link must also feature prominently on the home page.
+  A “Get involved” or “Community” section with information on the different ways of getting involved in the project.
+This link must also feature prominently on the home page.
   +
-  A link to the development site. This could either be in the Community section or on the home page, with a link saying “Developers” or a “Fork on GitHub” link.
+  A link to the development site.
+This could either be in the Community section or on the home page, with a link saying “Developers” or a “Fork on GitHub” link.
   +
   There are many tools and frameworks for managing content and publishing very good quality open websites, so it should not be a problem finding one adapted to the project’s needs: Drupal, Wordpress (without the exclusive extensions) and lots more.
 
@@ -58,9 +69,13 @@ Recommendation: Set up a website for non-technical participation based on free t
 
 A key element of the project development website is a code repository (public and under version control) which serves as a base for centralising modifications that form part of each new product release.
 
-In the `NewProduct` or `Plugin` scenario, the City Council will have to create this repository. In the case of an `Integration` or `Adaptation`, the Council will have its own copy (clone or fork) of the original (upstream) repository, where the documents corresponding to the modifications of interest will be centralised. We will call this repository created by the City Council, which will be used for original product releases or to centralise the contributions to an external project, the *main repository*. There could be many other public and private copies of the code.
+In the `NewProduct` or `Plugin` scenario, the City Council will have to create this repository.
+In the case of an `Integration` or `Adaptation`, the Council will have its own copy (clone or fork) of the original (upstream) repository, where the documents corresponding to the modifications of interest will be centralised.
+We will call this repository created by the City Council, which will be used for original product releases or to centralise the contributions to an external project, the *main repository*.
+There could be many other public and private copies of the code.
 
-As is pointed out in the measures below, the main repository will be hosted at GitHub, a service that Git uses as a distributed version control system. The basic vocabulary and concepts for understanding how it works can be found at https://producingoss.com/en/vc.html#vc-vocabulary[Version Control Vocabulary].
+As is pointed out in the measures below, the main repository will be hosted at GitHub, a service that Git uses as a distributed version control system.
+The basic vocabulary and concepts for understanding how it works can be found at https://producingoss.com/en/vc.html#vc-vocabulary[Version Control Vocabulary].
 
 There are many viable and reasonable alternatives to GitHub, even some viable alternatives to Git as a version control program, but GitHub offers enough advantages for it to be the default option:
 
@@ -70,7 +85,8 @@ It launches the message that the project is open to collaboration.
 
 It offers good integration with the rest of a product’s technical and social infrastructure: incident management, ongoing integration, development communication channels, etc.
 
-It also enables (part of) a product’s documentation to be saved and displayed, which could be a wiki. The presentation of the information is sufficiently user-friendly for us to put off building a website for project users and participants in general.
+It also enables (part of) a product’s documentation to be saved and displayed, which could be a wiki.
+The presentation of the information is sufficiently user-friendly for us to put off building a website for project users and participants in general.
 
 It is the platform most widely used by open code projects and provides a lot of exposure.
 
@@ -78,7 +94,8 @@ Any alternative has to offer similar guarantees with regard to durability and su
 
 *Drawback*: GitHub is not 100% open code.
 
-Although it is a free service for a wide range of possible uses, not all the infrastructure code behind GitHub is open and ultimately that means being dependent on a company whose future development we cannot predict. In the future other options might appear that could make us reconsider recommending using GitHub as the default option.
+Although it is a free service for a wide range of possible uses, not all the infrastructure code behind GitHub is open and ultimately that means being dependent on a company whose future development we cannot predict.
+In the future other options might appear that could make us reconsider recommending using GitHub as the default option.
 
 Measure: Create the main repository in the City Council GitHub space M_A60::
   tags: Day1 Adaptation Plugin NewProduct Publication
@@ -87,11 +104,13 @@ Measure: Create the main repository in the City Council GitHub space M_A60::
   +
   links outgoing: None
   +
-  In GitHub we will create a project `https://github.com/AjuntamentDeBarcelona/NOM-DEL-PROJECTE` where the code will be published. The City Council has an organisation-level account in GitHub called `ajuntamentdebarcelona`, which will be the repository owner.
+  In GitHub we will create a project `https://github.com/AjuntamentDeBarcelona/NOM-DEL-PROJECTE` where the code will be published.
+The City Council has an organisation-level account in GitHub called `ajuntamentdebarcelona`, which will be the repository owner.
   +
   This does not mean there cannot be replicas (mirrors) of the repository, or parts of it, on other sites (GitHub spaces of other organisations or developers, the websites of companies awarded public contracts, etc.)
   +
-  It is recommended that the name of the project in GitHub be written entirely in lower case, with the words in it separated by hyphens. For example: https://github.com/AjuntamentdeBarcelona/decidim-barcelona.
+  It is recommended that the name of the project in GitHub be written entirely in lower case, with the words in it separated by hyphens.
+For example: https://github.com/AjuntamentdeBarcelona/decidim-barcelona.
   +
   This is where the code has to be from the start of the project, without waiting until there are any public releases.
 
@@ -118,7 +137,9 @@ Alternative: Create a public repository on a different site to the City Council 
   +
   In opting for this alternative, it must be borne in mind that:
   +
-  We cannot give up Git as our version control system. It is currently the most widely used tool which all developers are familiar with and it offers some good practices for open project management which would be much more confusing with older systems (such as CSV or Subversion). If certain procedures have to be performed on another tool, for example, Subversion, the solution is to do the development in open on Git, and keep a Subversion mirror automated using the command `git ``svn`` ``dcommit`, as explained, for example, at http://www.kerrybuckley.org/2009/10/06/maintaining-a-read-only-svn-mirror-of-a-git-repository/.
+  We cannot give up Git as our version control system.
+It is currently the most widely used tool which all developers are familiar with and it offers some good practices for open project management which would be much more confusing with older systems (such as CSV or Subversion).
+If certain procedures have to be performed on another tool, for example, Subversion, the solution is to do the development in open on Git, and keep a Subversion mirror automated using the command `git ``svn`` ``dcommit`, as explained, for example, at http://www.kerrybuckley.org/2009/10/06/maintaining-a-read-only-svn-mirror-of-a-git-repository/.
   +
   Either way, there has to be an up-to-date replica of the main repository in the City Council GitHub space, to show all the contributions made to open code projects.
   +
@@ -126,7 +147,9 @@ Alternative: Create a public repository on a different site to the City Council 
   +
   Whichever they are, both the incident management tool and the ongoing integration system must be public and capable of being used by everyone, without paying subscriptions for any service.
   +
-  All the project source code has to be downloadable by anyone at any time. GitHub makes that easy by providing buttons for downloading a `zip` file or showing the necessary commands for cloning the repository using Git. If GitHub is not used, the repository’s public site must also provide both these types of download (`zip` file or `tar.gz` and command `git clone`).
+  All the project source code has to be downloadable by anyone at any time.
+GitHub makes that easy by providing buttons for downloading a `zip` file or showing the necessary commands for cloning the repository using Git.
+If GitHub is not used, the repository’s public site must also provide both these types of download (`zip` file or `tar.gz` and command `git clone`).
 
 Measure: Use the GitHub repository as the project development website M_A63::
   tags: Day1 Plugin NewProduct Publication
@@ -135,7 +158,8 @@ Measure: Use the GitHub repository as the project development website M_A63::
   +
   links outgoing: None
   +
-  The website’s home page will be a `README` file in the repository root directory. This file can be in plain text, Markdown or other brand languages supported by GitHub and which the latter interprets and formats when the page is visited.
+  The website’s home page will be a `README` file in the repository root directory.
+This file can be in plain text, Markdown or other brand languages supported by GitHub and which the latter interprets and formats when the page is visited.
 
 [[M_B3F]]
 
@@ -165,7 +189,9 @@ Sub-measure: Give all development team members permission to write in the main r
   +
   links outgoing: None
   +
-  That includes in-house staff and subcontracted people. Also make the current list of _committers_ public in a file in the repository root directory called `MAINTAINERS`. It must contain the name and email address of each person.
+  That includes in-house staff and subcontracted people.
+Also make the current list of _committers_ public in a file in the repository root directory called `MAINTAINERS`.
+It must contain the name and email address of each person.
 
 [[S_A3D]]
 
@@ -185,7 +211,8 @@ Recommendation: Give trusted outside developers permission to write in the main 
   +
   links outgoing: None
   +
-  If someone has been making quality contributions to the project for a long time, on a similar level to people hired by the City Council, they can be rewarded with permission to write in the repository. This runs a low risk because version control means that everything is traceable and changes are reversible.
+  If someone has been making quality contributions to the project for a long time, on a similar level to people hired by the City Council, they can be rewarded with permission to write in the repository.
+This runs a low risk because version control means that everything is traceable and changes are reversible.
   +
   However, to avoid any misunderstanding, it must be made clear to that person what the governance rules will be and who has the last word when it comes to accepting contributions.
 
@@ -196,7 +223,8 @@ Measure: Integrate external contributions into the main repository by means of t
   +
   links outgoing: None
   +
-  As anyone can clone the main repository and modify their copy, we don’t need to give write permissions to anyone who is not part of the main development team. Everyone who would like to integrate a series of changes in the product must submit us a Pull Request in GitHub
+  As anyone can clone the main repository and modify their copy, we don’t need to give write permissions to anyone who is not part of the main development team.
+Everyone who would like to integrate a series of changes in the product must submit us a Pull Request in GitHub
 
 Recommendation: Upload translations from the README file to the main repository R_B85::
   tags: NewProduct Publication
@@ -205,7 +233,10 @@ Recommendation: Upload translations from the README file to the main repository 
   +
   links outgoing: None
   +
-  If the project’s potential users are mainly locals, it might be a good idea to translate the contents of the `README` file or part of them. That can be done by putting new files in the root directory of the repository, with names such as (assuming that the markup language used is Markdown, and therefore the extension is `.md`): `README.ca.md` or `README.es.md`. In this case it is worth linking all the translations with each other at the start of each file. An example can be seen at https://github.com/tiimgreen/github-cheat-sheet.
+  If the project’s potential users are mainly locals, it might be a good idea to translate the contents of the `README` file or part of them.
+That can be done by putting new files in the root directory of the repository, with names such as (assuming that the markup language used is Markdown, and therefore the extension is `.md`): `README.ca.md` or `README.es.md`.
+In this case it is worth linking all the translations with each other at the start of each file.
+An example can be seen at https://github.com/tiimgreen/github-cheat-sheet.
 
 Measure: Specify a project contact person in the README file M_E50::
   tags: Integration Adaptation Plugin NewProduct Publication Document
@@ -265,7 +296,8 @@ Measure: Keep the configuration information in separate files and in a different
   +
   links outgoing: None
   +
-  This makes it easier to reuse the code. It is incorrect to put the configuration:
+  This makes it easier to reuse the code.
+It is incorrect to put the configuration:
   +
   Hardwired in the code itself (see the ref:measure M_A69 <measure_M_A69>.
   +
@@ -293,13 +325,21 @@ Recommendation: Re-synchronise own repository with the upstream project reposito
 
 == Incident management tool
 
-One tool all open code projects need is an incident manager or bug tracker. At the City Council we assign it the following functions:
+One tool all open code projects need is an incident manager or bug tracker.
+At the City Council we assign it the following functions:
 
-Provide notification of any defects detected (bugs tracked) by users and developers. Also to make their treatment, evolution and eventual solution transparent. It is important that the changes (commits) that solve a defect (bug) point it out in their message. https://help.github.com/articles/closing-issues-using-keywords/[GitHub has keywords for this].
+Provide notification of any defects detected (bugs tracked) by users and developers.
+Also to make their treatment, evolution and eventual solution transparent.
+It is important that the changes (commits) that solve a defect (bug) point it out in their message.
+https://help.github.com/articles/closing-issues-using-keywords/[GitHub has keywords for this].
 
-Following up tasks that are pending. This enables one or more commits to then be linked with the closing of an issue It is also possible to see who tasks have been assigned to and how they are prioritised. One option is to specify estimated completion dates. All this contributes to the transparency and traceability of the development process.
+Following up tasks that are pending.
+This enables one or more commits to then be linked with the closing of an issue It is also possible to see who tasks have been assigned to and how they are prioritised.
+One option is to specify estimated completion dates.
+All this contributes to the transparency and traceability of the development process.
 
-Following up how the contributions of the different parts are managed by means of the pull request mechanism. The bug tracker could even be open to feature requests and the GitHub space could be used for publicly managing and prioritising.
+Following up how the contributions of the different parts are managed by means of the pull request mechanism.
+The bug tracker could even be open to feature requests and the GitHub space could be used for publicly managing and prioritising.
 
 It needs to be borne in mind that the bug tracker is not only important for the everyday work of developers but also that many project observers use it as a measure of how serious the project is.
 
@@ -359,7 +399,8 @@ Measure: Draw up and maintain an incident management policy M_0E7::
   +
   Stages for those that arise.
   +
-  This task can be given to the company awarded the contract. It it does not have one of its own, IMI will have to provide it with one.
+  This task can be given to the company awarded the contract.
+It it does not have one of its own, IMI will have to provide it with one.
 
 Recommendation: Give everyone permission to report incidents, even anonymously R_7A9::
   tags: Integration Adaptation Plugin NewProduct Publication
@@ -368,7 +409,8 @@ Recommendation: Give everyone permission to report incidents, even anonymously R
   +
   links outgoing: None
   +
-  Configure the incident management tool so it will not be necessary to create an account to report defects or anything else, in order to facilitate as many contributions as possible. Activate the necessary anti-spam measures (e.g. captchas)
+  Configure the incident management tool so it will not be necessary to create an account to report defects or anything else, in order to facilitate as many contributions as possible.
+Activate the necessary anti-spam measures (e.g. captchas)
   +
   It is always possible to keep an eye on someone who gives us problems or rethink this policy if it doesn’t work on a project.
 
@@ -415,13 +457,20 @@ Recommendation: Link the main repository to an ongoing open code integration sys
 
 == Internal and external communication channels
 
-The first lines of communication between developers are the repository commit messages and the incident management threads. Many technical decisions are taken in these threads but the discussions that take place in them should always be highly focused and strictly technical. When the area under discussion broadens out, it is necessary to resort to other channels.
+The first lines of communication between developers are the repository commit messages and the incident management threads.
+Many technical decisions are taken in these threads but the discussions that take place in them should always be highly focused and strictly technical.
+When the area under discussion broadens out, it is necessary to resort to other channels.
 
-Initially all new projects have to create a development mail list or a discussion forum, with public files. This is the channel through which the opinion of the different parties or individuals taking part in the project is sought and strategic decisions are taken.
+Initially all new projects have to create a development mail list or a discussion forum, with public files.
+This is the channel through which the opinion of the different parties or individuals taking part in the project is sought and strategic decisions are taken.
 
-At first there will not be much that separates the developers and first users or early adopters as regards concerns and language, the latter usually being highly motivated. Consequently, in many cases the same channel will suffice. Later it may be necessary to create specialised communication channels for different kinds of participants.
+At first there will not be much that separates the developers and first users or early adopters as regards concerns and language, the latter usually being highly motivated.
+Consequently, in many cases the same channel will suffice.
+Later it may be necessary to create specialised communication channels for different kinds of participants.
 
-Depending on the nature and make-up of the team, it might be useful to have a chat room for more immediate communication. Either way, it would supplement the list or the forum, never replace it. The list or forum is where the whole history of the project (discussions, decisions, etc.) is recorded for reference, a very valuable asset for the whole project community, present and future.
+Depending on the nature and make-up of the team, it might be useful to have a chat room for more immediate communication.
+Either way, it would supplement the list or the forum, never replace it.
+The list or forum is where the whole history of the project (discussions, decisions, etc.) is recorded for reference, a very valuable asset for the whole project community, present and future.
 
 Measure: Create a development list or forum that will initially do for users as well M_A9C::
   tags: Plugin NewProduct Publication
@@ -432,15 +481,21 @@ Measure: Create a development list or forum that will initially do for users as 
   +
   Initially the project will have a single dedicated discussion forum, shared by people carrying out development work and others who are just users of the product, the early adopters.
   +
-  We recommend using https://discourse.org/[Discourse], a tool that merges traditional mail lists with a forum via web. You need to activate the options so anyone who so wishes can interact entirely be email. A project that uses this tool and which is undergoing trials at the City Council is https://alvus.barcelona/[Alvus].
+  We recommend using https://discourse.org/[Discourse], a tool that merges traditional mail lists with a forum via web.
+You need to activate the options so anyone who so wishes can interact entirely be email.
+A project that uses this tool and which is undergoing trials at the City Council is https://alvus.barcelona/[Alvus].
   +
-  An alternative is to use Mailman 3. The list could be called `NAME-OF-THE-PROJECT-``dev`
+  An alternative is to use Mailman 3.
+The list could be called `NAME-OF-THE-PROJECT-``dev`
   +
   Activate the file and use it profusely.
   +
-  Initially in Catalan and/or Spanish. When participants appear in other languages, create a list in English.
+  Initially in Catalan and/or Spanish.
+When participants appear in other languages, create a list in English.
   +
-  The main developers must be present but they are not obligated to answer all the requests. Everyone participates on an individual basis in the list or the forum. If the people behind a product can be contacted, it engenders confidence in the product.
+  The main developers must be present but they are not obligated to answer all the requests.
+Everyone participates on an individual basis in the list or the forum.
+If the people behind a product can be contacted, it engenders confidence in the product.
 
 Recommendation: Create a mail list for people who use the product, if the project grows R_3D4::
   tags: Plugin NewProduct Publication

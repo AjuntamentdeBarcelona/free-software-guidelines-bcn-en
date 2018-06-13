@@ -1,16 +1,22 @@
 = Open development
 
-In free or open source software projects there is a culture of “working in the open”, as this facilitates the conditions that make them technically and financially sustainable. Increasing the flow of resources to projects is in the interests of all projects, and it involves:
+In free or open source software projects there is a culture of “working in the open”, as this facilitates the conditions that make them technically and financially sustainable.
+Increasing the flow of resources to projects is in the interests of all projects, and it involves:
 
 Increasing the number of people and institutions that use the software.
 
 Encouraging any user, whether a person or an organisation, to participate in the project in any way they can, by contributing to the source code, testing, corrections, funding, dissemination, translations and so on.
 
-Outside this model, which is based on fostering collaboration, it is very difficult to reap the potential benefits offered by open source software. There are two key elements in all this:
+Outside this model, which is based on fostering collaboration, it is very difficult to reap the potential benefits offered by open source software.
+There are two key elements in all this:
 
-*Transparency*. There is no need for this to restrict the code. If there is to be real collaboration, transparency has to extend to all the communication infrastructure, knowledge and decision-making involved in the project.
+*Transparency*.
+There is no need for this to restrict the code.
+If there is to be real collaboration, transparency has to extend to all the communication infrastructure, knowledge and decision-making involved in the project.
 
-*Dissemination of knowledge*. In contrast to other, classical business models, the interest here lies in knowledge of the product, even the most technical details, being distributed as widely as possible. That reduces the technological risk and the City Council’s dependency on specific companies.
+*Dissemination of knowledge*.
+In contrast to other, classical business models, the interest here lies in knowledge of the product, even the most technical details, being distributed as widely as possible.
+That reduces the technological risk and the City Council’s dependency on specific companies.
 
 Working in the open means the following elements should be publicly accessible in open formats (for reading) to anyone who is interested, so they do not have to use private tools anonymously (without having to register with any web service or much less having to hire pay services):
 
@@ -28,7 +34,8 @@ Working in the open does NOT (necessarily) mean that:
 
 Project outsiders have write access to the repository (they are free to copy the code into their own repository and modify their copy).
 
-Everyone has permission to write notifications of defects and intervene in the incident management system. Each project can choose its own QA policy.
+Everyone has permission to write notifications of defects and intervene in the incident management system.
+Each project can choose its own QA policy.
 
 The project team has to read and respond to all defect notifications (if they are open to writing) and questions via the open communication channels.
 
@@ -36,11 +43,15 @@ The project team has to check all the suggestions and contributions (pull reques
 
 == Work in the open from day one
 
-A really important aspect to bear in mind is the longer you work in a closed project, the more difficult it will be to open it up later on. If you wait too long, maybe some measures will never be implemented, because their cost would be prohibitive. The reasons for that can be summed up as follows:
+A really important aspect to bear in mind is the longer you work in a closed project, the more difficult it will be to open it up later on.
+If you wait too long, maybe some measures will never be implemented, because their cost would be prohibitive.
+The reasons for that can be summed up as follows:
 
-Having communication channels open from day 1 does not mean “strangers” have to distract us from day 1. In this Guide we explain how to make it clear what our commits are, what we can modulate at each stage.
+Having communication channels open from day 1 does not mean “strangers” have to distract us from day 1.
+In this Guide we explain how to make it clear what our commits are, what we can modulate at each stage.
 
-It is impossible to make up for the incentives that developers have for doing things in a “quick and ugly” way with future threats of opening up. If we do not work in the open from the start, we will inevitably incur a https://en.wikipedia.org/wiki/Technical_debt[technological debt] with the intention of fixing things in a future that never comes.
+It is impossible to make up for the incentives that developers have for doing things in a “quick and ugly” way with future threats of opening up.
+If we do not work in the open from the start, we will inevitably incur a https://en.wikipedia.org/wiki/Technical_debt[technological debt] with the intention of fixing things in a future that never comes.
 
 When the day for “opening the code” arrives, you suddenly find you have:
 
@@ -58,27 +69,80 @@ Documentation or build procedures written with proprietary tools that do not all
 
 Opening up the code means having to take difficult decisions, which would not have arisen if it had been open from the start (wasting time cleaning up the defect log vs creating a new one and losing the entire log, etc.).
 
-It creates a big “exposure event” which poses a high risk for the project, because lots of changes have to be made all at once. The whole project and its potential vulnerabilities are also exposed in one go (and many eyes will be looking, not always with good intentions). This creates uncertainty and concern before the event. After, it could cause an avalanche of incidents that in normal conditions would have been staggered.
+It creates a big “exposure event” which poses a high risk for the project, because lots of changes have to be made all at once.
+The whole project and its potential vulnerabilities are also exposed in one go (and many eyes will be looking, not always with good intentions).
+This creates uncertainty and concern before the event.
+After, it could cause an avalanche of incidents that in normal conditions would have been staggered.
 
 All these points are amply justified in sections https://producingoss.com/en/setting-tone.html#be-open-from-day-one[Be Open From Day One] andhttps://producingoss.com/en/governments-and-open-source.html#starting-open-for-govs[Being Open Source From Day One is Especially Important for Government Projects] from the book https://producingoss.com/en/index.html[Producing Open Source Software], which the people in charge of each project would do well to read.
 
-The measures and recommendations that should be borne in mind with regard to opening up are spread throughout the Guide, tagged as `Day 1`. They are all listed in the following table:
+The measures and recommendations that should be borne in mind with regard to opening up are spread throughout the Guide, tagged as `Day1`.
+They are all listed in the following table:
 
-[cols=",,,,,",options="header",]
-|=========================================================================================================================================================================
-|ID |Title |Type |Status |Links |Tags
-| |Link the main repository to a public incident management system |Alternative |  | |Day1__;__ Adaptation__;__ Plugin__;__ NewProduct__;__ Publication
-| |Upload a ``README`` file to the main repository |Measure |  | |Day1__;__ Plugin__;__ NewProduct__;__ Publication
-| |Publish brief Developer Guidelines |Measure |  | |Day1__;__ Plugin__;__ NewProduct__;__ Publication
-| |Link the main repository to an ongoing open code integration system. |Recommendation |  | |Day1__;__ Adaptation__;__ Plugin__;__ NewProduct__;__ Publication
-| |Upload the licence text to the main repository |Measure |  | |Day1__;__ Plugin__;__ NewProduct__;__ Publication
-| |Create the main repository in the City Council GitHub space |Measure |  | |Day1__;__ Adaptation__;__ Plugin__;__ NewProduct__;__ Publication
-| |Use the GitHub repository as the project development website |Measure |  | |Day1__;__ Plugin__;__ NewProduct__;__ Publication
-| |Link the main repository to a public incident management platform |Measure |  | |Day1__;__ Adaptation__;__ Plugin__;__ NewProduct__;__ Publication
-| |Reserve a permanent project URL and always use it to refer to the project |Recommendation |  | |Day1__;__ Integration__;__ Plugin__;__ NewProduct__;__ Publication
-|link:#M_7EA[M_7EA] |Implement and document build and installation procedures with widely used free tools |Measure |  | |Day1__;__ Plugin__;__ NewProduct__;__ Publication
-| |Upload a file with installation instructions to the main repository |Measure |  | |Dia1__;__ Integration__;__ Plugin__;__ NewProduct__;__ Publication
-|=========================================================================================================================================================================
+[cols="10,40,10,40",options="header",]
+|===
+|ID
+|Title
+|Type
+|Tags
+
+|
+|Link the main repository to a public incident management system
+|Alternative
+|Day1__;__ Adaptation__;__ Plugin__;__ NewProduct__;__ Publication
+
+|
+|Upload a ``README`` file to the main repository
+|Measure
+|Day1__;__ Plugin__;__ NewProduct__;__ Publication
+
+|
+|Publish brief Developer Guidelines
+|Measure
+|Day1__;__ Plugin__;__ NewProduct__;__ Publication
+
+|
+|Link the main repository to an ongoing open code integration system.
+|Recommendation
+|Day1__;__ Adaptation__;__ Plugin__;__ NewProduct__;__ Publication
+
+|
+|Upload the licence text to the main repository
+|Measure
+|Day1__;__ Plugin__;__ NewProduct__;__ Publication
+
+|
+|Create the main repository in the City Council GitHub space
+|Measure
+|Day1__;__ Adaptation__;__ Plugin__;__ NewProduct__;__ Publication
+
+|
+|Use the GitHub repository as the project development website
+|Measure
+|Day1__;__ Plugin__;__ NewProduct__;__ Publication
+
+|
+|Link the main repository to a public incident management platform
+|Measure
+|Day1__;__ Adaptation__;__ Plugin__;__ NewProduct__;__ Publication
+
+|
+|Reserve a permanent project URL and always use it to refer to the project
+|Recommendation
+|Day1__;__ Integration__;__ Plugin__;__ NewProduct__;__ Publication
+
+|link:#M_7EA[M_7EA]
+|Implement and document build and installation procedures with widely used free tools
+|Measure
+|Day1__;__ Plugin__;__ NewProduct__;__ Publication
+
+|
+|Upload a file with installation instructions to the main repository
+|Measure
+| 
+|
+|Dia1__;__ Integration__;__ Plugin__;__ NewProduct__;__ Publication
+|===
 
 == Procurement for open development
 
@@ -93,7 +157,8 @@ Measure: Award the contract to companies with experience in open development M_F
   +
   Establish the need for open source code experience as a condition of technical solvency.
   +
-  However many conditions are included in the contract, if the company awarded it has no experience of participating in open source projects, it is most likely that the product will end up not being completely open. In most cases, there is no reason why that should be the result of bad faith but a lack of knowledge.
+  However many conditions are included in the contract, if the company awarded it has no experience of participating in open source projects, it is most likely that the product will end up not being completely open.
+In most cases, there is no reason why that should be the result of bad faith but a lack of knowledge.
 
 [[A_37A]]
 
@@ -104,7 +169,8 @@ Alternative: Enter into a subsidiary independent validation and verification (IV
   +
   links outgoing: None
   +
-  Hire a company that does have proven experience of sustained participation in open source projects. This company will act as an external project collaborator and carry out code checks and process analyses, reporting directly to IMI.
+  Hire a company that does have proven experience of sustained participation in open source projects.
+This company will act as an external project collaborator and carry out code checks and process analyses, reporting directly to IMI.
   +
   In an open source project, what is being contracted is not just the code but also the process.
   +
@@ -141,7 +207,8 @@ Recommendation: Split the project into groups of features that can be tendered i
   +
   Either by contracting by lots or by outsourcing specific tasks such as checking the code and its rollout, as established by the link:#fer-contracte-validacio-independent[Alternative: Enter into a subsidiary independent validation and verification (IV&V) contract].
   +
-  Besides being a policy in line with the Guide to Technological Procurement, disseminating knowledge of the product is very favourable to the interests of the project. The _reserves of distributed knowledge_ are one of the main strengths of open source projects.
+  Besides being a policy in line with the Guide to Technological Procurement, disseminating knowledge of the product is very favourable to the interests of the project.
+The _reserves of distributed knowledge_ are one of the main strengths of open source projects.
   +
   It also helps a great deal to ensure open work processes are established from the outset.
 
@@ -152,7 +219,8 @@ Recommendation: Reduce the financial stability requirements for tenders R_8BD::
   +
   links outgoing: None
   +
-  This is a matter of softening the financial solvency criteria called for. The aim is not to put artificial impediments in the way of small and medium-sized companies and cooperatives submitting a bid when they meet (often more than big ones) the technical solvency criteria.
+  This is a matter of softening the financial solvency criteria called for.
+The aim is not to put artificial impediments in the way of small and medium-sized companies and cooperatives submitting a bid when they meet (often more than big ones) the technical solvency criteria.
   +
   As explained in the Join Up Guideline on public procurement of Open Source Software<document/guideline-public-procurement-open-source-software>, page 47, (document commissioned by the European Commission) the greater interoperability and interdependence of suppliers when working in open code increases the sustainability of projects without the need for very high financial requirements.
 
@@ -176,7 +244,9 @@ Recommendation: Get the name in the important online namespaces (3.3, 7.0) R_D68
   +
   links outgoing: None
   +
-  For big projects it is advisable from the outset to think about the internet sites and platforms where it is essential to have a presence and ensure the domains and corresponding usernames are available. Besides one or more own ICANN domains, a project might want to be present in GitHub or Twitter, for example. Using the same username everywhere makes it easier for people to identify the project, even if they are not heavily involved in it.
+  For big projects it is advisable from the outset to think about the internet sites and platforms where it is essential to have a presence and ensure the domains and corresponding usernames are available.
+Besides one or more own ICANN domains, a project might want to be present in GitHub or Twitter, for example.
+Using the same username everywhere makes it easier for people to identify the project, even if they are not heavily involved in it.
 
 Measure: Draw up a clear mission statement and put it in prominent places M_02C::
   tags: Integration NewProduct Publication
@@ -185,13 +255,17 @@ Measure: Draw up a clear mission statement and put it in prominent places M_02C:
   +
   links outgoing: None
   +
-  The mission statement is a short text of one or two paragraphs that allows people to decide in 30 seconds if they are interested in carrying on reading about the project or not. It should be accompanied by the necessary links in case the answer is yes. When writing it we can assume potential readers have a minimum knowledge of the project’s area of application. People without such knowledge will probably not be interested in the project.
+  The mission statement is a short text of one or two paragraphs that allows people to decide in 30 seconds if they are interested in carrying on reading about the project or not.
+It should be accompanied by the necessary links in case the answer is yes.
+When writing it we can assume potential readers have a minimum knowledge of the project’s area of application.
+People without such knowledge will probably not be interested in the project.
   +
   The text should at least be in English and Catalan, for using the most suitable version in each case.
   +
   It should appear in the following places at least:
 
-* The home page of the website targeted at project users, if there is one. It should be capable of being seen without the need to scroll down the page on a desktop computer.
+* The home page of the website targeted at project users, if there is one.
+  It should be capable of being seen without the need to scroll down the page on a desktop computer.
 * The `README` file of the main repository.
 * The project list at https://ajuntamentdebarcelona.github.io/[https://ajuntamentdebarcelona.github.io]
 * Every time the project is entered in a repository or open source project list, for example https://joinup.ec.europa.eu/[Join Up of the European Union].
@@ -209,7 +283,8 @@ Measure: Specify the project is open source in prominent places M_B8A::
   +
   Specify the licence in the following places at least:
 
-* The home page of the website targeted at project users, if there is one. It should be capable of being seen without the need to scroll down the page on a desktop computer.
+* The home page of the website targeted at project users, if there is one.
+  It should be capable of being seen without the need to scroll down the page on a desktop computer.
 * The `README` file of the main repository.
 * The project list at https://ajuntamentdebarcelona.github.io/[https://ajuntamentdebarcelona.github.io]
 * Every time the project is entered in a repository or open source project list, for example https://joinup.ec.europa.eu/[Join Up of the European Union].
@@ -227,11 +302,12 @@ Measure: Specify a feature list in easily accessible places M_2BC::
   +
   Create a visible link to it from at least:
 
-* The home page of the website targeted at project users, if there
-* is one. The link should be capable of being seen without the need to scroll down the page on a desktop computer.
+* The home page of the website targeted at project users, if there is one.
+  The link should be capable of being seen without the need to scroll down the page on a desktop computer.
 * The `README` file of the main repository.
 
-Better in the form of a list with bullet points and simple sentences, or an even more graphic form. Often it is a kind of extension of the mission statement.
+Better in the form of a list with bullet points and simple sentences, or an even more graphic form.
+Often it is a kind of extension of the mission statement.
 
 If a feature has not been implemented yet, it can be specified in brackets as: _planned_ or _work-in-progress_.
 
@@ -244,11 +320,13 @@ Measure: Specify the main technical requirements in easily accessible places M_3
   +
   links outgoing: None
   +
-  For example, what hardware/software architecture is required for installing it, which operating system and so on. This information is also necessary so a potential user can see whether they can use the solution or not.
+  For example, what hardware/software architecture is required for installing it, which operating system and so on.
+This information is also necessary so a potential user can see whether they can use the solution or not.
   +
   Create a visible link to it from at least:
 
-* The home page of the website targeted at project users, if there is one. The link should be capable of being seen without the need to scroll down the page on a desktop computer.
+* The home page of the website targeted at project users, if there is one.
+The link should be capable of being seen without the need to scroll down the page on a desktop computer.
 * The `README` file of the main repository.
 
 Better in the form of a list with bullet points and simple sentences.
@@ -262,7 +340,8 @@ Recommendation: Specify the differences with similar products in easily accessib
   +
   Above all, highlight the advantages compared with better-known and well established tools, free or privately owned, but do not hide the limitations.
   +
-  Create a visible link from the website targeted at project users, if there is one. Strictly technical differences can also be linked from the development website.
+  Create a visible link from the website targeted at project users, if there is one.
+Strictly technical differences can also be linked from the development website.
 
 Measure: Specify and maintain a page with the development status of the project M_031::
   tags: Plugin NewProduct Publication
@@ -287,9 +366,13 @@ Create a link from at least:
 * The website targeted at project users
 * The `README` file of the main repository.
 
-It is very important to be transparent and not falsify the real status of the project. It is more harmful to attract users with expectations it will be impossible to satisfy than err on the side of conservatism when outlining the progress made or expected. All projects have defects and it makes everyone’s life easier (project developers, promoters and potential outside users) to deal with them transparently. Most successful open source software projects have a “Known bugs” section on their website, and some of these bugs stay there for years.
+It is very important to be transparent and not falsify the real status of the project.
+It is more harmful to attract users with expectations it will be impossible to satisfy than err on the side of conservatism when outlining the progress made or expected.
+All projects have defects and it makes everyone’s life easier (project developers, promoters and potential outside users) to deal with them transparently.
+Most successful open source software projects have a “Known bugs” section on their website, and some of these bugs stay there for years.
 
-What’s more, in the case of open source code, the whole code and the whole process can be seen by everybody, and everybody can install and test the product. Anybody can refute our affirmations if they are not certain, as explained in http://producingoss.com/en/marketing.html#goldfish-bowl.
+What’s more, in the case of open source code, the whole code and the whole process can be seen by everybody, and everybody can install and test the product.
+Anybody can refute our affirmations if they are not certain, as explained in http://producingoss.com/en/marketing.html#goldfish-bowl.
 
 Recommendation: Establish measures to improve the visibility of the progress and level of activity on the project R_1ED::
   tags: Plugin NewProduct Publication
@@ -318,7 +401,9 @@ Recommendation: Negotiate beforehand how to highlight the contributions sponsore
   +
   links outgoing: None
   +
-  Barcelona City Council might be interested in software projects it has not started but makes some sort of contribution to (add-ons, translations, hours of maintenance work) recognising and publicising these contributions. What form that takes will depend on each project and the nature of the contributions. Some examples:
+  Barcelona City Council might be interested in software projects it has not started but makes some sort of contribution to (add-ons, translations, hours of maintenance work) recognising and publicising these contributions.
+What form that takes will depend on each project and the nature of the contributions.
+Some examples:
 
 * Mention in a public list of bodies that participate in or contribute to the project.
 * The City Council logo appearing in the project website.
@@ -347,7 +432,9 @@ Measure: Implement and document build and installation procedures with widely us
   +
   It is very important not to delay building and documenting a software build system, because without it, the effort any developer has to put in to testing the tool will probably be too great for anyone to try it.
   +
-  Needless to say, users and potential collaborators in an open source project cannot be forced to depend on tools that are not open source as well, and, it is best to choose the most commonly used ones which the majority of developers are most familiar with. That might vary from one community to another. Some examples of commonly used build tools (some of which can also be used in configuration and installation procedures) that we recommend are:
+  Needless to say, users and potential collaborators in an open source project cannot be forced to depend on tools that are not open source as well, and, it is best to choose the most commonly used ones which the majority of developers are most familiar with.
+That might vary from one community to another.
+Some examples of commonly used build tools (some of which can also be used in configuration and installation procedures) that we recommend are:
 
 * For Java projects: Maven, Ant (also for other languages).
 * For Python projects follow the advice of http://python-packaging.readthedocs.io/en/latest/index.html, which also include information on packaging.
@@ -364,9 +451,11 @@ Measure: Get the successful bidder responsible for rollout to use the same code 
   +
   links outgoing: None
   +
-  As a condition of transparency, the source code used at any time in building and rolling out the services in production must be available in the City Council’s public repository, preferably under the `master` branch. Any security patch, improvement or modification of any kind that is applied to the code in production must be reflected in the repository.
+  As a condition of transparency, the source code used at any time in building and rolling out the services in production must be available in the City Council’s public repository, preferably under the `master` branch.
+Any security patch, improvement or modification of any kind that is applied to the code in production must be reflected in the repository.
   +
-  The code available in the public repository is the one fully covered by an open source licence. Nothing can be added to it.
+  The code available in the public repository is the one fully covered by an open source licence.
+Nothing can be added to it.
 
 Recommendation: Establish and explicit versions policy in the ``README`` file R_FBC::
   tags: Plugin NewProduct Publication
@@ -375,9 +464,12 @@ Recommendation: Establish and explicit versions policy in the ``README`` file R_
   +
   links outgoing: None
   +
-  Every repository should have an explicit versions policy. Software projects normally use version identifiers based on `MAJOR.MINOR.PATCH` number sequences.
+  Every repository should have an explicit versions policy.
+Software projects normally use version identifiers based on `MAJOR.MINOR.PATCH` number sequences.
   +
-  A suitable versions policy must be chosen for each project. Each technological community (Java, Python, Drupal, etc.) might have a preferred versions policy so it is advisable to find out which one it is and stick to it. If there is no clear policy, we can subscribe to a well-known generic policy, such as http://semver/[Semantic Versioning].
+  A suitable versions policy must be chosen for each project.
+Each technological community (Java, Python, Drupal, etc.) might have a preferred versions policy so it is advisable to find out which one it is and stick to it.
+If there is no clear policy, we can subscribe to a well-known generic policy, such as http://semver/[Semantic Versioning].
 
 == Use open formats and standards
 
@@ -397,7 +489,10 @@ Measure: Use open formats in exchanging documents with the public and other syst
   +
   links outgoing: None
   +
-  Any exchange of documents with the public that involves downloading or uploading files has to be done exclusively with open formats, as defined by the Barcelona City Council ICT Procurement Guide. Internal document storage by the application will also be done in these same formats. In particular, all text file exchanges will either be in OpenDocument Format (https://www.oasis-open.org/[https://www.oasis-open.org]), or PDF format. Images, audio and video will also be exchanged by means of open formats for which free implementation exists in the main IT platforms including GNU/Linux.
+  Any exchange of documents with the public that involves downloading or uploading files has to be done exclusively with open formats, as defined by the Barcelona City Council ICT Procurement Guide.
+Internal document storage by the application will also be done in these same formats.
+In particular, all text file exchanges will either be in OpenDocument Format (https://www.oasis-open.org/[https://www.oasis-open.org]), or PDF format.
+Images, audio and video will also be exchanged by means of open formats for which free implementation exists in the main IT platforms including GNU/Linux.
 
 == Internationalisation
 
@@ -408,7 +503,8 @@ Measure: Define and budget the technical requirements so the product can be tran
   +
   links outgoing: None
   +
-  All the messages shown to users have to be internationalised. Use the usual mechanisms in each language/platform.
+  All the messages shown to users have to be internationalised.
+Use the usual mechanisms in each language/platform.
 
 == Opening a code that was initially closed
 
@@ -445,7 +541,10 @@ Measure: Advise new public spaces geared towards developers that this was a clos
   +
   links outgoing: None
   +
-  This means explaining that, up to a certain date, the project operated as a closed project, so some inconvenience is to be expected. Developer and user expectations regarding the quality and transparency of some aspects of the project need to be lowered. The commitments made to make it possible to open the code also need explaining. For example, there may be lots of sensitive data in the code repository (specific user data, etcetera) so it has been decided to lose the version control history and create a new top-skim repository that only contains the latest version.
+  This means explaining that, up to a certain date, the project operated as a closed project, so some inconvenience is to be expected.
+Developer and user expectations regarding the quality and transparency of some aspects of the project need to be lowered.
+The commitments made to make it possible to open the code also need explaining.
+For example, there may be lots of sensitive data in the code repository (specific user data, etcetera) so it has been decided to lose the version control history and create a new top-skim repository that only contains the latest version.
   +
   This information should be published in at least the following places:
 
@@ -461,4 +560,6 @@ Recommendation: Warn developers of the possible consequences of the project’s 
   +
   links outgoing: None
   +
-  If we have a way of contacting people who have participated or who are participating in a project we are going to open, for example, by means of private emails, it is worth informing them of this fact. Opening a code that was not initially written to be open might make its authors uncomfortable, so we need to explain that that’s normal. The following work can be referred to, to help clarify the situation: http://producingoss.com/en/opening-closed-projects.html.
+  If we have a way of contacting people who have participated or who are participating in a project we are going to open, for example, by means of private emails, it is worth informing them of this fact.
+Opening a code that was not initially written to be open might make its authors uncomfortable, so we need to explain that that’s normal.
+The following work can be referred to, to help clarify the situation: http://producingoss.com/en/opening-closed-projects.html.

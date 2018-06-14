@@ -1,39 +1,51 @@
 = Open communities
 
-There are many levels of participation in an open source code project, and none of them should be closed. Apart from the development team, who are usually hired for that purpose, other people might contribute on an occasional or ongoing basis. This chapter focuses on the more social aspects of how to work in this kind of community which is created around these projects.
+There are many levels of participation in an open source code project, and none of them should be closed.
+Apart from the development team, who are usually hired for that purpose, other people might contribute on an occasional or ongoing basis.
+This chapter focuses on the more social aspects of how to work in this kind of community which is created around these projects.
 
 == Contributing to open communities
 
-The concept of contribution covers much more than the code. It can also consist in:
+The concept of contribution covers much more than the code.
+It can also consist in:
 
-Translations
+* Translations
+* Documentation
+* Bug reports
+* Other tasks
 
-Documentation
-
-Bug reports
-
-Other tasks
-
-A basic rule is that the contributions are always individual, both in our own projects as well as when we contribute to external projects. That means it is always possible to trace the specific person who has done it, even if they work or participate on behalf of an organisation. The reasons for this are:
+A basic rule is that the contributions are always individual, both in our own projects as well as when we contribute to external projects.
+That means it is always possible to trace the specific person who has done it, even if they work or participate on behalf of an organisation.
+The reasons for this are:
 
 It is the only model which open source projects are structurally equipped to handle.
 
-In open source projects, reputation is what makes everything tick, and that is earned or lost individually. People will rely more or less on the code someone has developed depending on the strength of previous contributions; their opinions in the communication channels and decision-making will carry more or less weight, etc.
+In open source projects, reputation is what makes everything tick, and that is earned or lost individually.
+People will rely more or less on the code someone has developed depending on the strength of previous contributions; their opinions in the communication channels and decision-making will carry more or less weight, etc.
 
-Developers who regularly work on open source projects are used to this model. It makes interaction easier when they collaborate remotely. It is also useful for them in developing a professional career.
+Developers who regularly work on open source projects are used to this model.
+It makes interaction easier when they collaborate remotely.
+It is also useful for them in developing a professional career.
 
-The other important consideration in this section, which applies if we want to modify an existing external component, is it is always better if our code modifications are incorporated, sooner or later, into the original product. That way we can:
+The other important consideration in this section, which applies if we want to modify an existing external component, is it is always better if our code modifications are incorporated, sooner or later, into the original product.
+That way we can:
 
-Reduce future maintenance costs. If the integration is 100%, maintaining the features we have integrated might work out at zero cost to us.
+Reduce future maintenance costs.
+If the integration is 100%, maintaining the features we have integrated might work out at zero cost to us.
 
 Benefit from future improvements to the original product contributed by others.
 
-If more people use our features, the City Council will appear as an institution that contributes to the project and open source software communities as a whole. In the long run that could give it prestige and influence.
+If more people use our features, the City Council will appear as an institution that contributes to the project and open source software communities as a whole.
+In the long run that could give it prestige and influence.
 
-Bear in mind, however, that we can plan to facilitate this integration but, usually, we cannot guarantee it will happen in the initial stages of a project. Each community has its own rules of governance and decision-making rules which must be respected. But one thing that is worth doing is to keep everybody informed of our plans at all times and try to ensure they converge with those of the community we are addressing. As it says in http://producingoss.com/en/contracting.html#community-review-acceptance:
+Bear in mind, however, that we can plan to facilitate this integration but, usually, we cannot guarantee it will happen in the initial stages of a project.
+Each community has its own rules of governance and decision-making rules which must be respected.
+But one thing that is worth doing is to keep everybody informed of our plans at all times and try to ensure they converge with those of the community we are addressing.
+As it says in http://producingoss.com/en/contracting.html#community-review-acceptance:
 
 _______________________________________________________________________________________________________________________________________________________________________________________________________
-“Don’t think of community scrutiny as an obstacle to overcome, think of it as a free design board and QA department. It is a benefit to be aggressively pursued, not an obstacle to be merely endured”.
+“Don’t think of community scrutiny as an obstacle to overcome, think of it as a free design board and QA department.
+It is a benefit to be aggressively pursued, not an obstacle to be merely endured”.
 _______________________________________________________________________________________________________________________________________________________________________________________________________
 
 Measure: Ensure the authorship of each contribution (code, documentation or message) is individual M_975::
@@ -43,7 +55,8 @@ Measure: Ensure the authorship of each contribution (code, documentation or mess
   +
   links outgoing: None
   +
-  Don’t hide the team’s contributions under a corporate identify in one of our own projects or an external one. In other words, use the usernames and individual email addresses of each participant for the commits (changes) in the repository, as well as when participating in the project communication channels or management tools.
+  Don’t hide the team’s contributions under a corporate identify in one of our own projects or an external one.
+In other words, use the usernames and individual email addresses of each participant for the commits (changes) in the repository, as well as when participating in the project communication channels or management tools.
   +
   If any individual contributes to a software project as a worker hired directly or indirectly by the City Council on some occasions, and as a volunteer in his or her free time on other occasions, they will have to use two different emails, depending on the case:
   +
@@ -58,7 +71,9 @@ Measure: Inform the technical communities of the component to be modified about 
   +
   links outgoing: None
   +
-  If we want to modify or adapt an existing component, we have to be open and clear about our reasons. As it is an open source software component, they cannot prevent us from making modifications. However, we strongly advise informing them of our needs and technical plans beforehand.
+  If we want to modify or adapt an existing component, we have to be open and clear about our reasons.
+As it is an open source software component, they cannot prevent us from making modifications.
+However, we strongly advise informing them of our needs and technical plans beforehand.
   +
   We need to ensure the support community of the component to be modified understands and gets involved in our proposal.
 
@@ -84,7 +99,8 @@ Measure: Hire developers who are recognised in the project we want to modify M_3
   +
   This could be done directly or by means of a contract with a company or cooperative that wins the tender.
   +
-  There are never any guarantees that the modifications we need to make will be accepted in the original product but relying on recognised developers will give us more options for achieving that. Aside from any technical knowledge they might have, they could bring:
+  There are never any guarantees that the modifications we need to make will be accepted in the original product but relying on recognised developers will give us more options for achieving that.
+Aside from any technical knowledge they might have, they could bring:
   +
   An insider’s view of the technical ideas most likely to be accepted.
   +
@@ -103,7 +119,9 @@ Alternative: Compel the contract winner to take measures that make it easier to 
   +
   Clearly describing the collaborative tasks the contract winner is expected to take part in and explain that this is part of the budget, as described in the #h:a6bb27a3-2b23-4585-81ca-dc5b4d29ccd7[Measure: Budget for the extra costs of participating in the open community of the product to be modified].
   +
-  The contract winner accepting and applying the Developer Guidelines, the rules for drafting documentation and the Code of Conduct for the project, if there is one, as well as other written documents governing any rules that might exist, both general and the specific rules for specific communication channels. Should the project not have a formal set of internal rules of its own, normal rules of netiquette will apply. https://www.ietf.org/rfc/rfc1855.txt.
+  The contract winner accepting and applying the Developer Guidelines, the rules for drafting documentation and the Code of Conduct for the project, if there is one, as well as other written documents governing any rules that might exist, both general and the specific rules for specific communication channels.
+Should the project not have a formal set of internal rules of its own, normal rules of netiquette will apply.
+https://www.ietf.org/rfc/rfc1855.txt.
   +
   Certain awardee profiles becoming users of the project communication channels.
   +
@@ -122,7 +140,8 @@ Measure: Penalise contractors if there are any changes in the project staff M_D1
   +
   Measures to bear in mind when drawing up the contract specifications.
   +
-  A high turnover is detrimental to any project but especially when participating in open source projects. Developers who leave not only take with them any technical knowledge they might have accumulated, but also their status in the community and the human relationships they might have developed.
+  A high turnover is detrimental to any project but especially when participating in open source projects.
+Developers who leave not only take with them any technical knowledge they might have accumulated, but also their status in the community and the human relationships they might have developed.
 
 Measure: Budget for the extra costs of participating in the open community of the product to be modified M_83F::
   tags: Procurement Adaptation Plugin
@@ -146,7 +165,8 @@ Recommendation: Maintain a permanent private communication channel for discussin
   +
   Ideally a mail thread.
   +
-  When people are hired to take part in an established open source project, especially if they are developers that were already taking part in it, there could be a conflict of interest between the City Council project and the original source project. The developers will have the feeling they have to serve two chiefs and cannot always satisfy both.
+  When people are hired to take part in an established open source project, especially if they are developers that were already taking part in it, there could be a conflict of interest between the City Council project and the original source project.
+The developers will have the feeling they have to serve two chiefs and cannot always satisfy both.
   +
   We have to ask for maximum transparency in these cases and try to anticipate these situations.
 
@@ -159,7 +179,8 @@ Measure: Recognise people who make contributions to the project M_F2E::
   +
   links outgoing: None
   +
-  In a `CONTRIBUTORS` file in the repository’s root directory. Individually
+  In a `CONTRIBUTORS` file in the repository’s root directory.
+Individually
 
 Recommendation: Budget for the extra cost of encouraging the creation of an open community R_3F3::
   tags: NewProduct
@@ -203,7 +224,8 @@ Measure: Publish brief Developer Guidelines M_4F5::
   +
   links outgoing: None
   +
-  These guidelines establish the technical and social conventions that determine interactions between developers, and between developers and users. The apply to all developers, both those hired by the City Council and external developers, as well as Council staff.
+  These guidelines establish the technical and social conventions that determine interactions between developers, and between developers and users.
+The apply to all developers, both those hired by the City Council and external developers, as well as Council staff.
   +
   They must be drawn up in English and either be a GitHub wiki page or a test file with light markup language.
   +
@@ -213,7 +235,10 @@ Measure: Publish brief Developer Guidelines M_4F5::
   +
   Instructions on how to report bugs and how to make contributions to the project.
   +
-  A brief description of project governance: who takes decisions and how. In many cases the only thing that needs to be said is that while the contract is in force, the City Council will prioritise the features to be developed and the bugs to be sorted out. The Council also has the last word on the technical solutions to be adopted, the contributions to be integrated and the versions to be published. It might also be mentioned that in the future an appropriate governance model will be studied for the project’s changing circumstances.
+  A brief description of project governance: who takes decisions and how.
+In many cases the only thing that needs to be said is that while the contract is in force, the City Council will prioritise the features to be developed and the bugs to be sorted out.
+The Council also has the last word on the technical solutions to be adopted, the contributions to be integrated and the versions to be published.
+It might also be mentioned that in the future an appropriate governance model will be studied for the project’s changing circumstances.
   +
   These Developer Guidelines should, as a minimum, be linked from:
   +
@@ -249,7 +274,8 @@ Recommendation: Draw up a governance model for the global community that support
   +
   Projects that generate entirely FOSS tools and systems by means of a development service promoted and financed by the City Council will have to include a governance model that includes, among other things, an approach to defining the community (of other councils, specialists such as geodata [??] or libraries, etc.], the support tools, communication and marketing, the processes for including external contributions, managing intellectual property and sustainability after the project.
   +
-  Community governance and the technical management of these projects, including approval of the code for its incorporation in the project and defining the requirements (roadmap), are different aspects. A diversity of contributions will be encouraged, although IMI will retain effective control over developments financed using public funds.
+  Community governance and the technical management of these projects, including approval of the code for its incorporation in the project and defining the requirements (roadmap), are different aspects.
+A diversity of contributions will be encouraged, although IMI will retain effective control over developments financed using public funds.
 
 == Proper use of the communication channels
 
@@ -260,9 +286,15 @@ Measure: Avoid private debates M_D79::
   +
   links outgoing: None
   +
-  It is very tempting to have closed discussion forums where a small group of people discuss all the aspects of the project, on both a technical and a social level, and from there come the decisions. But it needs to be borne in mind that open, public communication channels are essential to open source projects, so everyone can read them and subscribe to them with a certain ease. The reasons are as follows:
+  It is very tempting to have closed discussion forums where a small group of people discuss all the aspects of the project, on both a technical and a social level, and from there come the decisions.
+But it needs to be borne in mind that open, public communication channels are essential to open source projects, so everyone can read them and subscribe to them with a certain ease.
+The reasons are as follows:
   +
-  It is very difficult for people to want to make significant contributions to a project where the decisions are taken in a non-transparent way, like a “fait accompli” policy. That does not mean that project governance has to work like a democracy. The essential prerequisite is *transparency*: people will want to know why and how decisions are taken, and perhaps have their say, without the option they put forward necessarily being the one chosen. Experienced developers know that the project has certain needs and not everyone can take part in decision-making with the same weight. When in the end decisions are taken by the City Council, everyone will understand that if it is made clear from the start, as specified in the link:#publicar-breus-directrius-desenvolupadors[Measure: (Day 1) Publish brief Developer Guidelines].
+  It is very difficult for people to want to make significant contributions to a project where the decisions are taken in a non-transparent way, like a “fait accompli” policy.
+That does not mean that project governance has to work like a democracy.
+The essential prerequisite is *transparency*: people will want to know why and how decisions are taken, and perhaps have their say, without the option they put forward necessarily being the one chosen.
+Experienced developers know that the project has certain needs and not everyone can take part in decision-making with the same weight.
+When in the end decisions are taken by the City Council, everyone will understand that if it is made clear from the start, as specified in the link:#publicar-breus-directrius-desenvolupadors[Measure: (Day 1) Publish brief Developer Guidelines].
   +
   It is surprising how many good ideas can be selflessly expressed through the public communication channels, if all aspects of the project are discussed there in a friendly working climate.
   +
@@ -283,7 +315,8 @@ Measure: Establish the “Contributor Covenant” as the Code of Conduct for the
   +
   Conduct rules for face-to-face activities of the community associated with the project, such as meetings and conferences.
   +
-  A code of conduct serves as a written reference for behaviour that is considered inappropriate for people taking part in the project, More specifically, the https://www.contributor-covenant.org/ has been used by many open source projects lately, so it may be familiar to lots of developers already. It has also been translated into various languages
+  A code of conduct serves as a written reference for behaviour that is considered inappropriate for people taking part in the project, More specifically, the https://www.contributor-covenant.org/ has been used by many open source projects lately, so it may be familiar to lots of developers already.
+It has also been translated into various languages
   +
   Create a link from at least:
   +
@@ -298,7 +331,8 @@ Measure: Don’t allow any insults or personal attacks in the communication chan
   +
   links outgoing: None
   +
-  A policy of zero tolerance should be maintained in this regard. That doesn’t mean expelling people at the drop of a hat (sometimes that would not even be possible), it means someone has to be in charge of systematically pointing out that certain types of behaviour are not tolerated in this project.
+  A policy of zero tolerance should be maintained in this regard.
+That doesn’t mean expelling people at the drop of a hat (sometimes that would not even be possible), it means someone has to be in charge of systematically pointing out that certain types of behaviour are not tolerated in this project.
   +
   If it is considered opportune, they can refer to the relevant sections of the Code of Conduct (#h:c3405dee-679e-42e0-9ba6-141a0ad06965[Measure: Establish the “Contributor Covenant” as the Code of Conduct for the project and its communication channels]).
   +

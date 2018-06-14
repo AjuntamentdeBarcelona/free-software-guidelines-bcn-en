@@ -40,10 +40,10 @@ In the long run that could give it prestige and influence.
 
 Bear in mind, however, that we can plan to facilitate this integration but, usually, we cannot guarantee it will happen in the initial stages of a project.
 Each community has its own rules of governance and decision-making rules which must be respected.
-But one thing that is worth doing is to keep everybody informed of our plans at all times and try to ensure they converge with those of the community we are addressing.
-As it says in http://producingoss.com/en/contracting.html#community-review-acceptance:
+But one thing that is worth doing is to keep everybody informed of our plans at all times and try to ensure they converge with those of the community we are addressing:
 
-[quote, Karl Fogel, Producing Open Source Software]
+:quote-url: pass:macros[https://producingoss.com/en/contracting.html#community-review-acceptance[Producing Open Source Software]]
+[quote, Karl Fogel, {quote-url}]
 Don’t think of community scrutiny as an obstacle to overcome, think of it as a free design board and QA department.
 It is a benefit to be aggressively pursued, not an obstacle to be merely endured.
 

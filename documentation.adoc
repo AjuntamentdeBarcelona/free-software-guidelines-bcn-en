@@ -9,9 +9,11 @@ Measure: Upload a ``README`` file to the main repository M_F25::
   +
   This must include the declaration of intent and the other information mentioned throughout this Guide that has to be included in the `README` file.
   +
-  It must be written in English and the format has to be text with light markup language. It cannot have an extension if it is written in plain text, or it can have an extension that indicates in what format the markup has to be interpreted (i.e. in reality the file will be called `README.md` if it is written in Markdown).
+  It must be written in English and the format has to be text with light markup language.
+It cannot have an extension if it is written in plain text, or it can have an extension that indicates in what format the markup has to be interpreted (i.e. in reality the file will be called `README.md` if it is written in Markdown).
   +
-  The content of this file (more specifically the version posted in the `master` branch), formatted according to the conventions of the markup language used, is what GitHub shows as the development website's home page. So it is important to check the format is correct and that it appears correctly in a browser.
+  The content of this file (more specifically the version posted in the `master` branch), formatted according to the conventions of the markup language used, is what GitHub shows as the development website's home page.
+So it is important to check the format is correct and that it appears correctly in a browser.
 
 Measure: Use wiki formats or open markup formats for all product documentation M_66D::
   tags: Integration Plugin NewProduct Publication
@@ -20,7 +22,8 @@ Measure: Use wiki formats or open markup formats for all product documentation M
   +
   links outgoing: None
   +
-  For the project user website it is acceptable to write directly in HTML. Other documentation, whether or not it is included in the repository code, will be in the corresponding wiki format or in one of the following formats:
+  For the project user website it is acceptable to write directly in HTML.
+Other documentation, whether or not it is included in the repository code, will be in the corresponding wiki format or in one of the following formats:
   +
   ReStructuredText (the Sphinx default format)
   +
@@ -46,13 +49,20 @@ Measure: Create and maintain a User Guide in the project’s GitHub wiki M_09A::
   +
   links outgoing: link:#A_B27[_A_B27_]
   +
-  From a very early stage there has to be accessible documentation via web that explains how to use the product on different levels or for different roles: average users, administrators, etc. In the case of code libraries, the users are code programmers who do not participate in the project.
+  From a very early stage there has to be accessible documentation via web that explains how to use the product on different levels or for different roles: average users, administrators, etc.
+In the case of code libraries, the users are code programmers who do not participate in the project.
   +
-  A careful assessment needs to be made regarding which languages this documentation should be written in, depending on the sphere the product is expected to be used in. Catalan or Spanish could be the main language but at least the main administration tasks should also be explained in English. If interest is shown from other countries, it would be worth translating all the user material into English as well. All code library and development tool documentation must be in English from the start.
+  A careful assessment needs to be made regarding which languages this documentation should be written in, depending on the sphere the product is expected to be used in.
+Catalan or Spanish could be the main language but at least the main administration tasks should also be explained in English.
+If interest is shown from other countries, it would be worth translating all the user material into English as well.
+All code library and development tool documentation must be in English from the start.
   +
-  The documentation will never be complete and will be constantly evolving. So it should be easily updatable by different people and we recommend initially using a wiki. Using the same GitHub wiki avoids us having to create more infrastructure and means the documentation is automatically linked from the repository webpage.
+  The documentation will never be complete and will be constantly evolving.
+So it should be easily updatable by different people and we recommend initially using a wiki.
+Using the same GitHub wiki avoids us having to create more infrastructure and means the documentation is automatically linked from the repository webpage.
   +
-  Until there is a lot of user documentation, it is advisable to keep it all together in one wiki page, with a table of contents at the beginning, and not subdivide it into pages, as this makes it easier to search for key words by using the browser search features. This page should be linked with other documents such as the installation instructions, any tutorials or the optional FAQ list.
+  Until there is a lot of user documentation, it is advisable to keep it all together in one wiki page, with a table of contents at the beginning, and not subdivide it into pages, as this makes it easier to search for key words by using the browser search features.
+This page should be linked with other documents such as the installation instructions, any tutorials or the optional FAQ list.
   +
   Link from the:
   +
@@ -69,7 +79,9 @@ Alternative: Create and maintain a User Guide in Sphinx and publish it in the Gi
   +
   links outgoing: None
   +
-  This is an alternative for projects that grow a lot and might have started by putting documents in the wiki. Any documentation found in the wiki must be transferred to the new format and the wiki itself deleted, so as not to confuse users. If it is clear from the outset that the project will need a large amount of documentation, we can opt to go down this road from the beginning.
+  This is an alternative for projects that grow a lot and might have started by putting documents in the wiki.
+Any documentation found in the wiki must be transferred to the new format and the wiki itself deleted, so as not to confuse users.
+If it is clear from the outset that the project will need a large amount of documentation, we can opt to go down this road from the beginning.
   +
   All the documentation will go in a `doc` subdirectory in the repository’s root directory and either be written in ReStructuredText or Markdown, the two markup languages supported by Sphinx.
   +
@@ -129,7 +141,8 @@ Recommendation: Supplement the user documentation with screen captures, videos a
   +
   A video explaining the tool’s use and characteristics might also be very attractive.
   +
-  If the product has a graphic user interface, it is highly recommended that the explanations be accompanied by screen captures. They could also be used in the features list described in the #h:2dc43f4e-e755-4fe5-be4e-1f9dd58fe9e9[Measure: Specify a feature list in easily accessible locations].
+  If the product has a graphic user interface, it is highly recommended that the explanations be accompanied by screen captures.
+They could also be used in the features list described in the #h:2dc43f4e-e755-4fe5-be4e-1f9dd58fe9e9[Measure: Specify a feature list in easily accessible locations].
 
 Measure: Specify, in a prominent location, a distribution licence for the User Guide M_7F0::
   tags: Integration Plugin NewProduct Publication
@@ -142,7 +155,8 @@ Measure: Specify, in a prominent location, a distribution licence for the User G
   +
   A summary of its characteristics can be found at: https://tldrlegal.com/license/creative-commons-cc0-1.0-universal.
   +
-  There is no reason to use the same licence for the documentation as for the software itself. In fact, Public Domain licences are admissible in this case.
+  There is no reason to use the same licence for the documentation as for the software itself.
+In fact, Public Domain licences are admissible in this case.
   +
   When creating documentation for external projects, use the licences those projects are already using.
 

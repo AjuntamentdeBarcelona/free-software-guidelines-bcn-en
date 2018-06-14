@@ -43,10 +43,9 @@ Each community has its own rules of governance and decision-making rules which m
 But one thing that is worth doing is to keep everybody informed of our plans at all times and try to ensure they converge with those of the community we are addressing.
 As it says in http://producingoss.com/en/contracting.html#community-review-acceptance:
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________
-“Don’t think of community scrutiny as an obstacle to overcome, think of it as a free design board and QA department.
-It is a benefit to be aggressively pursued, not an obstacle to be merely endured”.
-_______________________________________________________________________________________________________________________________________________________________________________________________________
+[quote, Karl Fogel, Producing Open Source Software]
+Don’t think of community scrutiny as an obstacle to overcome, think of it as a free design board and QA department.
+It is a benefit to be aggressively pursued, not an obstacle to be merely endured.
 
 Measure: Ensure the authorship of each contribution (code, documentation or message) is individual M_975::
   tags: Adaptation Plugin NewProduct

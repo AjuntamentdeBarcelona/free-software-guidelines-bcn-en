@@ -58,11 +58,11 @@ In some cases they can be very different from working methods used when there is
 This means IMI’s learning process and adaptation will have a cost, but we believe that it will be far outweighed by the organisational improvements it will bring – together with the incorporating agile methods – as well as all the benefits mentioned above.
 As Karl Fogel says:
 
-:quote-url: pass:macros[https://producingoss.com/en/index.html[Producing Open Source Software]]
+:quote-url: pass:macros[https://producingoss.com/en/introduction.html[Producing Open Source Software]]
 [quote, Karl Foguel, {quote-url}]
-The open source projects your organisation participates in are a membrane through which your managers and developers are regularly exposed to people and ideas outside your organisational hierarchy
-It’s like having the benefits of attending a conference but still getting daily work done and without incurring travel expenses.
-In a successful open source project these benefits, once they start arriving, greatly outweigh the costs.
+the open source projects your organization participates in are a membrane through which your managers and developers are regularly exposed to people and ideas outside your organizational hierarchy.
+It's like having the benefits of attending a conference, but while still getting daily work done and without incurring travel expenses.
+In a successful open source project, these benefits, once they start arriving, greatly outweigh the costs.
 
 To sum up, this guide intends to explain the best practices available for using and developing free software.
 It does so by codifying and adapting these best practices to IMI, so they may serve as a guide in the learning process and in decision-making.

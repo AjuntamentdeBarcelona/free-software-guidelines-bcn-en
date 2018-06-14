@@ -44,7 +44,7 @@ But one thing that is worth doing is to keep everybody informed of our plans at 
 
 :quote-url: pass:macros[https://producingoss.com/en/contracting.html#community-review-acceptance[Producing Open Source Software]]
 [quote, Karl Fogel, {quote-url}]
-Don’t think of community scrutiny as an obstacle to overcome, think of it as a free design board and QA department.
+Don't think of community scrutiny as an obstacle to be overcome — think of it as a free design board and QA department.
 It is a benefit to be aggressively pursued, not an obstacle to be merely endured.
 
 Measure: Ensure the authorship of each contribution (code, documentation or message) is individual M_975::

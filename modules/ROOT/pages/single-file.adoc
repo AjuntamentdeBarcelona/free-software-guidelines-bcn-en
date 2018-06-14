@@ -1,4 +1,4 @@
-include::README.adoc[tag=metadata]
+include::../../../README.adoc[tag=metadata]
 
 // (1/4) CHANGE TOC POSITION AND LEVELS, IF NEEDED.
 :toc: left

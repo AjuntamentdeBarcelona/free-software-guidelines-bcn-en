@@ -1,5 +1,9 @@
 include::../../../README.adoc[tag=metadata]
 
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
 // (1/4) CHANGE TOC POSITION AND LEVELS, IF NEEDED.
 :toc: left
 :toclevels: 2

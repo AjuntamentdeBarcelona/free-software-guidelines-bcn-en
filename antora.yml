@@ -1,0 +1,6 @@
+name: floss-guidelines
+title: FLOSS Management Guidelines
+version: 0.1
+start_page: ROOT:introduction.adoc
+nav:
+- modules/ROOT/nav.adoc

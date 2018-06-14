@@ -1,4 +1,4 @@
-= Structure of this document
+= Document organization
 
 This Guide contains a series of guidelines that we have divided into:
 

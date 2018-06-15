@@ -13,29 +13,34 @@ The only thing it is not possible to do without being the legal owners of the co
 
 The main criterion for assessing who should hold the copyrights in the case of new projects, is to think which entity best ensures at each point that the appropriate measures are taken to disseminate the project, facilitate contributions from third parties, make it grow to achieve the objectives and make it sustainable in the long term.
 
-Measure: Establish Barcelona City Council as the owner of the new source code and the new documentation M_4DC::
-  tags: Procurement Adaptation Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: link:#A_C87[_A_C87_] link:#A_EE9[_A_EE9_] link:#A_3B6[_A_3B6_]
-  +
-  That is the default option but not the only one.
+// tags: Procurement Adaptation Plugin NewProduct Publication
+// +
+// links incoming: None
+// +
+// links outgoing: link:#A_C87[_A_C87_] link:#A_EE9[_A_EE9_] link:#A_3B6[_A_3B6_]
+// +
+
+.Measure: Establish Barcelona City Council as the owner of the new source code and the new documentation (M_4DC)
+****
+That is the default option but not the only one.
 It forces the contractor to assign ownership of the copyrights in the code and the documentation that it generates.
-  +
-  It particularly makes sense that the City Council should wish to concentrate all property rights on emblematic projects, principally used between public administrations, and on those over which it intends to decide to a large extent the rules of governance.
+
+It particularly makes sense that the City Council should wish to concentrate all property rights on emblematic projects, principally used between public administrations, and on those over which it intends to decide to a large extent the rules of governance.
+****
 
 [[A_3B6]]
 
-Alternative: Assign ownership of the new source code to the legal owner of the original code A_3B6::
-  tags: Procurement Adaptation
-  +
-  links incoming: link:#M_4DC[_M_4DC_]
-  +
-  links outgoing: None
-  +
-  When we adapt an existing product, to accept the inclusion of our code in the original product we may be asked us to sign a Contributor Licence Agreement (CLA) or equivalent contract.
+.Alternative: Assign ownership of the new source code to the legal owner of the original code (A_3B6)
+****
+// tags: Procurement Adaptation
+// +
+// links incoming: link:#M_4DC[_M_4DC_]
+// +
+// links outgoing: None
+// +
+When we adapt an existing product, to accept the inclusion of our code in the original product we may be asked to sign a Contributor Licence Agreement (CLA) or equivalent contract.
 If not, the parts developed by the City Council can be owned by it.
+****
 
 [[A_EE9]]
 

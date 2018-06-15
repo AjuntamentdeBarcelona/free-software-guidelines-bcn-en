@@ -19,7 +19,7 @@ endif::[]
 
 include::introduction.adoc[]
 
-include::structure-of-this-document.adoc[]
+include::document-organization.adoc[]
 
 include::open-development.adoc[]
 

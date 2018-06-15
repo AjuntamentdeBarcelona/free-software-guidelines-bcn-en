@@ -120,7 +120,7 @@ Measure: Upload a file with installation instructions to the main repository M_C
   +
   links outgoing: None
   +
-  The installation procedure developed in the link:#implementar-procediments-build-installacio[Measure: (Day 1) Implement build and installation procedures with open source, widely used tools] has to be explained in an `INSTALL` file in the root directory of the main repository.
+  The installation procedure developed in the link:#implementar-procediments-build-installacio[Measure: (Day 1) Implement build and installation procedures with free, widely used tools] has to be explained in an `INSTALL` file in the root directory of the main repository.
   +
   It must be written in English and the format must be text with light markup language.
   +

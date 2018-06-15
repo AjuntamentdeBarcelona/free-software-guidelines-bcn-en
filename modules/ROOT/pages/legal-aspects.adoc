@@ -1,6 +1,6 @@
 = Legal aspects
 
-Open source projects are based on a whole series of technologies, working methods and ways of collaborating but all that would not be sustained without a very special legal mechanism: the open source software licences.
+FLOSS projects are based on a whole series of technologies, working methods and ways of collaborating but all that would not be sustained without a very special legal mechanism: the free software licences.
 The use of such licences in itself guarantees a series of inalienable rights, which allows a certain flexibility in intellectual property (IP) policy.
 
 == Intellectual property
@@ -66,7 +66,7 @@ Alternative: Establish the supplier as the owner of the new source code and the 
   +
   Software components are for general use, including companies and not just public authorities.
   +
-  The supplier is a company or a cooperative with a track record of publishing software and running open communities, and which has a credible strategy for exploiting the product based on open source licences.
+  The supplier is a company or a cooperative with a track record of publishing software and running open communities, and which has a credible strategy for exploiting the product based on free software licences.
 
 == Choose a licence for the code
 
@@ -90,12 +90,12 @@ Measure: Choose the AGPL-3.0 licence as the licence for distributing the project
   +
   The https://www.gnu.org/licenses/why-affero-gpl.html[GNU Affero General Public License v3.0] (AGPL-3.0) has all the characteristics we need for City Council projects:
   +
-  It is a licence with copyleft, as required by Spanish law for public authorities creating open source products, and as it is reasonable to demand of them to prevent private appropriation of what has been financed using public money.
+  It is a licence with copyleft, as required by Spanish law for public authorities creating FLOSS products, and as it is reasonable to demand of them to prevent private appropriation of what has been financed using public money.
   +
   For applications where users mainly interact via the internet, the law does not allow the creation of a closed service using software with this licence (it establishes internet access as a form of distribution for the purposes of the licence).
 This is sometimes called internet copyleft.
   +
-  The licence’s governing body is the GNU project, the non-profit organisation that works for the benefit of free or open source software communities.
+  The licence’s governing body is the GNU project, the non-profit organisation that works for the benefit of free software communities.
 Therefore, it is this group of activists and experts who will design future versions of the licence (to adapt it to new legal and technical circumstances) and the legal defence against possible attacks on the freedoms set out in its text.
   +
   The main reason for choosing this licence as the default option are as follows:

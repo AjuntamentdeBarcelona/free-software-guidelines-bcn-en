@@ -1,10 +1,10 @@
 = Component management
 
-== Look for and select open code components
+== Look for and select FLOSS components
 
 In all likelihood, unless our need is very specialised, there will already be an open solution (or combination of solutions) that would solve the problem, at least partly.
 
-It is important to bear in mind that open code, or open source projects offer more possibilities of being transformed and adapted to our needs than traditional applications.
+It is important to bear in mind that FLOSS projects offer more possibilities of being transformed and adapted to our needs than traditional applications.
 
 Finding out if a project suits our needs and meets the minimum requirements on a technical, legal and social level could prove costly.
 But the benefits of finding an existing project to join, instead of reinventing the wheel (and avoiding the so-called *Not invented here* or *NIH* syndrome”) can be extraordinary, in the short and long terms:
@@ -183,10 +183,10 @@ Submeasure: Go for components with recent activity S_223::
   First of all we need to look at the bug tracker, noting:
   +
   The number of defects notified.
-We shouldn’t panic if there are a lot of open and unsolved notifications, because the number of incidents tends to grow in a straight line with the number of users but the number of developers usually grows more slowly.
+We shouldn’t panic if there are a lot of open and unsolved notifications, because the number of issues and bugs tends to grow in a straight line with the number of users but the number of developers usually grows more slowly.
   +
-  Let the developers gradually respond to the incidents.
-We want to stress this point: if there are a large number of users, there will always be lots of open incidents.
+  Let the developers gradually respond to the issues.
+We want to stress this point: if there are a large number of users, there will always be lots of open issues.
 The important thing is to see whether the developers are regularly involved in the bug tracker, that they haven’t abandoned it.
   +
   Then it is important to look at the project’s public activity, bearing in mind:
@@ -295,7 +295,7 @@ Sub-measure: Go for Debian stable components S_2F1::
   +
   Requiring a particular GNU/Linux distribution (e.g. a program that only runs in CentOS environments and not on Debian).
   +
-  Versions of the main platform elements that are too specific, especially if they are too old or beyond their standard maintenance period (e.g. a program that requires a Linux kernal in a 3.* version, or some basic libraries of the system that are obsolete.
+  Versions of the main platform elements that are too specific, especially if they are too old or beyond their standard maintenance period (e.g. a program that requires a Linux kernel in a 3.* version, or some basic libraries of the system that are obsolete.
   +
   Requiring a specific hardware architecture (e.g. solutions that only run on Intel machines).
 
@@ -314,7 +314,7 @@ And perhaps even more significant, it implies splitting the original community a
 
 == Managing dependencies
 
-Measure: Keep a thorough record of all the software packages used, which have to be open source M_0C2::
+Measure: Keep a thorough record of all the software packages used, which have to be FLOSS M_0C2::
   tags: Procurement Integration Adaptation Plugin NewProduct Publication
   +
   links incoming: None

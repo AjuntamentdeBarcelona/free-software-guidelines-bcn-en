@@ -1,6 +1,6 @@
 = Open communities
 
-There are many levels of participation in an open source code project, and none of them should be closed.
+There are many levels of participation in a FLOSS project, and none of them should be closed.
 Apart from the development team, who are usually hired for that purpose, other people might contribute on an occasional or ongoing basis.
 This chapter focuses on the more social aspects of how to work in this kind of community which is created around these projects.
 
@@ -18,7 +18,7 @@ A basic rule is that the contributions are always individual, both in our own pr
 That means it is always possible to trace the specific person who has done it, even if they work or participate on behalf of an organisation.
 The reasons for this are:
 
-It is the only model which open source projects are structurally equipped to handle.
+It is the only model which FLOSS projects are structurally equipped to handle.
 
 In open source projects, reputation is what makes everything tick, and that is earned or lost individually.
 People will rely more or less on the code someone has developed depending on the strength of previous contributions; their opinions in the communication channels and decision-making will carry more or less weight, etc.
@@ -35,7 +35,7 @@ If the integration is 100%, maintaining the features we have integrated might wo
 
 Benefit from future improvements to the original product contributed by others.
 
-If more people use our features, the City Council will appear as an institution that contributes to the project and open source software communities as a whole.
+If more people use our features, the City Council will appear as an institution that contributes to the project and free software communities as a whole.
 In the long run that could give it prestige and influence.
 
 Bear in mind, however, that we can plan to facilitate this integration but, usually, we cannot guarantee it will happen in the initial stages of a project.
@@ -71,7 +71,7 @@ Measure: Inform the technical communities of the component to be modified about 
   links outgoing: None
   +
   If we want to modify or adapt an existing component, we have to be open and clear about our reasons.
-As it is an open source software component, they cannot prevent us from making modifications.
+As it is an free software component, they cannot prevent us from making modifications.
 However, we strongly advise informing them of our needs and technical plans beforehand.
   +
   We need to ensure the support community of the component to be modified understands and gets involved in our proposal.
@@ -83,7 +83,7 @@ Recommendation: Inform other relevant technical communities of our plans R_9BE::
   +
   links outgoing: None
   +
-  Open source software communities are usually very interested in contributing ideas, technical knowledge and even working extra hours of work, when faced with technical challenges they believe could benefit them.
+  Free software communities are usually very interested in contributing ideas, technical knowledge and even working extra hours of work, when faced with technical challenges they believe could benefit them.
   +
   IMI projects will study the possibilities of collaborating with the local communities of open source software and innovative technologies to promote social and technological innovation.
 
@@ -139,7 +139,7 @@ Measure: Penalise contractors if there are any changes in the project staff M_D1
   +
   Measures to bear in mind when drawing up the contract specifications.
   +
-  A high turnover is detrimental to any project but especially when participating in open source projects.
+  A high turnover is detrimental to any project but especially when participating in FLOSS projects.
 Developers who leave not only take with them any technical knowledge they might have accumulated, but also their status in the community and the human relationships they might have developed.
 
 Measure: Budget for the extra costs of participating in the open community of the product to be modified M_83F::
@@ -164,7 +164,7 @@ Recommendation: Maintain a permanent private communication channel for discussin
   +
   Ideally a mail thread.
   +
-  When people are hired to take part in an established open source project, especially if they are developers that were already taking part in it, there could be a conflict of interest between the City Council project and the original source project.
+  When people are hired to take part in an established FLOSS project, especially if they are developers that were already taking part in it, there could be a conflict of interest between the City Council project and the original source project.
 The developers will have the feeling they have to serve two chiefs and cannot always satisfy both.
   +
   We have to ask for maximum transparency in these cases and try to anticipate these situations.
@@ -286,7 +286,7 @@ Measure: Avoid private debates M_D79::
   links outgoing: None
   +
   It is very tempting to have closed discussion forums where a small group of people discuss all the aspects of the project, on both a technical and a social level, and from there come the decisions.
-But it needs to be borne in mind that open, public communication channels are essential to open source projects, so everyone can read them and subscribe to them with a certain ease.
+But it needs to be borne in mind that open, public communication channels are essential to FLOSS projects, so everyone can read them and subscribe to them with a certain ease.
 The reasons are as follows:
   +
   It is very difficult for people to want to make significant contributions to a project where the decisions are taken in a non-transparent way, like a “fait accompli” policy.
@@ -310,11 +310,11 @@ Measure: Establish the “Contributor Covenant” as the Code of Conduct for the
   +
   A project’s *Code of Conduct* is a document or series of documents that regulates the social rules of participants’ conduct when taking part in the project, including the following aspects:
   +
-  Participation rules in all online communication channels associated with the project, such as chat rooms, public and private mail lists, incident monitoring tools (issue trackers), feature development tools and pull requests, wikis, blogs, Twitter, forums, etc.
+  Participation rules in all online communication channels associated with the project, such as chat rooms, public and private mail lists, issue managers, feature development tools and pull requests, wikis, blogs, Twitter, forums, etc.
   +
   Conduct rules for face-to-face activities of the community associated with the project, such as meetings and conferences.
   +
-  A code of conduct serves as a written reference for behaviour that is considered inappropriate for people taking part in the project, More specifically, the https://www.contributor-covenant.org/ has been used by many open source projects lately, so it may be familiar to lots of developers already.
+  A code of conduct serves as a written reference for behaviour that is considered inappropriate for people taking part in the project, More specifically, the https://www.contributor-covenant.org/ has been used by many FLOSS projects lately, so it may be familiar to lots of developers already.
 It has also been translated into various languages
   +
   Create a link from at least:

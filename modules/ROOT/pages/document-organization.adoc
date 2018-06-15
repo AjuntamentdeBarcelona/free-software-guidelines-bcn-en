@@ -74,7 +74,7 @@ The `Integration`, `Adaptation`, `Plugin` and `NewProduct` use-cases may occasio
 
 This Use-Case may involve creating one or more own repositories, not to manage the code of any software _per se_ but to:
 
-* Link it to project management tools such as incident management tools.
+* Link it to project management tools such as issue managers.
 * Save and link documents relating to using and operating the system
 * Save configuration files and scripts necessary for deploying the system
 * Save configuration files and scripts necessary for running testing and continuous integration environments, including _virtualisation_ and _containerisation_

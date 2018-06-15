@@ -83,16 +83,16 @@ Most developers are familiar with it and do not have to learn new tools and proc
 
 It launches the message that the project is open to collaboration.
 
-It offers good integration with the rest of a product’s technical and social infrastructure: incident management, ongoing integration, development communication channels, etc.
+It offers good integration with the rest of a product’s technical and social infrastructure: issue managing, continuous integration, development communication channels, etc.
 
 It also enables (part of) a product’s documentation to be saved and displayed, which could be a wiki.
 The presentation of the information is sufficiently user-friendly for us to put off building a website for project users and participants in general.
 
-It is the platform most widely used by open code projects and provides a lot of exposure.
+It is the platform most widely used by FLOSS projects and provides a lot of exposure.
 
 Any alternative has to offer similar guarantees with regard to durability and sustainability.
 
-*Drawback*: GitHub is not 100% open code.
+*Drawback*: GitHub is not free software.
 
 Although it is a free service for a wide range of possible uses, not all the infrastructure code behind GitHub is open and ultimately that means being dependent on a company whose future development we cannot predict.
 In the future other options might appear that could make us reconsider recommending using GitHub as the default option.
@@ -121,7 +121,7 @@ Alternative: Create a public repository on a different site to the City Council 
   +
   links outgoing: None
   +
-  There could be reasons that make it advisable to have the main repository (the one linked to incident management) on sites such as:
+  There could be reasons that make it advisable to have the main repository (the one linked to the issue manager) on sites such as:
   +
   The GitHub space of another organisation.
   +
@@ -141,11 +141,11 @@ Alternative: Create a public repository on a different site to the City Council 
 It is currently the most widely used tool which all developers are familiar with and it offers some good practices for open project management which would be much more confusing with older systems (such as CSV or Subversion).
 If certain procedures have to be performed on another tool, for example, Subversion, the solution is to do the development in open on Git, and keep a Subversion mirror automated using the command `git ``svn`` ``dcommit`, as explained, for example, at http://www.kerrybuckley.org/2009/10/06/maintaining-a-read-only-svn-mirror-of-a-git-repository/.
   +
-  Either way, there has to be an up-to-date replica of the main repository in the City Council GitHub space, to show all the contributions made to open code projects.
+  Either way, there has to be an up-to-date replica of the main repository in the City Council GitHub space, to show all the contributions made to FLOSS projects.
   +
   The `README` file content (and markup) in the City Council GitHub space, the GitHub.io space and the other sites with a source code link will indicate which is (or are) the main repository (repositories) where development is carried out.
   +
-  Whichever they are, both the incident management tool and the ongoing integration system must be public and capable of being used by everyone, without paying subscriptions for any service.
+  Whichever they are, both the issue managing tool and the continuous integration system must be public and capable of being used by everyone, without paying subscriptions for any service.
   +
   All the project source code has to be downloadable by anyone at any time.
 GitHub makes that easy by providing buttons for downloading a `zip` file or showing the necessary commands for cloning the repository using Git.
@@ -262,7 +262,7 @@ Measure: Use English as the language for all development M_713::
   +
   All the comments on the commits in the repository.
   +
-  All the entries in the incident management tool and the discussion threads that flow from them
+  All the entries in the issue manager and the discussion threads that flow from them
   +
   All the discussion threads that accompany each pull request
   +
@@ -276,7 +276,7 @@ Measure: Use English as the language for all development M_713::
   +
   The `LICENSE` file
   +
-  If the incident management tool lets anyone enter incidents and one is entered in another language, someone in the team has to be responsible for getting it translated or asking the author to translate it.
+  If the issue manager lets anyone enter issues and one is entered in another language, someone in the team has to be responsible for getting it translated or asking the author to translate it.
 
 Measure: Don’t upload binary files or build process files (with exceptions) M_488::
   tags: Integration Adaptation Plugin NewProduct Publication
@@ -323,9 +323,9 @@ Recommendation: Re-synchronise own repository with the upstream project reposito
   +
   [[repositori-de-codi-i-control-de-versions]]To finally enable our changes to be integrated and our defect notifications to make sense.
 
-== Incident management tool
+== Issue manager
 
-One tool all open code projects need is an incident manager or bug tracker.
+One tool all FLOSS projects need is an issue manager or bug tracker.
 At the City Council we assign it the following functions:
 
 Provide notification of any defects detected (bugs tracked) by users and developers.
@@ -345,7 +345,7 @@ It needs to be borne in mind that the bug tracker is not only important for the 
 
 This bug tracker has to be operational and public throughout the product’s useful life, i.e. after the contracts with the City Council have finished.
 
-Measure: Link the main repository to the GitHub issue tracker M_35A::
+Measure: Link the main repository to the GitHub issue manager M_35A::
   tags: Day1 Adaptation Plugin NewProduct Publication
   +
   links incoming: None
@@ -354,9 +354,9 @@ Measure: Link the main repository to the GitHub issue tracker M_35A::
   +
   Once again it is the default option, in this case because of its automatic link with the GitHub repository and because it meets our accessibility and transparency requirements.
   +
-  Some basic incident categories will have to be established at the start that can be modified later, depending on the needs of each project: `Bug`, `Request`, etc.
+  Some basic issue categories will have to be established at the start that can be modified later, depending on the needs of each project: `Bug`, `Request`, etc.
 
-Alternative: Link the main repository to a public incident management tool A_D4F::
+Alternative: Link the main repository to a public issue manager A_D4F::
   tags: Day1 Adaptation Plugin NewProduct Publication
   +
   links incoming: None
@@ -369,24 +369,24 @@ Alternative: Link the main repository to a public incident management tool A_D4F
   +
   Everybody has to be able to register as a system user without paying a subscription, and thus take part in development.
   +
-  Everybody has to be able to see the incidents and follow them, without having to register as a user.
+  Everybody has to be able to see the issues and follow them, without having to register as a user.
   +
-  The GitHub issue tracker meets both conditions.
+  The GitHub issue manager meets both conditions.
   +
   It must be linked from the code repository `README` file.
   +
-  If the intention is for the incident management tool to be part of the City Council’s own infrastructure, it has to be one of the following free tools: Gitlab, Redmine, Trac.
+  If the intention is for the issue manager to be part of the City Council’s own infrastructure, it has to be one of the following free tools: Gitlab, Redmine, Trac.
 
-Recommendation: Use the incident management tool for tasks, releases and new features R_20E::
+Recommendation: Use the issue manager for tasks, releases and new features R_20E::
   tags: Integration Adaptation Plugin NewProduct Publication
   +
   links incoming: None
   +
   links outgoing: None
   +
-  Integrating the repository with GitHub’s issue tracker means that together they make a good tool for collaborating on any code-related issue, not just fixing bugs.
+  Integrating the repository with GitHub’s issue manager means that together they make a good tool for collaborating on any code-related issue, not just fixing bugs.
 
-Measure: Draw up and maintain an incident management policy M_0E7::
+Measure: Draw up and maintain an issuemanagement policy M_0E7::
   tags: Procurement Plugin NewProduct Publication
   +
   links incoming: None
@@ -395,26 +395,26 @@ Measure: Draw up and maintain an incident management policy M_0E7::
   +
   It must specify:
   +
-  Incident type (defects, tasks, milestones, etc.).
+  Issue type (defects, tasks, milestones, etc.).
   +
   Stages for those that arise.
   +
   This task can be given to the company awarded the contract.
 It it does not have one of its own, IMI will have to provide it with one.
 
-Recommendation: Give everyone permission to report incidents, even anonymously R_7A9::
+Recommendation: Give everyone permission to report issues, even anonymously R_7A9::
   tags: Integration Adaptation Plugin NewProduct Publication
   +
   links incoming: None
   +
   links outgoing: None
   +
-  Configure the incident management tool so it will not be necessary to create an account to report defects or anything else, in order to facilitate as many contributions as possible.
+  Configure the issue manager so it will not be necessary to create an account to report defects or anything else, in order to facilitate as many contributions as possible.
 Activate the necessary anti-spam measures (e.g. captchas)
   +
   It is always possible to keep an eye on someone who gives us problems or rethink this policy if it doesn’t work on a project.
 
-Recommendation: Put someone in charge of filtering incidents as they arrive R_A03::
+Recommendation: Put someone in charge of filtering issues as they arrive R_A03::
   tags: Procurement Plugin NewProduct Publication
   +
   links incoming: None
@@ -440,7 +440,7 @@ Measure: Notify the official bug tracker of the bugs in the product to be modifi
 
 == Integration infrastructure and testing
 
-Recommendation: Link the main repository to an ongoing open code integration system R_368::
+Recommendation: Link the main repository to a free software continuous integration system R_368::
   tags: Day1 Adaptation Plugin NewProduct Publication
   +
   links incoming: None
@@ -457,7 +457,7 @@ Recommendation: Link the main repository to an ongoing open code integration sys
 
 == Internal and external communication channels
 
-The first lines of communication between developers are the repository commit messages and the incident management threads.
+The first lines of communication between developers are the repository commit messages and the issue manager threads.
 Many technical decisions are taken in these threads but the discussions that take place in them should always be highly focused and strictly technical.
 When the area under discussion broadens out, it is necessary to resort to other channels.
 

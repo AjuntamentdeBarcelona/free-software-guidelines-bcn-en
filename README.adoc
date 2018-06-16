@@ -1,7 +1,7 @@
 // tag::metadata[]
 // MANDATORY. Title of the document. In web format, It appears as a heading of
 // level 1. In PDF format, it appears in a title page.
-:_title: FLOSS Management Guidelines
+:_title: Free Software Management Guidelines
 
 // OPTIONAL. If not blank, it must begin with ": " (colon followed by a blank
 // space). In web format, it appears as part of the same heading of level 1 than

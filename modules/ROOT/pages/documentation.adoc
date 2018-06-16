@@ -32,13 +32,14 @@ Other documentation, whether or not it is included in the repository code, will 
   Org Mode
 
 Measure: Document the project so third parties can understand it, configure it and download it M_AC6::
-  tags: Procurement Integration Adaptation Plugin NewProduct
+  tags: Procurement Integration
+Adaptation Plugin NewProduct
   +
   links incoming: None
   +
   links outgoing: None
   +
-  Organisations awarded contracts – development and rollout – have to understand they will not have a monopoly over the configuration, rollout and maintenance of the product.
+  Organisations awarded contracts – development and deployment – have to understand they will not have a monopoly over the configuration, rollout and maintenance of the product.
 
 [[M_09A]]
 
@@ -66,9 +67,8 @@ This page should be linked with other documents such as the installation instruc
   +
   Link from the:
   +
-  Project website.
-  +
-  The `README` file of the main repository.
+  * Project website.
+  * The `README` file of the main repository.
 
 [[A_B27]]
 
@@ -104,10 +104,12 @@ Recommendation: Create and maintain a FAQ list R_4B1::
   +
   links outgoing: None
   +
-  If this is done reactively but diligently, with real user questions, it can make it much easier for people to find the information they need and could prove to be a very profitable way of investing the project’s resources.
+  If this is done reactively but diligently, with real user questions,
+it can make it much easier for people to find the information they need and could prove to be a very profitable way of investing the project’s resources.
 
 Recommendation: Create a tutorial explaining how to do some of the usual tasks, step by step R_A3A::
-  tags: Plugin NewProduct Publication
+  tags: Plugin NewProduct
+Publication
   +
   links incoming: None
   +
@@ -120,7 +122,8 @@ Measure: Upload a file with installation instructions to the main repository M_C
   +
   links outgoing: None
   +
-  The installation procedure developed in the link:#implementar-procediments-build-installacio[Measure: (Day 1) Implement build and installation procedures with free, widely used tools] has to be explained in an `INSTALL` file in the root directory of the main repository.
+  The installation procedure developed in the link:#implementar-procediments-build-installacio[Measure: (Day 1) Implement build and installation procedures with free, widely used tools]
+has to be explained in an `INSTALL` file in the root directory of the main repository.
   +
   It must be written in English and the format must be text with light markup language.
   +
@@ -169,6 +172,7 @@ Measure: Specify, in a prominent location, a distribution licence for the design
   +
   The default licence to use is https://creativecommons.org/licenses/[Creative Commons Attribution Share Alike 4.0] (CC-BY-SA-4.0).
   +
-  Follow: https://wiki.creativecommons.org/wiki/Website/Publish i https://creativecommons.org/choose/#metadata.
+  Follow:
+https://wiki.creativecommons.org/wiki/Website/Publish i https://creativecommons.org/choose/#metadata.
   +
   To understand its characteristics you can consult: https://tldrlegal.com/license/creative-commons-attribution-sharealike-4.0-international-(cc-by-sa-4.0).[https://tldrlegal.com/license/creative-commons-attribution-sharealike-4.0-international-(cc-by-sa-4.0)].

@@ -1,22 +1,22 @@
 = Component management
 
-== Look for and select FLOSS components
+== Look for and select free software components
 
 In all likelihood, unless our need is very specialised, there will already be an open solution (or combination of solutions) that would solve the problem, at least partly.
 
-It is important to bear in mind that FLOSS projects offer more possibilities of being transformed and adapted to our needs than traditional applications.
+It is important to bear in mind that free software projects offer more possibilities of being transformed and adapted to our needs than traditional applications.
 
 Finding out if a project suits our needs and meets the minimum requirements on a technical, legal and social level could prove costly.
-But the benefits of finding an existing project to join, instead of reinventing the wheel (and avoiding the so-called *Not invented here* or *NIH* syndrome”) can be extraordinary, in the short and long terms:
+But the benefits of finding an existing project to join, instead of reinventing the wheel (and avoiding the so-called *Not invented here* or “*NIH* syndrome”) can be extraordinary, in the short and long terms:
 
-To start with, maybe many of the features we need are already being implemented, so we could build prototypes and carry out concept tests very quickly.
+* To start with, maybe many of the features we need are already being implemented, so we could build prototypes and carry out concept tests very quickly.
 
-We can take advantage of the experience acquired by other users who have tried to implement a system similar to the one we want, possibly discovering opportunities we had not thought about.
+* We can take advantage of the experience acquired by other users who have tried to implement a system similar to the one we want, possibly discovering opportunities we had not thought about.
 
-We can share the cost of building a complex tool with other users and organisations.
+* We can share the cost of building a complex tool with other users and organisations.
 This includes potential future features and applications, which could in turn interest other users.
 
-If the product has a sufficiently large user base, we get a tool that develops over time, improving with the contributions of others, adapting to future technological changes and incorporating our new features or those of third parties.
+* If the product has a sufficiently large user base, we get a tool that develops over time, improving with the contributions of others, adapting to future technological changes and incorporating our new features or those of third parties.
 With very little outlay on maintenance we get long-term sustainability and less danger of creating a *technological debt*.
 
 Measure: Look for an existing project or component that might solve the problem, perhaps partially M_323::
@@ -26,28 +26,28 @@ Measure: Look for an existing project or component that might solve the problem,
   +
   links outgoing: None
   +
-  Besides using the normal search engines, it is worth going directly to the following sites:
+  Besides using the normal search engines,
+it is worth going directly to the following sites:
   +
-  https://github.com/[GitHub]
-  +
-  https://freshcode.club/[Freshcode.club]
-  +
-  https://openhub.net/[OpenHub:]
-  +
-  https://joinup.ec.europa.eu/solutions[Repository of the EU Joinup initiative solutions]
-  +
-  https://administracionelectronica.gob.es/ctt/buscadorSoluciones.htm[Centro de Transferencia de Tecnología Solutions finder]
-  +
-  Depending on the platform or technological architecture being worked on, it is also necessary to search for specialised repositories, such as the:
-  +
-  Drupal repository
-  +
-  CKAN repository
+  * https://github.com/[GitHub]
+
+  * https://freshcode.club/[Freshcode.club]
+  * https://openhub.net/[OpenHub:]
+  * https://joinup.ec.europa.eu/solutions[Repository of the EU Joinup initiative solutions]
+  * https://administracionelectronica.gob.es/ctt/buscadorSoluciones.htm[
+  Centro de Transferencia de Tecnología Solutions finder]
+
+Depending on the platform or technological architecture being worked on, it is also necessary to search for specialised repositories, such as the:
+
+  * Drupal repository
+
+  * CKAN repository
 
 [[M_408]]
 
 Measure: Fill in a comparative grid of the different components to be assessed to cover a need M_408::
-  tags: Preliminary design Integration Adaptation Plugin NewProduct
+  tags: Preliminary design Integration
+Adaptation Plugin NewProduct
   +
   links incoming: None
   +
@@ -132,20 +132,21 @@ Measure: Fill in a comparative grid of the different components to be assessed t
 
 Other things that could be taken into account, besides the sub-measures below:
 
-How easy the different components are to adapt and develop
+* How easy the different components are to adapt and develop
 
-Immediate and long-term costs, including starting costs
+* Immediate and long-term costs, including starting costs
 
-Existence of a local or global support network or informal community
+* Existence of a local or global support network or informal community
 
-Innovative solutions (and the value that brings)
+* Innovative solutions (and the value that brings)
 
-Impact on data privacy and sovereignty
+* Impact on data privacy and sovereignty
 
 [[mesura-s-58b]]
 
-Sub-measure: Choose components with a licence approved by the OSI or the FSF S_58B::
-  tags: Integration Adaptation Plugin
+Sub-measure: Choose components with a licence approved by the FSF or the OSI S_58B::
+  tags: Integration Adaptation
+Plugin
   +
   links incoming: link:#M_408[_M_408_]
   +
@@ -153,13 +154,13 @@ Sub-measure: Choose components with a licence approved by the OSI or the FSF S_5
   +
   The two sets of valid licences are almost identical:
   +
-  https://opensource.org/licenses
-  +
   https://www.gnu.org/licenses/license-list.en.html
+  +
+  https://opensource.org/licenses
 
 [[S_453]]
 
-Submeasure: Go for components with a greater diversity and weight of contributors S_453::
+Submeasure: Select components with a greater diversity and weight of contributors S_453::
   tags: Preliminary design Integration Adaptation Plugin NewProduct
   +
   links incoming: link:#M_408[_M_408_]
@@ -175,7 +176,7 @@ But it could also be a very good sign that lots of people make contributions on 
 
 [[S_223]]
 
-Submeasure: Go for components with recent activity S_223::
+Submeasure: Select components with recent activity S_223::
   links incoming: link:#M_408[_M_408_]
   +
   links outgoing: None
@@ -197,7 +198,7 @@ The important thing is to see whether the developers are regularly involved in t
 
 [[S_5BD]]
 
-Sub-measure: Go for components with full and up-to-date documentation S_5BD::
+Sub-measure: Select components with full and up-to-date documentation S_5BD::
   links incoming: link:#M_408[_M_408_]
   +
   links outgoing: None
@@ -206,14 +207,14 @@ Sub-measure: Go for components with full and up-to-date documentation S_5BD::
 
 [[S_160]]
 
-Sub-measure: Go for components where there is commercial support available S_160::
+Sub-measure: Select components where there is commercial support available S_160::
   tags: Preliminary design Integration Adaptation Plugin NewProduct
   +
   links incoming: link:#M_408[_M_408_]
   +
   links outgoing: None
   +
-  When products have a free or open source licence, it will always be possible to contact someone to get them modified, maintained or have problems solved.
+  When products have a free software licence, it will always be possible to contact someone to get them modified, maintained or have problems solved.
 However, we have more guarantee of success if there are already companies or people offering professional support for the component in question, and it can therefore be assumed they are very familiar with it.
   +
   It is better if there are various companies offering commercial services in relation to the product than just one, because in the latter case we would be more dependent on that company.
@@ -224,28 +225,29 @@ So it should not simply be discarded but it is better if the professional suppor
 
 [[S_0F3]]
 
-Submeasure: Go for components that provide access to development and installation information S_0F3::
+Submeasure: Select components that provide access to development and installation information S_0F3::
   tags: Preliminary design Integration Adaptation Plugin NewProduct
   +
   links incoming: link:#M_408[_M_408_]
   +
   links outgoing: None
   +
-  Transparency is a basic cornerstone of open source software.
+  Transparency is a basic cornerstone of free software.
 Without it, it would be very difficult for all the rest to work well.
   +
   If a component has precise, detailed instructions on how to install it, that makes the possibility of carrying out an independent technical assessment of it easier.
 
 [[S_1C4]]
 
-Submeasure: Go for components with good code quality metrics S_1C4::
-  tags: Preliminary design Integration Adaptation Plugin NewProduct
+Submeasure: Select components with good code quality metrics S_1C4::
+  tags: Preliminary design Integration
+Adaptation Plugin NewProduct
   +
   links incoming: link:#M_408[_M_408_]
   +
   links outgoing: None
   +
-  The fact that project source codes and management tools (bug trackers, mail lists, forums) are public means that it is possible to obtain some objective metrics on open source software that it would be very difficult to get in the case of privately owned software.
+  The fact that project source codes and management tools (bug trackers, mail lists, forums) are public means that it is possible to obtain some objective metrics on free software that it would be very difficult to get in the case of privately owned software.
   +
   Some metrics that can be obtained for certain projects:
   +
@@ -255,8 +257,9 @@ Submeasure: Go for components with good code quality metrics S_1C4::
 
 [[S_24A]]
 
-Sub-measure: Go for components that IMI is already familiar with S_24A::
-  tags: Preliminary design Integration Adaptation Plugin NewProduct
+Sub-measure: Select components that IMI is already familiar with S_24A::
+  tags: Preliminary design Integration
+Adaptation Plugin NewProduct
   +
   links incoming: link:#M_408[_M_408_]
   +
@@ -268,7 +271,7 @@ Sub-measure: Go for components that IMI is already familiar with S_24A::
   +
   It is possible to make a more realistic estimate, in terms of time and money, of the cost of any intended modifications and the possibilities of them being integrated in to the original product.
 
-Sub-measure: Go for components that have a licence compatible with the GPL licence S_79A::
+Sub-measure: Select components that have a licence compatible with the GPL licence S_79A::
   tags: Integration Adaptation Plugin
   +
   links incoming: None
@@ -282,8 +285,9 @@ To avoid licence conflicts with other components we might need, all our componen
 
 [[S_2F1]]
 
-Sub-measure: Go for Debian stable components S_2F1::
-  tags: Preliminary design Integration Adaptation Plugin NewProduct
+Sub-measure: Select Debian stable components S_2F1::
+  tags: Preliminary design Integration
+Adaptation Plugin NewProduct
   +
   links incoming: link:#M_408[_M_408_]
   +
@@ -291,7 +295,7 @@ Sub-measure: Go for Debian stable components S_2F1::
   +
   Any solution component included in Debian’s stable distribution at the project design stage, or which can be run in the stable version without having to be adapted and which is multi-architecture, is considered to be a durable and reliable component.
   +
-  Otherwise, go for components which, in their standard version downloadable to the project website, can be run on free or open source platforms, preferably GNU/Linux and without any restrictions in terms of:
+  Otherwise, select components which, in their standard version downloadable to the project website, can be run on free software platforms, preferably GNU/Linux and without any restrictions in terms of:
   +
   Requiring a particular GNU/Linux distribution (e.g. a program that only runs in CentOS environments and not on Debian).
   +
@@ -310,11 +314,11 @@ Measure: Consider all the possibilities and implications before initiating a soc
   +
   Creating a fork has many disadvantages, so it has to be the last resort.
 It is much more difficult to share code with the original product once the fork has been created.
-And perhaps even more significant, it implies splitting the original community and forcing each developer to decide which product to prioritise.
+And perhaps even more significant, it implies splitting the original community and forcing each developer to decide which version to prioritise.
 
 == Managing dependencies
 
-Measure: Keep a thorough record of all the software packages used, which have to be FLOSS M_0C2::
+Measure: Keep a thorough record of all the software packages used, which have to be free software M_0C2::
   tags: Procurement Integration Adaptation Plugin NewProduct Publication
   +
   links incoming: None
@@ -325,12 +329,13 @@ Measure: Keep a thorough record of all the software packages used, which have to
   +
   Example clause: *Managing software dependencies*.
   +
-  The successful bidder should keep a thorough record of all the software packages used in the solution, which have to be distributed under a software licence accepted by the Open Source Initiative (OSI, https://opensource.org/licenses) or the GNU project (https://www.gnu.org/licenses/license-list.en.html).
+  The successful bidder should keep a thorough record of all the software packages used in the solution, which have to be distributed under a software licence accepted by the Free Software Foundation (https://www.gnu.org/licenses/license-list.en.html) or the Open Source Initiative (OSI, https://opensource.org/licenses).
 As an additional requirement, the licence for all packages used should not pose any incompatibility problems with the main product licence, EUPL-1.2.
 Barcelona City Council reserves the right to demand a software dependency be removed if it considers that it constitutes a legal risk and the successful bidder has to replace the package with another one, or cover the feature with a development of its own.
 
 Recommendation: Use a licence monitoring program R_5D2::
-  tags: Integration Adaptation Plugin NewProduct Publication
+  tags: Integration Adaptation Plugin
+NewProduct Publication
   +
   links incoming: None
   +
@@ -353,9 +358,11 @@ Measure: Don’t copy external dependencies to the repository unless it is an ex
 The term for this is a bundled dependency.
 The idea behind it is to make a rollout or development cycle easier, but it is regarded as bad practice because:
   +
-  Changes and updates in the sub-component dirty the record of changes to the main component.
+  * Changes and updates in the sub-component
+dirty the record of changes to the main component.
   +
-  It is more difficult to properly account for the authorship and licensing of each part of the code.
+  * It is more difficult to properly account for the authorship
+and licensing of each part of the code.
   +
   There might be exceptional circumstances that justify ignoring this measure.
 
@@ -366,15 +373,16 @@ Measure: Look for unsuitable dependencies and find replacements with a free lice
   +
   links outgoing: None
   +
-  The following components need to be deleted:
+  The following components
+need to be deleted:
   +
-  Any with a proprietary licence.
-  +
-  Any that are owned by Barcelona City Council but cannot be opened for the moment.
-  +
-  Any that show any kind of licence incompatibility with the other product components to be opened.
-  +
-  Any that cannot be installed in a free or open source operating system.
+  * Any with a proprietary licence.
+
+  * Any that are owned by Barcelona City Council but cannot be opened for the moment.
+
+  * Any that show any kind of licence incompatibility with the other product components to be opened.
+
+  * Any that cannot be installed in a free software operating system.
 
 Recommendation: Finance a security audit of the component to be used R_377::
   tags: Integration Adaptation Plugin
@@ -419,10 +427,12 @@ Measure: Use Piwik (if a web analytics tool is needed) M_116::
   +
   links outgoing: None
   +
-  Don’t use Google Analytics Use tools such as Piwik instead.
+  Don’t use Google Analytics.
+Use tools such as Piwik instead.
 
 Measure: Publish Android apps in F-Droid (if one of the products is an Android app) M_CDB::
-  tags: Integration Adaptation Plugin NewProduct Publication
+  tags: Integration Adaptation Plugin
+NewProduct Publication
   +
   links incoming: None
   +
@@ -437,4 +447,5 @@ Measure: Use OpenStreetMap (if it is necessary to show cartographic information 
   +
   links outgoing: None
   +
-  Don’t use Google Maps
+  Don’t use Google Maps,
+prefer OSM if cartographic information is required.

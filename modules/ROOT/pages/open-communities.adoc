@@ -1,10 +1,10 @@
-= Open communities
+= Free Software communities
 
-There are many levels of participation in a FLOSS project, and none of them should be closed.
+There are many levels of participation in a free software project, and none of them should be closed.
 Apart from the development team, who are usually hired for that purpose, other people might contribute on an occasional or ongoing basis.
 This chapter focuses on the more social aspects of how to work in this kind of community which is created around these projects.
 
-== Contributing to open communities
+== Contributing to free software communities
 
 The concept of contribution covers much more than the code.
 It can also consist in:
@@ -18,22 +18,22 @@ A basic rule is that the contributions are always individual, both in our own pr
 That means it is always possible to trace the specific person who has done it, even if they work or participate on behalf of an organisation.
 The reasons for this are:
 
-It is the only model which FLOSS projects are structurally equipped to handle.
+* It is the only model which free software projects are structurally equipped to handle.
 
-In open source projects, reputation is what makes everything tick, and that is earned or lost individually.
+* In free software projects, reputation is what makes everything tick, and that is earned or lost individually.
 People will rely more or less on the code someone has developed depending on the strength of previous contributions; their opinions in the communication channels and decision-making will carry more or less weight, etc.
 
-Developers who regularly work on open source projects are used to this model.
+* Developers who regularly work on free software projects are used to this model.
 It makes interaction easier when they collaborate remotely.
 It is also useful for them in developing a professional career.
 
 The other important consideration in this section, which applies if we want to modify an existing external component, is it is always better if our code modifications are incorporated, sooner or later, into the original product.
 That way we can:
 
-Reduce future maintenance costs.
+* Reduce future maintenance costs.
 If the integration is 100%, maintaining the features we have integrated might work out at zero cost to us.
 
-Benefit from future improvements to the original product contributed by others.
+* Benefit from future improvements to the original product contributed by others.
 
 If more people use our features, the City Council will appear as an institution that contributes to the project and free software communities as a whole.
 In the long run that could give it prestige and influence.
@@ -54,14 +54,14 @@ Measure: Ensure the authorship of each contribution (code, documentation or mess
   +
   links outgoing: None
   +
-  Don’t hide the team’s contributions under a corporate identify in one of our own projects or an external one.
+  Don’t hide the team’s contributions under a corporate identify in our own projects or external projects.
 In other words, use the usernames and individual email addresses of each participant for the commits (changes) in the repository, as well as when participating in the project communication channels or management tools.
   +
   If any individual contributes to a software project as a worker hired directly or indirectly by the City Council on some occasions, and as a volunteer in his or her free time on other occasions, they will have to use two different emails, depending on the case:
   +
-  A personal one when making voluntary contributions.
-  +
-  A company or City Council one when carrying out tasks specified by their contract.
+  * A personal email when making voluntary contributions.
+
+  * A company or City Council email when carrying out tasks specified by their contract.
 
 Measure: Inform the technical communities of the component to be modified about our plans M_706::
   tags: Adaptation
@@ -71,10 +71,10 @@ Measure: Inform the technical communities of the component to be modified about 
   links outgoing: None
   +
   If we want to modify or adapt an existing component, we have to be open and clear about our reasons.
-As it is an free software component, they cannot prevent us from making modifications.
+As it is a free software component, they cannot prevent us from making modifications.
 However, we strongly advise informing them of our needs and technical plans beforehand.
   +
-  We need to ensure the support community of the component to be modified understands and gets involved in our proposal.
+  We need to ensure the support community of the component that is to be modified understands and gets involved in our proposal.
 
 Recommendation: Inform other relevant technical communities of our plans R_9BE::
   tags: Adaptation Plugin NewProduct
@@ -85,7 +85,7 @@ Recommendation: Inform other relevant technical communities of our plans R_9BE::
   +
   Free software communities are usually very interested in contributing ideas, technical knowledge and even working extra hours of work, when faced with technical challenges they believe could benefit them.
   +
-  IMI projects will study the possibilities of collaborating with the local communities of open source software and innovative technologies to promote social and technological innovation.
+  IMI projects will study the possibilities of collaborating with the local communities of free software and innovative technologies to promote social and technological innovation.
 
 [[M_34D]]
 
@@ -139,7 +139,7 @@ Measure: Penalise contractors if there are any changes in the project staff M_D1
   +
   Measures to bear in mind when drawing up the contract specifications.
   +
-  A high turnover is detrimental to any project but especially when participating in FLOSS projects.
+  A high turnover is detrimental to any project but especially when participating in free software projects.
 Developers who leave not only take with them any technical knowledge they might have accumulated, but also their status in the community and the human relationships they might have developed.
 
 Measure: Budget for the extra costs of participating in the open community of the product to be modified M_83F::
@@ -149,11 +149,12 @@ Measure: Budget for the extra costs of participating in the open community of th
   +
   links outgoing: None
   +
-  It needs to be specified in as much detail as possible to what extent IMI expects the contract awardee to be involved in the project and disseminate the features to be developed among:
+  It needs to be specified in as much detail as possible
+to what extent IMI expects the contract awardee to be involved in the project and disseminate the features to be developed among:
   +
-  The development communities involved
-  +
-  Potential users
+  * The development communities involved
+
+  * Potential users
 
 Recommendation: Maintain a permanent private communication channel for discussing conflicts of interest R_29C::
   tags: Adaptation Plugin
@@ -164,12 +165,12 @@ Recommendation: Maintain a permanent private communication channel for discussin
   +
   Ideally a mail thread.
   +
-  When people are hired to take part in an established FLOSS project, especially if they are developers that were already taking part in it, there could be a conflict of interest between the City Council project and the original source project.
-The developers will have the feeling they have to serve two chiefs and cannot always satisfy both.
+  When people are hired to take part in an established free software project, especially if they are developers that were already taking part in it, there could be a conflict of interest between the City Council project and the original source project.
+The developers will have the feeling they have to serve two superiors and cannot always satisfy both.
   +
   We have to ask for maximum transparency in these cases and try to anticipate these situations.
 
-== Open community management and governance
+== Free software community management and governance
 
 Measure: Recognise people who make contributions to the project M_F2E::
   tags: Plugin NewProduct
@@ -179,22 +180,21 @@ Measure: Recognise people who make contributions to the project M_F2E::
   links outgoing: None
   +
   In a `CONTRIBUTORS` file in the repository’s root directory.
-Individually
+Individually.
 
-Recommendation: Budget for the extra cost of encouraging the creation of an open community R_3F3::
+Recommendation: Budget for the extra cost of encouraging the creation of a free software community R_3F3::
   tags: NewProduct
   +
   links incoming: None
   +
   links outgoing: None
   +
-  This includes things such as developers dedicating time on:
+  This includes things such as
+developers dedicating time on:
   +
-  Revising the code of others
-  +
-  Replying to messages in the project communication channels
-  +
-  Intervening in StackOverflow
+  * Revising the code of others
+  * Replying to messages in the project communication channels
+  * Intervening in StackOverflow
 
 Measure: Draw up and update an internal document establishing the level of commitment we want from each party M_654::
   tags: NewProduct
@@ -203,10 +203,12 @@ Measure: Draw up and update an internal document establishing the level of commi
   +
   links outgoing: None
   +
-  Pay special attention to possible early adopters.
+  Pay special attention to
+possible early adopters.
 
 Recommendation: In the contract, stipulate that the awardee has to include external contributions if the City Council so decides R_39A::
-  tags: Procurement Plugin NewProduct Publication
+  tags: Procurement Plugin
+NewProduct Publication
   +
   links incoming: None
   +
@@ -224,7 +226,7 @@ Measure: Publish brief Developer Guidelines M_4F5::
   links outgoing: None
   +
   These guidelines establish the technical and social conventions that determine interactions between developers, and between developers and users.
-The apply to all developers, both those hired by the City Council and external developers, as well as Council staff.
+They apply to all developers, both those hired by the City Council and external developers, as well as Council staff.
   +
   They must be drawn up in English and either be a GitHub wiki page or a test file with light markup language.
   +
@@ -250,7 +252,8 @@ Recommendation: Publish detailed Developer Guidelines (if the project grows) R_0
   +
   links outgoing: None
   +
-  For big projects, and without it being the first measure to adopt, it could be useful to work on and publish some broader, more detailed Developer Guidelines than those proposed in the link:#publicar-breus-directrius-desenvolupadors[Measure: (Day 1) Publish brief Developer Guidelines].
+  For big projects, and without it being the first measure to adopt, it could be useful to work on and publish some broader, more detailed Developer Guidelines than those proposed in the
+link:#publicar-breus-directrius-desenvolupadors[Measure: (Day 1) Publish brief Developer Guidelines].
   +
   Things that might be included:
   +
@@ -271,7 +274,7 @@ Recommendation: Draw up a governance model for the global community that support
   +
   links outgoing: None
   +
-  Projects that generate entirely FOSS tools and systems by means of a development service promoted and financed by the City Council will have to include a governance model that includes, among other things, an approach to defining the community (of other councils, specialists such as geodata [??] or libraries, etc.], the support tools, communication and marketing, the processes for including external contributions, managing intellectual property and sustainability after the project.
+  Projects that generate entirely free software tools and systems by means of a development service promoted and financed by the City Council will have to include a governance model that includes, among other things, an approach to defining the community (of other councils, specialists such as geodata or libraries, etc.), the support tools, communication and marketing, the processes for including external contributions, managing intellectual property and sustainability after the project.
   +
   Community governance and the technical management of these projects, including approval of the code for its incorporation in the project and defining the requirements (roadmap), are different aspects.
 A diversity of contributions will be encouraged, although IMI will retain effective control over developments financed using public funds.
@@ -286,20 +289,22 @@ Measure: Avoid private debates M_D79::
   links outgoing: None
   +
   It is very tempting to have closed discussion forums where a small group of people discuss all the aspects of the project, on both a technical and a social level, and from there come the decisions.
-But it needs to be borne in mind that open, public communication channels are essential to FLOSS projects, so everyone can read them and subscribe to them with a certain ease.
+But it needs to be borne in mind that open, public communication channels are essential to free software projects, so everyone can read them and subscribe to them with a certain ease.
 The reasons are as follows:
   +
-  It is very difficult for people to want to make significant contributions to a project where the decisions are taken in a non-transparent way, like a “fait accompli” policy.
+  * It is very difficult for people to want to make significant contributions to a project where the decisions are taken in a non-transparent way, like a “fait accompli” policy.
 That does not mean that project governance has to work like a democracy.
 The essential prerequisite is *transparency*: people will want to know why and how decisions are taken, and perhaps have their say, without the option they put forward necessarily being the one chosen.
 Experienced developers know that the project has certain needs and not everyone can take part in decision-making with the same weight.
 When in the end decisions are taken by the City Council, everyone will understand that if it is made clear from the start, as specified in the link:#publicar-breus-directrius-desenvolupadors[Measure: (Day 1) Publish brief Developer Guidelines].
   +
-  It is surprising how many good ideas can be selflessly expressed through the public communication channels, if all aspects of the project are discussed there in a friendly working climate.
+  * It is surprising how many good ideas can be selflessly expressed through the public communication channels,
+if all aspects of the project are discussed there in a friendly working climate.
   +
-  If the communication takes place in public mail lists and is then filed, anyone can consult the decision log and avoid repeating previous discussions.
+  * If the communication takes place in public mail lists and is then filed,
+anyone can consult the decision log and avoid repeating previous discussions.
   +
-  Open, public channels foster a more effective, polite and assertive communication culture.
+  * Open, public channels foster a more effective, polite and assertive communication culture.
 
 Measure: Establish the “Contributor Covenant” as the Code of Conduct for the project and its communication channels M_305::
   tags: Plugin NewProduct
@@ -314,8 +319,8 @@ Measure: Establish the “Contributor Covenant” as the Code of Conduct for the
   +
   Conduct rules for face-to-face activities of the community associated with the project, such as meetings and conferences.
   +
-  A code of conduct serves as a written reference for behaviour that is considered inappropriate for people taking part in the project, More specifically, the https://www.contributor-covenant.org/ has been used by many FLOSS projects lately, so it may be familiar to lots of developers already.
-It has also been translated into various languages
+  A code of conduct serves as a written reference for behaviour that is considered inappropriate for people taking part in the project. More specifically, the https://www.contributor-covenant.org/ has been used by many free software projects lately, so it may be familiar to lots of developers already.
+It has also been translated into various languages.
   +
   Create a link from at least:
   +

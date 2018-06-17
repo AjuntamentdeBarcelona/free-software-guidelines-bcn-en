@@ -1,6 +1,6 @@
-name: floss-guidelines
-title: FLOSS Management Guidelines
-version: 0.1
+name: free-soft
+title: Free Software Management Guidelines
+version: 0.2
 start_page: ROOT:introduction.adoc
 nav:
 - modules/ROOT/nav.adoc

@@ -13,7 +13,7 @@
 
 // MANDATORY. Numeric revision in X.Y.Z format, where X, Y and Z are numbers,
 // and Z is optional.
-:revnumber: 0.1
+:revnumber: 0.2
 
 // OPTIONAL. Publication date of the revision. When the default value
 // ("{docdate}") is used, the current date in format YYYY-MM-DD is automatically

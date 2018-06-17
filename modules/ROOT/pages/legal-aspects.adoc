@@ -1,9 +1,9 @@
 = Legal aspects
 
 Free software projects are based on a whole series of technologies, working methods and ways of collaborating but all that would not be sustained without a very special legal mechanism: the free software licences.
-The use of such licences in itself guarantees a series of inalienable rights, which allows a certain flexibility in intellectual property (IP) policy.
+The use of such licences in itself guarantees a series of inalienable rights, which allows a certain flexibility about the copyright policy.
 
-== Intellectual property (copyrights)
+== Ownership of the code copyright
 
 Until now, contracts with suppliers stipulated that all the software developed for the City Council within the framework of the contract, and associated documents, is owned by the Council.
 
@@ -77,7 +77,7 @@ It makes sense to leave ownership in the hands of the company that develops the 
 
 Software components are for general use, including companies and not just public authorities.
 
-The supplier is a company or a cooperative with a track record of publishing software and running open communities, and which has a credible strategy for exploiting the product based on free software licences.
+The supplier is a company or a cooperative with a track record of publishing free software and running open communities, and which has a credible strategy for exploiting the product based on free software licences.
 ****
 
 == Choose a licence for the code

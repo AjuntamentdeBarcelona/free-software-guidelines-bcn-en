@@ -22,7 +22,7 @@ The section link:#repositori-de-codi-i-control-de-versions[Code repository and v
 We can assess if there is also a need for a site geared towards other participant profiles as the project grows.
 
 What is useful is for the project to have its own domain name (or a permanent URL under a City Council domain) from the outset.
-If necessary, this could be redirected to where the project website is (possibly a site such as GitHub).
+If necessary, this could be redirected to where the project website is.
 
 Recommendation: Keep a permanent project URL and always use it to refer to the project R_2D5::
   tags: Day1 Integration Plugin NewProduct Publication
@@ -74,10 +74,17 @@ In the case of an `Integration` or `Adaptation`, the Council will have its own c
 We will call this repository created by the City Council, which will be used for original product releases or to centralise the contributions to an external project, the *main repository*.
 There could be many other public and private copies of the code.
 
-As is pointed out in the measures below, the main repository will be hosted at GitHub, a service that Git uses as a distributed version control system.
+[WARNING]
+====
+The City Council is in the process of reconsidering the platform to be used to host things like a public facing code repository or an issue manager for every project.
+The first free software projects of the City Council have used GitHub, but now we want to transition to a free software solution.
+The many references to GitHub in the following sections are going to be replaced when a decision is reached.
+====
+
+As is pointed out in the measures below, [.line-through]#the main repository will be hosted at GitHub, a service that Git uses as a distributed version control system.#
 The basic vocabulary and concepts for understanding how it works can be found at https://producingoss.com/en/vc.html#vc-vocabulary[Version Control Vocabulary].
 
-There are many viable and reasonable alternatives to GitHub, even some viable alternatives to Git as a version control program, but GitHub offers enough advantages for it to be the default option:
+There are many viable and reasonable alternatives to GitHub, even some viable alternatives to Git as a version control program[.line-through]#, but GitHub offers enough advantages for it to be the default option:#
 
 * Most developers are familiar with it and do not have to learn new tools and procedures ad-hoc for the project.
 
@@ -97,7 +104,7 @@ Any alternative has to offer similar guarantees with regard to durability and su
 Although it is a free service for a wide range of possible uses, not all the infrastructure code behind GitHub is open and ultimately that means being dependent on a company whose future development we cannot predict.
 In the future other options might appear that could make us reconsider recommending using GitHub as the default option.
 
-Measure: Create the main repository in the City Council GitHub space M_A60::
+Measure: Create the main repository in the City Council [.line-through]#GitHub# public software forge M_A60::
   tags: Day1 Adaptation Plugin NewProduct Publication
   +
   links incoming: None
@@ -156,7 +163,7 @@ without paying subscriptions for any service.
 GitHub makes that easy by providing buttons for downloading a `zip` file or showing the necessary commands for cloning the repository using Git.
 If GitHub is not used, the repository’s public site must also provide both these types of download (`zip` file or `tar.gz` and command `git clone`).
 
-Measure: Use the GitHub repository as the project development website M_A63::
+Measure: Use the [.line-through]#GitHub# main repository web interface as the project development website M_A63::
   tags: Day1 Plugin NewProduct Publication
   +
   links incoming: None
@@ -351,7 +358,7 @@ It needs to be borne in mind that the bug tracker is not only important for the 
 
 This bug tracker has to be operational and public throughout the product’s useful life, i.e. after the contracts with the City Council have finished.
 
-Measure: Link the main repository to the GitHub issue manager M_35A::
+Measure: [.line-through]#Link the main repository to the GitHub issue manager# M_35A::
   tags: Day1 Adaptation Plugin
 NewProduct Publication
   +
@@ -379,7 +386,7 @@ NewProduct Publication
 
   ** Everybody has to be able to see the issues and follow them, without having to register as a user.
 
-  The GitHub issue manager meets both conditions.
+// The GitHub issue manager meets both conditions.
 
   * It must be linked from the code repository `README` file.
 

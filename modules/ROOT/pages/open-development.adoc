@@ -112,12 +112,12 @@ They are all listed in the following table:
 |Day1__;__ Plugin__;__ NewProduct__;__ Publication
 
 |M_A60
-|Create the main repository in the City Council GitHub space
+|Create the main repository in the City Council [.line-through]#GitHub# public software forge
 |Measure
 |Day1__;__ Adaptation__;__ Plugin__;__ NewProduct__;__ Publication
 
 |M_A63
-|Use the GitHub repository as the project development website
+|Use the [.line-through]#GitHub# main repository web interface as the project development website
 |Measure
 |Day1__;__ Plugin__;__ NewProduct__;__ Publication
 

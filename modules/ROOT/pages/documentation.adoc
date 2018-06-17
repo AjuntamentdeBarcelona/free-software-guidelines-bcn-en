@@ -12,7 +12,7 @@ Measure: Upload a ``README`` file to the main repository M_F25::
   It must be written in English and the format has to be text with light markup language.
 It cannot have an extension if it is written in plain text, or it can have an extension that indicates in what format the markup has to be interpreted (i.e. in reality the file will be called `README.md` if it is written in Markdown).
   +
-  The content of this file (more specifically the version posted in the `master` branch), formatted according to the conventions of the markup language used, is what GitHub shows as the development website's home page.
+  The content of this file (more specifically the version posted in the `master` branch), formatted according to the conventions of the markup language used, is what [.line-through]#GitHub# Gitlab and similar software shows as the development website's home page.
 So it is important to check the format is correct and that it appears correctly in a browser.
 
 Measure: Use wiki formats or open markup formats for all product documentation M_66D::
@@ -43,7 +43,7 @@ Adaptation Plugin NewProduct
 
 [[M_09A]]
 
-Measure: Create and maintain a User Guide in the project’s GitHub wiki M_09A::
+Measure: Create and maintain a User Guide in the project’s [.line-through]#GitHub# Gitlab wiki M_09A::
   tags: Integration Plugin NewProduct Publication
   +
   links incoming: None
@@ -72,7 +72,7 @@ This page should be linked with other documents such as the installation instruc
 
 [[A_B27]]
 
-Alternative: Create and maintain a User Guide in Sphinx and publish it in the GitHub Pages A_B27::
+Alternative: Create and maintain a User Guide in Sphinx [.line-through]#and publish it in the GitHub Pages# A_B27::
   tags: Plugin NewProduct
   +
   links incoming: link:#M_09A[_M_09A_]

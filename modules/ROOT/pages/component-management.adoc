@@ -29,11 +29,11 @@ Measure: Look for an existing project or component that might solve the problem,
   Besides using the normal search engines,
 it is worth going directly to the following sites:
   +
-  * https://github.com/[GitHub]
-
-  * https://freshcode.club/[Freshcode.club]
-  * https://openhub.net/[OpenHub:]
   * https://joinup.ec.europa.eu/solutions[Repository of the EU Joinup initiative solutions]
+  * https://www.gnu.org/software/software.en.html[GNU software list]
+  * https://openhub.net/[OpenHub]
+  * https://github.com/[GitHub]
+  * https://freshcode.club/[Freshcode.club]
   * https://administracionelectronica.gob.es/ctt/buscadorSoluciones.htm[
   Centro de Transferencia de Tecnología Solutions finder]
 

@@ -59,7 +59,7 @@ This means IMI’s learning process and adaptation will have a cost, but we beli
 As Karl Fogel says:
 
 :quote-url: pass:macros[https://producingoss.com/en/introduction.html[Producing Open Source Software]]
-[quote, Karl Foguel, {quote-url}]
+[quote, Karl Fogel, {quote-url}]
 the open source projects your organization participates in are a membrane through which your managers and developers are regularly exposed to people and ideas outside your organizational hierarchy.
 It's like having the benefits of attending a conference, but while still getting daily work done and without incurring travel expenses.
 In a successful open source project, these benefits, once they start arriving, greatly outweigh the costs.

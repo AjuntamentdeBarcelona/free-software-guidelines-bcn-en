@@ -82,6 +82,8 @@ The supplier is a company or a cooperative with a track record of publishing fre
 
 == Choose a licence for the code
 
+// TODO: put reference to https://www.gnu.org/licenses/license-recommendations.en.html.
+
 There are three options, depending on the use-case:
 
 `NewProduct` or `Publication`: we choose the AGPL licence by default.

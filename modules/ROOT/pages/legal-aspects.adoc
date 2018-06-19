@@ -5,6 +5,9 @@ The use of such licences in itself guarantees a series of inalienable rights, wh
 
 == Ownership of the code copyright
 
+:!measure:
+:sect: 7.1
+
 Until now, contracts with suppliers stipulated that all the software developed for the City Council within the framework of the contract, and associated documents, is owned by the Council.
 
 With free software licences, even though one does not have legal ownership of the source code, that code can be used as often as necessary and for whatever task is desired, as well as modified, adapted and redistributed (the latter under the conditions set by the licence).
@@ -20,41 +23,37 @@ The main criterion for assessing who should hold the copyrights in the case of n
 // links outgoing: link:#A_C87[_A_C87_] link:#A_EE9[_A_EE9_] link:#A_3B6[_A_3B6_]
 // +
 
-.Measure: Establish Barcelona City Council as the owner of the new source code and the new documentation (M_4DC)
-****
+// (M_4DC)
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Measure {sect}.{measure}: Establish Barcelona City Council as the owner of the new source code and the new documentation
+--
 Tags: `Procurement` `Adaptation` `Plugin` `NewProduct` `Publication`
 
 That is the default option but not the only one.
 It forces the contractor to assign ownership of the copyrights in the code and the documentation that it generates.
 
 It particularly makes sense that the City Council should wish to concentrate all property rights on emblematic projects, principally used between public administrations, and on those over which it intends to decide to a large extent the rules of governance.
-****
+--
 
-[[A_3B6]]
-
-.Alternative: Assign ownership of the new source code to the legal owner of the original code (A_3B6)
-****
+// (A_3B6)
+[sidebar.alternative, id="{sect}.{counter:measure:A}"]
+.Alternative {sect}.{measure}: Assign ownership of the new source code to the legal owner of the original code
+--
 Tags: `Procurement` `Adaptation`
 
-// +
 // links incoming: link:#M_4DC[_M_4DC_]
-// +
-// links outgoing: None
-// +
+
 When we adapt an existing product, to accept the inclusion of our code in the original product we may be asked to sign a Contributor Licence Agreement (CLA) or equivalent contract.
 If not, the parts developed by the City Council can be owned by it.
-****
+--
 
-[[A_EE9]]
+// (A_EE9)
+[sidebar.alternative, id="{sect}.{counter:measure:A}"]
+.Alternative {sect}.{measure}: Assign ownership of the source code to an independent non-profit
+--
+Tags: `Procurement` `Plugin` `NewProduct` `Publication`
 
-.Alternative: Assign ownership of the source code to an independent non-profit (A_EE9)
-****
-tags: `Procurement` `Plugin` `NewProduct` `Publication`
-// +
 // links incoming: link:#M_4DC[_M_4DC_]
-// +
-// links outgoing: None
-// +
 
 There is a third option if the aim is for ownership to eventually go to an external organisation responsible for the running and governance of the project in the long term.
 Given the nature of the function, that organisation will normally take the legal form of a foundation or other non-profit entity.
@@ -62,25 +61,27 @@ This makes sense in projects where, besides the City Council, other public, priv
 In this case copyright must be assigned by contract, either directly to the corresponding entity, or initially to the City Council, so the latter can assign copyright to the entity at a later date.
 
 The foundation can manage other projects freed by the City Council or of other entities linked with the public sphere.
-****
-[[A_C87]]
+--
 
-.Alternative: Establish the supplier as the owner of the new source code and the new documentation (A_C87)
-****
-// tags: Procurement Plugin NewProduct Publication
-// +
+// (A_C87)
+[sidebar.alternative, id="{sect}.{counter:measure:A}"]
+.Alternative {sect}.{measure}: Establish the supplier as the owner of the new source code and the new documentation
+--
+Tags: `Procurement` `Plugin` `NewProduct` `Publication`
+
 // links incoming: link:#M_4DC[_M_4DC_]
-// +
-// links outgoing: None
-// +
+
 It makes sense to leave ownership in the hands of the company that develops the software when:
 
 Software components are for general use, including companies and not just public authorities.
 
 The supplier is a company or a cooperative with a track record of publishing free software and running open communities, and which has a credible strategy for exploiting the product based on free software licences.
-****
+--
 
 == Choose a licence for the code
+
+:!measure:
+:sect: 7.2
 
 // TODO: put reference to https://www.gnu.org/licenses/license-recommendations.en.html.
 
@@ -93,17 +94,14 @@ In this case we have to respect the licence it already has.
 
 `Plugin`: we choose a licence commonly used in the ecosystem in which we want to integrate a modular component.
 
-[[M_CAF]]
-
-.Measure: Choose the AGPL-3.0 licence as the licence for distributing the project (M_CAF)
-****
+// (M_CAF)
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Measure {sect}.{measure}: Choose the AGPL-3.0 licence as the licence for distributing the project
+--
 Tags: `NewProduct` `Publication`
 
-// +
-// links incoming: None
-// +
 // links outgoing: link:#A_038[_A_038_]
-// +
+
 The https://www.gnu.org/licenses/why-affero-gpl.html[GNU Affero General Public License v3.0] (AGPL-3.0) has all the characteristics we need for City Council projects:
 
 It is a licence with copyleft, as required by Spanish law for public authorities creating free software products, and as it is reasonable to demand of them to prevent private appropriation of what has been financed using public money.
@@ -116,25 +114,22 @@ Therefore, it is this group of activists and experts who will design future vers
 
 The main reason for choosing this licence as the default option are as follows:
 
-It belongs to the GNU GPL family of licences, which is the best known.
+* It belongs to the GNU GPL family of licences, which is the best known.
 Most developers are familiar with its conditions, which means nobody will have to spend time researching the licence to decide if they want to participate in the project or not.
 
-Opting for more widely used licences reduces the risk of fragmenting this universal immaterial commons resource posed by free software, a risk caused by the proliferation of licences and their reciprocal incompatibilities.
+* Opting for more widely used licences reduces the risk of fragmenting this universal immaterial commons resource posed by free software, a risk caused by the proliferation of licences and their reciprocal incompatibilities.
 
 *Drawback.* It is written in English.
 For your information, translations into other languages can be used but the original version is the only legally valid one.
-****
-[[A_038]]
+--
 
-.Alternative: Choose the EUPL-1.2 licence as the licence for distributing the project (A-038)
-****
+// (A-038)
+[sidebar.alternative, id="{sect}.{counter:measure:A}"]
+.Alternative {sect}.{measure}: Choose the EUPL-1.2 licence as the licence for distributing the project
+--
 Tags: `NewProduct` `Publication`
 
-// +
 // links incoming: link:#M_CAF[_M_CAF_]
-// +
-// links outgoing: None
-// +
 
 The https://joinup.ec.europa.eu/page/introduction-eupl-licence[European Union Public License 1.2] (EUPL-1.2) is a licence created by the European Commission.
 
@@ -147,103 +142,99 @@ However, many legal experts think these differences are irrelevant before the Eu
 The fine details of the differences with the GP-3.0 (and with the AGPL-3.0 too) are explained at: https://joinup.ec.europa.eu/news/eupl-or-gplv3-comparison-t.
 
 Using this licence (in its latest version, 1.2) should pose a low risk of fragmentation for the free software commons, as it establishes explicit compatibility with the main families of licences with copyleft, including the GNU licences.
-You can find more information on EUPL _1.2 compatibility with other licences at: https://joinup.ec.europa.eu/page/eupl-compatible-open-source-licences.
+You can find more information on EUPL 1.2 compatibility with other licences at: https://joinup.ec.europa.eu/page/eupl-compatible-open-source-licences.
 
 The European Commission, through its Join Up initiative, is the licence’s governance body.
 
 *Drawback.* It is much less known and less widespread than the GNU GPL licences. Many developers may be hesitant about using it.
 At best, they might be convinced that its conditions are very similar to those of the AGPL-3.0.
 In the worst case scenario, they would prefer to contribute to another project that has a licence they are used to.
-****
+--
 
-.Measure: Use the original licence for all code that modifies an existing component (M_A61)
-****
+// (M_A61)
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Measure {sect}.{measure}: Use the original licence for all code that modifies an existing component
+--
 Tags: `Procurement` `Adaptation`
 
-// +
-// links incoming: None
-// +
-// links outgoing: None
-// +
+
 When we modify a component, and to ensure our modifications might potentially be incorporated into the original product, we have to respect the licence we are given, although we could modify it in the case of permissive licences.
 
 For development under contract, each circumstance needs to be specified in the specifications.
 
 If we have respected measure S_58B, the component we are modifying will have a free software licence.
-****
+--
 
-.Measure: Choose a licence commonly used in the ecosystem or technological platform of the component to be developed (M_B12)
-****
+// (M_B12)
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Measure {sect}.{measure}: Choose a licence commonly used in the ecosystem or technological platform of the component to be developed
+--
 Tags: `Procurement` `Plugin`
-
-// +
-// links incoming: None
-// +
-// links outgoing: None
-// +
 
 If we have to build a plugin to an existing platform (the core of which, according to measure S_58B, has to be free), we have a certain margin for choosing the licence.
 It is best to choose one from among those most used in the framework or platform in question, in order to facilitate the new component’s acceptance by the community.
 We are interested in more people using and contributing towards maintaining our component.
 So, if the AGPL or the EUPL are among these more popular licences, we choose them.
-****
+--
 
 == Comply with the licence obligations
 
-Measure: Write a checklist with the obligations of the licences used and monitor compliance M_3F9::
-  tags: Integration Adaptation Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  Each licence grants different rights and obligations, to both users and developers.
-We must ensure compliance with the obligations of all the licences for the main components of the project, whether we have chosen them or not.
-  +
-  The summaries shown at https://tldrlegal.com/ could be very useful, for example:
-  +
-  https://tldrlegal.com/license/gnu-affero-general-public-license-v3
-  +
-  https://tldrlegal.com/license/european-union-public-licence
-  +
-  This summary (focus particularly on the “Conditions” section of each licence) could also be useful: https://choosealicense.com/licenses/.
-  +
-  With regard to the EUPL it is also worth reading https://joinup.ec.europa.eu/page/guidelines-users-and-developers[Guidelines for users and developers].
+:!measure:
+:sect: 7.3
 
-Measure: Upload the licence text to the main repository M_97E::
-  tags: Day1 Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  The licence will go in plain text in a file called `LICENSE` (no extension), in the repository’s root directory.
-  +
-  The text of the two recommended licences (which should be copied word for word) can be found at:
-  +
-  https://www.gnu.org/licenses/agpl.txt
-  +
-  https://joinup.ec.europa.eu/sites/default/files/inline-files/EUPL%20v1_2%20EN(1).txt
-  +
-  The `LICENSE` has to be in English.
+// M_3F9::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Measure {sect}.{measure}: Write a checklist with the obligations of the licences used and monitor compliance
+--
+Tags: `Integration` `Adaptation` `Plugin` `NewProduct` `Publication`
+
+Each licence grants different rights and obligations, to both users and developers.
+We must ensure compliance with the obligations of all the licences for the main components of the project, whether we have chosen them or not.
+
+The summaries shown at https://tldrlegal.com/ could be very useful, for example:
+
+* https://tldrlegal.com/license/gnu-affero-general-public-license-v3
+
+* https://tldrlegal.com/license/european-union-public-licence
+
+This summary (focus particularly on the “Conditions” section of each licence) could also be useful: https://choosealicense.com/licenses/.
+
+With regard to the EUPL it is also worth reading https://joinup.ec.europa.eu/page/guidelines-users-and-developers[Guidelines for users and developers].
+--
+
+// M_97E::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Measure {sect}.{measure}: Upload the licence text to the main repository
+--
+Tags: `Day1` `Plugin` `NewProduct` `Publication`
+
+The licence will go in plain text in a file called `LICENSE` (no extension), in the repository’s root directory.
+
+The text of the two recommended licences (which should be copied word for word) can be found at:
+
+* https://www.gnu.org/licenses/agpl.txt
+
+* https://joinup.ec.europa.eu/sites/default/files/inline-files/EUPL%20v1_2%20EN(1).txt
+
+The `LICENSE` has to be in English.
 When using the EUPL-1.2 licence, which has official translations, we have the option of including `LICENSE.ca.txt` and `LICENSE.es.txt` files.
 The different translations can be found at https://joinup.ec.europa.eu/page/eupl-text-11-12.[https://joinup.ec.europa.eu/page/eupl-text-11-12].
+--
 
-Measure: Include a copyright and licence notice in each code file M_2C0::
-  tags: Adaptation Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  Most licences stipulate the inclusion of a licence and copyright notice.
-  +
-  This means at the top of all repository code files (except build script and installation files) there must be a notice that explicitly states which persons or entities are the code’s copyright holders and which licence establishes the distribution terms.
-  +
-  It is important to point out under which specific version of the licence it is distributed, and we recommend stating that this will be automatically updated to future versions when these are released (usually to adapt to unforeseeable technological and social changes), with no need to update all the code files.
+// M_2C0::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Measure {sect}.{measure}: Include a copyright and licence notice in each code file
+--
+Tags: `Adaptation` `Plugin` `NewProduct` `Publication`
+
+Most licences stipulate the inclusion of a licence and copyright notice.
+
+This means at the top of all repository code files (except build script and installation files) there must be a notice that explicitly states which persons or entities are the code’s copyright holders and which licence establishes the distribution terms.
+
+It is important to point out under which specific version of the licence it is distributed, and we recommend stating that this will be automatically updated to future versions when these are released (usually to adapt to unforeseeable technological and social changes), with no need to update all the code files.
 In the examples given below, this is shown by clauses such as “either version X of the License, or (at your option) *any later version*” or “version X or – as soon they will be approved by the European Commission – *subsequent versions* of the EUPL”.
-  +
-  Obviously, the notice must go in a comment, using the comment syntax each program language uses.
+
+Obviously, the notice must go in a comment, using the comment syntax each program language uses.
 And it must also include all the years when modifications have been made to the file.
 This would be an example, if we use the AGPL-3.0 on Java code, assuming the copyright holder is Barcelona City Council:
 
@@ -297,28 +288,30 @@ The same example using EUPL-1.2:
 import ...
 ----
 
-Measure: Establish a procedure for guaranteeing the integrity of the contributions M_2DB::
-  tags: Procurement Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  This means all the code in the repository has the permission of the person who wrote it (which is not always the person who makes the commit) to be there under the licence conditions of the project.
-  +
-  If the code copyright holders have to be different from the authors (for example, because Barcelona City Council is the holder) an assignment of rights must be obtained.
-This can be done in the following ways:
-  +
-  * A “contributor agreement”-type contract
-  * The corresponding tender contract
-  * Directly through the software licence
+--
 
-Measure: Require all external code contributors to send a DCO and sign each commit M_1AB::
-  tags: Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  The *Developer’s Certificate of Origin (DCO)* is the document used to verify that the developers who contribute to the project
+// M_2DB::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Measure {sect}.{measure}: Establish a procedure for guaranteeing the integrity of the contributions
+--
+Tags: `Procurement` `Plugin` `NewProduct` `Publication`
+
+This means all the code in the repository has the permission of the person who wrote it (which is not always the person who makes the commit) to be there under the licence conditions of the project.
+
+If the code copyright holders have to be different from the authors (for example, because Barcelona City Council is the holder) an assignment of rights must be obtained.
+This can be done in the following ways:
+
+* A “contributor agreement”-type contract
+* The corresponding tender contract
+* Directly through the software licence
+--
+
+// M_1AB::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Measure {sect}.{measure}: Require all external code contributors to send a DCO and sign each commit
+--
+Tags: `Plugin` `NewProduct` `Publication`
+
+The *Developer’s Certificate of Origin (DCO)* is the document used to verify that the developers who contribute to the project
 recognise and accept its licence.
+--

@@ -89,9 +89,11 @@ We contemplate two possibilities:
 In this case, we will try to fit the translations into the original project, which means we would find ourselves in the link:#escenari-adaptacio[Adaptation Use-Case].
 * One of the two conditions mentioned above is not met: we store the files needed for doing the translation in an own repository.
 
-Example:
-
+[example]
+.Wordpress
+====
 A hypothetical example would be a web portal built using a content management system such as Wordpress, with a MariaDB database.
+====
 
 [[escenari-integracio]]These are standard free software components but to make managing them easier, it might be useful to save customised elements such as CSS files or a list of Wordpress extensions to be uploaded in a repository, along with Docker images that include all the necessary elements for its deployment.
 
@@ -99,7 +101,7 @@ A hypothetical example would be a web portal built using a content management sy
 
 This use-case might involve creating one or more own repositories with the same contents described for the link:#escenari-integracio[Integration Use-Case].
 A distinctive feature of this use-case, however, is that Barcelona City Council is sponsoring the development of a significant contribution to a free software product that could potentially be incorporated into the original product (even if this integration does not take place while it is being developed).
-These contributions must take the form of a series of commits in a repository linked in some way to that of the original product.
+These contributions must take the form of a series of commits in a repository linked in some way to that of the original producnt.
 
 There may be various types of contributions:
 
@@ -108,10 +110,12 @@ There may be various types of contributions:
 
 If the translations and localisation elements are mixed with the City Council’s own customised elements, or if the original product is not designed to incorporate new translations and localisations, then it is not possible to plan a contribution like this because we would be in the link:#escenari-integracio[Integration Use-case].
 
-Example: Barcelona City Council’s ethical mail box
-
+[example]
+.Barcelona City Council’s ethical mail box
+====
 There was an original piece of software, that of https://www.globaleaks.org/[Globaleaks], and the features of generating an internal file and sending a reply to the user in the form of a PDF were incorporated into that.
 These features are now part of the https://github.com/globaleaks/GlobaLeaks[Globaleaks main repository]’s master branch.
+====
 
 [[escenari-adaptacio]]Customisation tasks have been carried out in the same project, including the translation of the interface into Catalan, but as some user texts are not for general use but instead are the City Council’s own customisations, it has not been possible to contribute the translation itself to the original project.
 
@@ -123,18 +127,21 @@ On the one hand, it starts with an existing piece of software to which a feature
 On the other hand, the software architecture is modular and provides for extension by means of a standardised mechanism that enables semi-independent development of the new modules in such a way that some aspects are quite similar to a new product.
 In particular, the new modules have their own repository (which is not a copy of the original product’s repository) and the releases are not linked to those of the framework product.
 
-Example: Open Data Barcelona
-
+[example]
+.Open Data Barcelona
+====
 The http://opendata-ajuntament.barcelona.cat/[City Council’s open data portal] is based on https://ckan.org/[CKAN] open data portal software.
 This product is http://docs.ckan.org/en/latest/extensions/plugin-interfaces.html[easily extendible] by means of plugins or extensions and when the new portal was being developed it was necessary to modify an existing plugin (which would also correspond to the link:#escenari-adaptacio[Adaptation Use-case]) as well as create new ones.
+====
 
 === `NewProduct` Use-case
 
 When there is no component or combination of components available that satisfy a specific need, a new product has to be developed.
 This product may be based on other, already existing components, such as frameworks, libraries, database management systems, etc.
 
-Example: Decidim.Barcelona.
-
+[example]
+.Decidim.Barcelona
+====
 https://decidim.org/[Decidim] is a participative democracy tool for cities and organisations.
 From the outset, its development was sponsored by Barcelona City Council, although other organisations that use it are now beginning to contribute resources.
 It is based on the website development framework http://rubyonrails.org/[Ruby on Rails].
@@ -142,6 +149,7 @@ This framework greatly facilitates the development of new website applications b
 
 https://decidim.org/[Decidim]’s history is a little odd because it began with an attempt to adapt existing software, https://github.com/consul/consul[Consul].
 Later it was necessary to make a fork from the original software and, finally, it was decided to rewrite the program (improving the modularity of the code, among other things).
+====
 
 === `Publication` Use-case
 

@@ -11,12 +11,12 @@ The use of such licences in itself guarantees a series of inalienable rights, wh
 Until now, contracts with suppliers stipulated that all the software developed for the City Council within the framework of the contract, and associated documents, is owned by the Council.
 
 With free software licences, even though one does not have legal ownership of the source code, that code can be used as often as necessary and for whatever task is desired, as well as modified, adapted and redistributed (the latter under the conditions set by the licence).
-So the City Council could waive assignment of the copyright sin the code (provided it obtains the code under a free software license), but for the moment we conservatively continue claiming assignment as the default policy (apart from the exceptions stated in the alternatives below).
+So the City Council could waive assignment of the copyrights in the code (provided it obtains the code under a free software license), but for the moment we conservatively continue claiming assignment as the default policy (apart from the exceptions stated in the alternatives below).
 The only thing it is not possible to do without being the legal owners of the code is relicense it.
 
 The main criterion for assessing who should hold the copyrights in the case of new projects, is to think which entity best ensures at each point that the appropriate measures are taken to disseminate the project, facilitate contributions from third parties, make it grow to achieve the objectives and make it sustainable in the long term.
 
-// 
+//
 // +
 // links incoming: None
 // +

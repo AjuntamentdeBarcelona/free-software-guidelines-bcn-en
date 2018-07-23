@@ -347,6 +347,8 @@ NewProduct Publication
   +
   http://creadur.apache.org/
 
+// See also https://fossa.io/ and https://github.com/github/licensed.
+
 Measure: Don’t copy external dependencies to the repository unless it is an exceptional case M_582::
   tags: Plugin NewProduct Publication
   +

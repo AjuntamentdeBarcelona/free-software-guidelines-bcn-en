@@ -1,4 +1,14 @@
 = “Open” development
+:experimental:
+:icons: font
+:page-partial:
+:source-highlighter: highlightjs
+
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+include::{partialsdir}/README.adoc[tag=metadata]
 
 In free software projects there is a culture of “working in the open”, as this facilitates the conditions that make them technically and financially sustainable.
 Increasing the flow of resources to projects is in the interest of all projects, and it involves:

@@ -1,4 +1,14 @@
 = Free Software communities
+:experimental:
+:icons: font
+:page-partial:
+:source-highlighter: highlightjs
+
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+include::{partialsdir}/README.adoc[tag=metadata]
 
 There are many levels of participation in a free software project, and none of them should be closed.
 Apart from the development team, who are usually hired for that purpose, other people might contribute on an occasional or ongoing basis.

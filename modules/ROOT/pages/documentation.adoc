@@ -1,4 +1,14 @@
 = Documentation
+:experimental:
+:icons: font
+:page-partial:
+:source-highlighter: highlightjs
+
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+include::{partialsdir}/README.adoc[tag=metadata]
 
 Measure: Upload a ``README`` file to the main repository M_F25::
   tags: Day1 Plugin NewProduct Publication

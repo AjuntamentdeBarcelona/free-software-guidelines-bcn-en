@@ -10,7 +10,7 @@ endif::[]
 
 include::{partialsdir}/README.adoc[tag=metadata]
 
-Barcelona City Council has a policy for using and developing free software which is set out in the http://ajuntament.barcelona.cat/digital/ca/documentacio[Government Measure on Open Digitisation: Free software and agile development of public administration services], approved in October 2017.
+Barcelona City Council has a policy for using and developing free software which is set out in the http://ajuntament.barcelona.cat/digital/ca/documentacio[Government Measure: Free software and agile development of public administration services], approved in October 2017.
 
 This policy includes a series of principles and guidelines that are outlined in the following documents, annexed to the measure:
 
@@ -35,7 +35,7 @@ This Guide serves a double purpose:
 . To help maintain Barcelona City Council’s reputation as a transparent and reliable
 institutional collaborator in free software projects, taking into account the sector’s best practices.
 
-The benefits expected from using free software and open standards are explained in the http://ajuntament.barcelona.cat/digital/sites/default/files/le_mesuradegovern_v2.pdf[Government Measure on Open Digitisation] (page 22).
+The benefits expected from using free software and open standards are explained in the http://ajuntament.barcelona.cat/digital/sites/default/files/le_mesuradegovern_v2.pdf[Government Measure] (page 22).
 We reproduce them here:
 
 * *Transparency*: the source code can be examined and audited by anyone with sufficient technical knowledge, with no need for explicit permission from the manufacturer or the City Council.

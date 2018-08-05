@@ -35,12 +35,12 @@ This Guide serves a double purpose:
 . To help maintain Barcelona City Council’s reputation as a transparent and reliable
 institutional collaborator in free software projects, taking into account the sector’s best practices.
 
-The benefits expected from using free software and open standards are explained in the http://ajuntament.barcelona.cat/digital/sites/default/files/le_mesuradegovern_v2.pdf[Government Measure] (page 22).
+The benefits expected from using free software and free standards are explained in the http://ajuntament.barcelona.cat/digital/sites/default/files/le_mesuradegovern_v2.pdf[Government Measure] (page 22).
 We reproduce them here:
 
 * *Transparency*: the source code can be examined and audited by anyone with sufficient technical knowledge, with no need for explicit permission from the manufacturer or the City Council.
 Without this characteristic it is difficult to trust the neutrality and security of a growing number of governmental and administrative processes that are implemented through software, such as voting processes.
-* *Interoperability*: the use of open formats and standards enables different systems, possibly made by different manufacturers, to operate together without any legal or technical barriers.
+* *Interoperability*: the use of free formats and standards enables different systems, possibly made by different manufacturers, to operate together without any legal or technical barriers.
 This enables integrating different systems, reusing data and improving processes, for example.
 It also ensures that the general public are not forced to use the technological solutions of specific providers to interact with the public authority.
 * *Sovereignty*: transparency and interoperability greatly reduce dependence on the commercial strategies of manufacturers.
@@ -51,7 +51,7 @@ Not only is development more flexible, it is also much easier and cheaper to ass
 * *Sustainability*: interoperability enables different parts of the system that need renewing to be replaced while maintaining the availability of data.
 Greater sovereignty also means there  is less risk that any part of the system, including the hardware, becomes obsolete.
 Collaboration (between people and organisations) that is encouraged by free licences can be a great help in making a system more durable and stable.
-* *Efficiency*: factors such as reducing costs related to license fees, more competition between suppliers, less risk of obsolescence and the possibility of sharing costs with other bodies or organisations, mean that free software based on open standards is the best option for ensuring that public authorities are efficient, as they are required to be by law.
+* *Efficiency*: factors such as reducing costs related to license fees, more competition between suppliers, less risk of obsolescence and the possibility of sharing costs with other bodies or organisations, mean that free software based on free standards is the best option for ensuring that public authorities are efficient, as they are required to be by law.
 The huge amount of software that can be combined enables solutions to be developed in many domains that are much better adapted to the end requirements, with less use of resources.
 * *Reliability and security*: being independent from commercial strategies means that the organisation can demand better quality services and take advantage of all the adjustments and improvements provided by the development and support community of each tool.
 * *Innovation*: transparency, and a fortunate combination of collaboration and competition, means that free software is an enormously fertile terrain for technological, social and process innovation.

@@ -1,4 +1,4 @@
-= “Open” development
+= Community development
 :experimental:
 :icons: font
 :page-partial:
@@ -10,15 +10,14 @@ endif::[]
 
 include::{partialsdir}/README.adoc[tag=metadata]
 
-In free software projects there is a culture of “working in the open”, as this facilitates the conditions that make them technically and financially sustainable.
+In free software projects there is a culture of working in public eye, as this facilitates the conditions that make them technically and financially sustainable.
 Increasing the flow of resources to projects is in the interest of all projects, and it involves:
 
 * Increasing the number of people and institutions that use the software.
 
 * Encouraging any user, whether a person or an organisation, to participate in the project in any way they can, by contributing to the source code, testing, corrections, funding, dissemination, translations and so on.
 
-Outside this model, which is based on fostering collaboration, it is very difficult to reap the potential benefits offered by free software.
-There are two key elements in all this:
+Outside this model, which is based on fostering collaboration, it is very difficult to reap some of the potential benefits offered by free software, including:
 
 * *Transparency*.
 There is no need to restrict this to the software code.
@@ -28,7 +27,10 @@ If there is to be real collaboration, transparency has to extend to all the comm
 In contrast to other, classical business models, the interest here lies in knowledge of the product, even the most technical details, being distributed as widely as possible.
 That reduces the technological risk and the City Council’s dependency on specific companies.
 
-Working in the open means the following elements should be publicly accessible in open formats (for reading) to anyone who is interested, so they do not have to use private tools and can do so anonymously (without having to register with any web service or much less having to hire for-payment services):
+* *Community participation*.
+This reinforces both the project, with more ideas and resources, and the local communities.
+
+Working in public eye means the following elements should be publicly accessible in free formats (for reading) to anyone who is interested, so they do not have to use private tools and can do so anonymously (without having to register with any web service or much less having to hire for-payment services):
 
 * The code repository.
 
@@ -40,28 +42,28 @@ Working in the open means the following elements should be publicly accessible i
 
 * The communication channels through which the technical team make technical decisions.
 
-Working in the open does NOT (necessarily) mean that:
+Working in public eye does NOT (necessarily) mean that:
 
 * Project outsiders have write access to the repository (they are free to copy the code into their own repository and modify their copy).
 
 * Everyone has permission to write notifications of defects and intervene in the issue manager.
 Each project can choose its own QA policy.
 
-* The project team has to read and respond to all defect notifications (if they are open to writing) and questions via the open communication channels.
+* The project team has to read and respond to all defect notifications (if they are open to writing) and questions via the public communication channels.
 
 * The project team has to check all the suggestions and contributions (pull requests and patches) they might receive, if it is felt the resources are better invested in another task.
 
-== Work “in the open” from day one
+== Work in the public eye from day one
 
-A really important aspect to bear in mind is the longer you work in a closed project, the more difficult it will be to open it up later on.
+A really important aspect to bear in mind is the longer you work in a closed, private environment, the more difficult it will be to open it up later on.
 If you wait too long, maybe some measures will never be implemented, because their cost would be prohibitive.
 The reasons for that can be summed up as follows:
 
 * Having communication channels open from day 1 does not mean “strangers” have to distract us from day 1.
 In this Guide we explain how to make it clear what our commitments are, what we can achieve at each stage.
 
-* It is impossible to compensate the incentives that developers have for doing things in a “quick and dirty” way, with future threats of opening up.
-If we do not work in the open from the start, we will inevitably incur a https://en.wikipedia.org/wiki/Technical_debt[technological debt] with the intention of fixing things in the future (that never comes).
+* It is impossible to compensate the incentives that developers have for doing things in a “quick and dirty” way, with future threats of publication.
+If we do not work in public eye from the start, we will inevitably incur a https://en.wikipedia.org/wiki/Technical_debt[technological debt] with the intention of fixing things in the future (that never comes).
 
 * When the day for “freeing the code” arrives, you suddenly find you have:
 
@@ -77,7 +79,7 @@ If we do not work in the open from the start, we will inevitably incur a https:/
 
 ** (And a never-ending list of other things).
 
-Opening up the code means having to take difficult decisions, which would not have arisen if it had been open from the start (wasting time cleaning up the defect log vs creating a new one and losing the entire log, etc.).
+Publishing the code means having to take difficult decisions, which would not have arisen if it had been in public eye from the start (wasting time cleaning up the defect log vs creating a new one and losing the entire log, etc.).
 
 It creates a big “publication milestone” which poses a high risk for the project, because lots of changes have to be made all at once.
 The whole project and its potential vulnerabilities are also exposed in one go (and many eyes will be looking, not always with good intentions).
@@ -154,11 +156,11 @@ They are all listed in the following table:
 |Dia1__;__ Integration__;__ Plugin__;__ NewProduct__;__ Publication
 |===
 
-== Procurement for open development
+== Procurement for community development
 
 [[M_F60]]
 
-Measure: Award the contract to companies with experience in open development M_F60::
+Measure: Award the contract to companies with experience in community development M_F60::
   tags: Procurement Adaptation Plugin NewProduct
   +
   links incoming: None
@@ -167,7 +169,7 @@ Measure: Award the contract to companies with experience in open development M_F
   +
   Establish the need for free software development experience as a condition of technical solvency.
   +
-  However many conditions are included in the contract, if the winning company has no experience of participating in free software projects, it is most likely that the product will end up not being completely open.
+  However many conditions are included in the contract, if the winning company has no experience of participating in free software projects, it is most likely that the product and the development process will end up not following many free software development conventions.
 In most cases, there is no reason why that should be the result of bad faith but a lack of knowledge.
 
 [[A_37A]]
@@ -204,7 +206,7 @@ Measure: Ask tenderers to provide evidence of participants' experience in free s
   +
   links outgoing: None
   +
-  They must do this by providing references for their individual participation in repositories and open forums (StackOverflow, etc.), from projects they have taken part in.
+  They must do this by providing references for their individual participation in public repositories and forums (StackOverflow, etc.), from projects they have taken part in.
   +
   This can be done as a technical solvency criterion or a performance criterion,
 
@@ -220,7 +222,7 @@ Recommendation: Split the project into groups of features that can be tendered i
   Besides being a policy in line with the Guide for Technological Procurement, disseminating knowledge of the product is very favourable to the interests of the project.
 The _reservoirs of distributed knowledge_ are one of the main strengths of free software projects.
   +
-  It also helps a great deal to ensure open development processes are established from the outset.
+  It also helps a great deal to ensure community development processes are established from the outset.
 
 Recommendation: Reduce the financial stability requirements for tenders R_8BD::
   tags: Procurement Integration Adaptation Plugin NewProduct
@@ -481,7 +483,7 @@ Software projects normally use version identifiers based on `MAJOR.MINOR.PATCH` 
 Each technological community (Java, Python, Drupal, etc.) might have a preferred versions policy so it is advisable to find out which one it is and stick to it.
 If there is no clear policy, we can subscribe to a well-known generic policy, such as http://semver/[Semantic Versioning].
 
-== Use open formats and standards
+== Use free formats and standards
 
 Measure: Check the user interface meets W3C standards as regards web applications M_F7E::
   tags: Plugin NewProduct
@@ -492,17 +494,17 @@ Measure: Check the user interface meets W3C standards as regards web application
   +
   User interfaces, whether they are for public, administration or internal use, have to comply with World Wide Web Consortium (W3C) standards and should not require the use of features provided by privately owned browser extensions The presentation has to be displayed correctly and the product has to be fully functional, with the browsers of the family: Gecko (Firefox), WebKit/Blink (Chrome, Safari, Konqueror) or Trident/EdgeHTML (Microsoft).
 
-Measure: Use open formats in exchanging documents with the public and other systems M_676::
+Measure: Use free formats in exchanging documents with the public and other systems M_676::
   tags: Adaptation Plugin NewProduct Publication
   +
   links incoming: None
   +
   links outgoing: None
   +
-  Any exchange of documents with the public that involves downloading or uploading files has to be done exclusively with open formats, as defined by the Barcelona City Council ICT Procurement Guide.
+  Any exchange of documents with the public that involves downloading or uploading files has to be done exclusively with free formats, as defined by the Barcelona City Council ICT Procurement Guide.
 Internal document storage by the application will also be done in these same formats.
 In particular, all text file exchanges will either be in OpenDocument Format (https://www.oasis-open.org/[https://www.oasis-open.org]), or PDF format.
-Images, audio and video will also be exchanged by means of open formats for which free implementation exists in the main IT platforms including GNU/Linux.
+Images, audio and video will also be exchanged by means of free formats for which free implementation exists in the main IT platforms including GNU/Linux.
 
 == Internationalisation
 
@@ -515,12 +517,17 @@ Measure: Define and budget the technical requirements so the product can be tran
   +
   All the messages shown to users have to be internationalised.
 Use the usual mechanisms in each language/platform.
+  +
+  The standard tool for multi-lingual messages in free software projects is https://www.gnu.org/software/gettext/[`gettext`].
 
-== Freeing software that was initially closed
 
-This section will explain how to prepare software that was closed source so it can be developed and kept free once the decision to release it has been taken.
+== Freeing software that was proprietary
 
-Measure: Judge whether it is convenient or not to publish City Council software M_932::
+The City Council owns the copyright of a lot of code that was not provided under a free software license, and it is therefore proprietary software.
+
+This section addresses those issues that specifically affect the public release under a free license of software components that were not delivered as free software, and in most cases developed without public distribution in mind.
+
+Measure: Judge whether it is convenient or not to publicly distribute some City Council software M_932::
   tags: Publication
   +
   links incoming: None
@@ -544,32 +551,32 @@ Measure: Look for sensitive information or user settings in the code repository 
   +
   links outgoing: None
 
-Measure: Advise new public spaces geared towards developers that this was a closed project M_B77::
+Measure: Notify in new public spaces geared towards developers that this was a non-free project M_B77::
   tags: Publication
   +
   links incoming: None
   +
   links outgoing: None
   +
-  This means explaining that, up to a certain date, the project operated as a closed project, so some inconvenience is to be expected.
+  This means explaining that, up to a certain date, the project did not operate in the public eye, so some inconvenience is to be expected.
 Developer and user expectations regarding the quality and transparency of some aspects of the project need to be lowered.
 The commitments made to make it possible to free the code also need explaining.
 For example, there may be lots of sensitive data in the code repository (specific user data, etcetera) so it has been decided to remove the version control history and create a new top-skim repository that only contains the latest version.
   +
   This information should be published in at least the following places:
 
-* The development website (now open and public).
+* The development website (now public).
 * Public mail lists.
 
 The aim of this measure is to avoid an avalanche of requests.
 
-Recommendation: Warn developers of the possible consequences of the project’s imminent release R_70F::
+Recommendation: Warn developers of the possible consequences of the project’s imminent public release R_70F::
   tags: Publication
   +
   links incoming: None
   +
   links outgoing: None
   +
-  If we have a way of contacting people who have participated or who are participating in a project we are going to release, for example, by means of private emails, it is worth informing them of this fact.
+  If we have a way of contacting people who have participated or who are participating in a project we are going to release, for example, by means of private emails, it is worth informing them (not negotiating) of this fact.
 Freeing a code that was not initially written to be free software might make its authors uncomfortable, so we need to explain that that’s normal.
 The following work can be referred to, to help clarify the situation: http://producingoss.com/en/opening-closed-projects.html.

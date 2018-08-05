@@ -25,7 +25,7 @@ It cannot have an extension if it is written in plain text, or it can have an ex
   The content of this file (more specifically the version posted in the `master` branch), formatted according to the conventions of the markup language used, is what [.line-through]#GitHub# Gitlab and similar software shows as the development website's home page.
 So it is important to check the format is correct and that it appears correctly in a browser.
 
-Measure: Use wiki formats or open markup formats for all product documentation M_66D::
+Measure: Use wiki formats or free markup formats for all product documentation M_66D::
   tags: Integration Plugin NewProduct Publication
   +
   links incoming: None

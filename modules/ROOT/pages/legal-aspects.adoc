@@ -85,7 +85,7 @@ It makes sense to leave ownership in the hands of the company that develops the 
 
 Software components are for general use, including companies and not just public authorities.
 
-The supplier is a company or a cooperative with a track record of publishing free software and running open communities, and which has a credible strategy for exploiting the product based on free software licences.
+The supplier is a company or a cooperative with a track record of publishing free software and running free software communities, and which has a credible strategy for exploiting the product based on free software licences.
 --
 
 == Choose a licence for the code

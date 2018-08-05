@@ -12,7 +12,7 @@ include::{partialsdir}/README.adoc[tag=metadata]
 
 == Look for and select free software components
 
-In all likelihood, unless our need is very specialised, there will already be an open solution (or combination of solutions) that would solve the problem, at least partly.
+In all likelihood, unless our need is very specialised, there will already be a free software solution (or combination of solutions) that would solve the problem, at least partly.
 
 It is important to bear in mind that free software projects offer more possibilities of being transformed and adapted to our needs than traditional applications.
 
@@ -390,9 +390,9 @@ need to be deleted:
   +
   * Any with a proprietary licence.
 
-  * Any that are owned by Barcelona City Council but cannot be opened for the moment.
+  * Any that are owned by Barcelona City Council but cannot be freed for the moment.
 
-  * Any that show any kind of licence incompatibility with the other product components to be opened.
+  * Any that show any kind of licence incompatibility with the other product components to be freed.
 
   * Any that cannot be installed in a free software operating system.
 

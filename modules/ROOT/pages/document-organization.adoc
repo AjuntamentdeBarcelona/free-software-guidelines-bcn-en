@@ -67,7 +67,7 @@ The following use-cases are contemplated:
 | *Create a new component*: a new solution needs to be created from scratch.
 
 | `Publication`
-| *Publish code from an existing own component*: we have our own code, developed under previous contracts and never published, and we want to make it freely available in a public repository.
+| *Publish code from an existing own component*: we have our own code, developed under previous contracts and never publicly distributed, and we want to make it available in a public repository, under a free software license.
 
 | `Document`
 | *Publish documents not linked to a single project*: we have documentation that is not directly linked to a piece of software but we want to make it freely available in a public repository.

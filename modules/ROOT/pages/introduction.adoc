@@ -69,6 +69,8 @@ This document codifies and adapts these best practices to IMI, so they may serve
 == To find out more
 
 A very good resource for understanding all the technical, legal and social aspects of free software development is Karl Fogel’s book https://producingoss.com/en/index.html[Producing Open Source Software] (the 2017 edition, only available in an e-version, which can be freely consulted online).
+The book uses the term _open source_, which basically refers to the same range of projects as _free software_.
+(The proponents of both terms differ on their political and philosophical views, but the practical aspects we treat in this document are mostly shareable by both camps.)
 We have taken many of the practical recommendations in that book into account in drawing up this Guide.
 
 The Guide also contains lots of recommendations on service procurement.

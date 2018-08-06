@@ -469,18 +469,18 @@ Any security patch, improvement or modification of any kind that is applied to t
   The code available in the public repository is the one fully covered by a free software licence.
 Nothing can be added to it.
 
-Recommendation: Establish and explicit versions policy in the ``README`` file R_FBC::
+Recommendation: Establish and explicit versioning policy in the ``README`` file R_FBC::
   tags: Plugin NewProduct Publication
   +
   links incoming: None
   +
   links outgoing: None
   +
-  Every repository should have an explicit versions policy.
+  Every repository should have an explicit versioning policy.
 Software projects normally use version identifiers based on `MAJOR.MINOR.PATCH` number sequences.
   +
-  A suitable versions policy must be chosen for each project.
-Each technological community (Java, Python, Drupal, etc.) might have a preferred versions policy so it is advisable to find out which one it is and stick to it.
+  A suitable versioning policy must be chosen for each project.
+Each technological community (Java, Python, Drupal, etc.) might have a preferred versioning policy so it is advisable to find out which one it is and stick to it.
 If there is no clear policy, we can subscribe to a well-known generic policy, such as http://semver/[Semantic Versioning].
 
 == Use free formats and standards

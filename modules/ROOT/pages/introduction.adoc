@@ -45,7 +45,7 @@ Both the GNU document above and the https://ajuntament.barcelona.cat/digital/en/
 * Increasing transparency and auditability of administrative processes.
 * Never requiring individuals or organizations that need to interact with the City Council to use a nonfree program (that would be equivalent to a state-sanctioned monopoly).
 * Ensuring data sovereignty, privacy and security, for the citizens and for the municipality.
-* Freeing IT policy and planning from commercial strategies, constructing better tailored, more flexible, more sustainable solutions.
+* Avoiding vendor lock-in and, more generally, freeing IT policy and planning from commercial strategies, constructing better tailored, more flexible, more sustainable solutions.
 * Saving money, by avoiding proprietary license fees and through sharing and pooling of resources among municipalities and other government agencies.
 
 == Purpose of this Guide

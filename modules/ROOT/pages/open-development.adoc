@@ -59,7 +59,7 @@ A really important aspect to bear in mind is the longer you work in a closed, pr
 If you wait too long, maybe some measures will never be implemented, because their cost would be prohibitive.
 The reasons for that can be summed up as follows:
 
-* Having communication channels open from day 1 does not mean “strangers” have to distract us from day 1.
+* Having public communication channels from day 1 does not mean “strangers” have to distract us from day 1.
 In this Guide we explain how to make it clear what our commitments are, what we can achieve at each stage.
 
 * It is impossible to compensate the incentives that developers have for doing things in a “quick and dirty” way, with future threats of publication.

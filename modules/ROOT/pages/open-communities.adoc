@@ -1,4 +1,4 @@
-= Free Software communities
+= Free software communities
 :experimental:
 :icons: font
 :page-partial:

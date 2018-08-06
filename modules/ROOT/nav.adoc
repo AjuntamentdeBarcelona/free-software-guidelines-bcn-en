@@ -3,6 +3,6 @@
 * xref:open-development.adoc[Community development]
 * xref:technical-infrastructure.adoc[Technical infrastructure]
 * xref:component-management.adoc[Component management]
-* xref:open-communities.adoc[Open communities]
+* xref:open-communities.adoc[Free software communities]
 * xref:legal-aspects.adoc[Legal aspects]
 * xref:documentation.adoc[Documentation]

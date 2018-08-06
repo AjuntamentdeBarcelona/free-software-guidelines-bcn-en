@@ -38,7 +38,7 @@ It is crucial for an entity that implements public services and processes a lot 
 The state needs to insist on free software in its own computing for the sake of its computational sovereignty (the state's control over its own computing). All users deserve control over their computing, but the state has a responsibility to the people to maintain control over the computing it does on their behalf. Most government activities now depend on computing, and its control over those activities depends on its control over that computing. Losing this control in an agency whose mission is critical undermines national security.
 --
 
-Both the GNU document above and the https://ajuntament.barcelona.cat/digital/en/blog/barcelona-digital-government-open-agile-and-participatory[Release note of the Government Measure: Free software and agile development of public administration services] envision other secondary benefits:
+Both the GNU document above and the https://ajuntament.barcelona.cat/digital/en/blog/barcelona-digital-government-open-agile-and-participatory[Release note of the Government Measure: Free software and agile development of public administration services] envision other benefits:
 
 * Encouraging local software support businesses, more easily including small and medium-sized businesses in the procurement process.
 * Creating crucial new capabilities in the public sector through internalisation of staff and a programme to create in-house skills to drive transformation.

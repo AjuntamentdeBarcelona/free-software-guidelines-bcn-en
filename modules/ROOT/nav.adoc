@@ -1,6 +1,6 @@
 * xref:introduction.adoc[Introduction]
 * xref:document-organization.adoc[Document organization]
-* xref:open-development.adoc[Community development]
+* xref:open-development.adoc[Collaborative development]
 * xref:technical-infrastructure.adoc[Technical infrastructure]
 * xref:component-management.adoc[Component management]
 * xref:open-communities.adoc[Free software communities]

@@ -1,4 +1,4 @@
-= Community development
+= Collaborative development
 :experimental:
 :icons: font
 :page-partial:
@@ -156,11 +156,11 @@ They are all listed in the following table:
 |Dia1__;__ Integration__;__ Plugin__;__ NewProduct__;__ Publication
 |===
 
-== Procurement for community development
+== Procurement for collaborative development
 
 [[M_F60]]
 
-Measure: Award the contract to companies with experience in community development M_F60::
+Measure: Award the contract to companies with experience in collaborative development M_F60::
   tags: Procurement Adaptation Plugin NewProduct
   +
   links incoming: None
@@ -222,7 +222,7 @@ Recommendation: Split the project into groups of features that can be tendered i
   Besides being a policy in line with the Guide for Technological Procurement, disseminating knowledge of the product is very favourable to the interests of the project.
 The _reservoirs of distributed knowledge_ are one of the main strengths of free software projects.
   +
-  It also helps a great deal to ensure community development processes are established from the outset.
+  It also helps a great deal to ensure collaborative development processes are established from the outset.
 
 Recommendation: Reduce the financial stability requirements for tenders R_8BD::
   tags: Procurement Integration Adaptation Plugin NewProduct

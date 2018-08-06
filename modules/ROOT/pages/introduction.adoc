@@ -26,61 +26,50 @@ It covers aspects such as:
 * Developing, implementing and maintaining information systems
 * Participation in free software communities
 
+== Benefits of using and developing free IT solutions
+
+The main benefit expected from using and developing free software is that the City Council regains or maintains control of their computing, not ceding it to private hands.
+It is crucial for an entity that implements public services and processes a lot of information about citizens to know exactly what it is being executed, in what computers, who has access to the data, etc. As the https://www.gnu.org[GNU project] puts it:
+
+:quote-url: pass:macros[https://www.gnu.org/philosophy/government-free-software.en.html[Measures Governments Can Use to Promote Free Software]]
+
+[quote, Richard Stallman, {quote-url}]
+--
+The state needs to insist on free software in its own computing for the sake of its computational sovereignty (the state's control over its own computing). All users deserve control over their computing, but the state has a responsibility to the people to maintain control over the computing it does on their behalf. Most government activities now depend on computing, and its control over those activities depends on its control over that computing. Losing this control in an agency whose mission is critical undermines national security.
+--
+
+Both the GNU document above and the https://ajuntament.barcelona.cat/digital/en/blog/barcelona-digital-government-open-agile-and-participatory[Release note of the Government Measure: Free software and agile development of public administration services] envision other secondary benefits:
+
+* Encouraging local software support businesses, more easily including small and medium-sized businesses in the procurement process.
+* Creating crucial new capabilities in the public sector through internalisation of staff and a programme to create in-house skills to drive transformation.
+* Increasing transparency and auditability of administrative processes.
+* Never requiring individuals or organizations that need to interact with the City Council to use a nonfree program (that would be equivalent to a state-sanctioned monopoly).
+* Ensuring data sovereignty, privacy and security, for the citizens and for the municipality.
+* Freeing IT policy and planning from commercial strategies, constructing better tailored, more flexible, more sustainable solutions.
+* Saving money, by avoiding proprietary license fees and through sharing and pooling of resources among municipalities and other government agencies.
+
 == Purpose of this Guide
 
 This Guide serves a double purpose:
 
 . To help IMI staff use technologies based on free software so they make the most of its advantages and minimise potential risks.
 
-. To help maintain Barcelona City Council’s reputation as a transparent and reliable
-institutional collaborator in free software projects, taking into account the sector’s best practices.
-
-The benefits expected from using free software and free standards are explained in the http://ajuntament.barcelona.cat/digital/sites/default/files/le_mesuradegovern_v2.pdf[Government Measure] (page 22).
-We reproduce them here:
-
-* *Transparency*: the source code can be examined and audited by anyone with sufficient technical knowledge, with no need for explicit permission from the manufacturer or the City Council.
-Without this characteristic it is difficult to trust the neutrality and security of a growing number of governmental and administrative processes that are implemented through software, such as voting processes.
-* *Interoperability*: the use of free formats and standards enables different systems, possibly made by different manufacturers, to operate together without any legal or technical barriers.
-This enables integrating different systems, reusing data and improving processes, for example.
-It also ensures that the general public are not forced to use the technological solutions of specific providers to interact with the public authority.
-* *Sovereignty*: transparency and interoperability greatly reduce dependence on the commercial strategies of manufacturers.
-Users, in this case the City Council, are free to decide which systems they want to develop, scale or replace, as well as their own policies on security, privacy, updating and access to the systems.
-In the case of organisations, sovereignty also encourages control over their own processes and knowledge generation and conservation.
-* *Flexibility*: systems can be better adapted to the users’ needs, and they can be adapted and extended as those needs evolve, without depending on a particular provider.
-Not only is development more flexible, it is also much easier and cheaper to assess alternatives, while operating conditions and maintenance can be modified more easily too.
-* *Sustainability*: interoperability enables different parts of the system that need renewing to be replaced while maintaining the availability of data.
-Greater sovereignty also means there  is less risk that any part of the system, including the hardware, becomes obsolete.
-Collaboration (between people and organisations) that is encouraged by free licences can be a great help in making a system more durable and stable.
-* *Efficiency*: factors such as reducing costs related to license fees, more competition between suppliers, less risk of obsolescence and the possibility of sharing costs with other bodies or organisations, mean that free software based on free standards is the best option for ensuring that public authorities are efficient, as they are required to be by law.
-The huge amount of software that can be combined enables solutions to be developed in many domains that are much better adapted to the end requirements, with less use of resources.
-* *Reliability and security*: being independent from commercial strategies means that the organisation can demand better quality services and take advantage of all the adjustments and improvements provided by the development and support community of each tool.
-* *Innovation*: transparency, and a fortunate combination of collaboration and competition, means that free software is an enormously fertile terrain for technological, social and process innovation.
-The direct beneficiaries of this knowledge production are the people who produce and use the software, but indirectly the whole of society also benefits.
-
-Besides the commitment to base IMI’s technological architecture increasingly on free software, we need to know and exploit the particular features of free software projects and communities so as to enable and maximise these benefits.
+. To help maintain Barcelona City Council's reputation as a transparent and reliable
+institutional collaborator in free software projects, taking into account the sector's best practices.
 
 Despite the enormous diversity that currently exists among free software projects, a series of practices have gradually arisen that are shared by most projects and organisations which have a certain degree of success.
 These cover technical and legal aspects, as well as project management.
 Some of these practices can be considered necessary, in the sense that the operational dynamics of free software projects reward certain types of conduct and penalise others.
 
-These practices are geared towards facilitating the widest possible diversity among participants, very often without any centralised coordination, while at the same time maintaining the quality of the product.
-In some cases they can be very different from working methods used when there is no intention of publishing the source code.
-This means IMI’s learning process and adaptation will have a cost, but we believe that it will be far outweighed by the organisational improvements it will bring – together with the incorporating agile methods – as well as all the benefits mentioned above.
-As Karl Fogel says:
+In some cases free software common practices can be very different from working methods used when there is no intention of publishing the source code under a free license.
+This means IMI's learning process and adaptation will have a cost, but we believe that it will be far outweighed by the organisational improvements it will bring – together with the incorporating agile methods –.
 
-:quote-url: pass:macros[https://producingoss.com/en/introduction.html[Producing Open Source Software]]
-[quote, Karl Fogel, {quote-url}]
-the open source projects your organization participates in are a membrane through which your managers and developers are regularly exposed to people and ideas outside your organizational hierarchy.
-It's like having the benefits of attending a conference, but while still getting daily work done and without incurring travel expenses.
-In a successful open source project, these benefits, once they start arriving, greatly outweigh the costs.
-
-To sum up, this guide intends to explain the best practices available for using and developing free software.
-It does so by codifying and adapting these best practices to IMI, so they may serve as a guide in the learning process and in decision-making.
+This document codifies and adapts these best practices to IMI, so they may serve as a guide in the learning process and in decision-making.
 
 == To find out more
 
-A very good resource for understanding all the technical, legal and social aspects of free software is Karl Fogel’s book https://producingoss.com/en/index.html[Producing Open Source Software] (the 2017 edition, only available in an e-version, which can be freely consulted online).
-We have taken many of the recommendations in that book into account in drawing up this Guide.
+A very good resource for understanding all the technical, legal and social aspects of free software development is Karl Fogel’s book https://producingoss.com/en/index.html[Producing Open Source Software] (the 2017 edition, only available in an e-version, which can be freely consulted online).
+We have taken many of the practical recommendations in that book into account in drawing up this Guide.
 
 The Guide also contains lots of recommendations on service procurement.
-A good document for understanding the particular features of public procurement of free software is https://joinup.ec.europa.eu/document/guideline-public-procurement-open-source-software[Guideline on public procurement of Open Source Software], published in 2010 by Rishab Aiyer Ghosh, Ruediger Glott, Patrice-Emmanuel Schmitz and Abdelkrim Boujraf, and commissioned by the European Commission under the https://joinup.ec.europa.eu//[Join Up] initiative.
+A good document for understanding the particular features of public procurement of free software in the context of the European Union is https://joinup.ec.europa.eu/document/guideline-public-procurement-open-source-software[Guideline on public procurement of Open Source Software], published in 2010 by Rishab Aiyer Ghosh, Ruediger Glott, Patrice-Emmanuel Schmitz and Abdelkrim Boujraf, and commissioned by the European Commission under the https://joinup.ec.europa.eu//[Join Up] initiative.

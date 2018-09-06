@@ -18,7 +18,7 @@ This policy includes a series of principles and guidelines that are outlined in 
 * http://ajuntament.barcelona.cat/digital/sites/default/files/guia_adt_4_guia_sobre_sobirania_tecnologica_cat_2017_af_2.pdf[Guide to Technological Sovereignty]
 * http://ajuntament.barcelona.cat/digital/sites/default/files/guia_adt_6_guia_de_compra_publica_tic_cat_af_9en.pdf[Guide to Public ICT Procurement]
 
-This Guide spells out these principles and guidelines in a series of measures and recommendations to help municipal IT staff (at the IMI, Municipal Institute of Information Technology) in their daily work on projects based on free software.
+This Guide spells out these principles and guidelines in a series of measures and recommendations to help staff of the Municipal Institute of Information Technology (IMI), the ICT body of the Barcelona City Council, in their daily work on projects based on free software.
 It covers aspects such as:
 
 * Looking for and designing solutions

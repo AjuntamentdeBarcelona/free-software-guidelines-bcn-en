@@ -52,7 +52,7 @@ Both the GNU document above and the https://ajuntament.barcelona.cat/digital/en/
 
 This Guide serves a double purpose:
 
-. To help IMI staff use technologies based on free software so they make the most of its advantages and minimise potential risks.
+. To help staff of the http://ajuntament.barcelona.cat/imi/en[Municipal Institute of Information Technology (IMI)], the ICT body of the Barcelona City Council, use technologies based on free software so they make the most of its advantages and minimise potential risks.
 
 . To help maintain Barcelona City Council's reputation as a transparent and reliable
 institutional collaborator in free software projects, taking into account the sector's best practices.

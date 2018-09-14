@@ -8,16 +8,16 @@ We love issues and pull requests from everyone.
 
 You don't need to change any of our code or documentation to be a contributor.
 Many contributors add to our software by reporting problems, suggesting changes and asking simple and difficult questions.
-To do this, you can create a [GitHub Issue](https://help.github.com/articles/creating-an-issue/) for this project.
+To do this, you can create a https://help.github.com/articles/creating-an-issue/[GitHub Issue] for this project.
 
 ## Documentation and code
 
 If you want to add to the documentation or code of one of our projects you should make a Pull Request.
-If you never used GitHub, get up to speed with [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/).
+If you never used GitHub, get up to speed with https://guides.github.com/introduction/flow/[Understanding the GitHub Flow].
 
 ### Make your changes
 
-Add your changes in commits [with a message that explains them](https://github.com/alphagov/styleguides/blob/master/git.md#commit-messages).
+Add your changes in commits https://github.com/alphagov/styleguides/blob/master/git.md#commit-messages[with a message that explains them].
 Document choices or decisions you make in the commit message, this will enable everyone to be informed of your choices in the future.
 
 If you are adding code, make sure it adheres to the project's code and documentation style guide before you submit your pull request.

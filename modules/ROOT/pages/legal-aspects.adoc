@@ -168,7 +168,7 @@ In the worst case scenario, they would prefer to contribute to another project t
 Tags: `Procurement` `Adaptation`
 
 
-When we modify a component, and to ensure our modifications might potentially be incorporated into the original product, we have to respect the licence we are given, although we could modify it in the case of permissive licences.
+When we modify a component, and to ensure our modifications might potentially be incorporated into the original product, we have to respect the licence we are given, although we could modify it in the case of lax permissive licences.
 
 For development under contract, each circumstance needs to be specified in the specifications.
 

@@ -6,3 +6,4 @@
 * xref:open-communities.adoc[Free software communities]
 * xref:legal-aspects.adoc[Legal aspects]
 * xref:documentation.adoc[Documentation]
+* xref:glossary:ROOT:glossary.adoc[Glossary]

@@ -1,13 +1,7 @@
 = Legal aspects
-:experimental:
-:icons: font
-:page-partial:
-:source-highlighter: highlightjs
-
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
-
 include::{partialsdir}/README.adoc[tag=metadata]
 
 Free software projects are based on a whole series of technologies, working methods and ways of collaborating but all that would not be sustained without a very special legal mechanism: the free software licences.

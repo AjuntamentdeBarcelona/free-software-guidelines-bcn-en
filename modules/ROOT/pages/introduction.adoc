@@ -1,13 +1,7 @@
 = Introduction
-:experimental:
-:icons: font
-:page-partial:
-:source-highlighter: highlightjs
-
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
-
 include::{partialsdir}/README.adoc[tag=metadata]
 
 Barcelona City Council has a policy for using and developing free software which is set out in the http://ajuntament.barcelona.cat/digital/ca/documentacio[Government Measure: Free software and agile development of public administration services], approved in October 2017.

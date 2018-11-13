@@ -1,3 +1,9 @@
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+.$$MAIN
 * xref:introduction.adoc[Introduction]
 * xref:document-organization.adoc[Document organization]
 * xref:open-development.adoc[Collaborative development]
@@ -6,4 +12,6 @@
 * xref:open-communities.adoc[Free software communities]
 * xref:legal-aspects.adoc[Legal aspects]
 * xref:documentation.adoc[Documentation]
-// * xref:glossary:ROOT:glossary.adoc[Glossary]
+
+.$$BOTTOM
+* xref:{lang}/glossary:ROOT:glossary.adoc[Guides glossary]

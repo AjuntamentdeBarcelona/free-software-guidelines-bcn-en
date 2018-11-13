@@ -8,9 +8,9 @@ Barcelona City Council has a policy for using and developing free software which
 
 This policy includes a series of principles and guidelines that are outlined in the following documents, annexed to the measure:
 
-* xref:tech-practices:ROOT:aim-and-scope.adoc[Technology Code of Practice]
-* xref:tech-sovereignty:ROOT:introduction.adoc[Guide to Technological Sovereignty]
-* xref:ict-procurement:ROOT:context.adoc[Guide to Public ICT Procurement]
+* xref:{lang}/tech-practices:ROOT:aim-and-scope.adoc[Technology Code of Practice]
+* xref:{lang}/tech-sovereignty:ROOT:introduction.adoc[Guide to Technological Sovereignty]
+* xref:{lang}/ict-procurement:ROOT:context.adoc[Guide to Public ICT Procurement]
 
 This Guide spells out these principles and guidelines in a series of measures and recommendations to help staff of the Municipal Institute of Information Technology (IMI), the ICT body of the Barcelona City Council, in their daily work on projects based on free software.
 It covers aspects such as:

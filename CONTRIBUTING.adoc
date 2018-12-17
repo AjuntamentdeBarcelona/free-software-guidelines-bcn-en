@@ -46,3 +46,5 @@ If you are new in AsciiDoc, please, start reading https://asciidoctor.org/docs/a
 * For images, set always its real width (e.g. image::ScrumInfographic.svg[Scrum info-graphic, width=2835])
 * Info-graphics that have text always in .svg format for facilitating its edition.
 * Only use TIP, WARNING and IMPORTANT as https://asciidoctor.org/docs/asciidoc-writers-guide/#admonition-blocks[Admonitions].
+* In case to need to associate an existing style to a paragraph, write the style ID at the top of the paragraph: [.my-paragraph-style]
+* Use '*' for bullet lists

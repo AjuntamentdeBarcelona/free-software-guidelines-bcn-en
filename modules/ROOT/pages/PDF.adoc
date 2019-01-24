@@ -32,13 +32,13 @@ include::introduction.adoc[]
 
 include::document-organization.adoc[]
 
-include::open-development.adoc[]
+include::collaborative-development.adoc[]
 
 include::technical-infrastructure.adoc[]
 
 include::component-management.adoc[]
 
-include::open-communities.adoc[]
+include::communities.adoc[]
 
 include::legal-aspects.adoc[]
 

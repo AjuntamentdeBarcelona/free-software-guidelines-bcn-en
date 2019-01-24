@@ -6,10 +6,10 @@ include::{partialsdir}/README.adoc[tag=metadata]
 .$$MAIN
 * xref:introduction.adoc[Introduction]
 * xref:document-organization.adoc[Document organization]
-* xref:open-development.adoc[Collaborative development]
+* xref:collaborative-development.adoc[Collaborative development]
 * xref:technical-infrastructure.adoc[Technical infrastructure]
 * xref:component-management.adoc[Component management]
-* xref:open-communities.adoc[Free software communities]
+* xref:communities.adoc[Free software communities]
 * xref:legal-aspects.adoc[Legal aspects]
 * xref:documentation.adoc[Documentation]
 

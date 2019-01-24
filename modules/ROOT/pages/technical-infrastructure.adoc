@@ -33,9 +33,14 @@ If necessary, this could be redirected to where the project website is.
 
 // R_2D5::
 [sidebar.recommendation, id="{sect}.{counter:measure:A}"]
-.Recommendation {sect}.{measure}: Keep a permanent project URL and always use it to refer to the project
+.Keep a permanent project URL and always use it to refer to the project
 --
-Tags: `Day1` `Integration` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Day1
+* Integration
+* Plugin
+* NewProduct
+* Publication
 
 This means from the outset the City Council having the URL that will serve to identify the project under its control.
 Even if the project website is hosted by a site such as GitHub, redirecting it will enable the same address to be kept public if it is decided to move the development website in the future.
@@ -49,9 +54,13 @@ There are two options:
 
 // R_5E7::
 [sidebar.recommendation, id="{sect}.{counter:measure:A}"]
-.Recommendation {sect}.{measure}: Set up a website for non-technical participation based on free software technologies
+.Set up a website for non-technical participation based on free software technologies
 --
-Tags: `Integration` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Integration
+* Plugin
+* NewProduct
+* Publication
 
 This site can be created at the opportune moment, when the project achieves significant size and projection.
 
@@ -71,6 +80,7 @@ This could either be in the Community section or on the home page, with a link s
 
 There are many tools and frameworks for managing content and publishing very good quality open websites, so it should not be a problem finding one adapted to the project’s needs: Drupal, Wordpress (without the exclusive extensions) and lots more.
 --
+
 
 == Code repository and version control
 
@@ -116,9 +126,14 @@ In the future other options might appear that could make us reconsider recommend
 
 // M_A60::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Create the main repository in the City Council [.line-through]#GitHub# public software forge
+.Create the main repository in the City Council [.line-through]#GitHub# public software forge
 --
-Tags: `Day1` `Adaptation` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Day1
+* Adaptation
+* Plugin
+* NewProduct
+* Publication
 
 In GitHub we will create a project `https://github.com/AjuntamentDeBarcelona/NOM-DEL-PROJECTE` where the code will be published.
 The City Council has an organisation-level account in GitHub called `ajuntamentdebarcelona`, which will be the repository owner.
@@ -133,9 +148,13 @@ This is where the code has to be from the start of the project, without waiting 
 
 // A_4BB::
 [sidebar.alternative, id="{sect}.{counter:measure:A}"]
-.Alternative {sect}.{measure}: Create a public repository on a different site to the City Council GitHub
+.Create a public repository on a different site to the City Council GitHub
 --
-Tags: `Adaptation` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Adaptation
+* Plugin
+* NewProduct
+* Publication
 
 There could be reasons that make it advisable to have the main repository
 (the one linked to the issue manager) on sites such as:
@@ -175,9 +194,13 @@ If GitHub is not used, the repository’s public site must also provide both the
 
 // M_A63::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Use the [.line-through]#GitHub# main repository web interface as the project development website
+.Use the [.line-through]#GitHub# main repository web interface as the project development website
 --
-Tags: `Day1` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Day1
+* Plugin
+* NewProduct
+* Publication
 
 The website’s home page will be a `README` file in the repository root directory.
 This file can be in plain text, Markdown or other brand languages supported by GitHub and which the latter interprets and formats when the page is visited.
@@ -185,9 +208,15 @@ This file can be in plain text, Markdown or other brand languages supported by G
 
 //  M_B3F::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Establish access permissions to the main repository adapted to each type of participant
+.Establish access permissions to the main repository adapted to each type of participant
 --
-Tags: `Integration` `Adaptation` `Plugin` `NewProduct` `Publication` `Document`
+[.tags]
+* Integration
+* Adaptation
+* Plugin
+* NewProduct
+* Publication
+* Document
 
 //  links outgoing: link:#S_518[_S_518_] link:#S_A3D[_S_A3D_]
 
@@ -197,37 +226,54 @@ The other permissions are outlined in the submeasures.
 Anyone working for IMI who has a personal account at GitHub and is part of the organisation `ajuntamentdebarcelona` will have admin permissions.
 
 Repository *administrator* permissions can be given to IMI staff and, optionally, to each person in an external organisation participating in the development under contracts with IMI.
---
+
+Sub-measures:
 
 // S_518::
-[sidebar.submeasure, id="{sect}.{counter:measure:A}"]
-.Submeasure {sect}.{measure}: Give all development team members permission to write in the main repository
---
-Tags: `Integration` `Adaptation` `Plugin` `NewProduct` `Publication` `Document`
+// [sidebar.submeasure, id="{sect}.{counter:measure:A}"]
+// .Submeasure {sect}.{measure}: Give all development team members permission to write in the main repository
+// --
+// [.tags]
+// * Integration
+// * Adaptation
+// * Plugin
+// * NewProduct
+// * Publication
+// * Document
 
 //  links incoming: link:#M_B3F[_M_B3F_]
 
+* Give all development team members permission to write in the main repository.
 That includes in-house staff and subcontracted people.
 Also make the current list of _committers_ public in a file in the repository root directory called `MAINTAINERS`.
 It must contain the name and email address of each person.
---
 
 // S_A3D::
-[sidebar.submeasure, id="{sect}.{counter:measure:A}"]
-.Submeasure {sect}.{measure}: Give everyone permission to read the main repository
---
-Tags: `Integration` `Adaptation` `Plugin` `NewProduct` `Publication` `Document`
+// [sidebar.submeasure, id="{sect}.{counter:measure:A}"]
+// .Submeasure {sect}.{measure}: Give everyone permission to read the main repository
+// --
+// [.tags]
+// * Integration
+// * Adaptation
+// * Plugin
+// * NewProduct
+// * Publication
+// * Document
 
 // links incoming: link:#M_B3F[_M_B3F_]
 
+* Give everyone permission to read the main repository.
 Everyone must be able to read and clone the code.
 --
 
 // R_A48::
 [sidebar.recommendation, id="{sect}.{counter:measure:A}"]
-.Recommendation {sect}.{measure}: Give trusted outside developers permission to write in the main repository
+.Give trusted outside developers permission to write in the main repository
 --
-Tags: `Plugin` `NewProduct` `Publication`
+[.tags]
+* Plugin
+* NewProduct
+* Publication
 
 If someone has been making quality contributions to the project for a long time, on a similar level to people hired by the City Council, they can be rewarded with permission to write in the repository.
 This runs a low risk because version control means that everything is traceable and changes are reversible.
@@ -237,9 +283,12 @@ However, to avoid any misunderstanding, it must be made clear to that person wha
 
 // M_BD2::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Integrate external contributions into the main repository by means of the Pull Request mechanism
+.Integrate external contributions into the main repository by means of the Pull Request mechanism
 --
-Tags: `Plugin` `NewProduct` `Publication`
+[.tags]
+* Plugin
+* NewProduct
+* Publication
 
 As anyone can clone the main repository and modify their copy, we don’t need to give write permissions to anyone who is not part of the main development team.
 Everyone who would like to integrate a series of changes in the product must submit us a Pull Request in GitHub
@@ -247,9 +296,11 @@ Everyone who would like to integrate a series of changes in the product must sub
 
 // R_B85::
 [sidebar.recommendation, id="{sect}.{counter:measure:A}"]
-.Recommendation {sect}.{measure}: Upload translations from the README file to the main repository
+.Upload translations from the README file to the main repository
 --
-Tags: `NewProduct` `Publication`
+[.tags]
+* NewProduct
+* Publication
 
 If the project’s potential users are mainly local, it might be a good idea to translate the contents of the `README` file or part of them.
 That can be done by putting new files in the root directory of the repository, with names such as (assuming that the markup language used is Markdown, and therefore the extension is `.md`): `README.ca.md` or `README.es.md`.
@@ -259,18 +310,28 @@ An example can be seen at https://github.com/tiimgreen/github-cheat-sheet.
 
 // M_E50::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Specify a project contact person in the README file
+.Specify a project contact person in the README file
 --
-Tags: `Integration` `Adaptation` `Plugin` `NewProduct` `Publication` `Document`
+[.tags]
+* Integration
+* Adaptation
+* Plugin
+* NewProduct
+* Publication
+* Document
 
 Include an email address.
 --
 
 // M_713::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Use English as the language for all development
+.Use English as the language for all development
 --
-Tags: `Integration` `Adaptation` `Plugin` `NewProduct`
+[.tags]
+* Integration
+* Adaptation
+* Plugin
+* NewProduct
 
 The following must all be in English
 
@@ -299,9 +360,14 @@ If the issue manager lets anyone enter issues and one is entered in another lang
 
 // M_488::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Don’t upload binary files or build process files (with exceptions)
+.Don’t upload binary files or build process files (with exceptions)
 --
-Tags: `Integration` `Adaptation` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Integration
+* Adaptation
+* Plugin
+* NewProduct
+* Publication
 
 Exceptions:
 Small images (general project logos, etc.)
@@ -309,9 +375,14 @@ Small images (general project logos, etc.)
 
 // M_88E::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Keep the configuration information in separate files and in a different private repository
+.Keep the configuration information in separate files and in a different private repository
 --
-Tags: `Integration` `Adaptation` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Integration
+* Adaptation
+* Plugin
+* NewProduct
+* Publication
 
 This makes it easier to reuse the code.
 It is incorrect to put the configuration:
@@ -323,9 +394,15 @@ In files where commits (changes) are made in the same repository as the code.
 
 // M_CC8::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Don’t upload sensitive information regarding users, the City Council or third parties to the repository
+.Don’t upload sensitive information regarding users, the City Council or third parties to the repository
 --
-Tags: `Procurement` `Integration` `Adaptation` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Procurement
+* Integration
+* Adaptation
+* Plugin
+* NewProduct
+* Publication
 
 For example: configurations, usernames and passwords, public keys and other real credentials used in the production system.
 
@@ -334,13 +411,15 @@ Establish penalties (serious breach) in the contract performance conditions for 
 
 // R_198::
 [sidebar.recommendation, id="{sect}.{counter:measure:A}"]
-.Recommendation {sect}.{measure}: Re-synchronise own repository with the upstream project repository weekly
+.Re-synchronise own repository with the upstream project repository weekly
 --
-Tags: `Adaptation`
+[.tags]
+* Adaptation
 
 [[repositori-de-codi-i-control-de-versions]]To finally enable our changes to be integrated
 and our defect notifications to make sense.
 --
+
 
 == Issue manager
 
@@ -368,10 +447,15 @@ It needs to be borne in mind that the bug tracker is not only important for the 
 This bug tracker has to be operational and public throughout the product’s useful life, i.e. after the contracts with the City Council have finished.
 
 // M_35A
-[sidebar.measure]
-.Measure: [.line-through]#Link the main repository to the GitHub issue manager#
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.[.line-through]#Link the main repository to the GitHub issue manager#
 --
-Tags: `Day1` `Adaptation` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Day1
+* Adaptation
+* Plugin
+* NewProduct
+* Publication
 
 Once again it is the default option, in this case because of its automatic link with the GitHub repository and because it meets our accessibility and transparency requirements.
 
@@ -380,9 +464,14 @@ Some basic issue categories will have to be established at the start that can be
 
 //  A_D4F::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Link the main repository to a public issue manager
+.Link the main repository to a public issue manager
 --
-Tags: `Day1` `Adaptation` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Day1
+* Adaptation
+* Plugin
+* NewProduct
+* Publication
 
 If this alternative is adopted, it must be borne in mind that:
 
@@ -401,18 +490,27 @@ If this alternative is adopted, it must be borne in mind that:
 
 // R_20E::
 [sidebar.recommendation, id="{sect}.{counter:measure:A}"]
-.Recommendation {sect}.{measure}: Use the issue manager for tasks, releases and new features
+.Use the issue manager for tasks, releases and new features
 --
-Tags: `Integration` `Adaptation` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Integration
+* Adaptation
+* Plugin
+* NewProduct
+* Publication
 
 Integrating the repository with GitHub’s issue manager means that together they make a good tool for collaborating on any code-related issue, not just fixing bugs.
 --
 
 // M_0E7::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Draw up and maintain an issuemanagement policy
+.Draw up and maintain an issue management policy
 --
-Tags: `Procurement` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Procurement
+* Plugin
+* NewProduct
+* Publication
 
 It must specify:
 
@@ -425,22 +523,31 @@ It it does not have one of its own, IMI will have to provide it with one.
 --
 
 // R_7A9::
-[sidebar.alternative, id="{sect}.{counter:measure:A}"]
-.Recommendation {sect}.{measure}: Give everyone permission to report issues, even anonymously
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
+.Give everyone permission to report issues, even anonymously
 --
-Tags: `Integration` `Adaptation` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Integration
+* Adaptation
+* Plugin
+* NewProduct
+* Publication
 
 Configure the issue manager so it will not be necessary to create an account to report defects or anything else, in order to facilitate as many contributions as possible.
 Activate the necessary anti-spam measures (e.g. captchas)
 
-It is always possible to keep an eye on someone who gives us problems or rethink this policy if it doesn’t work on a project.
+It is always possible to keep an eye on someone who gives us problems or rethink this policy if it doesn't work on a project.
 --
 
 // R_A03::
 [sidebar.recommendation, id="{sect}.{counter:measure:A}"]
-.Recommendation {sect}.{measure}: Put someone in charge of filtering issues as they arrive
+.Put someone in charge of filtering issues as they arrive
 --
-Tags: `Procurement` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Procurement
+* Plugin
+* NewProduct
+* Publication
 
 Someone needs to be given the job of deleting duplicates, spam, etc.
 
@@ -451,15 +558,19 @@ Budget for this task if it is done under contract with a company or a cooperativ
 
 // M_60A::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Notify the official bug tracker of the bugs in the product to be modified
+.Notify the official bug tracker of the bugs in the product to be modified
 --
-Tags: `Procurement` `Adaptation` `Plugin`
+[.tags]
+* Procurement
+* Adaptation
+* Plugin
 
 When we are adapting an existing product,
 one of the main contributions we can make to the project is to detect, isolate and fix any bugs there might be.
 
 Successful bidders should be contractually obliged to properly notify us of the bugs, in accordance with the guidelines of each project, to help improve the product upstream.
 --
+
 
 == Integration infrastructure and testing
 
@@ -468,9 +579,14 @@ Successful bidders should be contractually obliged to properly notify us of the 
 
 // R_368::
 [sidebar.alternative, id="{sect}.{counter:measure:A}"]
-.Recommendation {sect}.{measure}: Link the main repository to a free software continuous integration system
+.Link the main repository to a free software continuous integration system
 --
-Tags: `Day1` `Adaptation` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Day1
+* Adaptation
+* Plugin
+* NewProduct
+* Publication
 
 We recommend one of the following tools:
 
@@ -480,6 +596,7 @@ We recommend one of the following tools:
 
 * Travis CI
 --
+
 
 == Internal and external communication channels
 
@@ -503,9 +620,12 @@ The list or forum is where the whole history of the project (discussions, decisi
 
 // M_A9C::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Create a development list or forum that will initially do for users as well
+.Create a development list or forum that will initially do for users as well
 --
-Tags: `Plugin` `NewProduct` `Publication`
+[.tags]
+* Plugin
+* NewProduct
+* Publication
 
 Initially the project will have a single dedicated discussion forum, shared by people carrying out development work and others who are just users of the product, the early adopters.
 
@@ -528,18 +648,24 @@ If the people behind a product can be contacted, it engenders confidence in the 
 
 // R_3D4::
 [sidebar.recommendation, id="{sect}.{counter:measure:A}"]
-.Recommendation {sect}.{measure}: Create a mail list for people who use the product, if the project grows
+.Create a mail list for people who use the product, if the project grows
 --
-Tags: `Plugin` `NewProduct` `Publication`
+[.tags]
+* Plugin
+* NewProduct
+* Publication
 
 Activate the archive.
 --
 
 // R_D24::
 [sidebar.recommendation, id="{sect}.{counter:measure:A}"]
-.Recommendation {sect}.{measure}: Create a development chat room for immediate communication between the team
+.Create a development chat room for immediate communication between the team
 --
-Tags: `Plugin` `NewProduct` `Publication`
+[.tags]
+* Plugin
+* NewProduct
+* Publication
 
 Use https://gitter.im/[gitter.im] or https://riot.im/[riot.im].
 --

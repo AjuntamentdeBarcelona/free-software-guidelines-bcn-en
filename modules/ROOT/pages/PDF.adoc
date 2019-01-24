@@ -44,5 +44,5 @@ include::legal-aspects.adoc[]
 
 include::documentation.adoc[]
 
-[.discrete.page-end-notes]
-= End notes
+// [.discrete.page-end-notes]
+// = End notes

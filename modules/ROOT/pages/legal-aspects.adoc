@@ -16,7 +16,7 @@ Until now, contracts with suppliers stipulated that all the software developed f
 
 With free software licences, even though one does not have legal ownership of the source code, that code can be used as often as necessary and for whatever task is desired, as well as modified, adapted and redistributed (the latter under the conditions set by the licence).
 So the City Council could waive assignment of the copyrights in the code (provided it obtains the code under a free software license), but for the moment we conservatively continue claiming assignment as the default policy (apart from the exceptions stated in the alternatives below).
-The only thing it is not possible to do without being the legal owners of the code is relicense it.
+The only two things that are not possible to do without being the legal owner of the code is relicense it or transfer the ownership.
 
 The main criterion for assessing who should hold the copyrights in the case of new projects, is to think which entity best ensures at each point that the appropriate measures are taken to disseminate the project, facilitate contributions from third parties, make it grow to achieve the objectives and make it sustainable in the long term.
 
@@ -29,9 +29,14 @@ The main criterion for assessing who should hold the copyrights in the case of n
 
 // (M_4DC)
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Establish Barcelona City Council as the owner of the new source code and the new documentation
+.Establish Barcelona City Council as the owner of the new source code and the new documentation
 --
-Tags: `Procurement` `Adaptation` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Procurement
+* Adaptation
+* Plugin
+* NewProduct
+* Publication
 
 That is the default option but not the only one.
 It forces the contractor to assign ownership of the copyrights in the code and the documentation that it generates.
@@ -41,9 +46,11 @@ It particularly makes sense that the City Council should wish to concentrate all
 
 // (A_3B6)
 [sidebar.alternative, id="{sect}.{counter:measure:A}"]
-.Alternative {sect}.{measure}: Assign ownership of the new source code to the legal owner of the original code
+.Assign ownership of the new source code to the legal owner of the original code
 --
-Tags: `Procurement` `Adaptation`
+[.tags]
+* Procurement
+* Adaptation
 
 // links incoming: link:#M_4DC[_M_4DC_]
 
@@ -53,9 +60,13 @@ If not, the parts developed by the City Council can be owned by it.
 
 // (A_EE9)
 [sidebar.alternative, id="{sect}.{counter:measure:A}"]
-.Alternative {sect}.{measure}: Assign ownership of the source code to an independent non-profit
+.Assign ownership of the source code to an independent non-profit
 --
-Tags: `Procurement` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Procurement
+* Plugin
+* NewProduct
+* Publication
 
 // links incoming: link:#M_4DC[_M_4DC_]
 
@@ -69,9 +80,13 @@ The foundation can manage other projects freed by the City Council or of other e
 
 // (A_C87)
 [sidebar.alternative, id="{sect}.{counter:measure:A}"]
-.Alternative {sect}.{measure}: Establish the supplier as the owner of the new source code and the new documentation
+.Establish the supplier as the owner of the new source code and the new documentation
 --
-Tags: `Procurement` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Procurement
+* Plugin
+* NewProduct
+* Publication
 
 // links incoming: link:#M_4DC[_M_4DC_]
 
@@ -91,18 +106,20 @@ The supplier is a company or a cooperative with a track record of publishing fre
 
 There are three options, depending on the use-case:
 
-`NewProduct` or `Publication`: we choose the AGPL licence by default.
+* `NewProdct` or `Publication`: we choose the AGPL licence by default.
 
-`Adaptation`: we modify an existing project.
+* `Adaptation`: we modify an existing project.
 In this case we have to respect the licence it already has.
 
-`Plugin`: we choose a licence commonly used in the ecosystem in which we want to integrate a modular component.
+* `Plugin`: we choose a licence commonly used in the ecosystem in which we want to integrate a modular component.
 
 // (M_CAF)
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Choose the AGPL-3.0 licence as the licence for distributing the project
+.Choose the AGPL-3.0 licence as the licence for distributing the project
 --
-Tags: `NewProduct` `Publication`
+[.tags]
+* NewProduct
+* Publication
 
 // links outgoing: link:#A_038[_A_038_]
 
@@ -129,9 +146,11 @@ For your information, translations into other languages can be used but the orig
 
 // (A-038)
 [sidebar.alternative, id="{sect}.{counter:measure:A}"]
-.Alternative {sect}.{measure}: Choose the EUPL-1.2 licence as the licence for distributing the project
+.Choose the EUPL-1.2 licence as the licence for distributing the project
 --
-Tags: `NewProduct` `Publication`
+[.tags]
+* NewProduct
+* Publication
 
 // links incoming: link:#M_CAF[_M_CAF_]
 
@@ -157,10 +176,11 @@ In the worst case scenario, they would prefer to contribute to another project t
 
 // (M_A61)
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Use the original licence for all code that modifies an existing component
+.Use the original licence for all code that modifies an existing component
 --
-Tags: `Procurement` `Adaptation`
-
+[.tags]
+* Procurement
+* Adaptation
 
 When we modify a component, and to ensure our modifications might potentially be incorporated into the original product, we have to respect the licence we are given, although we could modify it in the case of lax permissive licences.
 
@@ -171,9 +191,11 @@ If we have respected measure S_58B, the component we are modifying will have a f
 
 // (M_B12)
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Choose a licence commonly used in the ecosystem or technological platform of the component to be developed
+.Choose a licence commonly used in the ecosystem or technological platform of the component to be developed
 --
-Tags: `Procurement` `Plugin`
+[.tags]
+* Procurement
+* Plugin
 
 If we have to build a plugin to an existing platform (the core of which, according to measure S_58B, has to be free), we have a certain margin for choosing the licence.
 It is best to choose one from among those most used in the framework or platform in question, in order to facilitate the new component’s acceptance by the community.
@@ -188,9 +210,14 @@ So, if the AGPL or the EUPL are among these more popular licences, we choose the
 
 // M_3F9::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Write a checklist with the obligations of the licences used and monitor compliance
+.Write a checklist with the obligations of the licences used and monitor compliance
 --
-Tags: `Integration` `Adaptation` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Integration
+* Adaptation
+* Plugin
+* NewProduct
+* Publication
 
 Each licence grants different rights and obligations, to both users and developers.
 We must ensure compliance with the obligations of all the licences for the main components of the project, whether we have chosen them or not.
@@ -208,9 +235,13 @@ With regard to the EUPL it is also worth reading https://joinup.ec.europa.eu/pag
 
 // M_97E::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Upload the licence text to the main repository
+.Upload the licence text to the main repository
 --
-Tags: `Day1` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Day1
+* Plugin
+* NewProduct
+* Publication
 
 The licence will go in plain text in a file called `LICENSE` (no extension), in the repository’s root directory.
 
@@ -227,9 +258,13 @@ The different translations can be found at https://joinup.ec.europa.eu/page/eupl
 
 // M_2C0::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Include a copyright and licence notice in each code file
+.Include a copyright and licence notice in each code file
 --
-Tags: `Adaptation` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Adaptation
+* Plugin
+* NewProduct
+* Publication
 
 Most licences stipulate the inclusion of a licence and copyright notice.
 
@@ -296,9 +331,13 @@ import ...
 
 // M_2DB::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Establish a procedure for guaranteeing the integrity of the contributions
+.Establish a procedure for guaranteeing the integrity of the contributions
 --
-Tags: `Procurement` `Plugin` `NewProduct` `Publication`
+[.tags]
+* Procurement
+* Plugin
+* NewProduct
+* Publication
 
 This means all the code in the repository has the permission of the person who wrote it (which is not always the person who makes the commit) to be there under the licence conditions of the project.
 
@@ -312,9 +351,12 @@ This can be done in the following ways:
 
 // M_1AB::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Measure {sect}.{measure}: Require all external code contributors to send a DCO and sign each commit
+.Require all external code contributors to send a DCO and sign each commit
 --
-Tags: `Plugin` `NewProduct` `Publication`
+[.tags]
+* Plugin
+* NewProduct
+* Publication
 
 The *Developer’s Certificate of Origin (DCO)* is the document used to verify that the developers who contribute to the project
 recognise and accept its licence.

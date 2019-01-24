@@ -4,102 +4,122 @@ include::_attributes.adoc[]
 endif::[]
 include::{partialsdir}/README.adoc[tag=metadata]
 
-Measure: Upload a ``README`` file to the main repository M_F25::
-  tags: Day1 Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  This must include the declaration of intent and the other information mentioned throughout this Guide that has to be included in the `README` file.
-  +
-  It must be written in English and the format has to be text with light markup language.
+:!measure:
+:sect: 8
+
+// M_F25::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Upload a ``README`` file to the main repository
+--
+[.tags]
+* Day1
+* Plugin
+* NewProduct
+* Publication
+
+This must include the declaration of intent and the other information mentioned throughout this Guide that has to be included in the `README` file.
+
+It must be written in English and the format has to be text with light markup language.
 It cannot have an extension if it is written in plain text, or it can have an extension that indicates in what format the markup has to be interpreted (i.e. in reality the file will be called `README.md` if it is written in Markdown).
-  +
-  The content of this file (more specifically the version posted in the `master` branch), formatted according to the conventions of the markup language used, is what [.line-through]#GitHub# Gitlab and similar software shows as the development website's home page.
+
+The content of this file (more specifically the version posted in the `master` branch), formatted according to the conventions of the markup language used, is what [.line-through]#GitHub# Gitlab and similar software shows as the development website's home page.
 So it is important to check the format is correct and that it appears correctly in a browser.
+--
 
-Measure: Use wiki formats or free markup formats for all product documentation M_66D::
-  tags: Integration Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  For the project user website it is acceptable to write directly in HTML.
+// M_66D::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Use wiki formats or free markup formats for all product documentation
+--
+[.tags]
+* Integration
+* Plugin
+* NewProduct
+* Publication
+
+For the project user website it is acceptable to write directly in HTML.
 Other documentation, whether or not it is included in the repository code, will be in the corresponding wiki format or in one of the following formats:
-  +
-  ReStructuredText (the Sphinx default format)
-  +
-  Markdown
-  +
-  Org Mode
 
-Measure: Document the project so third parties can understand it, configure it and download it M_AC6::
-  tags: Procurement Integration
-Adaptation Plugin NewProduct
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  Organisations awarded contracts – development and deployment – have to understand they will not have a monopoly over the configuration, rollout and maintenance of the product.
+* Asciidoc
+* Markdown
+* ReStructuredText (the Sphinx default format)
+* Org Mode
+--
 
-[[M_09A]]
+// M_AC6::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Document the project so third parties can understand it, configure it and download it
+--
+[.tags]
+* Procurement
+* Integration
+* Adaptation
+* Plugin
+* NewProduct
 
-Measure: Create and maintain a User Guide in the project’s [.line-through]#GitHub# Gitlab wiki M_09A::
-  tags: Integration Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: link:#A_B27[_A_B27_]
-  +
-  From a very early stage there has to be accessible documentation via web that explains how to use the product on different levels or for different roles: average users, administrators, etc.
+Organisations awarded contracts -- development and deployment -- have to understand they will not have a monopoly over the configuration, deployment and maintenance of the product.
+--
+
+// [[M_09A]]
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Create and maintain a User Guide in the project's [.line-through]#GitHub# Gitlab wiki
+--
+[.tags]
+* Integration
+* Plugin
+* NewProduct
+* Publication
+
+//  links outgoing: link:#A_B27[_A_B27_]
+
+From a very early stage there has to be accessible documentation via web that explains how to use the product on different levels or for different roles: average users, administrators, etc.
 In the case of code libraries, the users are code programmers who do not participate in the project.
-  +
-  A careful assessment needs to be made regarding which languages this documentation should be written in, depending on the sphere the product is expected to be used in.
+
+A careful assessment needs to be made regarding which languages this documentation should be written in, depending on the sphere the product is expected to be used in.
 Catalan or Spanish could be the main language but at least the main administration tasks should also be explained in English.
 If interest is shown from other countries, it would be worth translating all the user material into English as well.
 All code library and development tool documentation must be in English from the start.
-  +
-  The documentation will never be complete and will be constantly evolving.
+
+The documentation will never be complete and will be constantly evolving.
 So it should be easily updatable by different people and we recommend initially using a wiki.
 Using the same GitHub wiki avoids us having to create more infrastructure and means the documentation is automatically linked from the repository webpage.
-  +
-  Until there is a lot of user documentation, it is advisable to keep it all together in one wiki page, with a table of contents at the beginning, and not subdivide it into pages, as this makes it easier to search for key words by using the browser search features.
+
+Until there is a lot of user documentation, it is advisable to keep it all together in one wiki page, with a table of contents at the beginning, and not subdivide it into pages, as this makes it easier to search for key words by using the browser search features.
 This page should be linked with other documents such as the installation instructions, any tutorials or the optional FAQ list.
-  +
-  Link from the:
-  +
-  * Project website.
-  * The `README` file of the main repository.
 
-[[A_B27]]
+Link from the:
 
-Alternative: Create and maintain a User Guide in Sphinx [.line-through]#and publish it in the GitHub Pages# A_B27::
-  tags: Plugin NewProduct
-  +
-  links incoming: link:#M_09A[_M_09A_]
-  +
-  links outgoing: None
-  +
-  This is an alternative for projects that grow a lot and might have started by putting documents in the wiki.
+* Project website.
+* The `README` file of the main repository.
+--
+
+// [[A_B27]]
+[sidebar.alternative, id="{sect}.{counter:measure:A}"]
+.Create and maintain a User Guide in Sphinx [.line-through]#and publish it in the GitHub Pages#
+--
+[.tags]
+* Plugin
+* NewProduct
+
+//  links incoming: link:#M_09A[_M_09A_]
+
+This is an alternative for projects that grow a lot and might have started by putting documents in the wiki.
 Any documentation found in the wiki must be transferred to the new format and the wiki itself deleted, so as not to confuse users.
 If it is clear from the outset that the project will need a large amount of documentation, we can opt to go down this road from the beginning.
-  +
-  All the documentation will go in a `doc` subdirectory in the repository’s root directory and either be written in ReStructuredText or Markdown, the two markup languages supported by Sphinx.
-  +
-  In this case, given the projects are big and have to aim to attract broad audiences, the documentation will have to be in English, notwithstanding the fact they could be translated into other languages.
-  +
-  Having the code and documentation in a single repository, far from being a problem, facilitates both being synchronised and this being reflected in the commit log.
-  +
-  Link from the:
-  +
-  Project website.
-  +
-  The `README` file of the main repository.
-  +
-  You can find an example at: https://github.com/commercialhaskell/stack/tree/master/doc
+
+All the documentation will go in a `doc` subdirectory in the repository’s root directory and either be written in ReStructuredText or Markdown, the two markup languages supported by Sphinx.
+
+In this case, given the projects are big and have to aim to attract broad audiences, the documentation will have to be in English, notwithstanding the fact they could be translated into other languages.
+
+Having the code and documentation in a single repository, far from being a problem, facilitates both being synchronised and this being reflected in the commit log.
+
+Link from the:
+
+* Project website.
+* The `README` file of the main repository.
+
+You can find an example at: https://github.com/commercialhaskell/stack/tree/master/doc
+--
+
 
 Recommendation: Create and maintain a FAQ list R_4B1::
   tags: NewProduct Publication
@@ -111,72 +131,85 @@ Recommendation: Create and maintain a FAQ list R_4B1::
   If this is done reactively but diligently, with real user questions,
 it can make it much easier for people to find the information they need and could prove to be a very profitable way of investing the project’s resources.
 
-Recommendation: Create a tutorial explaining how to do some of the usual tasks, step by step R_A3A::
-  tags: Plugin NewProduct
-Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
+// R_A3A::
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
+.Create a tutorial explaining how to do some of the usual tasks, step by step
+--
+[.tags]
+* Plugin
+* NewProduct
+* Publication
+--
 
-Measure: Upload a file with installation instructions to the main repository M_CC5::
-  tags: Day1 Integration Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  The installation procedure developed in the link:#implementar-procediments-build-installacio[Measure: (Day 1) Implement build and installation procedures with free, widely used tools]
+// M_CC5::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Upload a file with installation instructions to the main repository
+--
+[.tags]
+* Day1
+* Integration
+* Plugin
+* NewProduct
+* Publication
+
+The installation procedure developed in the link:#implementar-procediments-build-installacio[Measure: (Day 1) Implement build and installation procedures with free, widely used tools]
 has to be explained in an `INSTALL` file in the root directory of the main repository.
-  +
-  It must be written in English and the format must be text with light markup language.
-  +
-  Some diagnostic measure or command should be included to let users know if the product has been properly installed (e.g. by performing a set of tests, and specifying the expected result).
-  +
-  The installation file must at least be linked from:
-  +
-  The `README` file of the main repository.
 
-Recommendation: Supplement the user documentation with screen captures, videos and demo sites R_B33::
-  tags: NewProduct
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  For big projects that aim to attract the attention of lots of people, the big appeal is a demo site.
-  +
-  A video explaining the tool’s use and characteristics might also be very attractive.
-  +
-  If the product has a graphic user interface, it is highly recommended that the explanations be accompanied by screen captures.
+It must be written in English and the format must be text with light markup language.
+
+Some diagnostic measure or command should be included to let users know if the product has been properly installed (e.g. by performing a set of tests, and specifying the expected result).
+
+The installation file must at least be linked from:
+
+* The `README` file of the main repository.
+--
+
+// R_B33::
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
+.Supplement the user documentation with screen captures, videos and demo sites
+--
+[.tags]
+* NewProduct
+
+For big projects that aim to attract the attention of lots of people, the big appeal is a demo site.
+
+A video explaining the tool’s use and characteristics might also be very attractive.
+
+If the product has a graphic user interface, it is highly recommended that the explanations be accompanied by screen captures.
 They could also be used in the features list described in the #h:2dc43f4e-e755-4fe5-be4e-1f9dd58fe9e9[Measure: Specify a feature list in easily accessible locations].
+--
 
-Measure: Specify, in a prominent location, a distribution licence for the User Guide M_7F0::
-  tags: Integration Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  The default licence to use is https://creativecommons.org/share-your-work/public-domain/cc0[Creative Commons Zero v1.0 Universal] (CC0-1.0).
-  +
-  A summary of its characteristics can be found at: https://tldrlegal.com/license/creative-commons-cc0-1.0-universal.
-  +
-  There is no reason to use the same licence for the documentation as for the software itself.
+// M_7F0::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Specify, in a prominent location, a distribution licence for the User Guide
+--
+[.tags]
+* Integration
+* Plugin
+* NewProduct
+* Publication
+
+The default licence to use is https://creativecommons.org/share-your-work/public-domain/cc0[Creative Commons Zero v1.0 Universal] (CC0-1.0).
+
+A summary of its characteristics can be found at: https://tldrlegal.com/license/creative-commons-cc0-1.0-universal.
+
+There is no reason to use the same licence for the documentation as for the software itself.
 In fact, Public Domain licences are admissible in this case.
-  +
-  When creating documentation for external projects, use the licences those projects are already using.
 
-Measure: Specify, in a prominent location, a distribution licence for the design documents and studies commissioned M_6FC::
-  tags: Document
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  The default licence to use is https://creativecommons.org/licenses/[Creative Commons Attribution Share Alike 4.0] (CC-BY-SA-4.0).
-  +
-  Follow:
-https://wiki.creativecommons.org/wiki/Website/Publish i https://creativecommons.org/choose/#metadata.
-  +
-  To understand its characteristics you can consult: https://tldrlegal.com/license/creative-commons-attribution-sharealike-4.0-international-(cc-by-sa-4.0).[https://tldrlegal.com/license/creative-commons-attribution-sharealike-4.0-international-(cc-by-sa-4.0)].
+When creating documentation for external projects, use the licences those projects are already using.
+--
+
+// M_6FC::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Specify, in a prominent location, a distribution licence for the design documents and studies commissioned
+--
+[.tags]
+* Document
+
+The default licence to use is https://creativecommons.org/licenses/[Creative Commons Attribution Share Alike 4.0] (CC-BY-SA-4.0).
+
+Follow:
+https://wiki.creativecommons.org/wiki/Website/Publish and https://creativecommons.org/choose/#metadata.
+
+To understand its characteristics you can consult: https://tldrlegal.com/license/creative-commons-attribution-sharealike-4.0-international-(cc-by-sa-4.0).[https://tldrlegal.com/license/creative-commons-attribution-sharealike-4.0-international-(cc-by-sa-4.0)].
+--

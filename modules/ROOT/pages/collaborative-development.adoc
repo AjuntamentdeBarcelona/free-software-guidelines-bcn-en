@@ -154,7 +154,10 @@ They are all listed in the following table:
 
 == Procurement for collaborative development
 
-[sidebar.measure]
+:!measure:
+:sect: 3.2
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Award the contract to companies with experience in collaborative development
 --
 [.tags]
@@ -171,7 +174,7 @@ However many conditions are included in the contract, if the winning company has
 In most cases, there is no reason why that should be the result of bad faith but a lack of knowledge.
 --
 
-[sidebar.alternative]
+[sidebar.alternative, id="{sect}.{counter:measure:A}"]
 .Enter into a subsidiary independent validation and verification (IV&V) contract
 --
 [.tags]
@@ -190,7 +193,7 @@ In an free software project, what is being contracted is not just the code but a
 Add this service to the project technical office.
 --
 
-[sidebar.alternative]
+[sidebar.alternative, id="{sect}.{counter:measure:A}"]
 .Include experience in free software projects as an award criterion
 --
 [.tags]
@@ -204,7 +207,7 @@ Add this service to the project technical office.
 Award a set number of points to companies that can certify experience in projects that have produced free software.
 --
 
-[sidebar.measure]
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Ask tenderers to provide evidence of participants' experience in free software projects
 --
 [.tags]
@@ -218,7 +221,7 @@ They must do this by providing references for their individual participation in 
 This can be done as a technical solvency criterion or a performance criterion.
 --
 
-[sidebar.recommendation]
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
 .Split the project into groups of features that can be tendered in various lots
 --
 [.tags]
@@ -233,7 +236,7 @@ The _reservoirs of distributed knowledge_ are one of the main strengths of free 
 It also helps a great deal to ensure collaborative development processes are established from the outset.
 --
 
-[sidebar.recommendation]
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
 .Reduce the financial stability requirements for tenders
 --
 [.tags]
@@ -252,7 +255,10 @@ As explained in the Join Up _Guideline on public procurement of Open Source Soft
 
 == Dissemination of the project
 
-[sidebar.measure]
+:!measure:
+:sect: 3.3
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Choose a good name for the project
 --
 [.tags]
@@ -264,7 +270,7 @@ This is more important in free software projects than in proprietary ones becaus
 More specific pointers can be found at http://producingoss.com/en/getting-started.html#choosing-a-name.
 --
 
-[sidebar.recommendation]
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
 .Register the name in important online (Internet) sites (3.3, 7.0)
 --
 [.tags]
@@ -276,7 +282,7 @@ Besides one or more own Internet domains names, a project might want to be prese
 Using the same username everywhere makes it easier for people to identify the project, even if they are not heavily involved in it.
 --
 
-[sidebar.measure]
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Draw up a clear mission statement and publish it in prominent places
 --
 [.tags]
@@ -300,7 +306,7 @@ It should be capable of being seen without the need to scroll down the page on a
 * Every time the project is entered in a repository or free software project list, for example https://joinup.ec.europa.eu/[Join Up of the European Union].
 --
 
-[sidebar.measure]
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Specify in prominent places that the project is free software
 --
 [.tags]
@@ -321,7 +327,7 @@ Specify the licence in the following places at least:
 With regard to the website targeted at project users, it is important not to relegate this to a “downloads” or “development” page which might require more than one click.
 --
 
-[sidebar.measure]
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Specify a feature list in easily accessible places
 --
 [.tags]
@@ -347,7 +353,7 @@ If a feature has not been implemented yet, it can be specified in brackets as: _
 It makes no sense, and indeed could be counter-productive, to falsify or exaggerate the product’s real technical merits.
 --
 
-[sidebar.measure]
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Specify the main technical requirements in easily accessible places
 --
 [.tags]
@@ -367,7 +373,7 @@ The link should be capable of being seen without the need to scroll down the pag
 This is better in the form of a list with bullet points and simple sentences.
 --
 
-[sidebar.recommendation]
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
 .Specify the differences with similar products in easily accessible places
 --
 [.tags]
@@ -381,7 +387,7 @@ Create a visible link from the website targeted at project users, if there is on
 Strictly technical differences can also be linked from or included on the development website.
 --
 
-[sidebar.measure]
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Specify and maintain a page with the development status of the project
 --
 [.tags]
@@ -414,7 +420,7 @@ What's more, in the case of free software code, the whole code and the whole pro
 Anybody can refute our affirmations if they are not certain, as explained in: http://producingoss.com/en/marketing.html#goldfish-bowl.
 --
 
-[sidebar.recommendation]
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
 .Establish measures to improve the visibility of the progress and level of activity on the project
 --
 [.tags]
@@ -436,7 +442,7 @@ By way of example, the way the https://launchpad.net/inkscape[Ubuntu Launchpad e
 The aim is to reinforce and highlight all the points made in the #h:a22a9688-f8e2-473d-baf5-8989693a41c1[Measure: Specify and maintain a page with the development status of the project].
 --
 
-[sidebar.recommendation]
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
 .Negotiate beforehand how to highlight the contributions sponsored by the City Council
 --
 [.tags]
@@ -456,7 +462,10 @@ Before initiating collaboration it is a good idea to talk with the project devel
 
 == Parametrisation, configuration and installation
 
-[sidebar.measure]
+:!measure:
+:sect: 3.4
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Parametrise the product using configuration files
 --
 [.tags]
@@ -480,7 +489,7 @@ It is incorrect to put the configuration:
 * In files committed to the same repository as the code.
 --
 
-[sidebar.measure]
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Implement and document build and installation procedures with widely used free tools
 --
 [.tags]
@@ -509,7 +518,10 @@ Some examples of commonly used build tools (some of which can also be used in co
 
 == Packaging and deployment
 
-[sidebar.measure]
+:!measure:
+:sect: 3.5
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Get the successful bidder responsible for deployment to use the same code published in the main repository
 --
 // M_A69
@@ -526,7 +538,7 @@ The code available in the public repository is the one fully covered by a free s
 Nothing can be added to it.
 --
 
-[sidebar.recommendation]
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
 .Establish and explicit versioning policy in the ``README`` file
 --
 [.tags]
@@ -544,7 +556,10 @@ If there is no clear policy, we can subscribe to a well-known generic policy, su
 
 == Use free formats and standards
 
-[sidebar.measure]
+:!measure:
+:sect: 3.6
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Check the user interface of web applications are strictly based on widely adopted W3C standards
 --
 [.tags]
@@ -561,7 +576,7 @@ The presentation has to be displayed correctly, and the product has to be fully 
 * Trident/EdgeHTML (Microsoft)
 --
 
-[sidebar.measure]
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Use open formats in exchanging files with the citizens and for internal use
 --
 [.tags]
@@ -593,7 +608,10 @@ A temporary exception to this rule is justified if we need to interchange inform
 
 == Internationalisation
 
-[sidebar.measure]
+:!measure:
+:sect: 3.7
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Define and budget the technical requirements so the product can be translated and internationalised
 --
 [.tags]
@@ -611,11 +629,14 @@ The standard tool for multi-lingual messages in free software projects is https:
 
 == Freeing software that was proprietary
 
+:!measure:
+:sect: 3.8
+
 The City Council owns the copyright of a lot of code that was not provided under a free software license, and it is therefore proprietary software.
 
 This section addresses those issues that specifically affect the public release under a free license of software components that were not delivered as free software, and in most cases developed without public distribution in mind.
 
-[sidebar.measure]
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Judge whether it is convenient or not to publicly distribute some City Council software
 --
 [.tags]
@@ -632,14 +653,14 @@ Before releasing an existing software component or system in use at Barcelona Ci
 * Resources are available for responding to maintenance issues until this responsibility is handed over to other bodies or organisations, possibly a free software community of developers and users.
 --
 
-[sidebar.measure]
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Look for sensitive information or user settings in the code repository
 --
 [.tags]
 * Publication
 --
 
-[sidebar.measure]
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Notify in new public spaces geared towards developers that this was a non-free project
 --
 [.tags]
@@ -658,7 +679,7 @@ This information should be published in at least the following places:
 The aim of this measure is to avoid an avalanche of requests.
 --
 
-[sidebar.recommendation]
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
 .Warn developers of the possible consequences of the project's imminent public release
 --
 [.tags]

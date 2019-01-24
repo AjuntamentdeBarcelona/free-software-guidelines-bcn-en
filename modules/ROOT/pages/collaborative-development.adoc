@@ -47,6 +47,7 @@ Each project can choose its own QA policy.
 
 * The project team has to check all the suggestions and contributions (pull requests and patches) they might receive, if it is felt the resources are better invested in another task.
 
+
 == Work in the public eye from day one
 
 A really important aspect to bear in mind is the longer you work in a closed, private environment, the more difficult it will be to open it up later on.
@@ -150,144 +151,166 @@ They are all listed in the following table:
 |Dia1__;__ Integration__;__ Plugin__;__ NewProduct__;__ Publication
 |===
 
+
 == Procurement for collaborative development
 
-[[M_F60]]
+[sidebar.measure]
+.Award the contract to companies with experience in collaborative development
+--
+[.tags]
+* Procurement
+* Adaptation
+* Plugin
+* NewProduct
 
-Measure: Award the contract to companies with experience in collaborative development M_F60::
-  tags: Procurement Adaptation Plugin NewProduct
-  +
-  links incoming: None
-  +
-  links outgoing: link:#A_37A[_A_37A_] link:#A_8D9[_A_8D9_]
-  +
-  Establish the need for free software development experience as a condition of technical solvency.
-  +
-  However many conditions are included in the contract, if the winning company has no experience of participating in free software projects, it is most likely that the product and the development process will end up not following many free software development conventions.
+//  links outgoing: link:#A_37A[_A_37A_] link:#A_8D9[_A_8D9_]
+
+Establish the need for free software development experience as a condition of technical solvency.
+
+However many conditions are included in the contract, if the winning company has no experience of participating in free software projects, it is most likely that the product and the development process will end up not following many free software development conventions.
 In most cases, there is no reason why that should be the result of bad faith but a lack of knowledge.
+--
 
-[[A_37A]]
+[sidebar.alternative]
+.Enter into a subsidiary independent validation and verification (IV&V) contract
+--
+[.tags]
+* Procurement
+* Adaptation
+* Plugin
+* NewProduct
 
-Alternative: Enter into a subsidiary independent validation and verification (IV&V) contract A_37A::
-  tags: Procurement Adaptation Plugin NewProduct
-  +
-  links incoming: link:#M_F60[_M_F60_]
-  +
-  links outgoing: None
-  +
-  Hire a company that does have proven experience of sustained participation in free software projects.
+//  links incoming: link:#M_F60[_M_F60_]
+
+Hire a company that does have proven experience of sustained participation in free software projects.
 This company will act as an external project collaborator and carry out code checks and process analyses, reporting directly to IMI.
-  +
-  In an free software project, what is being contracted is not just the code but also the process.
-  +
-  Add this service to the project technical office.
 
-[[A_8D9]]
+In an free software project, what is being contracted is not just the code but also the process.
 
-Alternative: Include experience in free software projects as an award criterion A_8D9::
-  tags: Procurement Adaptation Plugin NewProduct
-  +
-  links incoming: link:#M_F60[_M_F60_]
-  +
-  links outgoing: None
-  +
-  Award a set number of points to companies that can certify experience in projects that have produced free software.
+Add this service to the project technical office.
+--
 
-Measure: Ask tenderers to provide evidence of participants' experience in free software projects M_87A::
-  tags: Procurement Adaptation Plugin NewProduct
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  They must do this by providing references for their individual participation in public repositories and forums (StackOverflow, etc.), from projects they have taken part in.
-  +
-  This can be done as a technical solvency criterion or a performance criterion,
+[sidebar.alternative]
+.Include experience in free software projects as an award criterion
+--
+[.tags]
+* Procurement
+* Adaptation
+* Plugin
+* NewProduct
 
-Recommendation: Split the project into groups of features that can be tendered in various lots R_F10::
-  tags: Procurement NewProduct
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  Either by contracting by lots or by outsourcing specific tasks such as checking the code and its deployment, as established by the link:#fer-contracte-validacio-independent[Alternative: Enter into a subsidiary independent validation and verification (IV&V) contract].
-  +
-  Besides being a policy in line with the Guide for Technological Procurement, disseminating knowledge of the product is very favourable to the interests of the project.
+//  links incoming: link:#M_F60[_M_F60_]
+
+Award a set number of points to companies that can certify experience in projects that have produced free software.
+--
+
+[sidebar.measure]
+.Ask tenderers to provide evidence of participants' experience in free software projects
+--
+[.tags]
+* Procurement
+* Adaptation
+* Plugin
+* NewProduct
+
+They must do this by providing references for their individual participation in public repositories and forums (StackOverflow, etc.), from projects they have taken part in.
+
+This can be done as a technical solvency criterion or a performance criterion.
+--
+
+[sidebar.recommendation]
+.Split the project into groups of features that can be tendered in various lots
+--
+[.tags]
+* Procurement
+* NewProduct
+
+Either by contracting by lots or by outsourcing specific tasks such as checking the code and its deployment, as established by the link:#fer-contracte-validacio-independent[Alternative: Enter into a subsidiary independent validation and verification (IV&V) contract].
+
+Besides being a policy in line with the Guide for Technological Procurement, disseminating knowledge of the product is very favourable to the interests of the project.
 The _reservoirs of distributed knowledge_ are one of the main strengths of free software projects.
-  +
-  It also helps a great deal to ensure collaborative development processes are established from the outset.
 
-Recommendation: Reduce the financial stability requirements for tenders R_8BD::
-  tags: Procurement Integration Adaptation Plugin NewProduct
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  This is a matter of softening the required financial solvency criteria.
+It also helps a great deal to ensure collaborative development processes are established from the outset.
+--
+
+[sidebar.recommendation]
+.Reduce the financial stability requirements for tenders
+--
+[.tags]
+* Procurement
+* Integration
+* Adaptation
+* Plugin
+* NewProduct
+
+This is a matter of softening the required financial solvency criteria.
 The aim is avoid putting artificial impediments that prevent small and medium-sized companies and cooperatives from submitting a bid when they meet (often more than large companies) the technical solvency criteria.
-  +
-  As explained in the Join Up _Guideline on public procurement of Open Source Software_<document/guideline-public-procurement-open-source-software>, page 47, (document commissioned by the European Commission), the greater interoperability and interdependence of suppliers when working with free software increases the sustainability of projects without the need for very high financial requirements.
+
+As explained in the Join Up _Guideline on public procurement of Open Source Software_<document/guideline-public-procurement-open-source-software>, page 47, (document commissioned by the European Commission), the greater interoperability and interdependence of suppliers when working with free software increases the sustainability of projects without the need for very high financial requirements.
+--
+
 
 == Dissemination of the project
 
-Measure: Chose a good name for the project M_2E0::
-  tags: NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  This is more important in free software projects than in proprietary ones because obtaining the participation of users and developers from outside the confines of the City Council can determine the project’s level of success.
-  +
-  More specific pointers can be found at http://producingoss.com/en/getting-started.html#choosing-a-name.
+[sidebar.measure]
+.Choose a good name for the project
+--
+[.tags]
+* NewProduct
+* Publication
 
-Recommendation: Registering the name in important online (Internet) sites (3.3, 7.0) R_D68::
-  tags: NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  For big projects it is advisable from the outset to think about the Internet sites and platforms where it is essential to have a presence and ensure the domains and corresponding usernames are available.
+This is more important in free software projects than in proprietary ones because obtaining the participation of users and developers from outside the confines of the City Council can determine the project’s level of success.
+
+More specific pointers can be found at http://producingoss.com/en/getting-started.html#choosing-a-name.
+--
+
+[sidebar.recommendation]
+.Register the name in important online (Internet) sites (3.3, 7.0)
+--
+[.tags]
+* NewProduct
+* Publication
+
+For big projects it is advisable from the outset to think about the Internet sites and platforms where it is essential to have a presence and ensure the domains and corresponding usernames are available.
 Besides one or more own Internet domains names, a project might want to be present in GitHub or Twitter, for example.
 Using the same username everywhere makes it easier for people to identify the project, even if they are not heavily involved in it.
+--
 
-Measure: Draw up a clear mission statement and publish it in prominent places M_02C::
-  tags: Integration NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  The mission statement is a short text of one or two paragraphs that allows people to decide in 30 seconds if they are interested in carrying on reading about the project or not.
+[sidebar.measure]
+.Draw up a clear mission statement and publish it in prominent places
+--
+[.tags]
+* Integration
+* NewProduct
+* Publication
+
+The mission statement is a short text of one or two paragraphs that allows people to decide in 30 seconds if they are interested in carrying on reading about the project or not.
 It should be accompanied by the necessary links in case the answer is yes.
 When writing it we can assume potential readers have a minimum knowledge of the project’s area of application.
 People without such knowledge will probably not be interested in the project.
-  +
-  The text should at least be in English and Catalan, for using the most suitable version in each case.
-  +
-  It should appear in the following places at least:
+
+The text should at least be in English and Catalan, for using the most suitable version in each case.
+
+It should appear in the following places at least:
 
 * The home page of the website targeted at project users, if there is one.
-  It should be capable of being seen without the need to scroll down the page on a desktop computer.
+It should be capable of being seen without the need to scroll down the page on a desktop computer.
 * The `README` file of the main repository.
 * The project list at https://ajuntamentdebarcelona.github.io/[https://ajuntamentdebarcelona.github.io].
 * Every time the project is entered in a repository or free software project list, for example https://joinup.ec.europa.eu/[Join Up of the European Union].
+--
 
-Measure: Specify in prominent places that the project is free software M_B8A::
-  tags: Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  This measure is to ensure potential collaborators do not have to look too far to know whether they are willing to contribute to the project or not.
-  +
-  It is also important to state under which specific licence (including the version) the software is being distributed, using the full name or identifier, whichever is best in each case, exactly as they appear at https://spdx.org/licenses/.
-  +
-  Specify the licence in the following places at least:
+[sidebar.measure]
+.Specify in prominent places that the project is free software
+--
+[.tags]
+* Plugin
+* NewProduct
+* Publication
+
+This measure is to ensure potential collaborators do not have to look too far to know whether they are willing to contribute to the project or not.
+It is also important to state under which specific licence (including the version) the software is being distributed, using the full name or identifier, whichever is best in each case, exactly as they appear at https://spdx.org/licenses/.
+Specify the licence in the following places at least:
 
 * The home page of the website targeted at project users, if there is one.
   It should be capable of being seen without the need to scroll down the page on a desktop computer.
@@ -296,20 +319,22 @@ Measure: Specify in prominent places that the project is free software M_B8A::
 * Every time the project is entered in a repository or free software project list, for example https://joinup.ec.europa.eu/[Join Up of the European Union].
 
 With regard to the website targeted at project users, it is important not to relegate this to a “downloads” or “development” page which might require more than one click.
+--
 
-Measure: Specify a feature list in easily accessible places M_2BC::
-  tags: Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  This helps people to decide whether or not the project might cover their needs.
-  +
-  Create a visible link to it from at least:
+[sidebar.measure]
+.Specify a feature list in easily accessible places
+--
+[.tags]
+* Plugin
+* NewProduct
+* Publication
+
+This helps people to decide whether or not the project might cover their needs.
+
+Include the list, or create a visible link to it from at least:
 
 * The home page of the website targeted at project users, if there is one.
-  The link should be capable of being seen without the need to scroll down the page on a desktop computer.
+The link should be capable of being seen without the need to scroll down the page on a desktop computer.
 * The `README` file of the main repository.
 
 This is better in the form of a list with bullet points and simple sentences, or an even more graphic form.
@@ -317,46 +342,54 @@ Often it is a kind of extension of the mission statement.
 
 If a feature has not been implemented yet, it can be specified in brackets as: _planned_ or _work-in-progress_.
 
-As explained in more detail in measure _M_: _Specify and maintain a website with the development status of the project_, it makes no sense, indeed in could be counter-productive, to falsify or exaggerate the product’s real technical merits.
+// As explained in more detail in measure _M_: _Specify and maintain a website with the development status of the project_,
 
-Measure: Specify the main technical requirements in easily accessible places M_3BF::
-  tags: Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  For example, indicate what hardware/software architecture is required for installing it, which operating system and so on.
+It makes no sense, and indeed could be counter-productive, to falsify or exaggerate the product’s real technical merits.
+--
+
+[sidebar.measure]
+.Specify the main technical requirements in easily accessible places
+--
+[.tags]
+* Plugin
+* NewProduct
+* Publication
+
+For example, indicate what hardware/software architecture is required for installing it, which operating system and so on.
 This information is also necessary so a potential user can see whether they can use the solution or not.
-  +
-  Create a visible link to it from at least:
+
+Include this information, or create a visible link to it from at least:
 
 * The home page of the website targeted at project users, if there is one.
 The link should be capable of being seen without the need to scroll down the page on a desktop computer.
 * The `README` file of the main repository.
 
 This is better in the form of a list with bullet points and simple sentences.
+--
 
-Recommendation: Specify the differences with similar products in easily accessible places R_0D4::
-  tags: Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  Above all, highlight the advantages compared with better-known and well-established tools, free or privately owned, but do not hide the limitations.
-  +
-  Create a visible link from the website targeted at project users, if there is one.
-Strictly technical differences can also be linked from the development website.
+[sidebar.recommendation]
+.Specify the differences with similar products in easily accessible places
+--
+[.tags]
+* Plugin
+* NewProduct
+* Publication
 
-Measure: Specify and maintain a page with the development status of the project M_031::
-  tags: Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  This involves writing a list which is periodically updated for each release or important milestone containing:
+Above all, highlight the advantages compared with better-known and well-established tools, free or privately owned, but do not hide the limitations.
+
+Create a visible link from the website targeted at project users, if there is one.
+Strictly technical differences can also be linked from or included on the development website.
+--
+
+[sidebar.measure]
+.Specify and maintain a page with the development status of the project
+--
+[.tags]
+* Plugin
+* NewProduct
+* Publication
+
+This involves writing a list which is periodically updated for each release or important milestone containing:
 
 * The previous releases, with the publication date and the main changes that were introduced.
 * Future releases or project milestones with a tentative date as a very schematic roadmap.
@@ -374,20 +407,22 @@ Create a link from at least:
 
 It is very important to be transparent and not falsify the real status of the project.
 It is more harmful to attract users with false expectations (that it will be impossible to satisfy) than err on the side of caution when outlining the progress made or expected.
-All projects have defects and it makes everyone’s life easier (project developers, promoters and potential outside users) to deal with them transparently.
+All projects have defects and it makes everyone's life easier (project developers, promoters and potential outside users) to deal with them transparently.
 Most successful free software software projects have a “Known bugs” section on their website, and some of these bugs stay there for years.
 
-What’s more, in the case of free software code, the whole code and the whole process can be seen by everybody, and everybody can install and test the product.
+What's more, in the case of free software code, the whole code and the whole process can be seen by everybody, and everybody can install and test the product.
 Anybody can refute our affirmations if they are not certain, as explained in: http://producingoss.com/en/marketing.html#goldfish-bowl.
+--
 
-Recommendation: Establish measures to improve the visibility of the progress and level of activity on the project R_1ED::
-  tags: Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  Automatic status indicators and feedback can be placed on the home page of the users’ and developers’ websites, or other places, with information from, for example:
+[sidebar.recommendation]
+.Establish measures to improve the visibility of the progress and level of activity on the project
+--
+[.tags]
+* Plugin
+* NewProduct
+* Publication
+
+Automatic status indicators and feedback can be placed on the home page of the users’ and developers’ websites, or other places, with information from, for example:
 
 * The repository, e.g. the latest commit messages.
 * The continuous integration system, e.g. what builds or test series have worked or failed recently.
@@ -399,15 +434,16 @@ Another possibility is to show in graphic form a kind of progress calendar with 
 By way of example, the way the https://launchpad.net/inkscape[Ubuntu Launchpad example project] information is shown could be added.
 
 The aim is to reinforce and highlight all the points made in the #h:a22a9688-f8e2-473d-baf5-8989693a41c1[Measure: Specify and maintain a page with the development status of the project].
+--
 
-Recommendation: Negotiate beforehand how to highlight the contributions sponsored by the City Council R_51D::
-  tags: Adaptation Plugin
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  Barcelona City Council might be interested in software projects it has not started but makes some sort of contribution to (add-ons, translations, hours of maintenance work) recognising and publicising these contributions.
+[sidebar.recommendation]
+.Negotiate beforehand how to highlight the contributions sponsored by the City Council
+--
+[.tags]
+* Adaptation
+* Plugin
+
+Barcelona City Council might be interested in software projects it has not started but makes some sort of contribution to (add-ons, translations, hours of maintenance work) recognising and publicising these contributions.
 What form that takes will depend on each project and the nature of the contributions.
 Some examples:
 
@@ -415,104 +451,162 @@ Some examples:
 * The City Council logo appearing in the project website.
 
 Before initiating collaboration it is a good idea to talk with the project development community about the kind of recognition the City Council would like in each case.
+--
+
 
 == Parametrisation, configuration and installation
 
-Measure: Get the successful bidders to parametrise the product using configuration files M_C3C::
-  tags: Procurement Integration Adaptation Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  Don’t use _magic numbers_ in the code
+[sidebar.measure]
+.Parametrise the product using configuration files
+--
+[.tags]
+* Integration
+* Adaptation
+* Plugin
+* NewProduct
+* Publication
 
-[[M_7EA]]
+Do not include deployment-specific or client-specific data in the code.
 
-Measure: Implement and document build and installation procedures with widely used free tools M_7EA::
-  tags: Day1 Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  It is very important not to delay building and documenting a software build system, because without it, the effort any developer has to put in to testing the tool will probably be too great for anyone to try it.
-  +
-  Needless to say, users and potential collaborators in a free software project cannot be forced to depend on tools that are not free as well, and, it is best to choose the most commonly used ones which the majority of developers are most familiar with.
+Build-time and execution-time parametrisation should be possible through configuration files, even if other methods exist (e.g. command-line options).
+Those configuration files should be kept in a different, private repository.
+
+This makes it easier to reuse the code.
+It is incorrect to put the configuration:
+
+* Hardwired in the code itself.
+
+// (see the ref:measure M_A69 <measure_M_A69>).
+* In files committed to the same repository as the code.
+--
+
+[sidebar.measure]
+.Implement and document build and installation procedures with widely used free tools
+--
+[.tags]
+* Day1
+* Plugin
+* NewProduct
+* Publication
+
+It is very important not to delay build and installation automation, and documenting them.
+Without this information, the effort any developer has to put in to test the tool will probably be too great for anyone to try it.
+
+Documentation has to be sufficient for third parties to understand how to configure and deploy the product.
+Organisations awarded with contracts have to understand they will not have a monopoly over the configuration, deployment and maintenance of the product.
+
+Needless to say, users and potential collaborators in a free software project cannot be forced to depend on tools that are not free as well, and, it is best to choose the most commonly used ones which the majority of developers are most familiar with.
 That might vary from one community to another.
 Some examples of commonly used build tools (some of which can also be used in configuration and installation procedures) that we recommend are:
 
-* For Java projects: Maven, Ant (also for other languages).
-* For Python projects follow the advice of http://python-packaging.readthedocs.io/en/latest/index.html, which also include information on packaging.
-* For JavaScript projects (and front-end in general): Gulp.js.
+* For Java projects: Maven, Gradle, Ant (also for other languages).
+* For Python projects follow the advice of http://python-packaging.readthedocs.io/en/latest/index.html, which also includes information on packaging.
+* For JavaScript projects (and front-end in general): Gulp.
 * For Ruby projects: Rake.
-* General use: CMake, Nix.
+* General use: Nix, CMake.
+--
 
-== Packaging and rollout
 
-Measure: Get the successful bidder responsible for deployment to use the same code published in the main repository M_A69::
-  tags: Procurement Adaptation Plugin NewProduct
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  As a condition of transparency, the source code used at any time in building and deploying the services in production must be available in the City Council’s public repository, preferably under the `master` branch.
+== Packaging and deployment
+
+[sidebar.measure]
+.Get the successful bidder responsible for deployment to use the same code published in the main repository
+--
+// M_A69
+[.tags]
+* Procurement
+* Adaptation
+* Plugin
+* NewProduct
+
+As a condition of transparency, the source code used at any time in building and deploying the services in production must be available in the City Council’s public repository, preferably under the `master` branch.
 Any security patch, improvement or modification of any kind that is applied to the code in production must be reflected in the repository.
-  +
-  The code available in the public repository is the one fully covered by a free software licence.
-Nothing can be added to it.
 
-Recommendation: Establish and explicit versioning policy in the ``README`` file R_FBC::
-  tags: Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  Every repository should have an explicit versioning policy.
+The code available in the public repository is the one fully covered by a free software licence.
+Nothing can be added to it.
+--
+
+[sidebar.recommendation]
+.Establish and explicit versioning policy in the ``README`` file
+--
+[.tags]
+* Plugin
+* NewProduct
+* Publication
+
+Every repository should have an explicit versioning policy.
 Software projects normally use version identifiers based on `MAJOR.MINOR.PATCH` number sequences.
-  +
-  A suitable versioning policy must be chosen for each project.
+
+A suitable versioning policy must be chosen for each project.
 Each technological community (Java, Python, Drupal, etc.) might have a preferred versioning policy so it is advisable to find out which one it is and stick to it.
 If there is no clear policy, we can subscribe to a well-known generic policy, such as http://semver/[Semantic Versioning].
+--
 
 == Use free formats and standards
 
-Measure: Check the user interface meets W3C standards as regards web applications M_F7E::
-  tags: Plugin NewProduct
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  User interfaces, whether they are for public, administration or internal use, have to comply with World Wide Web Consortium (W3C) standards and should not require the use of features provided by privately owned browser extensions The presentation has to be displayed correctly and the product has to be fully functional, with the browsers of the family: Gecko (Firefox), WebKit/Blink (Chrome, Safari, Konqueror) or Trident/EdgeHTML (Microsoft).
+[sidebar.measure]
+.Check the user interface of web applications are strictly based on widely adopted W3C standards
+--
+[.tags]
+* Plugin
+* NewProduct
 
-Measure: Use free formats in exchanging documents with the public and other systems M_676::
-  tags: Adaptation Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  Any exchange of documents with the public that involves downloading or uploading files has to be done exclusively with free formats, as defined by the Barcelona City Council ICT Procurement Guide.
-Internal document storage by the application will also be done in these same formats.
-In particular, all text file exchanges will either be in OpenDocument Format (https://www.oasis-open.org/[https://www.oasis-open.org]), or PDF format.
-Images, audio and video will also be exchanged by means of free formats for which free implementation exists in the main IT platforms including GNU/Linux.
+User interfaces, whether they are for public, administration or internal use, have to comply with World Wide Web Consortium (W3C) standards.
+They should not require the use of features provided by privately owned browser extensions.
+
+The presentation has to be displayed correctly, and the product has to be fully functional, with browsers of the following families:
+
+* Gecko (Firefox)
+* WebKit/Blink (Chrome, Safari, Konqueror)
+* Trident/EdgeHTML (Microsoft)
+--
+
+[sidebar.measure]
+.Use open formats in exchanging files with the citizens and for internal use
+--
+[.tags]
+* Adaptation
+* Plugin
+* NewProduct
+* Publication
+
+// TODO: machine-readable formats whenever useful.
+
+Any exchange of documents that involves downloading or uploading files to the developed system has to be done exclusively with open formats, as defined by the Barcelona City Council xref:en/tech-sovereignty:interoperability.adoc[Technological Sovereignty Guide].
+
+For text documents, spreadsheets and presentations, the following formats are acceptable:
+
+* Plain Text based formats that have a stable and free implementation available (for generation, edition and parsing) in all main IT platforms including GNU/Linux.
+* OpenDocument formats, https://www.oasis-open.org/[].
+* PDF files.
+
+We reject proprietary formats from Microsoft Office and Apple's iWork (`.doc[x]`, `.ppt[x]`, etc.)
+
+Images, audio and video will also be exchanged by means of open formats for which a stable and free implementation exists in all main IT platforms including GNU/Linux.
+
+[.exception]
+****
+A temporary exception to this rule is justified if we need to interchange information with an existing service currently used at IMI that only accepts some non-open format.
+****
+--
+
 
 == Internationalisation
 
-Measure: Define and budget the technical requirements so the product can be translated and internationalised M_1E5::
-  tags: Procurement Adaptation Plugin NewProduct
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  All the messages shown to users have to be internationalised.
+[sidebar.measure]
+.Define and budget the technical requirements so the product can be translated and internationalised
+--
+[.tags]
+* Procurement
+* Adaptation
+* Plugin
+* NewProduct
+
+All the messages shown to users have to be internationalised.
 Use the usual mechanisms in each language/platform.
-  +
-  The standard tool for multi-lingual messages in free software projects is https://www.gnu.org/software/gettext/[`gettext`].
+
+The standard tool for multi-lingual messages in free software projects is https://www.gnu.org/software/gettext/[`gettext`].
+--
 
 
 == Freeing software that was proprietary
@@ -521,14 +615,13 @@ The City Council owns the copyright of a lot of code that was not provided under
 
 This section addresses those issues that specifically affect the public release under a free license of software components that were not delivered as free software, and in most cases developed without public distribution in mind.
 
-Measure: Judge whether it is convenient or not to publicly distribute some City Council software M_932::
-  tags: Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  Before releasing an existing software component or system in use at Barcelona City Council under a free software licence, we need to check whether:
+[sidebar.measure]
+.Judge whether it is convenient or not to publicly distribute some City Council software
+--
+[.tags]
+* Publication
+
+Before releasing an existing software component or system in use at Barcelona City Council under a free software licence, we need to check whether:
 
 * It corresponds to a general need: it could be useful to more institutions or organisations, besides the City Council.
 * It has some aspect that sets it apart from other, existing free software solutions.
@@ -537,40 +630,41 @@ Measure: Judge whether it is convenient or not to publicly distribute some City 
 * The code (and associated documentation) is sufficiently developed and of a high enough quality, or the improvement requirements have been clearly identified and there is a strategy for tackling them.
 * Freeing the code will not pose any legal risks for either party.
 * Resources are available for responding to maintenance issues until this responsibility is handed over to other bodies or organisations, possibly a free software community of developers and users.
+--
 
-Measure: Look for sensitive information or user settings in the code repository M_A6A::
-  tags: Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
+[sidebar.measure]
+.Look for sensitive information or user settings in the code repository
+--
+[.tags]
+* Publication
+--
 
-Measure: Notify in new public spaces geared towards developers that this was a non-free project M_B77::
-  tags: Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  This means explaining that, up to a certain date, the project did not operate in the public eye, so some inconvenience is to be expected.
+[sidebar.measure]
+.Notify in new public spaces geared towards developers that this was a non-free project
+--
+[.tags]
+* Publication
+
+This means explaining that, up to a certain date, the project did not operate in the public eye, so some inconvenience is to be expected.
 Developer and user expectations regarding the quality and transparency of some aspects of the project need to be lowered.
 The commitments made to make it possible to free the code also need explaining.
 For example, there may be lots of sensitive data in the code repository (specific user data, etcetera) so it has been decided to remove the version control history and create a new top-skim repository that only contains the latest version.
-  +
-  This information should be published in at least the following places:
+
+This information should be published in at least the following places:
 
 * The development website (now public).
 * Public mail lists.
 
 The aim of this measure is to avoid an avalanche of requests.
+--
 
-Recommendation: Warn developers of the possible consequences of the project’s imminent public release R_70F::
-  tags: Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  If we have a way of contacting people who have participated or who are participating in a project we are going to release, for example, by means of private emails, it is worth informing them (not negotiating) of this fact.
+[sidebar.recommendation]
+.Warn developers of the possible consequences of the project's imminent public release
+--
+[.tags]
+* Publication
+
+If we have a way of contacting people who have participated or who are participating in a project we are going to release, for example, by means of private emails, it is worth informing them (not negotiating) of this fact.
 Freeing a code that was not initially written to be free software might make its authors uncomfortable, so we need to explain that that’s normal.
 The following work can be referred to, to help clarify the situation: http://producingoss.com/en/opening-closed-projects.html.
+--

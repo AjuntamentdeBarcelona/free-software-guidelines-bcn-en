@@ -80,7 +80,7 @@ The foundation can manage other projects freed by the City Council or of other e
 
 // (A_C87)
 [sidebar.alternative, id="{sect}.{counter:measure:A}"]
-.Establish the supplier as the owner of the new source code and the new documentation
+.Establish the supplier as the legal owner of the new source code and the new documentation
 --
 [.tags]
 * Procurement
@@ -115,7 +115,7 @@ In this case we have to respect the licence it already has.
 
 // (M_CAF)
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Choose the AGPL-3.0 licence as the licence for distributing the project
+.Use the AGPL-3.0 licence as the licence for distributing the project
 --
 [.tags]
 * NewProduct
@@ -140,13 +140,16 @@ Most developers are familiar with its conditions, which means nobody will have t
 
 * Opting for more widely used licences reduces the risk of fragmenting this universal immaterial commons resource posed by free software, a risk caused by the proliferation of licences and their reciprocal incompatibilities.
 
-*Drawback.* It is written in English.
+[.drawback]
+****
+It is written in English.
 For your information, translations into other languages can be used but the original version is the only legally valid one.
+****
 --
 
 // (A-038)
 [sidebar.alternative, id="{sect}.{counter:measure:A}"]
-.Choose the EUPL-1.2 licence as the licence for distributing the project
+.Use the EUPL-1.2 licence as the licence for distributing the project
 --
 [.tags]
 * NewProduct
@@ -191,7 +194,7 @@ If we have respected measure S_58B, the component we are modifying will have a f
 
 // (M_B12)
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Choose a licence commonly used in the ecosystem or technological platform of the component to be developed
+.Use a licence commonly used in the ecosystem or technological platform of the component to be developed
 --
 [.tags]
 * Procurement

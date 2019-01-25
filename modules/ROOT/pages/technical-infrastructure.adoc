@@ -283,7 +283,7 @@ However, to avoid any misunderstanding, it must be made clear to that person wha
 
 // M_BD2::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Integrate external contributions into the main repository by means of the Pull Request mechanism
+.Integrate external contributions into the main repository by means of Pull/Merge Requests
 --
 [.tags]
 * Plugin
@@ -360,7 +360,7 @@ If the issue manager lets anyone enter issues and one is entered in another lang
 
 // M_488::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Don’t upload binary files or build process files (with exceptions)
+.Do not upload to the repository binary files or files that result from build (with exceptions)
 --
 [.tags]
 * Integration
@@ -369,8 +369,10 @@ If the issue manager lets anyone enter issues and one is entered in another lang
 * NewProduct
 * Publication
 
-Exceptions:
-Small images (general project logos, etc.)
+[.exception]
+****
+Small images (icons, logos, etc.)
+****
 --
 
 // M_88E::
@@ -394,7 +396,7 @@ In files where commits (changes) are made in the same repository as the code.
 
 // M_CC8::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Don’t upload sensitive information regarding users, the City Council or third parties to the repository
+.Do not upload sensitive information regarding users, the City Council or third parties to the repository
 --
 [.tags]
 * Procurement
@@ -447,8 +449,9 @@ It needs to be borne in mind that the bug tracker is not only important for the 
 This bug tracker has to be operational and public throughout the product’s useful life, i.e. after the contracts with the City Council have finished.
 
 // M_35A
-[sidebar.measure, id="{sect}.{counter:measure:A}"]
-.[.line-through]#Link the main repository to the GitHub issue manager#
+// Was: Link the main repository to the GitHub issue manager
+[sidebar.measure]
+.Use GitHub/Gitlab for the issue manager of the project
 --
 [.tags]
 * Day1
@@ -457,9 +460,9 @@ This bug tracker has to be operational and public throughout the product’s use
 * NewProduct
 * Publication
 
-Once again it is the default option, in this case because of its automatic link with the GitHub repository and because it meets our accessibility and transparency requirements.
+// Once again it is the default option, in this case because of its automatic link with the GitHub repository and because it meets our accessibility and transparency requirements.
 
-Some basic issue categories will have to be established at the start that can be modified later, depending on the needs of each project: `Bug`, `Request`, etc.
+Some basic issue categories will have to be established at the start that can be modified later, depending on the needs of each project: `Bug`, `Feature Request`, etc.
 --
 
 //  A_D4F::
@@ -534,7 +537,7 @@ It it does not have one of its own, IMI will have to provide it with one.
 * Publication
 
 Configure the issue manager so it will not be necessary to create an account to report defects or anything else, in order to facilitate as many contributions as possible.
-Activate the necessary anti-spam measures (e.g. captchas)
+Activate the necessary anti-spam measures (e.g. captchas).
 
 It is always possible to keep an eye on someone who gives us problems or rethink this policy if it doesn't work on a project.
 --
@@ -578,8 +581,8 @@ Successful bidders should be contractually obliged to properly notify us of the 
 :sect: 4.4
 
 // R_368::
-[sidebar.alternative, id="{sect}.{counter:measure:A}"]
-.Link the main repository to a free software continuous integration system
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
+.Link the main repository to a continuous integration system that run all the tests, make the results public
 --
 [.tags]
 * Day1
@@ -588,12 +591,11 @@ Successful bidders should be contractually obliged to properly notify us of the 
 * NewProduct
 * Publication
 
+Use a free software tool that we can run in our own infrastructure if needed.
 We recommend one of the following tools:
 
 * Jenkins
-
 * Gitlab CI
-
 * Travis CI
 --
 

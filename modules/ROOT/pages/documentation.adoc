@@ -61,7 +61,7 @@ Organisations awarded contracts -- development and deployment -- have to underst
 
 // [[M_09A]]
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Create and maintain a User Guide in the project's [.line-through]#GitHub# Gitlab wiki
+.Create and maintain a User Guide in the project's GitHub/Gitlab wiki
 --
 [.tags]
 * Integration
@@ -86,7 +86,7 @@ Using the same GitHub wiki avoids us having to create more infrastructure and me
 Until there is a lot of user documentation, it is advisable to keep it all together in one wiki page, with a table of contents at the beginning, and not subdivide it into pages, as this makes it easier to search for key words by using the browser search features.
 This page should be linked with other documents such as the installation instructions, any tutorials or the optional FAQ list.
 
-Link from the:
+Include or link from the:
 
 * Project website.
 * The `README` file of the main repository.

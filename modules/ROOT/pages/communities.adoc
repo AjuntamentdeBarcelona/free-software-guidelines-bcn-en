@@ -8,7 +8,11 @@ There are many levels of participation in a free software project, and none of t
 Apart from the development team, who are usually hired for that purpose, other people might contribute on an occasional or ongoing basis.
 This chapter focuses on the more social aspects of how to work in this kind of community which is created around these projects.
 
+
 == Contributing to free software communities
+
+:!measure:
+:sect: 6.1
 
 The concept of contribution covers much more than the code.
 It can also consist in:
@@ -51,297 +55,343 @@ But one thing that is worth doing is to keep everybody informed of our plans at 
 Don't think of community scrutiny as an obstacle to be overcome — think of it as a free design board and QA department.
 It is a benefit to be aggressively pursued, not an obstacle to be merely endured.
 
-Measure: Ensure the authorship of each contribution (code, documentation or message) is individual M_975::
-  tags: Adaptation Plugin NewProduct
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  Don’t hide the team’s contributions under a corporate identify in our own projects or external projects.
-In other words, use the usernames and individual email addresses of each participant for the commits (changes) in the repository, as well as when participating in the project communication channels or management tools.
-  +
-  If any individual contributes to a software project as a worker hired directly or indirectly by the City Council on some occasions, and as a volunteer in his or her free time on other occasions, they will have to use two different emails, depending on the case:
-  +
-  * A personal email when making voluntary contributions.
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Ensure the authorship of each contribution (code, documentation or messages) is individual
+--
+[.tags]
+* Adaptation
+* Plugin
+* NewProduct
 
-  * A company or City Council email when carrying out tasks specified by their contract.
+Don’t hide the team’s contributions under a corporate identity in our own projects or external projects.
+In other words, use the usernames and individual email addresses of each participant for the commits in the repository, as well as when participating in the project communication channels or management tools.
 
-Measure: Inform the technical communities of the component to be modified about our plans M_706::
-  tags: Adaptation
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  If we want to modify or adapt an existing component, we have to be open and clear about our reasons.
+If any individual contributes to a software project as a worker hired directly or indirectly by the City Council on some occasions, and as a volunteer in his or her free time on other occasions, they will have to use two different emails, depending on the case:
+
+* A personal email when making voluntary contributions.
+* A company or City Council email when carrying out tasks specified by their contract.
+--
+
+// M_706::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Inform the technical communities of the component to be modified about our plans
+--
+[.tags]
+* Adaptation
+
+If we want to modify or adapt an existing component, we have to be open and clear about our reasons.
 As it is a free software component, they cannot prevent us from making modifications.
 However, we strongly advise informing them of our needs and technical plans beforehand.
-  +
-  We need to ensure the support community of the component that is to be modified understands and gets involved in our proposal.
 
-Recommendation: Inform other relevant technical communities of our plans R_9BE::
-  tags: Adaptation Plugin NewProduct
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  Free software communities are usually very interested in contributing ideas, technical knowledge and even working extra hours of work, when faced with technical challenges they believe could benefit them.
-  +
-  IMI projects will study the possibilities of collaborating with the local communities of free software and innovative technologies to promote social and technological innovation.
+We need to ensure the support community of the component that is to be modified understands and gets involved in our proposal.
+--
 
-[[M_34D]]
+// R_9BE::
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
+.Inform other relevant technical communities of our plans
+--
+[.tags]
+* Adaptation
+* Plugin
+* NewProduct
 
-Measure: Hire developers who are recognised in the project we want to modify M_34D::
-  tags: Procurement Adaptation Plugin
-  +
-  links incoming: None
-  +
-  links outgoing: link:#A_1F9[_A_1F9_]
-  +
-  This could be done directly or by means of a contract with a company or cooperative that wins the tender.
-  +
-  There are never any guarantees that the modifications we need to make will be accepted in the original product but relying on recognised developers will give us more options for achieving that.
+Free software communities are usually very interested in contributing ideas, technical knowledge and even working extra hours of work, when faced with technical challenges they believe could benefit them.
+
+IMI projects will study the possibilities of collaborating with the local communities of free software and innovative technologies to promote social and technological innovation.
+--
+
+// [[M_34D]]
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Hire developers who are recognised in the project we want to modify
+--
+[.tags]
+* Procurement
+* Adaptation
+* Plugin
+
+//  links outgoing: link:#A_1F9[_A_1F9_]
+
+This could be done directly or by means of a contract with a company or cooperative that wins the tender.
+
+There are never any guarantees that the modifications we need to make will be accepted in the original product but relying on recognised developers will give us more options for achieving that.
 Aside from any technical knowledge they might have, they could bring:
-  +
-  An insider’s view of the technical ideas most likely to be accepted.
-  +
-  The value of being a respected figure in the community that takes decisions.
 
-[[A_1F9]]
+An insider's view of the technical ideas most likely to be accepted.
 
-Alternative: Compel the contract winner to take measures that make it easier to integrate the changes in the original product A_1F9::
-  tags: Procurement Adaptation
-  +
-  links incoming: link:#M_34D[_M_34D_]
-  +
-  links outgoing: None
-  +
-  That includes:
-  +
-  Clearly describing the collaborative tasks the contract winner is expected to take part in and explain that this is part of the budget, as described in the #h:a6bb27a3-2b23-4585-81ca-dc5b4d29ccd7[Measure: Budget for the extra costs of participating in the community of the product to be modified].
-  +
-  The contract winner accepting and applying the Developer Guidelines, the rules for drafting documentation and the Code of Conduct for the project, if there is one, as well as other written documents governing any rules that might exist, both general and the specific rules for specific communication channels.
+The value of being a respected figure in the community that takes decisions.
+--
+
+//[[A_1F9]]
+[sidebar.alternative, id="{sect}.{counter:measure:A}"]
+.Compel the contract winner to take measures that make it easier to integrate the changes in the original product
+--
+[.tags]
+* Procurement
+* Adaptation
+
+//  links incoming: link:#M_34D[_M_34D_]
+
+That includes:
+
+* Clearly describing the collaborative tasks the contract winner is expected to take part in and explain that this is part of the budget, as described in the #h:a6bb27a3-2b23-4585-81ca-dc5b4d29ccd7[Measure: Budget for the extra costs of participating in the community of the product to be modified].
+ 
+* The contract winner accepting and applying the Developer Guidelines, the rules for drafting documentation and the Code of Conduct for the project, if there is one, as well as other written documents governing any rules that might exist, both general and the specific rules for specific communication channels.
 Should the project not have a formal set of internal rules of its own, normal rules of netiquette will apply.
 https://www.ietf.org/rfc/rfc1855.txt.
-  +
-  Certain awardee profiles becoming users of the project communication channels.
-  +
-  Periodically informing the community of the modifications planned, the part done and the technical decisions being taken.
-  +
-  Promptly informing IMI of all the feedback received by the community, both positive and negative, on the aims of integrating new features.
-  +
-  IMI staff will have to monitor all of this and possibly intervene directly in the community discussions.
 
-Measure: Penalise contractors if there are any changes in the project staff M_D19::
-  tags: Procurement Adaptation Plugin NewProduct
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  Measures to bear in mind when drawing up the contract specifications.
-  +
-  A high turnover is detrimental to any project but especially when participating in free software projects.
+* Certain awardee profiles becoming users of the project communication channels.
+
+*  Periodically informing the community of the modifications planned, the part done and the technical decisions being taken.
+
+*  Promptly informing IMI of all the feedback received by the community, both positive and negative, on the aims of integrating new features.
+
+IMI staff will have to monitor all of this and possibly intervene directly in the community discussions.
+--
+
+// M_D19::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Penalise contractors if there are any changes in the project staff
+--
+[.tags]
+* Procurement
+* Adaptation
+* Plugin
+* NewProduct
+
+Measures to bear in mind when drawing up the contract specifications.
+
+A high turnover is detrimental to any project but especially when participating in free software projects.
 Developers who leave not only take with them any technical knowledge they might have accumulated, but also their status in the community and the human relationships they might have developed.
+--
 
-Measure: Budget for the extra costs of participating in the community of the product to be modified M_83F::
-  tags: Procurement Adaptation Plugin
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  It needs to be specified in as much detail as possible
+// M_83F::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Budget for the extra costs of participating in the community of the product to be modified
+--
+[.tags]
+* Procurement
+* Adaptation
+* Plugin
+
+It needs to be specified in as much detail as possible
 to what extent IMI expects the contract awardee to be involved in the project and disseminate the features to be developed among:
-  +
-  * The development communities involved
 
-  * Potential users
+* The development communities involved
+* Potential users
+--
 
-Recommendation: Maintain a permanent private communication channel for discussing conflicts of interest R_29C::
-  tags: Adaptation Plugin
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  Ideally a mail thread.
-  +
-  When people are hired to take part in an established free software project, especially if they are developers that were already taking part in it, there could be a conflict of interest between the City Council project and the original source project.
+// R_29C::
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
+.Maintain a permanent private communication channel for discussing conflicts of interest
+--
+[.tags]
+* Adaptation
+* Plugin
+
+Ideally a mail thread.
+
+When people are hired to take part in an established free software project, especially if they are developers that were already taking part in it, there could be a conflict of interest between the City Council project and the original source project.
 The developers will have the feeling they have to serve two superiors and cannot always satisfy both.
-  +
-  We have to ask for maximum transparency in these cases and try to anticipate these situations.
+
+We have to ask for maximum transparency in these cases and try to anticipate these situations.
+--
+
 
 == Free software community management and governance
 
-Measure: Recognise people who make contributions to the project M_F2E::
-  tags: Plugin NewProduct
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  In a `CONTRIBUTORS` file in the repository’s root directory.
-Individually.
+:!measure:
+:sect: 6.2
 
-Recommendation: Budget for the extra cost of encouraging the creation of a free software community R_3F3::
-  tags: NewProduct
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  This includes things such as
+// M_F2E::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Recognise people who make contributions to the project
+--
+[.tags]
+* Plugin
+* NewProduct
+
+All individuals that have made a relevant contribution to the code or the documentation should appear in a `CONTRIBUTORS` file in the repository’s root directory.
+--
+
+// R_3F3::
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
+.Budget for the extra cost of encouraging the creation of a free software community
+--
+[.tags]
+* NewProduct
+
+This includes things such as
 developers dedicating time on:
-  +
-  * Revising the code of others
-  * Replying to messages in the project communication channels
-  * Intervening in StackOverflow
 
-Measure: Draw up and update an internal document establishing the level of commitment we want from each party M_654::
-  tags: NewProduct
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  Pay special attention to
-possible early adopters.
+* Revising the code of others
+* Replying to messages in the project communication channels
+* Intervening in StackOverflow
+--
 
-Recommendation: In the contract, stipulate that the awardee has to include external contributions if the City Council so decides R_39A::
-  tags: Procurement Plugin
-NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  Example clause: *External contributions*.
-  +
-  While the contract remains in force, including the warranty period, the awardee has an obligation to integrate any external contributions that Barcelona City Council considers will improve the source code or the public documentation and which do not involve developing features not provided for in the contract, for example, those that fix bugs.
+// M_654::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Draw up and update an internal document establishing the level of commitment we want from each party
+--
+[.tags]
+* NewProduct
 
-Measure: Publish brief Developer Guidelines M_4F5::
-  tags: Day1 Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  These guidelines establish the technical and social conventions that determine interactions between developers, and between developers and users.
+Pay special attention to possible early adopters.
+--
+
+// R_39A::
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
+.In the contract, stipulate that the awardee has to include external contributions if the City Council so decides
+--
+[.tags]
+* Procurement
+* Plugin
+* NewProduct
+* Publication
+
+.Example clause: *External contributions*.
+****
+While the contract remains in force, including the warranty period, the awardee has an obligation to integrate any external contributions that Barcelona City Council considers will improve the source code or the public documentation and which do not involve developing features not provided for in the contract, for example, those that fix bugs.
+****
+--
+
+// M_4F5::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Publish brief Developer Guidelines
+--
+[.tags]
+* Day1
+* Plugin
+* NewProduct
+* Publication
+
+These guidelines establish the technical and social conventions that determine interactions between developers, and between developers and users.
 They apply to all developers, both those hired by the City Council and external developers, as well as Council staff.
-  +
-  They must be drawn up in English and either be a GitHub wiki page or a test file with light markup language.
-  +
-  The guidelines might grow over time but, initially, only three things need to be made clear:
-  +
-  What communication channels the project has and what each one is used for.
-  +
-  Instructions on how to report bugs and how to make contributions to the project.
-  +
-  A brief description of project governance: who takes decisions and how.
-In many cases the only thing that needs to be said is that while the contract is in force, the City Council will prioritise the features to be developed and the bugs to be sorted out.
+
+They must be drawn up in English and either be a GitHub/Gitlab wiki page or a text file with light markup language.
+
+The guidelines might grow over time but, initially, only three things need to be made clear:
+
+. What communication channels the project has and what each one is used for.
+. Instructions on how to report bugs and how to make contributions to the project.
+. A brief description of project governance: who takes decisions and how.
+
+In many cases the only thing that needs to be said about the third point is that while the contract is in force, the City Council will prioritise the features to be developed and the bugs to be sorted out.
 The Council also has the last word on the technical solutions to be adopted, the contributions to be integrated and the versions to be published.
 It might also be mentioned that in the future an appropriate governance model will be studied for the project’s changing circumstances.
-  +
-  These Developer Guidelines should, as a minimum, be linked from:
-  +
-  The `README` file of the main repository.
 
-Recommendation: Publish detailed Developer Guidelines (if the project grows) R_0BD::
-  tags: Plugin NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  For big projects, and without it being the first measure to adopt, it could be useful to work on and publish some broader, more detailed Developer Guidelines than those proposed in the
+These Developer Guidelines should, as a minimum, be linked from:
+
+* The `README` file of the main repository.
+--
+
+// R_0BD::
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
+.Publish detailed Developer Guidelines (if the project grows)
+--
+[.tags]
+* Plugin
+* NewProduct
+* Publication
+
+For big projects, and without it being the first measure to adopt, it could be useful to work on and publish some broader, more detailed Developer Guidelines than those proposed in the
 link:#publicar-breus-directrius-desenvolupadors[Measure: (Day 1) Publish brief Developer Guidelines].
-  +
-  Things that might be included:
-  +
-  Codification conventions
-  +
-  Documentation conventions
-  +
-  Some examples:
-  +
-  http://subversion.apache.org/docs/community-guide/
-  +
-  https://wiki.documentfoundation.org/Development
 
-Recommendation: Draw up a governance model for the global community that supports the product R_5F4::
-  tags: NewProduct Publication
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  Projects that generate entirely free software tools and systems by means of a development service promoted and financed by the City Council will have to include a governance model that includes, among other things, an approach to defining the community (of other councils, specialists such as geodata or libraries, etc.), the support tools, communication and marketing, the processes for including external contributions, managing intellectual property and sustainability after the project.
-  +
-  Community governance and the technical management of these projects, including approval of the code for its incorporation in the project and defining the requirements (roadmap), are different aspects.
+Things that might be included:
+
+* Codification conventions
+* Documentation conventions
+
+Some examples:
+
+* http://subversion.apache.org/docs/community-guide/
+*  https://wiki.documentfoundation.org/Development
+--
+
+// R_5F4::
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
+.Draw up a governance model for the global community that supports the product
+--
+[.tags]
+* NewProduct
+* Publication
+
+Projects that generate entirely free software tools and systems by means of a development service promoted and financed by the City Council will have to include a governance model that includes, among other things, an approach to defining the community (of other councils, specialists such as geodata or libraries, etc.), the support tools, communication and marketing, the processes for including external contributions, managing intellectual property and sustainability after the project.
+
+Community governance and the technical management of these projects, including approval of the code for its incorporation in the project and defining the requirements (roadmap), are different aspects.
 A diversity of contributions will be encouraged, although IMI will retain effective control over developments financed using public funds.
+--
+
 
 == Proper use of the communication channels
 
-Measure: Avoid private debates M_D79::
-  tags: Adaptation Plugin NewProduct
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  It is very tempting to have closed discussion forums where a small group of people discuss all the aspects of the project, on both a technical and a social level, and from there come the decisions.
+:!measure:
+:sect: 6.3
+
+// M_D79::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Avoid private debates
+--
+[.tags]
+* Adaptation
+* Plugin
+* NewProduct
+
+It is very tempting to have closed discussion forums where a small group of people discuss all the aspects of the project, on both a technical and a social level, and from there come the decisions.
 But it needs to be borne in mind that open, public communication channels are essential to free software projects, so everyone can read them and subscribe to them with a certain ease.
 The reasons are as follows:
-  +
-  * It is very difficult for people to want to make significant contributions to a project where the decisions are taken in a non-transparent way, like a “fait accompli” policy.
+
+* It is very difficult for people to want to make significant contributions to a project where the decisions are taken in a non-transparent way, like a “fait accompli” policy.
 That does not mean that project governance has to work like a democracy.
 The essential prerequisite is *transparency*: people will want to know why and how decisions are taken, and perhaps have their say, without the option they put forward necessarily being the one chosen.
 Experienced developers know that the project has certain needs and not everyone can take part in decision-making with the same weight.
 When in the end decisions are taken by the City Council, everyone will understand that if it is made clear from the start, as specified in the link:#publicar-breus-directrius-desenvolupadors[Measure: (Day 1) Publish brief Developer Guidelines].
-  +
-  * It is surprising how many good ideas can be selflessly expressed through the public communication channels,
+
+* It is surprising how many good ideas can be selflessly expressed through the public communication channels,
 if all aspects of the project are discussed there in a friendly working climate.
-  +
-  * If the communication takes place in public mail lists and is then filed,
+
+* If the communication takes place in public mail lists and is then filed,
 anyone can consult the decision log and avoid repeating previous discussions.
-  +
-  * Open, public channels foster a more effective, polite and assertive communication culture.
 
-Measure: Establish the “Contributor Covenant” as the Code of Conduct for the project and its communication channels M_305::
-  tags: Plugin NewProduct
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  A project’s *Code of Conduct* is a document or series of documents that regulates the social rules of participants’ conduct when taking part in the project, including the following aspects:
-  +
-  Participation rules in all online communication channels associated with the project, such as chat rooms, public and private mail lists, issue managers, feature development tools and pull requests, wikis, blogs, Twitter, forums, etc.
-  +
-  Conduct rules for face-to-face activities of the community associated with the project, such as meetings and conferences.
-  +
-  A code of conduct serves as a written reference for behaviour that is considered inappropriate for people taking part in the project. More specifically, the https://www.contributor-covenant.org/ has been used by many free software projects lately, so it may be familiar to lots of developers already.
+* Open, public channels foster a more effective, polite and assertive communication culture.
+--
+
+// M_305::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Establish the “Contributor Covenant” as the Code of Conduct for the project and its communication channels
+--
+[.tags]
+* Plugin
+* NewProduct
+
+A project’s *Code of Conduct* is a document or series of documents that regulates the social rules of participants’ conduct when taking part in the project, including the following aspects:
+
+* Participation rules in all online communication channels associated with the project, such as chat rooms, public and private mail lists, issue managers, feature development tools and pull requests, wikis, blogs, Twitter, forums, etc.
+
+* Conduct rules for face-to-face activities of the community associated with the project, such as meetings and conferences.
+
+A code of conduct serves as a written reference for behaviour that is considered inappropriate for people taking part in the project. More specifically, the https://www.contributor-covenant.org/ has been used by many free software projects lately, so it may be familiar to lots of developers already.
 It has also been translated into various languages.
-  +
-  Create a link from at least:
-  +
-  The `README` file of the main repository.
-  +
-  The Developer Guidelines in the _Measure_: _(Day 1) Publish brief Developer Guidelines_.
 
-Measure: Don’t allow any insults or personal attacks in the communication channels M_D61::
-  tags: Plugin NewProduct
-  +
-  links incoming: None
-  +
-  links outgoing: None
-  +
-  A policy of zero tolerance should be maintained in this regard.
+Create a link from at least:
+
+* The `README` file of the main repository.
+
+* The Developer Guidelines in the _Measure_: _(Day 1) Publish brief Developer Guidelines_.
+--
+
+// M_D61::
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Do not allow any insults or personal attacks in the communication channels
+--
+[.tags]
+* Plugin
+* NewProduct
+
+A policy of zero tolerance should be maintained in this regard.
 That doesn’t mean expelling people at the drop of a hat (sometimes that would not even be possible), it means someone has to be in charge of systematically pointing out that certain types of behaviour are not tolerated in this project.
-  +
-  If it is considered opportune, they can refer to the relevant sections of the Code of Conduct (#h:c3405dee-679e-42e0-9ba6-141a0ad06965[Measure: Establish the “Contributor Covenant” as the Code of Conduct for the project and its communication channels]).
-  +
-  At http://producingoss.com/en/setting-tone.html#prevent-rudeness there is some information on how to handle these situations.
+
+If it is considered opportune, they can refer to the relevant sections of the Code of Conduct (#h:c3405dee-679e-42e0-9ba6-141a0ad06965[Measure: Establish the “Contributor Covenant” as the Code of Conduct for the project and its communication channels]).
+
+At http://producingoss.com/en/setting-tone.html#prevent-rudeness there is some information on how to 
+handle these situations.
+--

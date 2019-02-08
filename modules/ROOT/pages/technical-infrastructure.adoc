@@ -94,35 +94,44 @@ In the case of an `Integration` or `Adaptation`, the Council will have its own c
 We will call this repository created by the City Council, which will be used for original product releases or to centralise the contributions to an external project, the *main repository*.
 There could be many other public and private copies of the code.
 
-[WARNING]
+[NOTE]
 ====
 The City Council is in the process of reconsidering the platform to be used to host things like a public facing code repository or an issue manager for every project.
-The first free software projects of the City Council have used GitHub, but now we want to transition to a free software solution.
+The first free software projects of the City Council have used GitHub, but now we want to transition to a platform that:
+
+* Is free software.
+* Gives us control over the infrastructure used to develop software.
+
 The many references to GitHub in the following sections are going to be replaced when a decision is reached.
+
+The GitHub advantages listed below must be taken into account to choose an alternative.
+Any alternative has to offer similar guarantees with regard to durability and sustainability.
+A viable possibility is a self-managed Gitlab installation.
+There is a successful use case for the public administration in France.
 ====
 
-As is pointed out in the measures below, [.line-through]#the main repository will be hosted at GitHub, a service that Git uses as a distributed version control system.#
+At time being, the main repository will be hosted at GitHub, as pointed below, a service that uses Git as a distributed version control system.
 The basic vocabulary and concepts for understanding how it works can be found at https://producingoss.com/en/vc.html#vc-vocabulary[Version Control Vocabulary].
 
-There are many viable and reasonable alternatives to GitHub, even some viable alternatives to Git as a version control program[.line-through]#, but GitHub offers enough advantages for it to be the default option:#
+The advantages that made us choose GitHub as the default development platform were:
 
 * Most developers are familiar with it and do not have to learn new tools and procedures ad-hoc for the project.
 
 * It launches the message that the project is open to collaboration.
 
-* It offers good integration with the rest of a product’s technical and social infrastructure: issue managing, continuous integration, development communication channels, etc.
+* It offers good integration with the rest of a product's technical and social infrastructure: issue managing, continuous integration, development communication channels, etc.
 
-* It also enables (part of) a product’s documentation to be saved and displayed, which could be a wiki.
+* It also enables (part of) a product's documentation to be saved and displayed, which could be a wiki.
 The presentation of the information is sufficiently user-friendly for us to put off building a website for project users and participants in general.
 
-* It is the platform most widely used by free software code projects and provides a lot of exposure.
+* It is the platform most widely used by free software projects and provides a lot of exposure.
 
-Any alternative has to offer similar guarantees with regard to durability and sustainability.
-
+[WARNING]
+====
 *Drawback*: GitHub is not free software.
 
 Although it is a free service for a wide range of possible uses, not all the infrastructure code behind GitHub is open and ultimately that means being dependent on a company whose future development we cannot predict.
-In the future other options might appear that could make us reconsider recommending using GitHub as the default option.
+====
 
 // M_A60::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
@@ -189,7 +198,7 @@ without paying subscriptions for any service.
 
 * All the project source code has to be downloadable by anyone at any time.
 GitHub makes that easy by providing buttons for downloading a `zip` file or showing the necessary commands for cloning the repository using Git.
-If GitHub is not used, the repository’s public site must also provide both these types of download (`zip` file or `tar.gz` and command `git clone`).
+If GitHub is not used, the repository's public site must also provide both these types of download (`zip` file or `tar.gz` and command `git clone`).
 --
 
 // M_A63::
@@ -202,7 +211,7 @@ If GitHub is not used, the repository’s public site must also provide both the
 * NewProduct
 * Publication
 
-The website’s home page will be a `README` file in the repository root directory.
+The website's home page will be a `README` file in the repository root directory.
 This file can be in plain text, Markdown or other brand languages supported by GitHub and which the latter interprets and formats when the page is visited.
 --
 

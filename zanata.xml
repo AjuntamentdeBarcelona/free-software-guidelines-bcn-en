@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config xmlns="http://zanata.org/namespace/config/">
+    <url>https://translate.zanata.org/</url>
+    <project>free-software-guidelines-bcn</project>
+    <project-version>master</project-version>
+    <project-type>podir</project-type>
+    <src-dir>po_files/pot</src-dir>
+    <trans-dir>po_files</trans-dir>
+    <rules/>
+</config>

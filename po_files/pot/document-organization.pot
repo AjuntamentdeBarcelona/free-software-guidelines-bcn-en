@@ -1,0 +1,595 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2019-03-06 12:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: modules/ROOT/pages/document-organization.adoc:1
+#, no-wrap
+msgid "Document organization"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:8
+msgid "This Guide contains a series of guidelines that we have divided into:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:10
+#, no-wrap
+msgid "*Measures* that must be adopted and implemented in all projects.\n"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:12
+#, no-wrap
+msgid ""
+"*Recommendations* that do not have to be followed but which could be useful "
+"in certain situations.\n"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:14
+msgid ""
+"Project managers are responsible for checking whether the measures are being "
+"implemented properly and deciding which recommendations to follow."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:16
+msgid ""
+"Some measures are sufficiently complex to merit being broken down into "
+"*sub-measures* that can be individually validated."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:19
+msgid ""
+"Some are impossible to adopt in certain projects, so in those cases we have "
+"tried to offer some *alternatives* (guidelines that will be tagged as such "
+"throughout the guide).  Each measure and its sub-measures are interlinked."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:21
+msgid "Each measure, recommendation or alternative consists of:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:23
+msgid "A unique identifier throughout the document."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:24
+msgid "A list of tags."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:27
+msgid ""
+"The *tags* help to restrict when and in what types of projects each measure "
+"and recommendation are important.  For example, they can serve to generate a "
+"checklist of things that project management needs to check."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:30
+msgid ""
+"This chapter explains which type of tags are used throughout the guide.  The "
+"other chapters set out the measures and recommendations by subject areas and "
+"provide some necessary context for understanding the relevance of each "
+"measure."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:32
+msgid ""
+"In the [Annex: Lists of measure and recommendations by tag] you will find "
+"various lists of measures and recommendations classified by tags."
+msgstr ""
+
+#. type: Title ==
+#: modules/ROOT/pages/document-organization.adoc:33
+#, no-wrap
+msgid "Use-case tags"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:37
+msgid ""
+"In this section we define the different situations or *use-cases* that can "
+"arise in technological projects in relation to the free software components "
+"they are based on.  These Use-Cases then determine which measures and "
+"recommendations affect each project."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:43
+msgid ""
+"Each *project* defines an information system, and each system has a certain "
+"number of software *components*.  Some components are distinguished from the "
+"rest because each component has its own source code *repository*.  "
+"(Occasionally we find complex components whose code, for practical reasons, "
+"is shared between different repositories which are tagged and distributed "
+"jointly).  The different components in a particular system can be run on the "
+"same equipment or be distributed between different machines.  Likewise, they "
+"may operate as part of the same process or various processes."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:45
+msgid "The following use-cases are contemplated:"
+msgstr ""
+
+#. type: Table
+#: modules/ROOT/pages/document-organization.adoc:68
+#, no-wrap
+msgid ""
+"| Tag\n"
+"| Description\n"
+"\n"
+"| `Integration`\n"
+"| *Integrate existing components*: it is necessary to install a new system "
+"that can be built on the basis of existing components.\n"
+"\n"
+"| `Adaptation`\n"
+"| *Modify an external component*: feature needs to be added to a component "
+"that is already available, or it needs to be improved by solving defects, "
+"adding translations, etc.\n"
+"\n"
+"| `Plugin`\n"
+"| *Expand a platform with plugins*: new components need to be created that "
+"can be integrated into a platform or framework already available and which "
+"facilitates this task.\n"
+"\n"
+"| `NewProduct`\n"
+"| *Create a new component*: a new solution needs to be created from "
+"scratch.\n"
+"\n"
+"| `Publication`\n"
+"| *Publish code from an existing own component*: we have our own code, "
+"developed under previous contracts and never publicly distributed, and we "
+"want to make it available in a public repository, under a free software "
+"license.\n"
+"\n"
+"| `Document`\n"
+"| *Publish documents not linked to a single project*: we have documentation "
+"that is not directly linked to a piece of software but we want to make it "
+"freely available in a public repository.\n"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:72
+msgid ""
+"All the Use-Cases, except the `Integration` and `Document` Use-Cases, refer "
+"to a single software component.  This means different Use-Cases can coincide "
+"in the same project if different components are affected in a different way."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:74
+msgid ""
+"We exclude from the analysis contributions to projects that do not involve "
+"modifying the code of a component, or creating a repository, such as "
+"contributions to documenting or facilitating the adoption of certain tools "
+"by third parties."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:76
+msgid ""
+"The `Integration`, `Adaptation`, `Plugin` and `NewProduct` use-cases may "
+"occasionally require a *migration*, if we find ourselves in a situation of "
+"implementing a system that partially or totally replaces the functions of a "
+"previous system."
+msgstr ""
+
+#. type: Title ===
+#: modules/ROOT/pages/document-organization.adoc:77
+#, no-wrap
+msgid "`Integration` Use-Case"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:80
+msgid ""
+"This Use-Case may involve creating one or more own repositories, not to "
+"manage the code of any software _per se_ but to:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:82
+msgid "Link it to project management tools such as issue managers."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:83
+msgid "Save and link documents relating to using and operating the system"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:84
+msgid "Save configuration files and scripts necessary for deploying the system"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:85
+msgid ""
+"Save configuration files and scripts necessary for running testing and "
+"continuous integration environments, including _virtualisation_ and "
+"_containerisation_"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:86
+msgid "Save system design and customisation features"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:87
+msgid "Save instructions for installing and using the system"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:88
+msgid "Save integration tests of the various components"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:91
+msgid ""
+"With regard to customisation elements, we highlight the need for "
+"*translating* user interface texts and other aspects of localisation and "
+"internationalisation (l10n, i18n).  We contemplate two possibilities:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:94
+msgid ""
+"The following conditions are met: (1) the software to be translated is "
+"designed to incorporate translations of the interface, and (2) the "
+"translations to be carried out may be of general interest to other potential "
+"users of the tool.  In this case, we will try to fit the translations into "
+"the original project, which means we would find ourselves in the "
+"link:#escenari-adaptacio[Adaptation Use-Case]."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:95
+msgid ""
+"One of the two conditions mentioned above is not met: we store the files "
+"needed for doing the translation in an own repository."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/document-organization.adoc:97
+#, no-wrap
+msgid "Wordpress"
+msgstr ""
+
+#. type: delimited block =
+#: modules/ROOT/pages/document-organization.adoc:100
+msgid ""
+"A hypothetical example would be a web portal built using a content "
+"management system such as Wordpress, with a MariaDB database."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:103
+msgid ""
+"[[escenari-integracio]]These are standard free software components but to "
+"make managing them easier, it might be useful to save customised elements "
+"such as CSS files or a list of Wordpress extensions to be uploaded in a "
+"repository, along with Docker images that include all the necessary elements "
+"for its deployment."
+msgstr ""
+
+#. type: Title ===
+#: modules/ROOT/pages/document-organization.adoc:104
+#, no-wrap
+msgid "`Adaptation` Use-Case"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:109
+msgid ""
+"This use-case might involve creating one or more own repositories with the "
+"same contents described for the link:#escenari-integracio[Integration "
+"Use-Case].  A distinctive feature of this use-case, however, is that "
+"Barcelona City Council is sponsoring the development of a significant "
+"contribution to a free software product that could potentially be "
+"incorporated into the original product (even if this integration does not "
+"take place while it is being developed).  These contributions must take the "
+"form of a series of commits in a repository linked in some way to that of "
+"the original producnt."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:111
+msgid "There may be various types of contributions:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:113
+msgid ""
+"New features that Barcelona City Council needs and which could be of "
+"interest to other entities or users"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:114
+msgid ""
+"Complete translations (or significant coverage) of the user interface, as "
+"well as other localisation (l10n) and internationalisation (i18n) "
+"improvements that might be of general use to other potential users of the "
+"tool."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:116
+msgid ""
+"If the translations and localisation elements are mixed with the City "
+"Council’s own customised elements, or if the original product is not "
+"designed to incorporate new translations and localisations, then it is not "
+"possible to plan a contribution like this because we would be in the "
+"link:#escenari-integracio[Integration Use-case]."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/document-organization.adoc:118
+#, no-wrap
+msgid "Barcelona City Council’s ethical mail box"
+msgstr ""
+
+#. type: delimited block =
+#: modules/ROOT/pages/document-organization.adoc:122
+msgid ""
+"There was an original piece of software, that of "
+"https://www.globaleaks.org/[Globaleaks], and the features of generating an "
+"internal file and sending a reply to the user in the form of a PDF were "
+"incorporated into that.  These features are now part of the "
+"https://github.com/globaleaks/GlobaLeaks[Globaleaks main repository]’s "
+"master branch."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:125
+msgid ""
+"[[escenari-adaptacio]]Customisation tasks have been carried out in the same "
+"project, including the translation of the interface into Catalan, but as "
+"some user texts are not for general use but instead are the City Council’s "
+"own customisations, it has not been possible to contribute the translation "
+"itself to the original project."
+msgstr ""
+
+#. type: Title ===
+#: modules/ROOT/pages/document-organization.adoc:126
+#, no-wrap
+msgid "`Plugin` Use-case"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:129
+msgid ""
+"This is a use-case half way between integrating new features into an already "
+"existing product (link:#escenari-adaptacio[Adaptation Use-case]) and "
+"developing a new product (link:\\l[NewProduct Use-case]), and it shares "
+"features of both."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:133
+msgid ""
+"On the one hand, it starts with an existing piece of software to which a "
+"feature has to be added.  On the other hand, the software architecture is "
+"modular and provides for extension by means of a standardised mechanism that "
+"enables semi-independent development of the new modules in such a way that "
+"some aspects are quite similar to a new product.  In particular, the new "
+"modules have their own repository (which is not a copy of the original "
+"product’s repository) and the releases are not linked to those of the "
+"framework product."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/document-organization.adoc:135
+#, no-wrap
+msgid "Open Data Barcelona"
+msgstr ""
+
+#. type: delimited block =
+#: modules/ROOT/pages/document-organization.adoc:139
+msgid ""
+"The http://opendata-ajuntament.barcelona.cat/[City Council’s open data "
+"portal] is based on https://ckan.org/[CKAN] open data portal software.  This "
+"product is "
+"http://docs.ckan.org/en/latest/extensions/plugin-interfaces.html[easily "
+"extendible] by means of plugins or extensions and when the new portal was "
+"being developed it was necessary to modify an existing plugin (which would "
+"also correspond to the link:#escenari-adaptacio[Adaptation Use-case]) as "
+"well as create new ones."
+msgstr ""
+
+#. type: Title ===
+#: modules/ROOT/pages/document-organization.adoc:141
+#, no-wrap
+msgid "`NewProduct` Use-case"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:145
+msgid ""
+"When there is no component or combination of components available that "
+"satisfy a specific need, a new product has to be developed.  This product "
+"may be based on other, already existing components, such as frameworks, "
+"libraries, database management systems, etc."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/document-organization.adoc:147
+#, no-wrap
+msgid "Decidim.Barcelona"
+msgstr ""
+
+#. type: delimited block =
+#: modules/ROOT/pages/document-organization.adoc:153
+msgid ""
+"https://decidim.org/[Decidim] is a participative democracy tool for cities "
+"and organisations.  From the outset, its development was sponsored by "
+"Barcelona City Council, although other organisations that use it are now "
+"beginning to contribute resources.  It is based on the website development "
+"framework http://rubyonrails.org/[Ruby on Rails].  This framework greatly "
+"facilitates the development of new website applications but these do not "
+"merely consist of integrating and configuring components."
+msgstr ""
+
+#. type: delimited block =
+#: modules/ROOT/pages/document-organization.adoc:156
+msgid ""
+"https://decidim.org/[Decidim]’s history is a little odd because it began "
+"with an attempt to adapt existing software, "
+"https://github.com/consul/consul[Consul].  Later it was necessary to make a "
+"fork from the original software and, finally, it was decided to rewrite the "
+"program (improving the modularity of the code, among other things)."
+msgstr ""
+
+#. type: Title ===
+#: modules/ROOT/pages/document-organization.adoc:158
+#, no-wrap
+msgid "`Publication` Use-case"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:162
+msgid ""
+"Barcelona City Council owns a lot of software that is currently in use but "
+"which has never been published.  The specific measures and recommendations "
+"for this use-case explain the additional checks that are necessary for "
+"publishing, under licence, a software code that initially was not conceived "
+"for free distribution."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:165
+msgid ""
+"There may be several reasons that might justify publishing a software "
+"program, provided it meets certain quality requirements.  One possible "
+"situation is you might want to launch a new development contract for "
+"extending or adapting “ manner” an existing component (that would be the "
+"equivalent of combining the link:#escenari-adaptacio[Adaptation Use-case] "
+"and the link:#escenari-publicacio[Publication "
+"Use-case][[escenari-publicacio]])."
+msgstr ""
+
+#. type: Title ===
+#: modules/ROOT/pages/document-organization.adoc:166
+#, no-wrap
+msgid "`Document` Use-case"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:170
+msgid ""
+"Sometimes you may want to publish a document that has been drafted (or "
+"commissioned) that might not be linked directly to a single software "
+"project.  Examples would be market studies, research projects, graphic "
+"design elements (such as logos) and so on."
+msgstr ""
+
+#. type: Title ==
+#: modules/ROOT/pages/document-organization.adoc:171
+#, no-wrap
+msgid "Tags for project stages and milestones"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:175
+msgid ""
+"When classifying measures and recommendations, it is also worth taking into "
+"account at what point they should be applied.  As a general rule, we could "
+"say that technological projects go through the following stages:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:177
+#, no-wrap
+msgid ""
+"*Conception*: stage when a new need is detected and the idea of the project "
+"arises, which usually includes drawing up a preliminary design and possibly "
+"carrying out other preliminary studies.\n"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:178
+#, no-wrap
+msgid ""
+"*Procurement*: drawing up the specifications for acquiring services "
+"(development or other types of services).\n"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:179
+#, no-wrap
+msgid ""
+"*Development*: creating the source code, documents and other tools, "
+"including the infrastructure necessary for building them.\n"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:180
+#, no-wrap
+msgid ""
+"*Putting into production*: deploying the service, including the possible "
+"migration of data and processes from one or more previous systems.\n"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:181
+#, no-wrap
+msgid ""
+"*Exploitation*: stage which lasts throughout the useful life of the system "
+"in production, including operational and maintenance tasks.\n"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/document-organization.adoc:183
+msgid ""
+"Taking all this into account, the Guide uses the following tags to highlight "
+"key project stages:"
+msgstr ""
+
+#. type: Table
+#: modules/ROOT/pages/document-organization.adoc:200
+#, no-wrap
+msgid ""
+"| Tag\n"
+"| Description\n"
+"\n"
+"| `Preliminary design`\n"
+"| Measures to take into account when drawing up preliminary designs.\n"
+"\n"
+"| `Procurement`\n"
+"| Measures to take into account when drawing up the service procurement "
+"specifications.\n"
+"\n"
+"| `Day1`\n"
+"| Measures to be applied from the first day of the development stage (see "
+"the section ).\n"
+"\n"
+"| `Release`\n"
+"| Measures to take into account when a new version of the product is "
+"released.\n"
+msgstr ""

@@ -1,0 +1,46 @@
+= Translation of Asciidoc files in this repo
+
+== Translate
+
+Create an account at https://translate.zanata.org/account/register.
+
+Then go to https://translate.zanata.org/project/view/free-software-guidelines-bcn.
+
+== Keep translations in sync (repo admin)
+
+Prerequisites:
+
+* https://po4a.org/download.php[po4a]
+* http://docs.zanata.org/en/latest/client/[Zanata CLI]
+
+To use Zanata CLI it's important to http://docs.zanata.org/en/latest/client/configuration/[configure it in your local system].
+
+The following commands use document `modules/ROOT/pages/introduction.adoc` as example and `ca` (Catalan) as the language to translate to (from our master in English).
+
+Once per file, do:
+
+----
+po4a-gettextize -m modules/ROOT/pages/introduction.adoc -f asciidoc -M utf8 -p po_files/ca/introduction.po
+
+po4a-gettextize -m modules/ROOT/pages/introduction.adoc -f asciidoc -M utf8 -p po_files/pot/introduction.pot
+
+zanata-cli push -l ca --push-type both
+----
+
+After modifying the Catalan version online in Zanata, do:
+
+----
+zanata-cli pull -l ca
+
+po4a-translate  -m modules/ROOT/pages/introduction.adoc -f asciidoc -M utf8 -p po_files/ca/introduction.po -l locale/ca/introduction.adoc -k 0 -w 10000
+----
+
+After modifying the English version (master) offline, do:
+
+----
+po4a-updatepo -m modules/ROOT/pages/introduction.adoc -f asciidoc -M utf8 -p po_files/ca/introduction.po
+
+po4a-updatepo -m modules/ROOT/pages/introduction.adoc -f asciidoc -M utf8 -p po_files/pot/introduction.pot
+
+zanata-cli push -l ca --push-type both
+----

@@ -109,7 +109,7 @@ There are three options, depending on the use-case:
 * `NewProdct` or `Publication`: we choose the AGPL licence by default.
 
 * `Adaptation`: we modify an existing project.
-In this case we have to respect the licence it already has.
+  In this case we have to respect the licence it already has.
 
 * `Plugin`: we choose a licence commonly used in the ecosystem in which we want to integrate a modular component.
 
@@ -136,7 +136,7 @@ Therefore, it is this group of activists and experts who will design future vers
 The main reason for choosing this licence as the default option are as follows:
 
 * It belongs to the GNU GPL family of licences, which is the best known.
-Most developers are familiar with its conditions, which means nobody will have to spend time researching the licence to decide if they want to participate in the project or not.
+  Most developers are familiar with its conditions, which means nobody will have to spend time researching the licence to decide if they want to participate in the project or not.
 
 * Opting for more widely used licences reduces the risk of fragmenting this universal immaterial commons resource posed by free software, a risk caused by the proliferation of licences and their reciprocal incompatibilities.
 

@@ -90,7 +90,7 @@ With regard to customisation elements, we highlight the need for *translating* u
 We contemplate two possibilities:
 
 * The following conditions are met: (1) the software to be translated is designed to incorporate translations of the interface, and (2) the translations to be carried out may be of general interest to other potential users of the tool.
-In this case, we will try to fit the translations into the original project, which means we would find ourselves in the link:#escenari-adaptacio[Adaptation Use-Case].
+  In this case, we will try to fit the translations into the original project, which means we would find ourselves in the link:#escenari-adaptacio[Adaptation Use-Case].
 * One of the two conditions mentioned above is not met: we store the files needed for doing the translation in an own repository.
 
 [example]

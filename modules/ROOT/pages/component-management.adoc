@@ -21,10 +21,10 @@ But the benefits of finding an existing project to join, instead of reinventing 
 * We can take advantage of the experience acquired by other users who have tried to implement a system similar to the one we want, possibly discovering opportunities we had not thought about.
 
 * We can share the cost of building a complex tool with other users and organisations.
-This includes potential future features and applications, which could in turn interest other users.
+  This includes potential future features and applications, which could in turn interest other users.
 
 * If the product has a sufficiently large user base, we get a tool that develops over time, improving with the contributions of others, adapting to future technological changes and incorporating our new features or those of third parties.
-With very little outlay on maintenance we get long-term sustainability and less danger of creating a *technological debt*.
+  With very little outlay on maintenance we get long-term sustainability and less danger of creating a *technological debt*.
 
 // M_323::
 [sidebar.measure, id="{sect}.{counter:measure:A}"]

@@ -29,17 +29,17 @@ The reasons for this are:
 * It is the only model which free software projects are structurally equipped to handle.
 
 * In free software projects, reputation is what makes everything tick, and that is earned or lost individually.
-People will rely more or less on the code someone has developed depending on the strength of previous contributions; their opinions in the communication channels and decision-making will carry more or less weight, etc.
+  People will rely more or less on the code someone has developed depending on the strength of previous contributions; their opinions in the communication channels and decision-making will carry more or less weight, etc.
 
 * Developers who regularly work on free software projects are used to this model.
-It makes interaction easier when they collaborate remotely.
-It is also useful for them in developing a professional career.
+  It makes interaction easier when they collaborate remotely.
+  It is also useful for them in developing a professional career.
 
 The other important consideration in this section, which applies if we want to modify an existing external component, is it is always better if our code modifications are incorporated, sooner or later, into the original product.
 That way we can:
 
 * Reduce future maintenance costs.
-If the integration is 100%, maintaining the features we have integrated might work out at zero cost to us.
+  If the integration is 100%, maintaining the features we have integrated might work out at zero cost to us.
 
 * Benefit from future improvements to the original product contributed by others.
 
@@ -63,7 +63,7 @@ It is a benefit to be aggressively pursued, not an obstacle to be merely endured
 * Plugin
 * NewProduct
 
-Don’t hide the team’s contributions under a corporate identity in our own projects or external projects.
+Don't hide the team's contributions under a corporate identity in our own projects or external projects.
 In other words, use the usernames and individual email addresses of each participant for the commits in the repository, as well as when participating in the project communication channels or management tools.
 
 If any individual contributes to a software project as a worker hired directly or indirectly by the City Council on some occasions, and as a volunteer in his or her free time on other occasions, they will have to use two different emails, depending on the case:
@@ -136,8 +136,8 @@ That includes:
 * Clearly describing the collaborative tasks the contract winner is expected to take part in and explain that this is part of the budget, as described in the #h:a6bb27a3-2b23-4585-81ca-dc5b4d29ccd7[Measure: Budget for the extra costs of participating in the community of the product to be modified].
  
 * The contract winner accepting and applying the Developer Guidelines, the rules for drafting documentation and the Code of Conduct for the project, if there is one, as well as other written documents governing any rules that might exist, both general and the specific rules for specific communication channels.
-Should the project not have a formal set of internal rules of its own, normal rules of netiquette will apply.
-https://www.ietf.org/rfc/rfc1855.txt.
+  Should the project not have a formal set of internal rules of its own, normal rules of netiquette will apply.
+  https://www.ietf.org/rfc/rfc1855.txt.
 
 * Certain awardee profiles becoming users of the project communication channels.
 
@@ -341,16 +341,14 @@ But it needs to be borne in mind that open, public communication channels are es
 The reasons are as follows:
 
 * It is very difficult for people to want to make significant contributions to a project where the decisions are taken in a non-transparent way, like a “fait accompli” policy.
-That does not mean that project governance has to work like a democracy.
-The essential prerequisite is *transparency*: people will want to know why and how decisions are taken, and perhaps have their say, without the option they put forward necessarily being the one chosen.
-Experienced developers know that the project has certain needs and not everyone can take part in decision-making with the same weight.
-When in the end decisions are taken by the City Council, everyone will understand that if it is made clear from the start, as specified in the link:#publicar-breus-directrius-desenvolupadors[Measure: (Day 1) Publish brief Developer Guidelines].
+  That does not mean that project governance has to work like a democracy.
+  The essential prerequisite is *transparency*: people will want to know why and how decisions are taken, and perhaps have their say, without the option they put forward necessarily being the one chosen.
+  Experienced developers know that the project has certain needs and not everyone can take part in decision-making with the same weight.
+  When in the end decisions are taken by the City Council, everyone will understand that if it is made clear from the start, as specified in the link:#publicar-breus-directrius-desenvolupadors[Measure: (Day 1) Publish brief Developer Guidelines].
 
-* It is surprising how many good ideas can be selflessly expressed through the public communication channels,
-if all aspects of the project are discussed there in a friendly working climate.
+* It is surprising how many good ideas can be selflessly expressed through the public communication channels, if all aspects of the project are discussed there in a friendly working climate.
 
-* If the communication takes place in public mail lists and is then filed,
-anyone can consult the decision log and avoid repeating previous discussions.
+* If the communication takes place in public mail lists and is then filed, anyone can consult the decision log and avoid repeating previous discussions.
 
 * Open, public channels foster a more effective, polite and assertive communication culture.
 --

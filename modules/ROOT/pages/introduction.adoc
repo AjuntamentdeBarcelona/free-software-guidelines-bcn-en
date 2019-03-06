@@ -48,8 +48,7 @@ This Guide serves a double purpose:
 
 . To help IMI staff use technologies based on free software so they make the most of its advantages and minimise potential risks.
 
-. To help maintain Barcelona City Council's reputation as a transparent and reliable
-institutional collaborator in free software projects, taking into account the sector's best practices.
+. To help maintain Barcelona City Council's reputation as a transparent and reliable institutional collaborator in free software projects, taking into account the sector's best practices.
 
 Despite the enormous diversity that currently exists among free software projects, a series of practices have gradually arisen that are shared by most projects and organisations which have a certain degree of success.
 These cover technical and legal aspects, as well as project management.

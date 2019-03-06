@@ -70,13 +70,13 @@ Each project has to decide which languages it should be translated into, dependi
 This site must include:
 
 * A link to the download site, with instructions on how to install the program.
-This link must feature prominently on the home page.
+  This link must feature prominently on the home page.
 
 * A “Get involved” or “Community” section with information on the different ways of getting involved in the project.
-This link must also feature prominently on the home page.
+  This link must also feature prominently on the home page.
 
 * A link to the development site.
-This could either be in the Community section or on the home page, with a link saying “Developers” or a “Fork on GitHub” link.
+  This could either be in the Community section or on the home page, with a link saying “Developers” or a “Fork on GitHub” link.
 
 There are many tools and frameworks for managing content and publishing very good quality open websites, so it should not be a problem finding one adapted to the project’s needs: Drupal, Wordpress (without the exclusive extensions) and lots more.
 --
@@ -122,7 +122,7 @@ The advantages that made us choose GitHub as the default development platform we
 * It offers good integration with the rest of a product's technical and social infrastructure: issue managing, continuous integration, development communication channels, etc.
 
 * It also enables (part of) a product's documentation to be saved and displayed, which could be a wiki.
-The presentation of the information is sufficiently user-friendly for us to put off building a website for project users and participants in general.
+  The presentation of the information is sufficiently user-friendly for us to put off building a website for project users and participants in general.
 
 * It is the platform most widely used by free software projects and provides a lot of exposure.
 
@@ -172,8 +172,7 @@ There could be reasons that make it advisable to have the main repository
 
 * Bitbucket or other similar platforms.
 
-* A Gitlab portal of an organisation participating in developing the project
-(or any future Barcelona City Council Gitlab portal).
+* A Gitlab portal of an organisation participating in developing the project (or any future Barcelona City Council Gitlab portal).
 
 Some of these reasons could be:
 
@@ -184,21 +183,18 @@ Some of these reasons could be:
 In opting for this alternative, it must be borne in mind that:
 
 * We cannot give up Git as our version control system.
-It is currently the most widely used tool which all developers are familiar with and it offers some good practices for open project management which would be much more confusing with older systems (such as CSV or Subversion).
-If certain procedures have to be performed on another tool, for example, Subversion, the solution is to do the development in open on Git, and keep a Subversion mirror automated using the command `git ``svn`` ``dcommit`, as explained, for example, at http://www.kerrybuckley.org/2009/10/06/maintaining-a-read-only-svn-mirror-of-a-git-repository/.
+  It is currently the most widely used tool which all developers are familiar with and it offers some good practices for open project management which would be much more confusing with older systems (such as CSV or Subversion).
+  If certain procedures have to be performed on another tool, for example, Subversion, the solution is to do the development in open on Git, and keep a Subversion mirror automated using the command `git ``svn`` ``dcommit`, as explained, for example, at http://www.kerrybuckley.org/2009/10/06/maintaining-a-read-only-svn-mirror-of-a-git-repository/.
 
-* Either way, there has to be an up-to-date replica of the main repository in the City Council GitHub space,
-to show all the contributions made to free software projects.
+* Either way, there has to be an up-to-date replica of the main repository in the City Council GitHub space, to show all the contributions made to free software projects.
 
-* The `README` file content (and markup) in the City Council GitHub space,
-the GitHub.io space and the other sites with a source code link will indicate which is (or are) the main repository (repositories) where development is carried out.
+* The `README` file content (and markup) in the City Council GitHub space, the GitHub.io space and the other sites with a source code link will indicate which is (or are) the main repository (repositories) where development is carried out.
 
-* Whichever they are, both the issue managing tool and the continuous integration system must be public and capable of being used by everyone,
-without paying subscriptions for any service.
+* Whichever they are, both the issue managing tool and the continuous integration system must be public and capable of being used by everyone, without paying subscriptions for any service.
 
 * All the project source code has to be downloadable by anyone at any time.
-GitHub makes that easy by providing buttons for downloading a `zip` file or showing the necessary commands for cloning the repository using Git.
-If GitHub is not used, the repository's public site must also provide both these types of download (`zip` file or `tar.gz` and command `git clone`).
+  GitHub makes that easy by providing buttons for downloading a `zip` file or showing the necessary commands for cloning the repository using Git.
+  If GitHub is not used, the repository's public site must also provide both these types of download (`zip` file or `tar.gz` and command `git clone`).
 --
 
 // M_A63::
@@ -253,9 +249,9 @@ Sub-measures:
 //  links incoming: link:#M_B3F[_M_B3F_]
 
 * Give all development team members permission to write in the main repository.
-That includes in-house staff and subcontracted people.
-Also make the current list of _committers_ public in a file in the repository root directory called `MAINTAINERS`.
-It must contain the name and email address of each person.
+  That includes in-house staff and subcontracted people.
+  Also make the current list of _committers_ public in a file in the repository root directory called `MAINTAINERS`.
+  It must contain the name and email address of each person.
 
 // S_A3D::
 // [sidebar.submeasure, id="{sect}.{counter:measure:A}"]
@@ -272,7 +268,7 @@ It must contain the name and email address of each person.
 // links incoming: link:#M_B3F[_M_B3F_]
 
 * Give everyone permission to read the main repository.
-Everyone must be able to read and clone the code.
+  Everyone must be able to read and clone the code.
 --
 
 // R_A48::
@@ -441,17 +437,17 @@ One tool all free software projects need is an issue manager or bug tracker.
 At the City Council we assign it the following functions:
 
 * Provide notification of any defects detected (bugs tracked) by users and developers.
-Also to make their treatment, evolution and eventual solution transparent.
-It is important that the changes (commits) that solve a defect (bug) point it out in their message.
-https://help.github.com/articles/closing-issues-using-keywords/[GitHub has keywords for this].
+  Also to make their treatment, evolution and eventual solution transparent.
+  It is important that the changes (commits) that solve a defect (bug) point it out in their message.
+  https://help.github.com/articles/closing-issues-using-keywords/[GitHub has keywords for this].
 
 * Follow up tasks that are pending.
-This enables one or more commits to then be linked with the closing of an issue It is also possible to see who tasks have been assigned to and how they are prioritised.
-One option is to specify estimated completion dates.
-All this contributes to the transparency and traceability of the development process.
+  This enables one or more commits to then be linked with the closing of an issue It is also possible to see who tasks have been assigned to and how they are prioritised.
+  One option is to specify estimated completion dates.
+  All this contributes to the transparency and traceability of the development process.
 
 * Follow up how the contributions of the different parts are managed by means of the pull request mechanism.
-The bug tracker could even be open to feature requests and the GitHub space could be used for publicly managing and prioritising.
+  The bug tracker could even be open to feature requests and the GitHub space could be used for publicly managing and prioritising.
 
 It needs to be borne in mind that the bug tracker is not only important for the everyday work of developers but also that many project observers use it as a measure of how serious the project is.
 

@@ -14,15 +14,15 @@ Increasing the flow of resources to projects is in the interest of all projects,
 Outside this model, which is based on fostering collaboration, it is very difficult to reap some of the potential benefits offered by free software, including:
 
 * *Transparency*.
-There is no need to restrict this to the software code.
-If there is to be real collaboration, transparency has to extend to all the communication infrastructure, knowledge and decision-making involved in the project.
+  There is no need to restrict this to the software code.
+  If there is to be real collaboration, transparency has to extend to all the communication infrastructure, knowledge and decision-making involved in the project.
 
 * *Dissemination of knowledge*.
-In contrast to other, classical business models, the interest here lies in knowledge of the product, even the most technical details, being distributed as widely as possible.
-That reduces the technological risk and the City Council’s dependency on specific companies.
+  In contrast to other, classical business models, the interest here lies in knowledge of the product, even the most technical details, being distributed as widely as possible.
+  That reduces the technological risk and the City Council’s dependency on specific companies.
 
 * *Community participation*.
-This reinforces both the project, with more ideas and resources, and the local communities.
+  This reinforces both the project, with more ideas and resources, and the local communities.
 
 Working in public eye means the following elements should be publicly accessible in free formats (for reading) to anyone who is interested, so they do not have to use private tools and can do so anonymously (without having to register with any web service or much less having to hire for-payment services):
 
@@ -41,7 +41,7 @@ Working in public eye does NOT (necessarily) mean that:
 * Project outsiders have write access to the repository (they are free to copy the code into their own repository and modify their copy).
 
 * Everyone has permission to write notifications of defects and intervene in the issue manager.
-Each project can choose its own QA policy.
+  Each project can choose its own QA policy.
 
 * The project team has to read and respond to all defect notifications (if they are open to writing) and questions via the public communication channels.
 
@@ -55,10 +55,10 @@ If you wait too long, maybe some measures will never be implemented, because the
 The reasons for that can be summed up as follows:
 
 * Having public communication channels from day 1 does not mean “strangers” have to distract us from day 1.
-In this Guide we explain how to make it clear what our commitments are, what we can achieve at each stage.
+  In this Guide we explain how to make it clear what our commitments are, what we can achieve at each stage.
 
 * It is impossible to compensate the incentives that developers have for doing things in a “quick and dirty” way, with future threats of publication.
-If we do not work in public eye from the start, we will inevitably incur a https://en.wikipedia.org/wiki/Technical_debt[technological debt] with the intention of fixing things in the future (that never comes).
+  If we do not work in public eye from the start, we will inevitably incur a https://en.wikipedia.org/wiki/Technical_debt[technological debt] with the intention of fixing things in the future (that never comes).
 
 * When the day for “freeing the code” arrives, you suddenly find you have:
 
@@ -300,7 +300,7 @@ The text should at least be in English and Catalan, for using the most suitable 
 It should appear in the following places at least:
 
 * The home page of the website targeted at project users, if there is one.
-It should be capable of being seen without the need to scroll down the page on a desktop computer.
+  It should be capable of being seen without the need to scroll down the page on a desktop computer.
 * The `README` file of the main repository.
 * The project list at https://ajuntamentdebarcelona.github.io/[https://ajuntamentdebarcelona.github.io].
 * Every time the project is entered in a repository or free software project list, for example https://joinup.ec.europa.eu/[Join Up of the European Union].
@@ -340,7 +340,7 @@ This helps people to decide whether or not the project might cover their needs.
 Include the list, or create a visible link to it from at least:
 
 * The home page of the website targeted at project users, if there is one.
-The link should be capable of being seen without the need to scroll down the page on a desktop computer.
+  The link should be capable of being seen without the need to scroll down the page on a desktop computer.
 * The `README` file of the main repository.
 
 This is better in the form of a list with bullet points and simple sentences, or an even more graphic form.
@@ -367,7 +367,7 @@ This information is also necessary so a potential user can see whether they can 
 Include this information, or create a visible link to it from at least:
 
 * The home page of the website targeted at project users, if there is one.
-The link should be capable of being seen without the need to scroll down the page on a desktop computer.
+  The link should be capable of being seen without the need to scroll down the page on a desktop computer.
 * The `README` file of the main repository.
 
 This is better in the form of a list with bullet points and simple sentences.

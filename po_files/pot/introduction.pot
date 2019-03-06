@@ -1,0 +1,282 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2019-03-06 21:05+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: modules/ROOT/pages/introduction.adoc:1
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:8
+msgid ""
+"Barcelona City Council has a policy for using and developing free software "
+"which is set out in the "
+"http://ajuntament.barcelona.cat/digital/ca/documentacio[Government Measure: "
+"Free software and agile development of public administration services], "
+"approved in October 2017."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:10
+msgid ""
+"This policy includes a series of principles and guidelines that are outlined "
+"in the following documents, annexed to the measure:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:12
+msgid ""
+"xref:{lang}/tech-practices:ROOT:aim-and-scope.adoc[Technology Code of "
+"Practice]"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:13
+msgid ""
+"xref:{lang}/tech-sovereignty:ROOT:introduction.adoc[Guide to Technological "
+"Sovereignty]"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:14
+msgid ""
+"xref:{lang}/ict-procurement:ROOT:context.adoc[Guide to Public ICT "
+"Procurement]"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:17
+msgid ""
+"This Guide spells out these principles and guidelines in a series of "
+"measures and recommendations to help staff of the Municipal Institute of "
+"Information Technology (IMI), the ICT body of the Barcelona City Council, in "
+"their daily work on projects based on free software.  It covers aspects such "
+"as:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:19
+msgid "Looking for and designing solutions"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:20
+msgid "Service procurement"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:21
+msgid "Developing, implementing and maintaining information systems"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:22
+msgid "Participation in free software communities"
+msgstr ""
+
+#. type: Title ==
+#: modules/ROOT/pages/introduction.adoc:23
+#, no-wrap
+msgid "Benefits of using and developing free IT solutions"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:27
+msgid ""
+"The main benefit expected from using and developing free software is that "
+"the City Council regains or maintains control of their computing, not ceding "
+"it to private hands.  It is crucial for an entity that implements public "
+"services and processes a lot of information about citizens to know exactly "
+"what it is being executed, in what computers, who has access to the data, "
+"etc. As the https://www.gnu.org[GNU project] puts it:"
+msgstr ""
+
+#. type: Positional ($2) AttributeList argument for style 'quote'
+#: modules/ROOT/pages/introduction.adoc:30
+#, no-wrap
+msgid "Richard Stallman"
+msgstr ""
+
+#. type: Positional ($3) AttributeList argument for style 'quote'
+#: modules/ROOT/pages/introduction.adoc:30
+#, no-wrap
+msgid "{quote-url}"
+msgstr ""
+
+#. type: quote
+#: modules/ROOT/pages/introduction.adoc:33
+msgid ""
+"The state needs to insist on free software in its own computing for the sake "
+"of its computational sovereignty (the state's control over its own "
+"computing). All users deserve control over their computing, but the state "
+"has a responsibility to the people to maintain control over the computing it "
+"does on their behalf. Most government activities now depend on computing, "
+"and its control over those activities depends on its control over that "
+"computing. Losing this control in an agency whose mission is critical "
+"undermines national security."
+msgstr ""
+
+#. type: quote
+#: modules/ROOT/pages/introduction.adoc:36
+msgid ""
+"Both the GNU document above and the "
+"https://ajuntament.barcelona.cat/digital/en/blog/barcelona-digital-government-open-agile-and-participatory[Release "
+"note of the Government Measure: Free software and agile development of "
+"public administration services] envision other benefits:"
+msgstr ""
+
+#. type: quote
+#: modules/ROOT/pages/introduction.adoc:38
+msgid ""
+"Encouraging local software support businesses, more easily including small "
+"and medium-sized businesses in the procurement process."
+msgstr ""
+
+#. type: quote
+#: modules/ROOT/pages/introduction.adoc:39
+msgid ""
+"Creating crucial new capabilities in the public sector through "
+"internalisation of staff and a programme to create in-house skills to drive "
+"transformation."
+msgstr ""
+
+#. type: quote
+#: modules/ROOT/pages/introduction.adoc:40
+msgid "Increasing transparency and auditability of administrative processes."
+msgstr ""
+
+#. type: quote
+#: modules/ROOT/pages/introduction.adoc:41
+msgid ""
+"Never requiring individuals or organizations that need to interact with the "
+"City Council to use a nonfree program (that would be equivalent to a "
+"state-sanctioned monopoly)."
+msgstr ""
+
+#. type: quote
+#: modules/ROOT/pages/introduction.adoc:42
+msgid ""
+"Ensuring data sovereignty, privacy and security, for the citizens and for "
+"the municipality."
+msgstr ""
+
+#. type: quote
+#: modules/ROOT/pages/introduction.adoc:43
+msgid ""
+"Avoiding vendor lock-in and, more generally, freeing IT policy and planning "
+"from commercial strategies, constructing better tailored, more flexible, "
+"more sustainable solutions."
+msgstr ""
+
+#. type: quote
+#: modules/ROOT/pages/introduction.adoc:44
+msgid ""
+"Saving money, by avoiding proprietary license fees and through sharing and "
+"pooling of resources among municipalities and other government agencies."
+msgstr ""
+
+#. type: Title ==
+#: modules/ROOT/pages/introduction.adoc:45
+#, no-wrap
+msgid "Purpose of this Guide"
+msgstr ""
+
+#. type: quote
+#: modules/ROOT/pages/introduction.adoc:48
+msgid "This Guide serves a double purpose:"
+msgstr ""
+
+#. type: quote
+#: modules/ROOT/pages/introduction.adoc:50
+msgid ""
+"To help IMI staff use technologies based on free software so they make the "
+"most of its advantages and minimise potential risks."
+msgstr ""
+
+#. type: quote
+#: modules/ROOT/pages/introduction.adoc:52
+msgid ""
+"To help maintain Barcelona City Council's reputation as a transparent and "
+"reliable institutional collaborator in free software projects, taking into "
+"account the sector's best practices."
+msgstr ""
+
+#. type: quote
+#: modules/ROOT/pages/introduction.adoc:56
+msgid ""
+"Despite the enormous diversity that currently exists among free software "
+"projects, a series of practices have gradually arisen that are shared by "
+"most projects and organisations which have a certain degree of success.  "
+"These cover technical and legal aspects, as well as project management.  "
+"Some of these practices can be considered necessary, in the sense that the "
+"operational dynamics of free software projects reward certain types of "
+"conduct and penalise others."
+msgstr ""
+
+#. type: quote
+#: modules/ROOT/pages/introduction.adoc:59
+msgid ""
+"In some cases free software common practices can be very different from "
+"working methods used when there is no intention of publishing the source "
+"code under a free license.  This means IMI's learning process and adaptation "
+"will have a cost, but we believe that it will be far outweighed by the "
+"organisational improvements it will bring – together with the incorporating "
+"agile methods –."
+msgstr ""
+
+#. type: quote
+#: modules/ROOT/pages/introduction.adoc:61
+msgid ""
+"This document codifies and adapts these best practices to IMI, so they may "
+"serve as a guide in the learning process and in decision-making."
+msgstr ""
+
+#. type: Title ==
+#: modules/ROOT/pages/introduction.adoc:62
+#, no-wrap
+msgid "To find out more"
+msgstr ""
+
+#. type: quote
+#: modules/ROOT/pages/introduction.adoc:68
+msgid ""
+"A very good resource for understanding all the technical, legal and social "
+"aspects of free software development is Karl Fogel’s book "
+"https://producingoss.com/en/index.html[Producing Open Source Software] (the "
+"2017 edition, only available in an e-version, which can be freely consulted "
+"online).  The book uses the term _open source_, which basically refers to "
+"the same range of projects as _free software_.  (The proponents of both "
+"terms differ on their political and philosophical views, but the practical "
+"aspects we treat in this document are mostly shareable by both camps.)  We "
+"have taken many of the practical recommendations in that book into account "
+"in drawing up this Guide."
+msgstr ""
+
+#. type: quote
+#: modules/ROOT/pages/introduction.adoc:70
+msgid ""
+"The Guide also contains lots of recommendations on service procurement.  A "
+"good document for understanding the particular features of public "
+"procurement of free software in the context of the European Union is "
+"https://joinup.ec.europa.eu/document/guideline-public-procurement-open-source-software[Guideline "
+"on public procurement of Open Source Software], published in 2010 by Rishab "
+"Aiyer Ghosh, Ruediger Glott, Patrice-Emmanuel Schmitz and Abdelkrim Boujraf, "
+"and commissioned by the European Commission under the "
+"https://joinup.ec.europa.eu//[Join Up] initiative."
+msgstr ""

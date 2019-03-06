@@ -1,0 +1,420 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2019-03-06 22:59+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: modules/ROOT/pages/documentation.adoc:1
+#, no-wrap
+msgid "Documentation"
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/documentation.adoc:12
+#, no-wrap
+msgid "Upload a ``README`` file to the main repository"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:16 modules/ROOT/pages/documentation.adoc:150
+msgid "Day1"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:17 modules/ROOT/pages/documentation.adoc:36 modules/ROOT/pages/documentation.adoc:57 modules/ROOT/pages/documentation.adoc:69 modules/ROOT/pages/documentation.adoc:101 modules/ROOT/pages/documentation.adoc:140 modules/ROOT/pages/documentation.adoc:152 modules/ROOT/pages/documentation.adoc:189
+msgid "Plugin"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:18 modules/ROOT/pages/documentation.adoc:37 modules/ROOT/pages/documentation.adoc:58 modules/ROOT/pages/documentation.adoc:70 modules/ROOT/pages/documentation.adoc:102 modules/ROOT/pages/documentation.adoc:141 modules/ROOT/pages/documentation.adoc:153 modules/ROOT/pages/documentation.adoc:173 modules/ROOT/pages/documentation.adoc:190
+msgid "NewProduct"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:19 modules/ROOT/pages/documentation.adoc:38 modules/ROOT/pages/documentation.adoc:71 modules/ROOT/pages/documentation.adoc:142 modules/ROOT/pages/documentation.adoc:154 modules/ROOT/pages/documentation.adoc:191
+msgid "Publication"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:21
+msgid ""
+"This must include the declaration of intent and the other information "
+"mentioned throughout this Guide that has to be included in the `README` "
+"file."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:24
+msgid ""
+"It must be written in English and the format has to be text with light "
+"markup language.  It cannot have an extension if it is written in plain "
+"text, or it can have an extension that indicates in what format the markup "
+"has to be interpreted (i.e. in reality the file will be called `README.md` "
+"if it is written in Markdown)."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:27
+msgid ""
+"The content of this file (more specifically the version posted in the "
+"`master` branch), formatted according to the conventions of the markup "
+"language used, is what [.line-through]#GitHub# Gitlab and similar software "
+"shows as the development website's home page.  So it is important to check "
+"the format is correct and that it appears correctly in a browser."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/documentation.adoc:31
+#, no-wrap
+msgid "Use wiki formats or free markup formats for all product documentation"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:35 modules/ROOT/pages/documentation.adoc:55 modules/ROOT/pages/documentation.adoc:68 modules/ROOT/pages/documentation.adoc:151 modules/ROOT/pages/documentation.adoc:188
+msgid "Integration"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:41
+msgid ""
+"For the project user website it is acceptable to write directly in HTML.  "
+"Other documentation, whether or not it is included in the repository code, "
+"will be in the corresponding wiki format or in one of the following formats:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:43
+msgid "Asciidoc"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:44
+msgid "Markdown"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:45
+msgid "ReStructuredText (the Sphinx default format)"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:46
+msgid "Org Mode"
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/documentation.adoc:50
+#, no-wrap
+msgid ""
+"Document the project so third parties can understand it, configure it and "
+"download it"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:54
+msgid "Procurement"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:56
+msgid "Adaptation"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:60
+msgid ""
+"Organisations awarded contracts -- development and deployment -- have to "
+"understand they will not have a monopoly over the configuration, deployment "
+"and maintenance of the product."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/documentation.adoc:64
+#, no-wrap
+msgid "Create and maintain a User Guide in the project's GitHub/Gitlab wiki"
+msgstr ""
+
+#.   links outgoing: link:#A_B27[_A_B27_]
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:76
+msgid ""
+"From a very early stage there has to be accessible documentation via web "
+"that explains how to use the product on different levels or for different "
+"roles: average users, administrators, etc.  In the case of code libraries, "
+"the users are code programmers who do not participate in the project."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:81
+msgid ""
+"A careful assessment needs to be made regarding which languages this "
+"documentation should be written in, depending on the sphere the product is "
+"expected to be used in.  Catalan or Spanish could be the main language but "
+"at least the main administration tasks should also be explained in English.  "
+"If interest is shown from other countries, it would be worth translating all "
+"the user material into English as well.  All code library and development "
+"tool documentation must be in English from the start."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:85
+msgid ""
+"The documentation will never be complete and will be constantly evolving.  "
+"So it should be easily updatable by different people and we recommend "
+"initially using a wiki.  Using the same GitHub wiki avoids us having to "
+"create more infrastructure and means the documentation is automatically "
+"linked from the repository webpage."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:88
+msgid ""
+"Until there is a lot of user documentation, it is advisable to keep it all "
+"together in one wiki page, with a table of contents at the beginning, and "
+"not subdivide it into pages, as this makes it easier to search for key words "
+"by using the browser search features.  This page should be linked with other "
+"documents such as the installation instructions, any tutorials or the "
+"optional FAQ list."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:90
+msgid "Include or link from the:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:92 modules/ROOT/pages/documentation.adoc:118
+msgid "Project website."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:93 modules/ROOT/pages/documentation.adoc:119 modules/ROOT/pages/documentation.adoc:165
+msgid "The `README` file of the main repository."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/documentation.adoc:97
+#, no-wrap
+msgid ""
+"Create and maintain a User Guide in Sphinx [.line-through]#and publish it in "
+"the GitHub Pages#"
+msgstr ""
+
+#.   links incoming: link:#M_09A[_M_09A_]
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:108
+msgid ""
+"This is an alternative for projects that grow a lot and might have started "
+"by putting documents in the wiki.  Any documentation found in the wiki must "
+"be transferred to the new format and the wiki itself deleted, so as not to "
+"confuse users.  If it is clear from the outset that the project will need a "
+"large amount of documentation, we can opt to go down this road from the "
+"beginning."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:110
+msgid ""
+"All the documentation will go in a `doc` subdirectory in the repository’s "
+"root directory and either be written in ReStructuredText or Markdown, the "
+"two markup languages supported by Sphinx."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:112
+msgid ""
+"In this case, given the projects are big and have to aim to attract broad "
+"audiences, the documentation will have to be in English, notwithstanding the "
+"fact they could be translated into other languages."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:114
+msgid ""
+"Having the code and documentation in a single repository, far from being a "
+"problem, facilitates both being synchronised and this being reflected in the "
+"commit log."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:116
+msgid "Link from the:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:121
+msgid ""
+"You can find an example at: "
+"https://github.com/commercialhaskell/stack/tree/master/doc"
+msgstr ""
+
+#. type: Labeled list
+#: modules/ROOT/pages/documentation.adoc:124
+#, no-wrap
+msgid "Recommendation: Create and maintain a FAQ list R_4B1"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:133
+msgid ""
+"tags: NewProduct Publication + links incoming: None + links outgoing: None + "
+"If this is done reactively but diligently, with real user questions, it can "
+"make it much easier for people to find the information they need and could "
+"prove to be a very profitable way of investing the project’s resources."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/documentation.adoc:136
+#, no-wrap
+msgid "Create a tutorial explaining how to do some of the usual tasks, step by step"
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/documentation.adoc:146
+#, no-wrap
+msgid "Upload a file with installation instructions to the main repository"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:157
+msgid ""
+"The installation procedure developed in the "
+"link:#implementar-procediments-build-installacio[Measure: (Day 1) Implement "
+"build and installation procedures with free, widely used tools] has to be "
+"explained in an `INSTALL` file in the root directory of the main repository."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:159
+msgid ""
+"It must be written in English and the format must be text with light markup "
+"language."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:161
+msgid ""
+"Some diagnostic measure or command should be included to let users know if "
+"the product has been properly installed (e.g. by performing a set of tests, "
+"and specifying the expected result)."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:163
+msgid "The installation file must at least be linked from:"
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/documentation.adoc:169
+#, no-wrap
+msgid ""
+"Supplement the user documentation with screen captures, videos and demo "
+"sites"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:175
+msgid ""
+"For big projects that aim to attract the attention of lots of people, the "
+"big appeal is a demo site."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:177
+msgid ""
+"A video explaining the tool’s use and characteristics might also be very "
+"attractive."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:180
+msgid ""
+"If the product has a graphic user interface, it is highly recommended that "
+"the explanations be accompanied by screen captures.  They could also be used "
+"in the features list described in the "
+"#h:2dc43f4e-e755-4fe5-be4e-1f9dd58fe9e9[Measure: Specify a feature list in "
+"easily accessible locations]."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/documentation.adoc:184
+#, no-wrap
+msgid "Specify, in a prominent location, a distribution licence for the User Guide"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:193
+msgid ""
+"The default licence to use is "
+"https://creativecommons.org/share-your-work/public-domain/cc0[Creative "
+"Commons Zero v1.0 Universal] (CC0-1.0)."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:195
+msgid ""
+"A summary of its characteristics can be found at: "
+"https://tldrlegal.com/license/creative-commons-cc0-1.0-universal."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:198
+msgid ""
+"There is no reason to use the same licence for the documentation as for the "
+"software itself.  In fact, Public Domain licences are admissible in this "
+"case."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:200
+msgid ""
+"When creating documentation for external projects, use the licences those "
+"projects are already using."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/documentation.adoc:204
+#, no-wrap
+msgid ""
+"Specify, in a prominent location, a distribution licence for the design "
+"documents and studies commissioned"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:208
+msgid "Document"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:210
+msgid ""
+"The default licence to use is https://creativecommons.org/licenses/[Creative "
+"Commons Attribution Share Alike 4.0] (CC-BY-SA-4.0)."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:213
+msgid ""
+"Follow: https://wiki.creativecommons.org/wiki/Website/Publish and "
+"https://creativecommons.org/choose/#metadata."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/documentation.adoc:215
+msgid ""
+"To understand its characteristics you can consult: "
+"https://tldrlegal.com/license/creative-commons-attribution-sharealike-4.0-international-(cc-by-sa-4.0).[https://tldrlegal.com/license/creative-commons-attribution-sharealike-4.0-international-(cc-by-sa-4.0)]."
+msgstr ""

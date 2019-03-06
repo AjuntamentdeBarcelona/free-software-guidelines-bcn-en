@@ -1,0 +1,1204 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2019-03-06 23:02+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: modules/ROOT/pages/technical-infrastructure.adoc:1
+#, no-wrap
+msgid "Technical infrastructure"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:9
+msgid ""
+"The technical infrastructure required for hosting a free software project "
+"usually consists of various elements and tools that are often interlinked in "
+"complex ways.  In this chapter we recommend some common tools and practices "
+"for using them in the sector."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:11
+msgid ""
+"A general principle that is spelt out in the measures in the chapter is that "
+"people who participate in a project must never be compelled to install "
+"proprietary software on their equipment."
+msgstr ""
+
+#. type: Title ==
+#: modules/ROOT/pages/technical-infrastructure.adoc:12
+#, no-wrap
+msgid "Websites associated with the project"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:18
+msgid "A typical software project might have two websites:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:20
+#, no-wrap
+msgid ""
+"*A development website* for people contributing code or technical "
+"documentation to the project, whether they are hired by the City Council or "
+"not.\n"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:24
+#, no-wrap
+msgid ""
+"*A website for users and participants in general*.\n"
+"That includes people or organisations that might want to install and use the "
+"software outside the City Council but also people who are interested in the "
+"project even though they are not direct users of the software.\n"
+"On this website we need to facilitate and encourage people to participate in "
+"the project with contributions that are less (or not at all) technical: "
+"funding, user documents, pre-release testing, dissemination, translations "
+"and so on.\n"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:27
+msgid ""
+"Usually both types of content are necessary but it is not always necessary "
+"to be in two separate places, with different domain names.  In each project "
+"it leads, the City Council will have to assess to what extent the needs and "
+"mentalities of the two sets of people are different, therefore making it "
+"impossible for a single website model to accommodate both."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:30
+msgid ""
+"The section link:#repositori-de-codi-i-control-de-versions[Code repository "
+"and version control] explains how to set up the development site, the only "
+"one required from the outset.  We can assess if there is also a need for a "
+"site geared towards other participant profiles as the project grows."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:33
+msgid ""
+"What is useful is for the project to have its own domain name (or a "
+"permanent URL under a City Council domain) from the outset.  If necessary, "
+"this could be redirected to where the project website is."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:36
+#, no-wrap
+msgid "Keep a permanent project URL and always use it to refer to the project"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:40 modules/ROOT/pages/technical-infrastructure.adoc:142 modules/ROOT/pages/technical-infrastructure.adoc:206 modules/ROOT/pages/technical-infrastructure.adoc:463 modules/ROOT/pages/technical-infrastructure.adoc:479 modules/ROOT/pages/technical-infrastructure.adoc:594
+msgid "Day1"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:41 modules/ROOT/pages/technical-infrastructure.adoc:61 modules/ROOT/pages/technical-infrastructure.adoc:220 modules/ROOT/pages/technical-infrastructure.adoc:322 modules/ROOT/pages/technical-infrastructure.adoc:337 modules/ROOT/pages/technical-infrastructure.adoc:372 modules/ROOT/pages/technical-infrastructure.adoc:389 modules/ROOT/pages/technical-infrastructure.adoc:409 modules/ROOT/pages/technical-infrastructure.adoc:505 modules/ROOT/pages/technical-infrastructure.adoc:539
+msgid "Integration"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:42 modules/ROOT/pages/technical-infrastructure.adoc:62 modules/ROOT/pages/technical-infrastructure.adoc:144 modules/ROOT/pages/technical-infrastructure.adoc:165 modules/ROOT/pages/technical-infrastructure.adoc:207 modules/ROOT/pages/technical-infrastructure.adoc:222 modules/ROOT/pages/technical-infrastructure.adoc:280 modules/ROOT/pages/technical-infrastructure.adoc:295 modules/ROOT/pages/technical-infrastructure.adoc:324 modules/ROOT/pages/technical-infrastructure.adoc:339 modules/ROOT/pages/technical-infrastructure.adoc:374 modules/ROOT/pages/technical-infrastructure.adoc:391 modules/ROOT/pages/technical-infrastructure.adoc:411 modules/ROOT/pages/technical-infrastructure.adoc:465 modules/ROOT/pages/technical-infrastructure.adoc:481 modules/ROOT/pages/technical-infrastructure.adoc:507 modules/ROOT/pages/technical-infrastructure.adoc:520 modules/ROOT/pages/technical-infrastructure.adoc:541 modules/ROOT/pages/technical-infrastructure.adoc:557 modules/ROOT/pages/technical-infrastructure.adoc:575 modules/ROOT/pages/technical-infrastructure.adoc:596 modules/ROOT/pages/technical-infrastructure.adoc:634 modules/ROOT/pages/technical-infrastructure.adoc:662 modules/ROOT/pages/technical-infrastructure.adoc:674
+msgid "Plugin"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:43 modules/ROOT/pages/technical-infrastructure.adoc:63 modules/ROOT/pages/technical-infrastructure.adoc:145 modules/ROOT/pages/technical-infrastructure.adoc:166 modules/ROOT/pages/technical-infrastructure.adoc:208 modules/ROOT/pages/technical-infrastructure.adoc:223 modules/ROOT/pages/technical-infrastructure.adoc:281 modules/ROOT/pages/technical-infrastructure.adoc:296 modules/ROOT/pages/technical-infrastructure.adoc:308 modules/ROOT/pages/technical-infrastructure.adoc:325 modules/ROOT/pages/technical-infrastructure.adoc:340 modules/ROOT/pages/technical-infrastructure.adoc:375 modules/ROOT/pages/technical-infrastructure.adoc:392 modules/ROOT/pages/technical-infrastructure.adoc:412 modules/ROOT/pages/technical-infrastructure.adoc:466 modules/ROOT/pages/technical-infrastructure.adoc:482 modules/ROOT/pages/technical-infrastructure.adoc:508 modules/ROOT/pages/technical-infrastructure.adoc:521 modules/ROOT/pages/technical-infrastructure.adoc:542 modules/ROOT/pages/technical-infrastructure.adoc:558 modules/ROOT/pages/technical-infrastructure.adoc:597 modules/ROOT/pages/technical-infrastructure.adoc:635 modules/ROOT/pages/technical-infrastructure.adoc:663 modules/ROOT/pages/technical-infrastructure.adoc:675
+msgid "NewProduct"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:44 modules/ROOT/pages/technical-infrastructure.adoc:64 modules/ROOT/pages/technical-infrastructure.adoc:146 modules/ROOT/pages/technical-infrastructure.adoc:167 modules/ROOT/pages/technical-infrastructure.adoc:209 modules/ROOT/pages/technical-infrastructure.adoc:224 modules/ROOT/pages/technical-infrastructure.adoc:282 modules/ROOT/pages/technical-infrastructure.adoc:297 modules/ROOT/pages/technical-infrastructure.adoc:309 modules/ROOT/pages/technical-infrastructure.adoc:326 modules/ROOT/pages/technical-infrastructure.adoc:376 modules/ROOT/pages/technical-infrastructure.adoc:393 modules/ROOT/pages/technical-infrastructure.adoc:413 modules/ROOT/pages/technical-infrastructure.adoc:467 modules/ROOT/pages/technical-infrastructure.adoc:483 modules/ROOT/pages/technical-infrastructure.adoc:509 modules/ROOT/pages/technical-infrastructure.adoc:522 modules/ROOT/pages/technical-infrastructure.adoc:543 modules/ROOT/pages/technical-infrastructure.adoc:559 modules/ROOT/pages/technical-infrastructure.adoc:598 modules/ROOT/pages/technical-infrastructure.adoc:636 modules/ROOT/pages/technical-infrastructure.adoc:664 modules/ROOT/pages/technical-infrastructure.adoc:676
+msgid "Publication"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:47
+msgid ""
+"This means from the outset the City Council having the URL that will serve "
+"to identify the project under its control.  Even if the project website is "
+"hosted by a site such as GitHub, redirecting it will enable the same address "
+"to be kept public if it is decided to move the development website in the "
+"future."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:49
+msgid "There are two options:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:51
+msgid "Set aside a permanent URL under a City Council-owned domain."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:53
+msgid "Acquire one (or more) domain name(s) for the project."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:57
+#, no-wrap
+msgid ""
+"Set up a website for non-technical participation based on free software "
+"technologies"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:66
+msgid ""
+"This site can be created at the opportune moment, when the project achieves "
+"significant size and projection."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:69
+msgid ""
+"It could be a multilingual site.  Each project has to decide which languages "
+"it should be translated into, depending on its priority audiences."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:71
+msgid "This site must include:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:74
+msgid ""
+"A link to the download site, with instructions on how to install the "
+"program.  This link must feature prominently on the home page."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:77
+msgid ""
+"A “Get involved” or “Community” section with information on the different "
+"ways of getting involved in the project.  This link must also feature "
+"prominently on the home page."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:80
+msgid ""
+"A link to the development site.  This could either be in the Community "
+"section or on the home page, with a link saying “Developers” or a “Fork on "
+"GitHub” link."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:82
+msgid ""
+"There are many tools and frameworks for managing content and publishing very "
+"good quality open websites, so it should not be a problem finding one "
+"adapted to the project’s needs: Drupal, Wordpress (without the exclusive "
+"extensions) and lots more."
+msgstr ""
+
+#. type: Title ==
+#: modules/ROOT/pages/technical-infrastructure.adoc:85
+#, no-wrap
+msgid "Code repository and version control"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:91
+msgid ""
+"A key element of the project development website is a code repository "
+"(public and under version control) which serves as a base for centralising "
+"modifications that form part of each new product release."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:96
+msgid ""
+"In the `NewProduct` or `Plugin` use-case, the City Council will have to "
+"create this repository.  In the case of an `Integration` or `Adaptation`, "
+"the Council will have its own copy (clone or fork) of the original "
+"(upstream) repository, where the documents corresponding to the "
+"modifications of interest will be centralised.  We will call this repository "
+"created by the City Council, which will be used for original product "
+"releases or to centralise the contributions to an external project, the "
+"*main repository*.  There could be many other public and private copies of "
+"the code."
+msgstr ""
+
+#. type: delimited block =
+#: modules/ROOT/pages/technical-infrastructure.adoc:101
+msgid ""
+"The City Council is in the process of reconsidering the platform to be used "
+"to host things like a public facing code repository or an issue manager for "
+"every project.  The first free software projects of the City Council have "
+"used GitHub, but now we want to transition to a platform that:"
+msgstr ""
+
+#. type: delimited block =
+#: modules/ROOT/pages/technical-infrastructure.adoc:103
+msgid "Is free software."
+msgstr ""
+
+#. type: delimited block =
+#: modules/ROOT/pages/technical-infrastructure.adoc:104
+msgid "Gives us control over the infrastructure used to develop software."
+msgstr ""
+
+#. type: delimited block =
+#: modules/ROOT/pages/technical-infrastructure.adoc:106
+msgid ""
+"The many references to GitHub in the following sections are going to be "
+"replaced when a decision is reached."
+msgstr ""
+
+#. type: delimited block =
+#: modules/ROOT/pages/technical-infrastructure.adoc:111
+msgid ""
+"The GitHub advantages listed below must be taken into account to choose an "
+"alternative.  Any alternative has to offer similar guarantees with regard to "
+"durability and sustainability.  A viable possibility is a self-managed "
+"Gitlab installation.  There is a successful use case for the public "
+"administration in France."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:115
+msgid ""
+"At time being, the main repository will be hosted at GitHub, as pointed "
+"below, a service that uses Git as a distributed version control system.  The "
+"basic vocabulary and concepts for understanding how it works can be found at "
+"https://producingoss.com/en/vc.html#vc-vocabulary[Version Control "
+"Vocabulary]."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:117
+msgid ""
+"The advantages that made us choose GitHub as the default development "
+"platform were:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:119
+msgid ""
+"Most developers are familiar with it and do not have to learn new tools and "
+"procedures ad-hoc for the project."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:121
+msgid "It launches the message that the project is open to collaboration."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:123
+msgid ""
+"It offers good integration with the rest of a product's technical and social "
+"infrastructure: issue managing, continuous integration, development "
+"communication channels, etc."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:126
+msgid ""
+"It also enables (part of) a product's documentation to be saved and "
+"displayed, which could be a wiki.  The presentation of the information is "
+"sufficiently user-friendly for us to put off building a website for project "
+"users and participants in general."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:128
+msgid ""
+"It is the platform most widely used by free software projects and provides a "
+"lot of exposure."
+msgstr ""
+
+#. type: delimited block =
+#: modules/ROOT/pages/technical-infrastructure.adoc:132
+#, no-wrap
+msgid "*Drawback*: GitHub is not free software.\n"
+msgstr ""
+
+#. type: delimited block =
+#: modules/ROOT/pages/technical-infrastructure.adoc:134
+msgid ""
+"Although it is a free service for a wide range of possible uses, not all the "
+"infrastructure code behind GitHub is open and ultimately that means being "
+"dependent on a company whose future development we cannot predict."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:138
+#, no-wrap
+msgid ""
+"Create the main repository in the City Council [.line-through]#GitHub# "
+"public software forge"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:143 modules/ROOT/pages/technical-infrastructure.adoc:164 modules/ROOT/pages/technical-infrastructure.adoc:221 modules/ROOT/pages/technical-infrastructure.adoc:323 modules/ROOT/pages/technical-infrastructure.adoc:338 modules/ROOT/pages/technical-infrastructure.adoc:373 modules/ROOT/pages/technical-infrastructure.adoc:390 modules/ROOT/pages/technical-infrastructure.adoc:410 modules/ROOT/pages/technical-infrastructure.adoc:425 modules/ROOT/pages/technical-infrastructure.adoc:464 modules/ROOT/pages/technical-infrastructure.adoc:480 modules/ROOT/pages/technical-infrastructure.adoc:506 modules/ROOT/pages/technical-infrastructure.adoc:540 modules/ROOT/pages/technical-infrastructure.adoc:574 modules/ROOT/pages/technical-infrastructure.adoc:595
+msgid "Adaptation"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:149
+msgid ""
+"In GitHub we will create a project "
+"`https://github.com/AjuntamentDeBarcelona/NOM-DEL-PROJECTE` where the code "
+"will be published.  The City Council has an organisation-level account in "
+"GitHub called `ajuntamentdebarcelona`, which will be the repository owner."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:151
+msgid ""
+"This does not mean there cannot be replicas (mirrors) of the repository, or "
+"parts of it, on other sites (GitHub spaces of other organisations or "
+"developers, the websites of companies awarded public contracts, etc.)"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:154
+msgid ""
+"It is recommended that the name of the project in GitHub be written entirely "
+"in lower case, with the words in it separated by hyphens.  For example: "
+"https://github.com/AjuntamentdeBarcelona/decidim-barcelona."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:156
+msgid ""
+"This is where the code has to be from the start of the project, without "
+"waiting until there are any public releases."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:160
+#, no-wrap
+msgid "Create a public repository on a different site to the City Council GitHub"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:170
+msgid ""
+"There could be reasons that make it advisable to have the main repository "
+"(the one linked to the issue manager) on sites such as:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:172
+msgid "The GitHub space of another organisation."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:174
+msgid "Bitbucket or other similar platforms."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:176
+msgid ""
+"A Gitlab portal of an organisation participating in developing the project "
+"(or any future Barcelona City Council Gitlab portal)."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:178
+msgid "Some of these reasons could be:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:180
+msgid ""
+"It is a project many public sector participants intervene in and a "
+"consortium or ad-hoc organisation is set up."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:182
+msgid ""
+"The development company exercises strong leadership over the project, more "
+"than the City Council might do, and wants the basic infrastructure under its "
+"control."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:184
+msgid "In opting for this alternative, it must be borne in mind that:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:188
+msgid ""
+"We cannot give up Git as our version control system.  It is currently the "
+"most widely used tool which all developers are familiar with and it offers "
+"some good practices for open project management which would be much more "
+"confusing with older systems (such as CSV or Subversion).  If certain "
+"procedures have to be performed on another tool, for example, Subversion, "
+"the solution is to do the development in open on Git, and keep a Subversion "
+"mirror automated using the command `git ``svn`` ``dcommit`, as explained, "
+"for example, at "
+"http://www.kerrybuckley.org/2009/10/06/maintaining-a-read-only-svn-mirror-of-a-git-repository/."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:190
+msgid ""
+"Either way, there has to be an up-to-date replica of the main repository in "
+"the City Council GitHub space, to show all the contributions made to free "
+"software projects."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:192
+msgid ""
+"The `README` file content (and markup) in the City Council GitHub space, the "
+"GitHub.io space and the other sites with a source code link will indicate "
+"which is (or are) the main repository (repositories) where development is "
+"carried out."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:194
+msgid ""
+"Whichever they are, both the issue managing tool and the continuous "
+"integration system must be public and capable of being used by everyone, "
+"without paying subscriptions for any service."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:198
+msgid ""
+"All the project source code has to be downloadable by anyone at any time.  "
+"GitHub makes that easy by providing buttons for downloading a `zip` file or "
+"showing the necessary commands for cloning the repository using Git.  If "
+"GitHub is not used, the repository's public site must also provide both "
+"these types of download (`zip` file or `tar.gz` and command `git clone`)."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:202
+#, no-wrap
+msgid ""
+"Use the [.line-through]#GitHub# main repository web interface as the project "
+"development website"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:212
+msgid ""
+"The website's home page will be a `README` file in the repository root "
+"directory.  This file can be in plain text, Markdown or other brand "
+"languages supported by GitHub and which the latter interprets and formats "
+"when the page is visited."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:216
+#, no-wrap
+msgid ""
+"Establish access permissions to the main repository adapted to each type of "
+"participant"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:225 modules/ROOT/pages/technical-infrastructure.adoc:327
+msgid "Document"
+msgstr ""
+
+#.   links outgoing: link:#S_518[_S_518_] link:#S_A3D[_S_A3D_]
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:230
+msgid ""
+"GitHub uses the concept of repository *owner*, which corresponds to an "
+"account that the City Council has as an organisation "
+"(`ajuntamentdebarcelona`).  The other permissions are outlined in the "
+"submeasures."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:232
+msgid ""
+"Anyone working for IMI who has a personal account at GitHub and is part of "
+"the organisation `ajuntamentdebarcelona` will have admin permissions."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:234
+msgid ""
+"Repository *administrator* permissions can be given to IMI staff and, "
+"optionally, to each person in an external organisation participating in the "
+"development under contracts with IMI."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:236
+msgid "Sub-measures:"
+msgstr ""
+
+#.  S_518::
+#.  [sidebar.submeasure, id="{sect}.{counter:measure:A}"]
+#.  .Submeasure {sect}.{measure}: Give all development team members permission to write in the main repository
+#.  --
+#.  [.tags]
+#.  * Integration
+#.  * Adaptation
+#.  * Plugin
+#.  * NewProduct
+#.  * Publication
+#.  * Document
+#.   links incoming: link:#M_B3F[_M_B3F_]
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:255
+msgid ""
+"Give all development team members permission to write in the main "
+"repository.  That includes in-house staff and subcontracted people.  Also "
+"make the current list of _committers_ public in a file in the repository "
+"root directory called `MAINTAINERS`.  It must contain the name and email "
+"address of each person."
+msgstr ""
+
+#.  S_A3D::
+#.  [sidebar.submeasure, id="{sect}.{counter:measure:A}"]
+#.  .Submeasure {sect}.{measure}: Give everyone permission to read the main repository
+#.  --
+#.  [.tags]
+#.  * Integration
+#.  * Adaptation
+#.  * Plugin
+#.  * NewProduct
+#.  * Publication
+#.  * Document
+#.  links incoming: link:#M_B3F[_M_B3F_]
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:272
+msgid ""
+"Give everyone permission to read the main repository.  Everyone must be able "
+"to read and clone the code."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:276
+#, no-wrap
+msgid "Give trusted outside developers permission to write in the main repository"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:285
+msgid ""
+"If someone has been making quality contributions to the project for a long "
+"time, on a similar level to people hired by the City Council, they can be "
+"rewarded with permission to write in the repository.  This runs a low risk "
+"because version control means that everything is traceable and changes are "
+"reversible."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:287
+msgid ""
+"However, to avoid any misunderstanding, it must be made clear to that person "
+"what the governance rules will be and who has the last word when it comes to "
+"accepting contributions."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:291
+#, no-wrap
+msgid ""
+"Integrate external contributions into the main repository by means of "
+"Pull/Merge Requests"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:300
+msgid ""
+"As anyone can clone the main repository and modify their copy, we don’t need "
+"to give write permissions to anyone who is not part of the main development "
+"team.  Everyone who would like to integrate a series of changes in the "
+"product must submit us a Pull Request in GitHub"
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:304
+#, no-wrap
+msgid "Upload translations from the README file to the main repository"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:314
+msgid ""
+"If the project’s potential users are mainly local, it might be a good idea "
+"to translate the contents of the `README` file or part of them.  That can be "
+"done by putting new files in the root directory of the repository, with "
+"names such as (assuming that the markup language used is Markdown, and "
+"therefore the extension is `.md`): `README.ca.md` or `README.es.md`.  In "
+"this case it is worth linking all the translations with each other at the "
+"start of each file.  An example can be seen at "
+"https://github.com/tiimgreen/github-cheat-sheet."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:318
+#, no-wrap
+msgid "Specify a project contact person in the README file"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:329
+msgid "Include an email address."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:333
+#, no-wrap
+msgid "Use English as the language for all development"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:342
+msgid "The following must all be in English"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:344
+msgid "Comments that accompany the code itself."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:346
+msgid "Any document referring to the product’s design and architecture."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:348
+msgid "All the comments on the commits in the repository."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:350
+msgid ""
+"All the entries in the issue manager and the discussion threads that flow "
+"from them."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:352
+msgid "All the discussion threads that accompany each pull request."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:354
+msgid "The `README` file of the main repository."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:356
+msgid "The `INSTALL` file."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:358
+msgid "The `CONTRIBUTING` file."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:360
+msgid "The `CONTRIBUTORS` file."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:362
+msgid "The `LICENSE` file."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:364
+msgid ""
+"If the issue manager lets anyone enter issues and one is entered in another "
+"language, someone in the team has to be responsible for getting it "
+"translated or asking the author to translate it."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:368
+#, no-wrap
+msgid ""
+"Do not upload to the repository binary files or files that result from build "
+"(with exceptions)"
+msgstr ""
+
+#. type: delimited block *
+#: modules/ROOT/pages/technical-infrastructure.adoc:380
+msgid "Small images (icons, logos, etc.)"
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:385
+#, no-wrap
+msgid ""
+"Keep the configuration information in separate files and in a different "
+"private repository"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:396
+msgid ""
+"This makes it easier to reuse the code.  It is incorrect to put the "
+"configuration:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:398
+msgid "Hardwired in the code itself (see the ref:measure M_A69 <measure_M_A69>."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:400
+msgid ""
+"In files where commits (changes) are made in the same repository as the "
+"code."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:404
+#, no-wrap
+msgid ""
+"Do not upload sensitive information regarding users, the City Council or "
+"third parties to the repository"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:408 modules/ROOT/pages/technical-infrastructure.adoc:519 modules/ROOT/pages/technical-infrastructure.adoc:556 modules/ROOT/pages/technical-infrastructure.adoc:573
+msgid "Procurement"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:415
+msgid ""
+"For example: configurations, usernames and passwords, public keys and other "
+"real credentials used in the production system."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:417
+msgid ""
+"Establish penalties (serious breach) in the contract performance conditions "
+"for breaching this rule."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:421
+#, no-wrap
+msgid "Re-synchronise own repository with the upstream project repository weekly"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:428
+msgid ""
+"[[repositori-de-codi-i-control-de-versions]]To finally enable our changes to "
+"be integrated and our defect notifications to make sense."
+msgstr ""
+
+#. type: Title ==
+#: modules/ROOT/pages/technical-infrastructure.adoc:431
+#, no-wrap
+msgid "Issue manager"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:438
+msgid ""
+"One tool all free software projects need is an issue manager or bug "
+"tracker.  At the City Council we assign it the following functions:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:443
+msgid ""
+"Provide notification of any defects detected (bugs tracked) by users and "
+"developers.  Also to make their treatment, evolution and eventual solution "
+"transparent.  It is important that the changes (commits) that solve a defect "
+"(bug) point it out in their message.  "
+"https://help.github.com/articles/closing-issues-using-keywords/[GitHub has "
+"keywords for this]."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:448
+msgid ""
+"Follow up tasks that are pending.  This enables one or more commits to then "
+"be linked with the closing of an issue It is also possible to see who tasks "
+"have been assigned to and how they are prioritised.  One option is to "
+"specify estimated completion dates.  All this contributes to the "
+"transparency and traceability of the development process."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:451
+msgid ""
+"Follow up how the contributions of the different parts are managed by means "
+"of the pull request mechanism.  The bug tracker could even be open to "
+"feature requests and the GitHub space could be used for publicly managing "
+"and prioritising."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:453
+msgid ""
+"It needs to be borne in mind that the bug tracker is not only important for "
+"the everyday work of developers but also that many project observers use it "
+"as a measure of how serious the project is."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:455
+msgid ""
+"This bug tracker has to be operational and public throughout the product’s "
+"useful life, i.e. after the contracts with the City Council have finished."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:459
+#, no-wrap
+msgid "Use GitHub/Gitlab for the issue manager of the project"
+msgstr ""
+
+#.  Once again it is the default option, in this case because of its automatic link with the GitHub repository and because it meets our accessibility and transparency requirements.
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:471
+msgid ""
+"Some basic issue categories will have to be established at the start that "
+"can be modified later, depending on the needs of each project: `Bug`, "
+"`Feature Request`, etc."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:475
+#, no-wrap
+msgid "Link the main repository to a public issue manager"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:485
+msgid "If this alternative is adopted, it must be borne in mind that:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:487
+msgid "It has to be public, in the sense that:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:489
+msgid ""
+"Everybody has to be able to register as a system user without paying a "
+"subscription, and thus take part in development."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:491
+msgid ""
+"Everybody has to be able to see the issues and follow them, without having "
+"to register as a user."
+msgstr ""
+
+#.  The GitHub issue manager meets both conditions.
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:495
+msgid "It must be linked from the code repository `README` file."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:497
+msgid ""
+"If the intention is for the issue manager to be part of the City Council’s "
+"own infrastructure, it has to be one of the following free tools: Gitlab, "
+"Redmine, Trac."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:501
+#, no-wrap
+msgid "Use the issue manager for tasks, releases and new features"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:511
+msgid ""
+"Integrating the repository with GitHub’s issue manager means that together "
+"they make a good tool for collaborating on any code-related issue, not just "
+"fixing bugs."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:515
+#, no-wrap
+msgid "Draw up and maintain an issue management policy"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:524
+msgid "It must specify:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:526
+msgid "Issue type (defects, tasks, milestones, etc.)."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:528
+msgid "Stages for those that arise."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:531
+msgid ""
+"This task can be given to the company awarded the contract.  It it does not "
+"have one of its own, IMI will have to provide it with one."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:535
+#, no-wrap
+msgid "Give everyone permission to report issues, even anonymously"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:546
+msgid ""
+"Configure the issue manager so it will not be necessary to create an account "
+"to report defects or anything else, in order to facilitate as many "
+"contributions as possible.  Activate the necessary anti-spam measures "
+"(e.g. captchas)."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:548
+msgid ""
+"It is always possible to keep an eye on someone who gives us problems or "
+"rethink this policy if it doesn't work on a project."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:552
+#, no-wrap
+msgid "Put someone in charge of filtering issues as they arrive"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:561
+msgid "Someone needs to be given the job of deleting duplicates, spam, etc."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:563
+msgid ""
+"Add a warning that it will first be necessary to look for duplicates and "
+"check privately with another person that the problem reoccurs in a second "
+"machine."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:565
+msgid ""
+"Budget for this task if it is done under contract with a company or a "
+"cooperative."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:569
+#, no-wrap
+msgid "Notify the official bug tracker of the bugs in the product to be modified"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:578
+msgid ""
+"When we are adapting an existing product, one of the main contributions we "
+"can make to the project is to detect, isolate and fix any bugs there might "
+"be."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:580
+msgid ""
+"Successful bidders should be contractually obliged to properly notify us of "
+"the bugs, in accordance with the guidelines of each project, to help improve "
+"the product upstream."
+msgstr ""
+
+#. type: Title ==
+#: modules/ROOT/pages/technical-infrastructure.adoc:583
+#, no-wrap
+msgid "Integration infrastructure and testing"
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:590
+#, no-wrap
+msgid ""
+"Link the main repository to a continuous integration system that run all the "
+"tests, make the results public"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:601
+msgid ""
+"Use a free software tool that we can run in our own infrastructure if "
+"needed.  We recommend one of the following tools:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:603
+msgid "Jenkins"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:604
+msgid "Gitlab CI"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:605
+msgid "Travis CI"
+msgstr ""
+
+#. type: Title ==
+#: modules/ROOT/pages/technical-infrastructure.adoc:608
+#, no-wrap
+msgid "Internal and external communication channels"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:616
+msgid ""
+"The first lines of communication between developers are the repository "
+"commit messages and the issue manager threads.  Many technical decisions are "
+"taken in these threads but the discussions that take place in them should "
+"always be highly focused and strictly technical.  When the area under "
+"discussion broadens out, it is necessary to resort to other channels."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:619
+msgid ""
+"Initially all new projects have to create a development mail list or a "
+"discussion forum, with public files.  This is the channel through which the "
+"opinion of the different parties or individuals taking part in the project "
+"is sought and strategic decisions are taken."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:623
+msgid ""
+"At first there will not be much that separates the developers and first "
+"users or early adopters as regards concerns and language, the latter usually "
+"being highly motivated.  Consequently, in many cases the same channel will "
+"suffice.  Later it may be necessary to create specialised communication "
+"channels for different kinds of participants."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:627
+msgid ""
+"Depending on the nature and make-up of the team, it might be useful to have "
+"a chat room for more immediate communication.  Either way, it would "
+"supplement the list or the forum, never replace it.  The list or forum is "
+"where the whole history of the project (discussions, decisions, etc.) is "
+"recorded for reference, a very valuable asset for the whole project "
+"community, present and future."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:630
+#, no-wrap
+msgid "Create a development list or forum that will initially do for users as well"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:638
+msgid ""
+"Initially the project will have a single dedicated discussion forum, shared "
+"by people carrying out development work and others who are just users of the "
+"product, the early adopters."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:642
+msgid ""
+"We recommend using https://discourse.org/[Discourse], a tool that merges "
+"traditional mail lists with a forum via web.  You need to activate the "
+"options so anyone who so wishes can interact entirely be email.  A project "
+"that uses this tool and which is undergoing trials at the City Council is "
+"https://alvus.barcelona/[Alvus]."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:645
+msgid ""
+"An alternative is to use Mailman 3.  The list could be called "
+"`NAME-OF-THE-PROJECT-``dev`"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:647
+msgid "Activate the file and use it profusely."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:650
+msgid ""
+"Initially in Catalan and/or Spanish.  When participants appear in other "
+"languages, create a list in English."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:654
+msgid ""
+"The main developers must be present but they are not obligated to answer all "
+"the requests.  Everyone participates on an individual basis in the list or "
+"the forum.  If the people behind a product can be contacted, it engenders "
+"confidence in the product."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:658
+#, no-wrap
+msgid "Create a mail list for people who use the product, if the project grows"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:666
+msgid "Activate the archive."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/technical-infrastructure.adoc:670
+#, no-wrap
+msgid "Create a development chat room for immediate communication between the team"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/technical-infrastructure.adoc:678
+msgid "Use https://gitter.im/[gitter.im] or https://riot.im/[riot.im]."
+msgstr ""

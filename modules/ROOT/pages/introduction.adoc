@@ -25,12 +25,8 @@ It covers aspects such as:
 The main benefit expected from using and developing free software is that the City Council regains or maintains control of their computing, not ceding it to private hands.
 It is crucial for an entity that implements public services and processes a lot of information about citizens to know exactly what it is being executed, in what computers, who has access to the data, etc. As the https://www.gnu.org[GNU project] puts it:
 
-:quote-url: pass:macros[https://www.gnu.org/philosophy/government-free-software.en.html[Measures Governments Can Use to Promote Free Software]]
-
-[quote, Richard Stallman, {quote-url}]
---
-The state needs to insist on free software in its own computing for the sake of its computational sovereignty (the state's control over its own computing). All users deserve control over their computing, but the state has a responsibility to the people to maintain control over the computing it does on their behalf. Most government activities now depend on computing, and its control over those activities depends on its control over that computing. Losing this control in an agency whose mission is critical undermines national security.
---
+"The state needs to insist on free software in its own computing for the sake of its computational sovereignty (the state's control over its own computing). All users deserve control over their computing, but the state has a responsibility to the people to maintain control over the computing it does on their behalf. Most government activities now depend on computing, and its control over those activities depends on its control over that computing. Losing this control in an agency whose mission is critical undermines national security."
+-- Richard Stallman, https://www.gnu.org/philosophy/government-free-software.en.html[Measures Governments Can Use to Promote Free Software]
 
 Both the GNU document above and the https://ajuntament.barcelona.cat/digital/en/blog/barcelona-digital-government-open-agile-and-participatory[Release note of the Government Measure: Free software and agile development of public administration services] envision other benefits:
 

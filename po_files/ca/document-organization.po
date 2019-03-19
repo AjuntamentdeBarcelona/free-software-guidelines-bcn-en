@@ -1,3 +1,4 @@
+# David Pretel <david@abox.com>, 2019. #zanata
 # Guillem Marpons <gmarpons@mailbox.org>, 2019. #zanata
 msgid ""
 msgstr ""
@@ -6,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-03-06 11:20+0000\n"
-"Last-Translator: Guillem Marpons <gmarpons@mailbox.org>\n"
+"PO-Revision-Date: 2019-03-13 11:25+0000\n"
+"Last-Translator: David Pretel <david@abox.com>\n"
 "Language-Team: Catalan\n"
 "Language: ca\n"
 "X-Generator: Zanata 4.6.2\n"
@@ -22,13 +23,14 @@ msgstr "Organització del document"
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:8
 msgid "This Guide contains a series of guidelines that we have divided into:"
-msgstr ""
+msgstr "Aquesta guia consta d’un seguit de directrius que hem dividit en:"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:10
 #, no-wrap
 msgid "*Measures* that must be adopted and implemented in all projects.\n"
 msgstr ""
+"*Mesures* que han de ser adoptades i implementades en tots els projectes.\n"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:12
@@ -37,6 +39,8 @@ msgid ""
 "*Recommendations* that do not have to be followed but which could be useful "
 "in certain situations.\n"
 msgstr ""
+"*Recomanacions* que no és obligatori aplicar, però que poden ser d’utilitat "
+"en determinades situacions.\n"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:14
@@ -44,6 +48,8 @@ msgid ""
 "Project managers are responsible for checking whether the measures are being "
 "implemented properly and deciding which recommendations to follow."
 msgstr ""
+"És responsabilitat dels i les cap de projecte validar si les mesures s’estan "
+"implementant correctament, i decidir quines recomanacions cal aplicar."
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:16
@@ -51,6 +57,8 @@ msgid ""
 "Some measures are sufficiently complex to merit being broken down into *sub-"
 "measures* that can be individually validated."
 msgstr ""
+"Algunes mesures son prou complexes com per merèixer ser fraccionades en *sub-"
+"mesures* que puguin ser validades individualment."
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:19
@@ -59,21 +67,25 @@ msgid ""
 "tried to offer some *alternatives* (guidelines that will be tagged as such "
 "throughout the guide).  Each measure and its sub-measures are interlinked."
 msgstr ""
+"Algunes mesures son impossibles d’aplicar en determinats projectes, i en "
+"aquest cas s’intenta donar algunes *alternatives* (directrius que es troben "
+"etiquetades d’aquesta manera al llarg del document). Cada mesura i les seves "
+"potencials alternatives es troben mútuament enllaçades."
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:21
 msgid "Each measure, recommendation or alternative consists of:"
-msgstr ""
+msgstr "Cada mesura, recomanació o alternativa consta de:"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:23
 msgid "A unique identifier throughout the document."
-msgstr ""
+msgstr "Un identificador únic per a tot el document."
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:24
 msgid "A list of tags."
-msgstr ""
+msgstr "Un llistat d’etiquetes."
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:27
@@ -82,6 +94,10 @@ msgid ""
 "and recommendation are important.  For example, they can serve to generate a "
 "checklist of things that project management needs to check."
 msgstr ""
+"Les *etiquetes* ajuden a restringir en quins moments i en quins tipus de "
+"projecte son importants cada mesura i cada recomanació. Poden servir, per "
+"exemple, per generar un checklist de coses que la direcció del projecte "
+"necessita comprovar."
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:30
@@ -91,6 +107,10 @@ msgid ""
 "provide some necessary context for understanding the relevance of each "
 "measure."
 msgstr ""
+"Els apartats d’aquest capítol expliquen els tipus d’etiquetes que es fan "
+"servir al llarg de la Guia. La resta de capítols d’aquesta guia ordenen les "
+"mesures i recomanacions en àrees temàtiques i donen el context necessari per "
+"entendre la rellevància de cada mesura."
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:32
@@ -98,12 +118,15 @@ msgid ""
 "In the [Annex: Lists of measure and recommendations by tag] you will find "
 "various lists of measures and recommendations classified by tags."
 msgstr ""
+"A l”[Annex: Llistats de mesures i recomanacions per etiquetes] es poden "
+"trobar diferents llistats de mesures i recomanacions categoritzats per "
+"etiquetes."
 
 #. type: Title ==
 #: modules/ROOT/pages/document-organization.adoc:33
 #, no-wrap
 msgid "Use-case tags"
-msgstr ""
+msgstr "Etiquetes per escenaris d’ús"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:37
@@ -113,6 +136,10 @@ msgid ""
 "they are based on.  These Use-Cases then determine which measures and "
 "recommendations affect each project."
 msgstr ""
+"En aquest apartat es defineixen diferents situacions o *escenaris* que es "
+"poden produir en els projectes tecnològics en relació als components de "
+"programari lliure i de codi obert en els que es basen. Aquests escenaris "
+"determinen després quines mesures i recomanacions afecten a cada projecte."
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:43
@@ -126,11 +153,20 @@ msgid ""
 "same equipment or be distributed between different machines.  Likewise, they "
 "may operate as part of the same process or various processes."
 msgstr ""
+"Cada *projecte* defineix un sistema d’informació, i cada sistema "
+"d’informació consta d’una determinada quantitat de *components* de "
+"programari. Uns components es distingeixen dels altres perquè cada component "
+"té el seu propi *repositori* de codi font. (Ocasionalment trobem components "
+"complexes que, per raons pràctiques, tenen el seu codi repartit en diferents "
+"repositoris que es versionen i distribueixen coordinadament). Els diferents "
+"components d’un determinat sistema poden executar-se tots en una mateixa "
+"màquina, o bé poden trobar-se distribuïts en diferents màquines. També poden "
+"executar-se com a part del mateix procés o en processos diversos."
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:45
 msgid "The following use-cases are contemplated:"
-msgstr ""
+msgstr "Els escenaris contemplats son els següents:"
 
 #. type: Table
 #: modules/ROOT/pages/document-organization.adoc:68
@@ -174,29 +210,28 @@ msgstr ""
 "| *Integrar components existents*: és necessari instalar un nou sistema que "
 "es pot construir en base a components ja existents.\n"
 "\n"
-"| `Adaptation`\n"
-"| *Modify an external component*: feature needs to be added to a component "
-"that is already available, or it needs to be improved by solving defects, "
-"adding translations, etc.\n"
+"| `Adaptació`\n"
+"| *Modificar un component extern*: cal afegir funcionalitat a un component "
+"ja disponible, o bé millorar-lo solucionant deficiències, afegint "
+"traduccions, etc.\n"
 "\n"
 "| `Plugin`\n"
-"| *Expand a platform with plugins*: new components need to be created that "
-"can be integrated into a platform or framework already available and which "
-"facilitates this task.\n"
+"| *Estendre una plataforma amb components endollables*: es requereix crear "
+"nous components que s’integrin en una plataforma o framework ja disponible i "
+"que facilita aquesta tasca.\n"
 "\n"
-"| `NewProduct`\n"
-"| *Create a new component*: a new solution needs to be created from scratch.\n"
+"| `NouProducte`\n"
+"| *Crear un component nou*: es necessita crear una solució nova des de zero.\n"
 "\n"
-"| `Publication`\n"
-"| *Publish code from an existing own component*: we have our own code, "
-"developed under previous contracts and never publicly distributed, and we "
-"want to make it available in a public repository, under a free software "
-"license.\n"
+"| `Publicació`\n"
+"| *Publicar codi d’un component propi ja existent*: es disposa d’un codi "
+"propi desenvolupat sota contractes anteriors i que mai ha estat publicat, i "
+"es vol alliberar en un repositori públic.\n"
 "\n"
 "| `Document`\n"
-"| *Publish documents not linked to a single project*: we have documentation "
-"that is not directly linked to a piece of software but we want to make it "
-"freely available in a public repository.\n"
+"| *Publicar documentació no vinculada a un únic projecte*: es disposa d’una "
+"documentació no directament vinculada a codi però que es vol alliberar en un "
+"repositori públic.\n"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:72
@@ -205,6 +240,10 @@ msgid ""
 "to a single software component.  This means different Use-Cases can coincide "
 "in the same project if different components are affected in a different way."
 msgstr ""
+"Tots els escenaris, a excepció dels escenaris `Integració` i `Document`, fan "
+"referència a un únic component de programari. Per tant, en un mateix "
+"projecte poden concórrer diferents escenaris si components diferents es "
+"troben afectats de diferent manera."
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:74
@@ -214,6 +253,10 @@ msgid ""
 "contributions to documenting or facilitating the adoption of certain tools "
 "by third parties."
 msgstr ""
+"Deixem fora de l’anàlisi contribucions a projectes que no impliquen una "
+"modificació del codi d’un component, o la creació d’un repositori, com poden "
+"ser contribucions a la documentació o facilitació de l’adopció de certes "
+"eines per part de tercers."
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:76
@@ -223,12 +266,16 @@ msgid ""
 "implementing a system that partially or totally replaces the functions of a "
 "previous system."
 msgstr ""
+"Els escenaris `Integració`, `Adaptació`, `Plugin` i ' NouProducte` poden "
+"opcionalment requerir una *migració*, en cas que ens trobem en la situació "
+"d’implantar un sistema que substitueix, en part o totalment, les funcions "
+"d’un sistema anterior."
 
 #. type: Title ===
 #: modules/ROOT/pages/document-organization.adoc:77
 #, no-wrap
 msgid "`Integration` Use-Case"
-msgstr ""
+msgstr "Escenari `Integració`"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:80
@@ -236,22 +283,28 @@ msgid ""
 "This Use-Case may involve creating one or more own repositories, not to "
 "manage the code of any software _per se_ but to:"
 msgstr ""
+"Aquest escenari pot comportar la creació d’un o més repositoris propis, però "
+"no per guardar-hi el codi de cap aplicació _pròpiament_, sinó per:"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:82
 msgid "Link it to project management tools such as issue managers."
 msgstr ""
+"Vincular-hi eines de gestió de projectes tals com gestors d’incidències"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:83
 msgid "Save and link documents relating to using and operating the system"
 msgstr ""
+"Guardar o enllaçar documentació associada amb l’ús i operació del sistema"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:84
 msgid ""
 "Save configuration files and scripts necessary for deploying the system"
 msgstr ""
+"Guardar fitxers de configuració i scripts necessaris per al desplegament del "
+"sistema"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:85
@@ -260,21 +313,24 @@ msgid ""
 "continuous integration environments, including _virtualisation_ and "
 "_containerisation_"
 msgstr ""
+"Guardar fitxers de configuració i scripts necessaris per executar entorns de "
+"prova i d’integració continua, incloent _virtualització_ i "
+"_containerització_"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:86
 msgid "Save system design and customisation features"
-msgstr ""
+msgstr "Guardar elements de disseny i personalització del sistema"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:87
 msgid "Save instructions for installing and using the system"
-msgstr ""
+msgstr "Guardar instruccions d’instal·lació i ús del sistema"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:88
 msgid "Save integration tests of the various components"
-msgstr ""
+msgstr "Guardar tests d’integració dels diferents components"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:91
@@ -283,6 +339,9 @@ msgid ""
 "*translating* user interface texts and other aspects of localisation and "
 "internationalisation (l10n, i18n).  We contemplate two possibilities:"
 msgstr ""
+"En quant als elements de personalització, destaquem la *traducció* dels "
+"literals que es mostren a l’usuari i d’altres aspectes de la localització i "
+"internacionalització (l10n, i18n). Contemplem dues possibilitats:"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:94
@@ -294,6 +353,12 @@ msgid ""
 "the original project, which means we would find ourselves in the link:"
 "#escenari-adaptacio[Adaptation Use-Case]."
 msgstr ""
+"Es compleixen les següents dues condicions: (1) el programari a traduir està "
+"dissenyat per incorporar traduccions de la interfície, i (2) les traduccions "
+"a realitzar poden ser d’utilitat general per a d’altres potencials usuaris "
+"de l’eina. En aquest cas s’intentarà contribuir aquestes traduccions al "
+"projecte original i per tant ens trobaríem en l”link:#escenari-"
+"adaptacio[Escenari Adaptació]."
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:95
@@ -301,12 +366,14 @@ msgid ""
 "One of the two conditions mentioned above is not met: we store the files "
 "needed for doing the translation in an own repository."
 msgstr ""
+"Alguna de les dues condicions anteriors no es compleix i emmagatzemem els "
+"fitxers necessaris per efectuar la traducció a un repositori propi."
 
 #. type: Block title
 #: modules/ROOT/pages/document-organization.adoc:97
 #, no-wrap
 msgid "Wordpress"
-msgstr ""
+msgstr "Wordpress"
 
 #. type: delimited block =
 #: modules/ROOT/pages/document-organization.adoc:100
@@ -314,6 +381,8 @@ msgid ""
 "A hypothetical example would be a web portal built using a content "
 "management system such as Wordpress, with a MariaDB database."
 msgstr ""
+"Un exemple hipotètic seria un portal web construït utilitzant un gestor de "
+"continguts com Wordpress, amb una base de dades MariaDB."
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:103
@@ -324,12 +393,17 @@ msgid ""
 "repository, along with Docker images that include all the necessary elements "
 "for its deployment."
 msgstr ""
+"[[escenari-integracio]]Es tracta de components estàndard de programari "
+"lliure, però per facilitar-ne la gestió pot convenir guardar en un "
+"repositori elements de personalització com plantilles, fitxers CSS, imatges, "
+"llistat d’extensions de Wordpress a carregar, així com imatges de Docker que "
+"incloguin tots els elements necessaris per al desplegament."
 
 #. type: Title ===
 #: modules/ROOT/pages/document-organization.adoc:104
 #, no-wrap
 msgid "`Adaptation` Use-Case"
-msgstr ""
+msgstr "Escenari `Adaptació`"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:109
@@ -343,11 +417,21 @@ msgid ""
 "being developed).  These contributions must take the form of a series of "
 "commits in a repository linked in some way to that of the original producnt."
 msgstr ""
+"Aquest escenari pot comportar la creació d’un o més repositoris propis amb "
+"els mateixos continguts descrits per a l”link:#escenari-integracio[Escenari "
+"Integració]. En canvi, el tret distintiu d’aquest escenari és el patrocini "
+"per part de l’Ajuntament de Barcelona del desenvolupament d’alguna "
+"contribució significativa a un producte de programari lliure que pugui ser "
+"potencialment incorporada al producte original (encara que aquesta "
+"integració no es realitzi mentre dura el propi desenvolupament). Aquestes "
+"contribucions han de materialitzar-se en un conjunt de _commits_ en un "
+"repositori que estigui vinculat d’alguna manera al repositori del producte "
+"original."
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:111
 msgid "There may be various types of contributions:"
-msgstr ""
+msgstr "Les contribucions poden ser de diversa naturalesa:"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:113
@@ -355,6 +439,8 @@ msgid ""
 "New features that Barcelona City Council needs and which could be of "
 "interest to other entities or users"
 msgstr ""
+"Noves funcionalitats que l’Ajuntament de Barcelona necessita i que poden ser "
+"d’interès per a més entitats o usuaris"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:114
@@ -364,6 +450,10 @@ msgid ""
 "improvements that might be of general use to other potential users of the "
 "tool."
 msgstr ""
+"Traduccions complertes (o amb una cobertura significativa) de la interfície "
+"d’usuari, així com altres millores de localització (l10n) i "
+"internacionalització (i18n) que poden ser d’utilitat general per a d’altres "
+"potencials usuaris de l’eina."
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:116
@@ -374,12 +464,17 @@ msgid ""
 "possible to plan a contribution like this because we would be in the link:"
 "#escenari-integracio[Integration Use-case]."
 msgstr ""
+"Si les traduccions o elements de localització es troben barrejats amb "
+"elements de personalització propis de l’Ajuntament, o bé el producte "
+"original no està dissenyat per incorporar noves traduccions i "
+"localitzacions, aleshores no es pot plantejar una contribució com a tal i "
+"ens trobaríem a link:#escenari-integracio[l”Escenari Integració]."
 
 #. type: Block title
 #: modules/ROOT/pages/document-organization.adoc:118
 #, no-wrap
 msgid "Barcelona City Council’s ethical mail box"
-msgstr ""
+msgstr "Bústia ètica de l’Ajuntament de Barcelona"
 
 #. type: delimited block =
 #: modules/ROOT/pages/document-organization.adoc:122
@@ -390,6 +485,11 @@ msgid ""
 "features are now part of the https://github.com/globaleaks/"
 "GlobaLeaks[Globaleaks main repository]’s master branch."
 msgstr ""
+"Existia un programari original, el de https://www.globaleaks.org/"
+"[Globaleaks], al qual se li han incorporat les funcionalitats de generació "
+"d’expedient intern i de devolució de resposta a l’usuari en forma de PDF. "
+"Aquestes funcionalitats formen part ara mateix de la branca master del https:"
+"//github.com/globaleaks/GlobaLeaks[repositori principal de Globaleaks]."
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:125
@@ -400,12 +500,17 @@ msgid ""
 "own customisations, it has not been possible to contribute the translation "
 "itself to the original project."
 msgstr ""
+"[[escenari-adaptacio]]En el mateix projecte s’han desenvolupat tasques de "
+"personalització, incloent la traducció de la interfície al català, però com "
+"que alguns literals no son d’ús general sinó que son personalitzacions "
+"pròpies de l’Ajuntament, la traducció en sí no s’ha pogut contribuir al "
+"projecte original."
 
 #. type: Title ===
 #: modules/ROOT/pages/document-organization.adoc:126
 #, no-wrap
 msgid "`Plugin` Use-case"
-msgstr ""
+msgstr "Escenari `Plugin`"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:129
@@ -415,6 +520,10 @@ msgid ""
 "developing a new product (link:\\l[NewProduct Use-case]), and it shares "
 "features of both."
 msgstr ""
+"Es tracta d’un escenari intermig entre la integració de funcionalitats noves "
+"a un producte ja existent (link:#escenari-adaptacio[Escenari Adaptació]) i "
+"el desenvolupament d’un nou producte (link:\\l[Escenari NouProducte]) i "
+"comparteix característiques dels dos."
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:133
@@ -428,12 +537,20 @@ msgid ""
 "product’s repository) and the releases are not linked to those of the "
 "framework product."
 msgstr ""
+"D’una banda, es parteix d’un programari ja existent al qual s’ha d’afegir "
+"funcionalitat. De l’altre, l’arquitectura d’aquest programari és modular i "
+"preveu l’extensió mitjançant un mecanisme estandaritzat que permet una "
+"evolució semi-independent dels nous mòduls, de tal manera que en alguns "
+"aspectes s’assemblen bastant a un producte nou. En particular, els nous "
+"mòduls tenen el seu repositori propi (que no és una còpia del repositori del "
+"producte original), i les entregues estan desvinculades de les del producte "
+"marc."
 
 #. type: Block title
 #: modules/ROOT/pages/document-organization.adoc:135
 #, no-wrap
 msgid "Open Data Barcelona"
-msgstr ""
+msgstr "Open Data Barcelona"
 
 #. type: delimited block =
 #: modules/ROOT/pages/document-organization.adoc:139
@@ -446,12 +563,19 @@ msgid ""
 "(which would also correspond to the link:#escenari-adaptacio[Adaptation Use-"
 "case]) as well as create new ones."
 msgstr ""
+"El http://opendata-ajuntament.barcelona.cat/[portal de dades obertes de "
+"l’Ajuntament] està basat en el programari de portal dades de codi obert  "
+"https://ckan.org/[CKAN]. Aquest producte és  http://docs.ckan.org/en/latest/"
+"extensions/plugin-interfaces.htm[fàcilment] extensible mitjançant plugins o "
+"extensions i durant el desenvolupament del nou portal va ser necessari tant "
+"modificar una extensió ja existent (això es correspondria amb l”link:"
+"#escenari-adaptacio[Escenari Adaptació]) com crear-ne de noves."
 
 #. type: Title ===
 #: modules/ROOT/pages/document-organization.adoc:141
 #, no-wrap
 msgid "`NewProduct` Use-case"
-msgstr ""
+msgstr "Escenari `NouProducte`"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:145
@@ -461,12 +585,16 @@ msgid ""
 "may be based on other, already existing components, such as frameworks, "
 "libraries, database management systems, etc."
 msgstr ""
+"Quan no es troba cap component o combinació de components que satisfan una "
+"determinada necessitat, s’ha d’encarregar la implementació d’un producte nou."
+" Aquest producte pot basar-se en altres components preexistents, com "
+"frameworks, biblioteques, gestors de bases de dades, etc."
 
 #. type: Block title
 #: modules/ROOT/pages/document-organization.adoc:147
 #, no-wrap
 msgid "Decidim.Barcelona"
-msgstr ""
+msgstr "Decidim.Barcelona"
 
 #. type: delimited block =
 #: modules/ROOT/pages/document-organization.adoc:153
@@ -479,6 +607,13 @@ msgid ""
 "facilitates the development of new website applications but these do not "
 "merely consist of integrating and configuring components."
 msgstr ""
+"El https://decidim.org/[Decidim] és una eina de democràcia participativa per "
+"ciutats i organitzacions. El desenvolupament va estar patrocinat des de "
+"l’inici per l’Ajuntament de Barcelona, tot i que ara més organitzacions que "
+"l’utilitzen comencen a aportar-hi recursos. Es basa en el framework per "
+"desenvolupament web http://rubyonrails.org/[Ruby on Rails]. Aquest framework "
+"facilita molt el desenvolupament de noves aplicacions web, però aquestes no "
+"consisteixen simplement en una integració i configuració de components."
 
 #. type: delimited block =
 #: modules/ROOT/pages/document-organization.adoc:156
@@ -489,12 +624,18 @@ msgid ""
 "software and, finally, it was decided to rewrite the program (improving the "
 "modularity of the code, among other things)."
 msgstr ""
+"La història del https://decidim.org/[Decidim] és una mica rocambolesca "
+"perquè inicialment es va intentar fer una adaptació d’un programari ja "
+"existent, el https://github.com/consul/consul[Consul]. Més tard va ser "
+"necessari fer un fork del programari original, i finalment es va optar per "
+"reescriure de nou l’aplicació (millorant, entre d’altres, la modularitat del "
+"codi)."
 
 #. type: Title ===
 #: modules/ROOT/pages/document-organization.adoc:158
 #, no-wrap
 msgid "`Publication` Use-case"
-msgstr ""
+msgstr "Escenari `Publicació`"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:162
@@ -505,6 +646,11 @@ msgid ""
 "publishing, under licence, a software code that initially was not conceived "
 "for free distribution."
 msgstr ""
+"L’Ajuntament de Barcelona és el propietari legal de molt codi que es troba "
+"en ús actualment, però que mai ha estat publicat. Les mesures i "
+"recomanacions específiques d’aquest escenari expliquen les comprovacions "
+"addicionals necessàries per publicar, sota una llicència lliure, un codi que "
+"no va ser inicialment pensat per distribuir lliurement."
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:165
@@ -517,12 +663,18 @@ msgid ""
 "and the link:#escenari-publicacio[Publication Use-case][[escenari-"
 "publicacio]])."
 msgstr ""
+"Por haver-hi diferents raons que justifiquin la publicació d’un codi, sempre "
+"que compleixi amb certs requisits de qualitat. Una possible situació és que "
+"es vulgui iniciar un nou contracte de desenvolupament per estendre o adaptar "
+"«en obert» un component ja existent (això equivaldria a una combinació del "
+"l”ombining the link:#escen[Escenari Adaptació] i l”and the link:#escenari-"
+"publicacio[Escenari Publicació][[escenari-publicacio]])."
 
 #. type: Title ===
 #: modules/ROOT/pages/document-organization.adoc:166
 #, no-wrap
 msgid "`Document` Use-case"
-msgstr ""
+msgstr "Escenari `Document`"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:170
@@ -532,12 +684,16 @@ msgid ""
 "  Examples would be market studies, research projects, graphic design "
 "elements (such as logos) and so on."
 msgstr ""
+"A vegades es vol fer públic un document que s’ha redactat (o que s’ha "
+"encarregat) i que pot no estar directament vinculat amb un sol projecte de "
+"programari. Es pot tractar d’estudis de mercat, treballs de recerca, "
+"elements de disseny gràfic (com per exemple logotips), etc."
 
 #. type: Title ==
 #: modules/ROOT/pages/document-organization.adoc:171
 #, no-wrap
 msgid "Tags for project stages and milestones"
-msgstr ""
+msgstr "Etiquetes per a fases i moments dels projectes"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:175
@@ -546,6 +702,9 @@ msgid ""
 "account at what point they should be applied.  As a general rule, we could "
 "say that technological projects go through the following stages:"
 msgstr ""
+"A l’hora de categoritzar les mesures i recomanacions també és interessant "
+"tenir en compte en quin moment s’han d’aplicar. Com a regla general, podem "
+"considerar que els projectes tecnològics passen per les següents fases:"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:177
@@ -555,6 +714,9 @@ msgid ""
 "arises, which usually includes drawing up a preliminary design and possibly "
 "carrying out other preliminary studies.\n"
 msgstr ""
+"*Concepció:* fase en la que es descobreix una nova necessitat o sorgeix la "
+"idea del projecte, i que normalment inclou l’elaboració d’un avantprojecte i "
+"possiblement d’altres estudis previs.\n"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:178
@@ -563,6 +725,8 @@ msgid ""
 "*Procurement*: drawing up the specifications for acquiring services "
 "(development or other types of services).\n"
 msgstr ""
+"*Contractació*: redacció dels plecs per a l’adquisició de serveis (de "
+"desenvolupament o d’una altra naturalesa).\n"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:179
@@ -571,6 +735,9 @@ msgid ""
 "*Development*: creating the source code, documents and other tools, "
 "including the infrastructure necessary for building them.\n"
 msgstr ""
+"*Desenvolupament*: creació del codi, documentació i d’altres artefactes, "
+"incloent l’establiment de la infraestructura necessària per a la construcció "
+"dels mateixos.\n"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:180
@@ -579,6 +746,8 @@ msgid ""
 "*Putting into production*: deploying the service, including the possible "
 "migration of data and processes from one or more previous systems.\n"
 msgstr ""
+"*Pas a producció*: desplegament del servei, incloent la possible migració de "
+"dades i processos des d’un o més sistemes previs.\n"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:181
@@ -587,6 +756,8 @@ msgid ""
 "*Exploitation*: stage which lasts throughout the useful life of the system "
 "in production, including operational and maintenance tasks.\n"
 msgstr ""
+"*Explotació*: fase que s’estén durant tota la vida útil del sistema en "
+"producció, incloent les tasques d’operació i manteniment.\n"
 
 #. type: Plain text
 #: modules/ROOT/pages/document-organization.adoc:183
@@ -594,6 +765,8 @@ msgid ""
 "Taking all this into account, the Guide uses the following tags to highlight "
 "key project stages:"
 msgstr ""
+"Tenint en compte tot això, a la Guia es fan servir les següents etiquetes "
+"per assenyalar moments destacats dels projectes:"
 
 #. type: Table
 #: modules/ROOT/pages/document-organization.adoc:200
@@ -617,3 +790,20 @@ msgid ""
 "| Measures to take into account when a new version of the product is "
 "released.\n"
 msgstr ""
+"| Etiqueta\n"
+"| Descripció\n"
+"\n"
+"| `Avantprojecte`\n"
+"| Mesures a tenir en compte en la redacció del avantprojectes.\n"
+"\n"
+"| `Contractar`\n"
+"| Mesures a tenir en compte en la redacció dels plecs per a la contractació "
+"de serveis.\n"
+"\n"
+"| `Dia1`\n"
+"| Mesures a aplicar des del primer dia d’inici de la fase de desenvolupament "
+"(veure l’apartat Treballar en obert des del «dia 1»).\n"
+"\n"
+"| `Release`\n"
+"| Mesures a tenir en compte en el moment que es fa pública una nova versió "
+"del producte.\n"

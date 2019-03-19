@@ -1,26 +1,23 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# David Pretel <david@abox.com>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2019-03-06 23:02+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-03-13 11:52+0000\n"
+"Last-Translator: David Pretel <david@abox.com>\n"
+"Language-Team: Catalan\n"
+"Language: ca\n"
+"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #. type: Title =
 #: modules/ROOT/pages/technical-infrastructure.adoc:1
 #, no-wrap
 msgid "Technical infrastructure"
-msgstr ""
+msgstr "Infraestructura tècnica"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:9
@@ -30,6 +27,10 @@ msgid ""
 "complex ways.  In this chapter we recommend some common tools and practices "
 "for using them in the sector."
 msgstr ""
+"La infraestructura tècnica necessària per a allotjar un projecte de "
+"programari lliure consta típicament de diferents elements i eines, molts "
+"cops vinculades entre sí de maneres complexes. En aquest capítol recomanem "
+"algunes eines i pràctiques d’ús comú en el sector."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:11
@@ -38,17 +39,20 @@ msgid ""
 "people who participate in a project must never be compelled to install "
 "proprietary software on their equipment."
 msgstr ""
+"Un principi general que es veu concretat en les mesures d’aquest capítol és "
+"que les persones que participen en un projecte mai s’han de veure obligades "
+"a instal·lar programari privatiu a les seves màquines."
 
 #. type: Title ==
 #: modules/ROOT/pages/technical-infrastructure.adoc:12
 #, no-wrap
 msgid "Websites associated with the project"
-msgstr ""
+msgstr "Llocs web associats al projecte"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:18
 msgid "A typical software project might have two websites:"
-msgstr ""
+msgstr "Un projecte de programari pot tenir típicament dos tipus de lloc web:"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:20
@@ -58,6 +62,9 @@ msgid ""
 "documentation to the project, whether they are hired by the City Council or "
 "not.\n"
 msgstr ""
+"*Una web de desenvolupament*, orientada a persones que contribueixen al "
+"projecte amb codi o documentació tècnica, contractades per l’Ajuntament o no."
+"\n"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:24
@@ -72,6 +79,13 @@ msgid ""
 "funding, user documents, pre-release testing, dissemination, translations "
 "and so on.\n"
 msgstr ""
+"*Una web orientada a persones usuàries i participants en general*.\n"
+"Això inclou a persones o entitats que puguin voler instal·lar i usar el "
+"programari fora de l’Ajuntament, però també a gent interessada en el "
+"projecte encara que no siguin usuàries directes del programari.\n"
+"En aquesta web s’ha de facilitar i incentivar a participar en el projecte "
+"amb contribucions menys (o gens) tècniques: finançament, documentació "
+"d’usuària, test de pre-releases, difusió, traduccions, etcètera.\n"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:27
@@ -82,6 +96,11 @@ msgid ""
 "mentalities of the two sets of people are different, therefore making it "
 "impossible for a single website model to accommodate both."
 msgstr ""
+"Normalment els dos tipus de contingut son necessaris, però no sempre cal que "
+"es trobin en dos llocs separats, amb noms de domini diferents. En cada "
+"projecte que lideri, l’Ajuntament haurà de valorar fins a quin punt les "
+"necessitats i mentalitats dels dos conjunts de persona son diferents i "
+"resulta per tant impossible que un únic model de web s’adeqüi als dos grups."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:30
@@ -91,6 +110,11 @@ msgid ""
 "one required from the outset.  We can assess if there is also a need for a "
 "site geared towards other participant profiles as the project grows."
 msgstr ""
+"A l’apartat Repositori de link:#repositori-de-codi-i-control-de-"
+"versions[codi i control de versions] s’explica com crear la web de "
+"desenvolupament, que és l’única que es necessita des de bon començament. A "
+"mida que el projecte creix, es pot valorar si cal també un lloc orientat a "
+"d’altres perfils de participant."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:33
@@ -99,37 +123,43 @@ msgid ""
 "permanent URL under a City Council domain) from the outset.  If necessary, "
 "this could be redirected to where the project website is."
 msgstr ""
+"El que sí és interessant tenir des del principi és un nom de domini propi (o "
+"una URL permanent sota algun domini de l’Ajuntament), que si cal es pugui "
+"redirigir cap a on es trobi inicialment la web del projecte (possiblement un "
+"lloc com GitHub)."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:36
 #, no-wrap
 msgid "Keep a permanent project URL and always use it to refer to the project"
 msgstr ""
+"Reservar una URL permanent per al projecte, i usar-la sempre per fer-hi "
+"referència"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:40 modules/ROOT/pages/technical-infrastructure.adoc:142 modules/ROOT/pages/technical-infrastructure.adoc:206 modules/ROOT/pages/technical-infrastructure.adoc:463 modules/ROOT/pages/technical-infrastructure.adoc:479 modules/ROOT/pages/technical-infrastructure.adoc:594
 msgid "Day1"
-msgstr ""
+msgstr "Dia1"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:41 modules/ROOT/pages/technical-infrastructure.adoc:61 modules/ROOT/pages/technical-infrastructure.adoc:220 modules/ROOT/pages/technical-infrastructure.adoc:322 modules/ROOT/pages/technical-infrastructure.adoc:337 modules/ROOT/pages/technical-infrastructure.adoc:372 modules/ROOT/pages/technical-infrastructure.adoc:389 modules/ROOT/pages/technical-infrastructure.adoc:409 modules/ROOT/pages/technical-infrastructure.adoc:505 modules/ROOT/pages/technical-infrastructure.adoc:539
 msgid "Integration"
-msgstr ""
+msgstr "Integració"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:42 modules/ROOT/pages/technical-infrastructure.adoc:62 modules/ROOT/pages/technical-infrastructure.adoc:144 modules/ROOT/pages/technical-infrastructure.adoc:165 modules/ROOT/pages/technical-infrastructure.adoc:207 modules/ROOT/pages/technical-infrastructure.adoc:222 modules/ROOT/pages/technical-infrastructure.adoc:280 modules/ROOT/pages/technical-infrastructure.adoc:295 modules/ROOT/pages/technical-infrastructure.adoc:324 modules/ROOT/pages/technical-infrastructure.adoc:339 modules/ROOT/pages/technical-infrastructure.adoc:374 modules/ROOT/pages/technical-infrastructure.adoc:391 modules/ROOT/pages/technical-infrastructure.adoc:411 modules/ROOT/pages/technical-infrastructure.adoc:465 modules/ROOT/pages/technical-infrastructure.adoc:481 modules/ROOT/pages/technical-infrastructure.adoc:507 modules/ROOT/pages/technical-infrastructure.adoc:520 modules/ROOT/pages/technical-infrastructure.adoc:541 modules/ROOT/pages/technical-infrastructure.adoc:557 modules/ROOT/pages/technical-infrastructure.adoc:575 modules/ROOT/pages/technical-infrastructure.adoc:596 modules/ROOT/pages/technical-infrastructure.adoc:634 modules/ROOT/pages/technical-infrastructure.adoc:662 modules/ROOT/pages/technical-infrastructure.adoc:674
 msgid "Plugin"
-msgstr ""
+msgstr "Plugin"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:43 modules/ROOT/pages/technical-infrastructure.adoc:63 modules/ROOT/pages/technical-infrastructure.adoc:145 modules/ROOT/pages/technical-infrastructure.adoc:166 modules/ROOT/pages/technical-infrastructure.adoc:208 modules/ROOT/pages/technical-infrastructure.adoc:223 modules/ROOT/pages/technical-infrastructure.adoc:281 modules/ROOT/pages/technical-infrastructure.adoc:296 modules/ROOT/pages/technical-infrastructure.adoc:308 modules/ROOT/pages/technical-infrastructure.adoc:325 modules/ROOT/pages/technical-infrastructure.adoc:340 modules/ROOT/pages/technical-infrastructure.adoc:375 modules/ROOT/pages/technical-infrastructure.adoc:392 modules/ROOT/pages/technical-infrastructure.adoc:412 modules/ROOT/pages/technical-infrastructure.adoc:466 modules/ROOT/pages/technical-infrastructure.adoc:482 modules/ROOT/pages/technical-infrastructure.adoc:508 modules/ROOT/pages/technical-infrastructure.adoc:521 modules/ROOT/pages/technical-infrastructure.adoc:542 modules/ROOT/pages/technical-infrastructure.adoc:558 modules/ROOT/pages/technical-infrastructure.adoc:597 modules/ROOT/pages/technical-infrastructure.adoc:635 modules/ROOT/pages/technical-infrastructure.adoc:663 modules/ROOT/pages/technical-infrastructure.adoc:675
 msgid "NewProduct"
-msgstr ""
+msgstr "NouProducte"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:44 modules/ROOT/pages/technical-infrastructure.adoc:64 modules/ROOT/pages/technical-infrastructure.adoc:146 modules/ROOT/pages/technical-infrastructure.adoc:167 modules/ROOT/pages/technical-infrastructure.adoc:209 modules/ROOT/pages/technical-infrastructure.adoc:224 modules/ROOT/pages/technical-infrastructure.adoc:282 modules/ROOT/pages/technical-infrastructure.adoc:297 modules/ROOT/pages/technical-infrastructure.adoc:309 modules/ROOT/pages/technical-infrastructure.adoc:326 modules/ROOT/pages/technical-infrastructure.adoc:376 modules/ROOT/pages/technical-infrastructure.adoc:393 modules/ROOT/pages/technical-infrastructure.adoc:413 modules/ROOT/pages/technical-infrastructure.adoc:467 modules/ROOT/pages/technical-infrastructure.adoc:483 modules/ROOT/pages/technical-infrastructure.adoc:509 modules/ROOT/pages/technical-infrastructure.adoc:522 modules/ROOT/pages/technical-infrastructure.adoc:543 modules/ROOT/pages/technical-infrastructure.adoc:559 modules/ROOT/pages/technical-infrastructure.adoc:598 modules/ROOT/pages/technical-infrastructure.adoc:636 modules/ROOT/pages/technical-infrastructure.adoc:664 modules/ROOT/pages/technical-infrastructure.adoc:676
 msgid "Publication"
-msgstr ""
+msgstr "Publicació"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:47
@@ -140,21 +170,27 @@ msgid ""
 "to be kept public if it is decided to move the development website in the "
 "future."
 msgstr ""
+"Es tracta que des del començament l’Ajuntament tingui sota el seu control la "
+"URL que es farà servir per identificar el projecte a Internet. Encara que la "
+"web del projecte es trobi allotjada en un lloc com GitHub, utilitzar una "
+"redirecció permetrà en un futur, si es decideix moure de lloc la web de "
+"desenvolupament, mantenir la mateixa adreça pública."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:49
 msgid "There are two options:"
-msgstr ""
+msgstr "Hi ha dues opcions:"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:51
 msgid "Set aside a permanent URL under a City Council-owned domain."
 msgstr ""
+"Reservar una URL permanent sota algun domini propietat de l’Ajuntament."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:53
 msgid "Acquire one (or more) domain name(s) for the project."
-msgstr ""
+msgstr "Comprar un (o més) nom(s) de domini per al projecte."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:57
@@ -163,6 +199,8 @@ msgid ""
 "Set up a website for non-technical participation based on free software "
 "technologies"
 msgstr ""
+"Crear una web orientada a la participació no tècnica, que es basi en "
+"tecnologies lliures"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:66
@@ -170,6 +208,8 @@ msgid ""
 "This site can be created at the opportune moment, when the project achieves "
 "significant size and projection."
 msgstr ""
+"Aquesta web es pot crear en el moment que es consideri oportú, quan el "
+"projecte assoleixi una mida o projecció significatives."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:69
@@ -177,18 +217,22 @@ msgid ""
 "It could be a multilingual site.  Each project has to decide which languages "
 "it should be translated into, depending on its priority audiences."
 msgstr ""
+"Pot ser una web multilingüe. Cada projecte ha de decidir a quines llengües "
+"traduir-la en funció de quins públics resultin prioritaris."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:71
 msgid "This site must include:"
-msgstr ""
+msgstr "Aquest lloc web ha d’incloure:"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:74
 msgid ""
-"A link to the download site, with instructions on how to install the "
-"program.  This link must feature prominently on the home page."
+"A link to the download site, with instructions on how to install the program."
+"  This link must feature prominently on the home page."
 msgstr ""
+"Un enllaç a la web de descàrrega, amb instruccions de com instal·lar el "
+"programari. Aquest enllaç ha de ser ben visible a la portada."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:77
@@ -197,6 +241,9 @@ msgid ""
 "ways of getting involved in the project.  This link must also feature "
 "prominently on the home page."
 msgstr ""
+"Un apartat \"Get Involved\" o \"Community\" on s’informa de les diferents "
+"maneres d’involucrar-se en el projecte. També ha d’estar ben visible a la "
+"portada."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:80
@@ -205,6 +252,9 @@ msgid ""
 "section or on the home page, with a link saying “Developers” or a “Fork on "
 "GitHub” link."
 msgstr ""
+"Un enllaç a la web de desenvolupament. Aquest es pot trobar, o bé a "
+"l’apartat Community, o bé a la portada, per exemple amb un enllaç que digui "
+"\"Developers\" o bé un enllaç del tipus \"Fork on GitHub\"."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:82
@@ -214,12 +264,16 @@ msgid ""
 "adapted to the project’s needs: Drupal, Wordpress (without the exclusive "
 "extensions) and lots more."
 msgstr ""
+"Existeixen moltes eines i frameworks de gestió de contingut i publicació de "
+"llocs web lliures i de qualitat excel·lent, així que no hauria de ser un "
+"problema trobar-ne un que s’ajusti a les necessitats del projecte: Drupal, "
+"Wordpress (sense les extensions privatives), i molts més."
 
 #. type: Title ==
 #: modules/ROOT/pages/technical-infrastructure.adoc:85
 #, no-wrap
 msgid "Code repository and version control"
-msgstr ""
+msgstr "Repositori de codi i control de versions"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:91
@@ -228,6 +282,10 @@ msgid ""
 "(public and under version control) which serves as a base for centralising "
 "modifications that form part of each new product release."
 msgstr ""
+"Un element central de la web de desenvolupament d’un projecte és un "
+"repositori de codi (públic i sota control de versions) que serveixi de base "
+"per centralitzar les modificacions que han de formar part de cada nova "
+"entrega release del producte."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:96
@@ -242,6 +300,14 @@ msgid ""
 "*main repository*.  There could be many other public and private copies of "
 "the code."
 msgstr ""
+"En l’escenari `NouProducte` o `Plugin` l’Ajuntament haurà de crear aquest "
+"repositori. En el cas d’una Integració o Adaptació, l’Ajuntament tindrà la "
+"seva pròpia còpia (clone o fork) del repositori original (upstream), on "
+"centralitzarà els treballs corresponents a les modificacions del seu interès."
+" A aquest repositori que crea l’Ajuntament i que serveix, o bé per realitzar "
+"les entregues d’un producte original, o bé per centralitzar les "
+"contribucions a un projecte extern, en direm *repositori principal*. Poden "
+"existir moltes altres còpies públiques i privades del codi."
 
 #. type: delimited block =
 #: modules/ROOT/pages/technical-infrastructure.adoc:101
@@ -288,6 +354,11 @@ msgid ""
 "https://producingoss.com/en/vc.html#vc-vocabulary[Version Control "
 "Vocabulary]."
 msgstr ""
+"Com s’indica en les mesures de més avall, el repositori principal "
+"s’allotjarà a GitHub, un servei que utilitza Git com a sistema de control de "
+"versions distribuït. El vocabulari i conceptes fonamentals per entendre el "
+"seu funcionament es pot trobar a https://producingoss.com/en/vc.html#vc-"
+"vocabulary[Version Control Vocabulary]."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:117
@@ -295,6 +366,9 @@ msgid ""
 "The advantages that made us choose GitHub as the default development "
 "platform were:"
 msgstr ""
+"Hi ha moltes alternatives viables i raonables a GitHub, i fins i tot algunes "
+"alternatives viables a Git com a programari de control de versions, però "
+"GitHub ofereix prous avantatges com per què sigui la opció per defecte:"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:119
@@ -302,11 +376,13 @@ msgid ""
 "Most developers are familiar with it and do not have to learn new tools and "
 "procedures ad-hoc for the project."
 msgstr ""
+"La majoria de desenvolupadores la coneixen i no han d’aprendre noves eines i "
+"procediments ad-hoc per al projecte."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:121
 msgid "It launches the message that the project is open to collaboration."
-msgstr ""
+msgstr "Llança el missatge de que el projecte està obert a col·laboració."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:123
@@ -315,6 +391,9 @@ msgid ""
 "infrastructure: issue managing, continuous integration, development "
 "communication channels, etc."
 msgstr ""
+"Ofereix una bona integració amb la resta d’infraestructura tècnica i social "
+"d’un projecte: gestió d’incidències, integració contínua, canals de "
+"comunicació per a desenvolupament, etc."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:126
@@ -324,6 +403,10 @@ msgid ""
 "sufficiently user-friendly for us to put off building a website for project "
 "users and participants in general."
 msgstr ""
+"Permet també guardar i mostrar (part de) la documentació d’un projecte, que "
+"pot ser una wiki. La presentació de la informació és suficientment agradable "
+"com per permetre aplaçar la construcció d’una web orientada a persones "
+"usuàries i participants en general del projecte."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:128
@@ -331,12 +414,14 @@ msgid ""
 "It is the platform most widely used by free software projects and provides a "
 "lot of exposure."
 msgstr ""
+"És la plataforma més utilitzada per projectes de codi obert, dóna molta "
+"visibilitat."
 
 #. type: delimited block =
 #: modules/ROOT/pages/technical-infrastructure.adoc:132
 #, no-wrap
 msgid "*Drawback*: GitHub is not free software.\n"
-msgstr ""
+msgstr "*Inconvenient*: GitHub no és 100% codi obert.\n"
 
 #. type: delimited block =
 #: modules/ROOT/pages/technical-infrastructure.adoc:134
@@ -345,6 +430,12 @@ msgid ""
 "infrastructure code behind GitHub is open and ultimately that means being "
 "dependent on a company whose future development we cannot predict."
 msgstr ""
+"Tot i ser un servei gratuït per un gran ventall de possibles usos, no tot el "
+"codi de la infraestructura que hi ha darrera de GitHub és lliure, i en "
+"darrera instància s’està establint una dependència amb una empresa que no "
+"sabem com evolucionarà en el futur. Més endavant poden aparèixer opcions que "
+"facin reconsiderar aquesta recomanació de fer servir GitHub com a opció per "
+"defecte."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:138
@@ -353,20 +444,26 @@ msgid ""
 "Create the main repository in the City Council [.line-through]#GitHub# "
 "public software forge"
 msgstr ""
+"Crear el repositori principal a l’espai GitHub de l’Ajuntament [.line-"
+"through]#GitHub# public software forge"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:143 modules/ROOT/pages/technical-infrastructure.adoc:164 modules/ROOT/pages/technical-infrastructure.adoc:221 modules/ROOT/pages/technical-infrastructure.adoc:323 modules/ROOT/pages/technical-infrastructure.adoc:338 modules/ROOT/pages/technical-infrastructure.adoc:373 modules/ROOT/pages/technical-infrastructure.adoc:390 modules/ROOT/pages/technical-infrastructure.adoc:410 modules/ROOT/pages/technical-infrastructure.adoc:425 modules/ROOT/pages/technical-infrastructure.adoc:464 modules/ROOT/pages/technical-infrastructure.adoc:480 modules/ROOT/pages/technical-infrastructure.adoc:506 modules/ROOT/pages/technical-infrastructure.adoc:540 modules/ROOT/pages/technical-infrastructure.adoc:574 modules/ROOT/pages/technical-infrastructure.adoc:595
 msgid "Adaptation"
-msgstr ""
+msgstr "Adaptació"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:149
 msgid ""
-"In GitHub we will create a project "
-"`https://github.com/AjuntamentDeBarcelona/NOM-DEL-PROJECTE` where the code "
-"will be published.  The City Council has an organisation-level account in "
-"GitHub called `ajuntamentdebarcelona`, which will be the repository owner."
+"In GitHub we will create a project `https://github.com/AjuntamentDeBarcelona/"
+"NOM-DEL-PROJECTE` where the code will be published.  The City Council has an "
+"organisation-level account in GitHub called `ajuntamentdebarcelona`, which "
+"will be the repository owner."
 msgstr ""
+"Es crearà a GitHub un projecte `https://github.com/AjuntamentDeBarcelona/NOM-"
+"DEL-PROJECTE` on es publicarà el codi. L’Ajuntament té creat dins de GitHub "
+"un compte a nivell d”organització anomenat `ajuntamentdebarcelona`, que serà "
+"el propietari owner del repositori."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:151
@@ -375,6 +472,10 @@ msgid ""
 "parts of it, on other sites (GitHub spaces of other organisations or "
 "developers, the websites of companies awarded public contracts, etc.)"
 msgstr ""
+"Això no vol dir que no puguin haver-hi rèpliques (miralls) del repositori o "
+"parts del mateix en altres llocs (espais GitHub d’altres organitzacions, de "
+"desenvolupadors particulars, la pàgina web de les empreses adjudicatàries de "
+"contractes públics, etcètera)."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:154
@@ -383,6 +484,9 @@ msgid ""
 "in lower case, with the words in it separated by hyphens.  For example: "
 "https://github.com/AjuntamentdeBarcelona/decidim-barcelona."
 msgstr ""
+"El nom del projecte a GitHub es recomana que sigui tot en minúscules i amb "
+"les paraules de què està format separades per guions. Per exemple: https://"
+"github.com/AjuntamentdeBarcelona/decidim-barcelona."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:156
@@ -390,12 +494,16 @@ msgid ""
 "This is where the code has to be from the start of the project, without "
 "waiting until there are any public releases."
 msgstr ""
+"El codi ha d’estar present en aquest lloc des de l’inici del projecte, sense "
+"esperar a que hi hagi releases públiques."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:160
 #, no-wrap
-msgid "Create a public repository on a different site to the City Council GitHub"
+msgid ""
+"Create a public repository on a different site to the City Council GitHub"
 msgstr ""
+"Crear un repositori públic en un lloc diferent del GitHub de l’Ajuntament"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:170
@@ -403,16 +511,18 @@ msgid ""
 "There could be reasons that make it advisable to have the main repository "
 "(the one linked to the issue manager) on sites such as:"
 msgstr ""
+"Pot haver-hi motius que facin recomanable tenir el repositori principal (el "
+"vinculat al gestor d’incidències) en llocs com:"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:172
 msgid "The GitHub space of another organisation."
-msgstr ""
+msgstr "L’espai GitHub d’una altra organització."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:174
 msgid "Bitbucket or other similar platforms."
-msgstr ""
+msgstr "BitBucket o d’altres plataformes similars."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:176
@@ -420,11 +530,13 @@ msgid ""
 "A Gitlab portal of an organisation participating in developing the project "
 "(or any future Barcelona City Council Gitlab portal)."
 msgstr ""
+"Un portal Gitlab d’alguna organització que participi en el desenvolupament "
+"del projecte (o en un futur un portal Gitlab de l’Ajuntament de Barcelona)."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:178
 msgid "Some of these reasons could be:"
-msgstr ""
+msgstr "Alguns d’aquests motius poden ser:"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:180
@@ -432,6 +544,8 @@ msgid ""
 "It is a project many public sector participants intervene in and a "
 "consortium or ad-hoc organisation is set up."
 msgstr ""
+"És un projecte on intervenen més participants del sector públic, i es crea "
+"una consorci o organització ad-hoc."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:182
@@ -440,11 +554,14 @@ msgid ""
 "than the City Council might do, and wants the basic infrastructure under its "
 "control."
 msgstr ""
+"L’empresa que desenvolupa té un fort lideratge sobre el projecte, més gran "
+"que el que pugui tenir l’Ajuntament, i vol tenir la infraestructura bàsica "
+"sota el seu control."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:184
 msgid "In opting for this alternative, it must be borne in mind that:"
-msgstr ""
+msgstr "Si s’opta per aquesta alternativa, s’ha de tenir en compte que:"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:188
@@ -456,9 +573,19 @@ msgid ""
 "procedures have to be performed on another tool, for example, Subversion, "
 "the solution is to do the development in open on Git, and keep a Subversion "
 "mirror automated using the command `git ``svn`` ``dcommit`, as explained, "
-"for example, at "
-"http://www.kerrybuckley.org/2009/10/06/maintaining-a-read-only-svn-mirror-of-a-git-repository/."
+"for example, at http://www.kerrybuckley.org/2009/10/06/maintaining-a-read-"
+"only-svn-mirror-of-a-git-repository/."
 msgstr ""
+"No podem renunciar a Git com a sistema de control de versions: és l’eina "
+"molt majoritàriament utilitzada avui en dia i que tots els desenvolupadors "
+"coneixen, i facilita unes bones pràctiques de gestió de projectes en obert "
+"que amb sistemes més antics (com CSV o Subversion) resulten molt més "
+"farragoses. Si determinats procediments s’han d’executar necessàriament "
+"sobre una altra eina, per exemple Subversion, la solució és fer el "
+"desenvolupament en obert sobre Git, i mantenir un mirall Subversion "
+"automatitzat utilitzant la comanda `git` `svn`` ``dcommit`, com s’explica "
+"per exemple a http://www.kerrybuckley.org/2009/10/06/maintaining-a-read-only-"
+"svn-mirror-of-a-git-repository/."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:190
@@ -467,6 +594,9 @@ msgid ""
 "the City Council GitHub space, to show all the contributions made to free "
 "software projects."
 msgstr ""
+"En qualsevol cas hi ha d’haver una rèplica actualitzada del repositori "
+"principal a l’espai GitHub de l’Ajuntament, per donar visibilitat a totes "
+"les contribucions a projectes de codi obert que realitza."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:192
@@ -476,6 +606,10 @@ msgid ""
 "which is (or are) the main repository (repositories) where development is "
 "carried out."
 msgstr ""
+"Al fitxer `README` contingut (i mostrat) a l’espai GitHub de l’Ajuntament, a "
+"l’espai GitHub.io i a la resta de llocs amb enllaç al codi font, d’indicarà "
+"quin és el repositori (o repositoris) principal on es porta a terme el "
+"desenvolupament."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:194
@@ -484,6 +618,9 @@ msgid ""
 "integration system must be public and capable of being used by everyone, "
 "without paying subscriptions for any service."
 msgstr ""
+"Siguin on siguin, tant l’eina de gestió d’incidències com el sistema "
+"d’integració continua han de ser públics i s’han de poder utilitzar per part "
+"de tothom sense pagar subscripcions a cap servei."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:198
@@ -494,6 +631,12 @@ msgid ""
 "GitHub is not used, the repository's public site must also provide both "
 "these types of download (`zip` file or `tar.gz` and command `git clone`)."
 msgstr ""
+"Tot el codi font del projecte ha de ser descarregable per qualsevol persona "
+"en tot moment. GitHub facilita això proveint de botons per descarregar un "
+"arxiu zip o bé mostrant les comandes necessàries per clonar el repositori "
+"utilitzant Git. Si No es fa servir GitHub s’ha d’aconseguir que el lloc "
+"públic del repositori faciliti també aquestes dues modalitats de descàrrega "
+"(arxiu `zip` o `tar.gz` i comanda `git clone`)."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:202
@@ -502,6 +645,8 @@ msgid ""
 "Use the [.line-through]#GitHub# main repository web interface as the project "
 "development website"
 msgstr ""
+"Utilitzar el respositori de [.line-through]#GitHub# com la web de "
+"desenvolupament del projecte"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:212
@@ -511,6 +656,10 @@ msgid ""
 "languages supported by GitHub and which the latter interprets and formats "
 "when the page is visited."
 msgstr ""
+"La portada de la web serà un fitxer `README` a l’arrel del repositori. "
+"Aquest fitxer pot estar en format text pla, Markdown, o d’altres llenguatges "
+"de marques suportats per GitHub i que aquest interpreta i formata quan es "
+"visita la pàgina."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:216
@@ -519,11 +668,13 @@ msgid ""
 "Establish access permissions to the main repository adapted to each type of "
 "participant"
 msgstr ""
+"Establir permisos al repositori principal adequats a cada tipus de "
+"participant"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:225 modules/ROOT/pages/technical-infrastructure.adoc:327
 msgid "Document"
-msgstr ""
+msgstr "Document"
 
 #.   links outgoing: link:#S_518[_S_518_] link:#S_A3D[_S_A3D_]
 #. type: Plain text
@@ -534,6 +685,10 @@ msgid ""
 "(`ajuntamentdebarcelona`).  The other permissions are outlined in the "
 "submeasures."
 msgstr ""
+"GitHub té el concepte de propietari (owner) d’un repositori, que "
+"correspondrà a un compte que l’Ajuntament té com a organització "
+"(`ajuntamentdebarcelona`). La resta de permisos es detallen a les submesures."
+""
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:232
@@ -541,6 +696,9 @@ msgid ""
 "Anyone working for IMI who has a personal account at GitHub and is part of "
 "the organisation `ajuntamentdebarcelona` will have admin permissions."
 msgstr ""
+"Qualsevol treballador de l’IMI que tingui un compte personal a GitHub que "
+"formi part de la organització `ajuntamentdebarcelona` tindrà permisos "
+"d”administrador."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:234
@@ -549,11 +707,14 @@ msgid ""
 "optionally, to each person in an external organisation participating in the "
 "development under contracts with IMI."
 msgstr ""
+"Es pot donar permisos d”*administrador* del repositori a persones de l’IMI, "
+"opcionalment, una persona de cada entitat externa que participa en el "
+"desenvolupament sota contractes amb l’IMI."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:236
 msgid "Sub-measures:"
-msgstr ""
+msgstr "Submesura:"
 
 #.  S_518::
 #.  [sidebar.submeasure, id="{sect}.{counter:measure:A}"]
@@ -570,12 +731,17 @@ msgstr ""
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:255
 msgid ""
-"Give all development team members permission to write in the main "
-"repository.  That includes in-house staff and subcontracted people.  Also "
-"make the current list of _committers_ public in a file in the repository "
-"root directory called `MAINTAINERS`.  It must contain the name and email "
-"address of each person."
+"Give all development team members permission to write in the main repository."
+"  That includes in-house staff and subcontracted people.  Also make the "
+"current list of _committers_ public in a file in the repository root "
+"directory called `MAINTAINERS`.  It must contain the name and email address "
+"of each person."
 msgstr ""
+"Donar permís d’escriptura al repositori principal a totes les persones de "
+"l’equip de desenvolupament. Això inclou tant persones internes com "
+"subcontractades. A més, fer pública la llista actual de _commiters_ en un "
+"fitxer a l’arrel del repositori anomenat `MAINTAINERS`. Ha de contenir el "
+"nom i adreça de correu electrònic de cada persona."
 
 #.  S_A3D::
 #.  [sidebar.submeasure, id="{sect}.{counter:measure:A}"]
@@ -594,13 +760,16 @@ msgstr ""
 msgid ""
 "Give everyone permission to read the main repository.  Everyone must be able "
 "to read and clone the code."
-msgstr ""
+msgstr "Donar permís de lectura del repositori principal a tothom"
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:276
 #, no-wrap
-msgid "Give trusted outside developers permission to write in the main repository"
+msgid ""
+"Give trusted outside developers permission to write in the main repository"
 msgstr ""
+"Donar permís d’escriptura al repositori principal a desenvolupadors externs "
+"confiables"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:285
@@ -611,6 +780,11 @@ msgid ""
 "because version control means that everything is traceable and changes are "
 "reversible."
 msgstr ""
+"Si una persona porta molt temps fent contribucions de qualitat al projecte, "
+"a un nivell semblant que les persones contractades per l’Ajuntament, se la "
+"pot premiar amb un permís per escriure al repositori. Es corre un risc baix "
+"amb això, perquè el control de versions fa que tot sigui traçable i els "
+"canvis revertibles."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:287
@@ -619,14 +793,19 @@ msgid ""
 "what the governance rules will be and who has the last word when it comes to "
 "accepting contributions."
 msgstr ""
+"Se li ha d’aclarir, per evitar mal entesos, quines seran les regles de "
+"governança i qui seguirà tenint la darrera paraula a l’hora d’acceptar "
+"contribucions."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:291
 #, no-wrap
 msgid ""
-"Integrate external contributions into the main repository by means of "
-"Pull/Merge Requests"
+"Integrate external contributions into the main repository by means of Pull/"
+"Merge Requests"
 msgstr ""
+"Integrar les contribucions externes al repositori principal mitjançant el "
+"mecanisme de Pull Request"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:300
@@ -636,12 +815,17 @@ msgid ""
 "team.  Everyone who would like to integrate a series of changes in the "
 "product must submit us a Pull Request in GitHub"
 msgstr ""
+"Com que qualsevol pot clonar el repositori principal i fer modificacions a "
+"la seva còpia, no necessitem donar permisos d’escriptura a ningú que no "
+"formi part de l’equip principal de desenvolupament. Tothom que vulgui acabar "
+"integrant un conjunt de canvis al producte ens ha de fer un Pull Request a "
+"GitHub."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:304
 #, no-wrap
 msgid "Upload translations from the README file to the main repository"
-msgstr ""
+msgstr "Pujar traduccions del fitxer README al repositori principal"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:314
@@ -652,46 +836,53 @@ msgid ""
 "names such as (assuming that the markup language used is Markdown, and "
 "therefore the extension is `.md`): `README.ca.md` or `README.es.md`.  In "
 "this case it is worth linking all the translations with each other at the "
-"start of each file.  An example can be seen at "
-"https://github.com/tiimgreen/github-cheat-sheet."
+"start of each file.  An example can be seen at https://github.com/tiimgreen/"
+"github-cheat-sheet."
 msgstr ""
+"Si els potencials usuaris del projecte son principalment locals, pot ser "
+"convenient traduir el contingut del fitxer `README` o part del mateix. Això "
+"es pot fer posant nous fitxers a l’arrel del repositori, amb noms com "
+"(suposant que el llenguatge de marques utilitzat sigui Markdown, i d’aquí "
+"l’extensió `.md`): `README.ca.md` o `README.es.md`. En aquest cas convé "
+"enllaçar totes aquestes traduccions entre elles, al principi de cada fitxer. "
+"Un exemple es pot veure a https://github.com/tiimgreen/github-cheat-sheet."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:318
 #, no-wrap
 msgid "Specify a project contact person in the README file"
-msgstr ""
+msgstr "Especificar al README una persona de contacte del projecte"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:329
 msgid "Include an email address."
-msgstr ""
+msgstr "Incloure una adreça de correu electrònic."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:333
 #, no-wrap
 msgid "Use English as the language for all development"
-msgstr ""
+msgstr "Utilitzar l’anglès com a llengua per a tot el desenvolupament"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:342
 msgid "The following must all be in English"
-msgstr ""
+msgstr "Han d’estar obligatòriament en anglès:"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:344
 msgid "Comments that accompany the code itself."
-msgstr ""
+msgstr "Els comentaris que acompanyen el propi codi"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:346
 msgid "Any document referring to the product’s design and architecture."
-msgstr ""
+msgstr "Qualsevol document referent al disseny i l’arquitectura del producte"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:348
 msgid "All the comments on the commits in the repository."
-msgstr ""
+msgstr "Tots els comentaris dels commit al repositori"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:350
@@ -699,36 +890,39 @@ msgid ""
 "All the entries in the issue manager and the discussion threads that flow "
 "from them."
 msgstr ""
+"Totes les entrades al gestor d’incidències i els fils de discussió que se’n "
+"deriven"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:352
 msgid "All the discussion threads that accompany each pull request."
 msgstr ""
+"Els fils de discussió que acompanyen cada petició d’aportació (pull request)"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:354
 msgid "The `README` file of the main repository."
-msgstr ""
+msgstr "El fitxer `README` del repositori principal"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:356
 msgid "The `INSTALL` file."
-msgstr ""
+msgstr "El fitxer `INSTALL`"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:358
 msgid "The `CONTRIBUTING` file."
-msgstr ""
+msgstr "El fitxer `CONTRIBUTING`"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:360
 msgid "The `CONTRIBUTORS` file."
-msgstr ""
+msgstr "El fitxer `CONTRIBUTORS`"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:362
 msgid "The `LICENSE` file."
-msgstr ""
+msgstr "El fitxer `LICENSE`"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:364
@@ -737,6 +931,10 @@ msgid ""
 "language, someone in the team has to be responsible for getting it "
 "translated or asking the author to translate it."
 msgstr ""
+"En el cas del gestor d’incidències, si aquest deixa introduir-les a "
+"qualsevol persona i se n’introdueix alguna en una altra llengua, algú de "
+"l’equip s’ha d’encarregar de traduir-la, o bé de sol·licitar a l’autor que "
+"la tradueixi."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:368
@@ -745,11 +943,13 @@ msgid ""
 "Do not upload to the repository binary files or files that result from build "
 "(with exceptions)"
 msgstr ""
+"No pujar al repositori fitxers binaris ni fitxers producte del procés de "
+"build (amb excepcions)"
 
 #. type: delimited block *
 #: modules/ROOT/pages/technical-infrastructure.adoc:380
 msgid "Small images (icons, logos, etc.)"
-msgstr ""
+msgstr "Petites imatges (logos generals del projecte, etc.)"
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:385
@@ -758,6 +958,8 @@ msgid ""
 "Keep the configuration information in separate files and in a different "
 "private repository"
 msgstr ""
+"Mantenir la informació de configuració en fitxers separats i en un "
+"repositori privat diferent"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:396
@@ -765,18 +967,23 @@ msgid ""
 "This makes it easier to reuse the code.  It is incorrect to put the "
 "configuration:"
 msgstr ""
+"Això facilita la reutilització del codi. És incorrecte posar la configuració:"
+""
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:398
-msgid "Hardwired in the code itself (see the ref:measure M_A69 <measure_M_A69>."
-msgstr ""
+msgid ""
+"Hardwired in the code itself (see the ref:measure M_A69 <measure_M_A69>."
+msgstr "Hardwired en el propi codi (veure la ref:mesura M_A69 <mesura_M_A69>."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:400
 msgid ""
-"In files where commits (changes) are made in the same repository as the "
-"code."
+"In files where commits (changes) are made in the same repository as the code."
+""
 msgstr ""
+"En fitxers dels que es fa commit (canvis) al mateix repositori que conté el "
+"codi."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:404
@@ -785,11 +992,13 @@ msgid ""
 "Do not upload sensitive information regarding users, the City Council or "
 "third parties to the repository"
 msgstr ""
+"No pujar al repositori informació sensible d’usuaris, de l’Ajuntament o de "
+"tercers"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:408 modules/ROOT/pages/technical-infrastructure.adoc:519 modules/ROOT/pages/technical-infrastructure.adoc:556 modules/ROOT/pages/technical-infrastructure.adoc:573
 msgid "Procurement"
-msgstr ""
+msgstr "Contractar"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:415
@@ -797,6 +1006,8 @@ msgid ""
 "For example: configurations, usernames and passwords, public keys and other "
 "real credentials used in the production system."
 msgstr ""
+"Com pugui ser: configuracions, usuaris i contrasenyes, claus públiques o "
+"d’altres credencials reals usades en el sistema en producció."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:417
@@ -804,12 +1015,17 @@ msgid ""
 "Establish penalties (serious breach) in the contract performance conditions "
 "for breaching this rule."
 msgstr ""
+"A les condicions d’execució del contracte, establir penalitzacions (falta "
+"greu) si s’infringeix aquesta regla."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:421
 #, no-wrap
-msgid "Re-synchronise own repository with the upstream project repository weekly"
+msgid ""
+"Re-synchronise own repository with the upstream project repository weekly"
 msgstr ""
+"Re-sincronitzar cada setmana el repositori propi amb el repositori del "
+"projecte upstream"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:428
@@ -817,19 +1033,25 @@ msgid ""
 "[[repositori-de-codi-i-control-de-versions]]To finally enable our changes to "
 "be integrated and our defect notifications to make sense."
 msgstr ""
+"[[repositori-de-codi-i-control-de-versions]]Per permetre finalment integrar "
+"els nostres canvis, i que les nostres notificacions de defectes tinguin "
+"sentit."
 
 #. type: Title ==
 #: modules/ROOT/pages/technical-infrastructure.adoc:431
 #, no-wrap
 msgid "Issue manager"
-msgstr ""
+msgstr "Gestor d’incidències"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:438
 msgid ""
-"One tool all free software projects need is an issue manager or bug "
-"tracker.  At the City Council we assign it the following functions:"
+"One tool all free software projects need is an issue manager or bug tracker. "
+" At the City Council we assign it the following functions:"
 msgstr ""
+"Una eina que tots els projectes de codi obert necessiten és un gestor "
+"d’incidències. Als projectes de l’Ajuntament li assignarem les següents "
+"funcions:"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:443
@@ -837,10 +1059,14 @@ msgid ""
 "Provide notification of any defects detected (bugs tracked) by users and "
 "developers.  Also to make their treatment, evolution and eventual solution "
 "transparent.  It is important that the changes (commits) that solve a defect "
-"(bug) point it out in their message.  "
-"https://help.github.com/articles/closing-issues-using-keywords/[GitHub has "
-"keywords for this]."
+"(bug) point it out in their message.  https://help.github.com/articles/"
+"closing-issues-using-keywords/[GitHub has keywords for this]."
 msgstr ""
+"Notificar els defectes detectats (bug tracker) per part tant d’usuaris com "
+"de desenvolupadors. També fer-ne transparent el tractament, evolució i "
+"eventual solució. És important que els commit que resolen un defecte o "
+"assenyalin en el seu missatge. https://help.github.com/articles/closing-"
+"issues-using-keywords/[GitHub té una sintaxi especial per fer això]."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:448
@@ -851,6 +1077,11 @@ msgid ""
 "specify estimated completion dates.  All this contributes to the "
 "transparency and traceability of the development process."
 msgstr ""
+"Fer seguiment de les tasques pendents. Això permet després vincular un o més "
+"commit amb el tancament d’una tasca. També poder veure a qui s’assignen les "
+"tasques i com es prioritzen. Opcionalment s’hi poden especificar dates "
+"estimades de realització. Tot plegat contribueix a la transparència i "
+"traçabilitat del procés de desenvolupament."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:451
@@ -860,6 +1091,11 @@ msgid ""
 "feature requests and the GitHub space could be used for publicly managing "
 "and prioritising."
 msgstr ""
+"Fer seguiment de com es gestionen les contribucions de diferents parts, "
+"mitjançant el mecanisme de pull request. Fins i tot es pot obrir el gestor "
+"d’incidències a peticions de funcionalitats (feature request) i es pot "
+"utilitzar l’espai de GitHub com a lloc on es prioritzen i gestionen de "
+"manera pública."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:453
@@ -868,6 +1104,10 @@ msgid ""
 "the everyday work of developers but also that many project observers use it "
 "as a measure of how serious the project is."
 msgstr ""
+"S’ha de tenir en compte que el gestor d’incidències no és només important "
+"per al dia a dia dels desenvolupadors, sinó que molts observadors del "
+"projecte també el fan servir com a mesura de fins a quin punt estan davant "
+"d’un projecte seriós."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:455
@@ -875,12 +1115,15 @@ msgid ""
 "This bug tracker has to be operational and public throughout the product’s "
 "useful life, i.e. after the contracts with the City Council have finished."
 msgstr ""
+"Aquest gestor d’incidències ha d’estar operatiu i públic durant tota la vida "
+"útil del producte, més enllà de la duració que tinguin els contractes amb "
+"l’Ajuntament."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:459
 #, no-wrap
 msgid "Use GitHub/Gitlab for the issue manager of the project"
-msgstr ""
+msgstr "Vincular el repositori principal al gestor d’incidències de GitHub"
 
 #.  Once again it is the default option, in this case because of its automatic link with the GitHub repository and because it meets our accessibility and transparency requirements.
 #. type: Plain text
@@ -890,22 +1133,25 @@ msgid ""
 "can be modified later, depending on the needs of each project: `Bug`, "
 "`Feature Request`, etc."
 msgstr ""
+"S’hauran d’establir des de l’inici algunes categories bàsiques d’incidència, "
+"que després poden modificar-se segons les necessitats de cada projecte: "
+"`Bug`, `Request`, etcètera."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:475
 #, no-wrap
 msgid "Link the main repository to a public issue manager"
-msgstr ""
+msgstr "Vincular el repositori principal a un gestor d’incidències públic"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:485
 msgid "If this alternative is adopted, it must be borne in mind that:"
-msgstr ""
+msgstr "Si es fa servir aquesta alternativa, tenir en compte que:"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:487
 msgid "It has to be public, in the sense that:"
-msgstr ""
+msgstr "Necessàriament ha de ser públic, en el sentit que:"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:489
@@ -913,6 +1159,8 @@ msgid ""
 "Everybody has to be able to register as a system user without paying a "
 "subscription, and thus take part in development."
 msgstr ""
+"Tothom ha de poder registrar-se com usuari del sistema sense pagar cap "
+"subscripció, i així participar en el desenvolupament."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:491
@@ -920,12 +1168,14 @@ msgid ""
 "Everybody has to be able to see the issues and follow them, without having "
 "to register as a user."
 msgstr ""
+"Tothom ha de poder visualitzar les incidències i fer-ne un seguiment, sense "
+"necessitat de registrar-se com usuari."
 
 #.  The GitHub issue manager meets both conditions.
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:495
 msgid "It must be linked from the code repository `README` file."
-msgstr ""
+msgstr "Ha d’estar enllaçat des del fitxer `README` del repositori de codi."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:497
@@ -934,12 +1184,17 @@ msgid ""
 "own infrastructure, it has to be one of the following free tools: Gitlab, "
 "Redmine, Trac."
 msgstr ""
+"Si es vol tenir el gestor d’incidències en infraestructura pròpia de "
+"l’Ajuntament, utilitzar una de les següents eines lliures: Gitlab, Redmine, "
+"Trac."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:501
 #, no-wrap
 msgid "Use the issue manager for tasks, releases and new features"
 msgstr ""
+"Utilitzar el gestor d’incidències per tasques, entregues i noves "
+"funcionalitats"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:511
@@ -948,27 +1203,30 @@ msgid ""
 "they make a good tool for collaborating on any code-related issue, not just "
 "fixing bugs."
 msgstr ""
+"La integració entre el repositori i el issue tracker de GitHub fa que en "
+"combinació siguin una bona eina per col·laborar en la realització de "
+"qualsevol tasca relacionada amb el codi, i no només la resolució de bugs."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:515
 #, no-wrap
 msgid "Draw up and maintain an issue management policy"
-msgstr ""
+msgstr "Redactar i mantenir una política de gestió d’incidències"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:524
 msgid "It must specify:"
-msgstr ""
+msgstr "Ha d’especificar:"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:526
 msgid "Issue type (defects, tasks, milestones, etc.)."
-msgstr ""
+msgstr "Tipus d’incidència (deficiències, tasques, milestones, etc)."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:528
 msgid "Stages for those that arise."
-msgstr ""
+msgstr "Etapes per les que passen."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:531
@@ -976,21 +1234,28 @@ msgid ""
 "This task can be given to the company awarded the contract.  It it does not "
 "have one of its own, IMI will have to provide it with one."
 msgstr ""
+"Se li pot encarregar aquesta tasca a l’adjudicatari. Si no en té una de "
+"pròpia l’IMI n’hauria de proporcionar una per defecte."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:535
 #, no-wrap
 msgid "Give everyone permission to report issues, even anonymously"
 msgstr ""
+"Donar permisos per reportar incidències a tothom, fins i tot anònimament"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:546
 msgid ""
 "Configure the issue manager so it will not be necessary to create an account "
 "to report defects or anything else, in order to facilitate as many "
-"contributions as possible.  Activate the necessary anti-spam measures "
-"(e.g. captchas)."
+"contributions as possible.  Activate the necessary anti-spam measures (e.g. "
+"captchas)."
 msgstr ""
+"Configurar el gestor d’incidències per tal que no sigui imprescindible crear-"
+"s’hi un compte per fer-hi reportar deficiències o qualsevol altre element, "
+"per facilitar al màxim les aportacions. Activar les mesures anti-spam que "
+"siguin necessàries (per exemple captchas)."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:548
@@ -998,17 +1263,21 @@ msgid ""
 "It is always possible to keep an eye on someone who gives us problems or "
 "rethink this policy if it doesn't work on a project."
 msgstr ""
+"Sempre es pot vetar a alguna persona que doni problemes o reconsiderar "
+"aquesta política si no funciona en un projecte."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:552
 #, no-wrap
 msgid "Put someone in charge of filtering issues as they arrive"
 msgstr ""
+"Establir una persona encarregada de filtrar les incidències a mida que "
+"arriben"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:561
 msgid "Someone needs to be given the job of deleting duplicates, spam, etc."
-msgstr ""
+msgstr "S’ha d’encarregar d’eliminar duplicats, spam, etc."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:563
@@ -1017,6 +1286,9 @@ msgid ""
 "check privately with another person that the problem reoccurs in a second "
 "machine."
 msgstr ""
+"Complementar això amb un avís de que és necessari primer buscar duplicats i "
+"comprovar amb una altra persona, en privat, que el problema es reprodueix en "
+"una segona màquina."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:565
@@ -1024,12 +1296,17 @@ msgid ""
 "Budget for this task if it is done under contract with a company or a "
 "cooperative."
 msgstr ""
+"Pressupostar aquesta tasca si es fa sota un contracte amb una empresa o "
+"cooperativa."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:569
 #, no-wrap
-msgid "Notify the official bug tracker of the bugs in the product to be modified"
+msgid ""
+"Notify the official bug tracker of the bugs in the product to be modified"
 msgstr ""
+"Fer la notificació de defectes al bug tracker oficial del producte a "
+"modificar"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:578
@@ -1038,6 +1315,9 @@ msgid ""
 "can make to the project is to detect, isolate and fix any bugs there might "
 "be."
 msgstr ""
+"Quan estem adaptant un producte existent, una de les majors contribucions "
+"que podem fer al projecte és ajudar a detectar, aïllar i solucionar "
+"deficiències que pugui tenir."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:580
@@ -1046,12 +1326,15 @@ msgid ""
 "the bugs, in accordance with the guidelines of each project, to help improve "
 "the product upstream."
 msgstr ""
+"Cal obligar per contracte als adjudicataris a prendre’s la molèstia de "
+"notificar correctament les deficiències, d’acord amb les directrius de cada "
+"projecte, per ajudar a millorar el producte upstream."
 
 #. type: Title ==
 #: modules/ROOT/pages/technical-infrastructure.adoc:583
 #, no-wrap
 msgid "Integration infrastructure and testing"
-msgstr ""
+msgstr "Infraestructura d’integració i proves"
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:590
@@ -1060,34 +1343,36 @@ msgid ""
 "Link the main repository to a continuous integration system that run all the "
 "tests, make the results public"
 msgstr ""
+"Vincular el repositori principal a un sistema d’integració contínua de codi "
+"obert"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:601
 msgid ""
-"Use a free software tool that we can run in our own infrastructure if "
-"needed.  We recommend one of the following tools:"
-msgstr ""
+"Use a free software tool that we can run in our own infrastructure if needed."
+"  We recommend one of the following tools:"
+msgstr "Recomanem una de les següents eines:"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:603
 msgid "Jenkins"
-msgstr ""
+msgstr "Jenkins"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:604
 msgid "Gitlab CI"
-msgstr ""
+msgstr "Gitlab CI"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:605
 msgid "Travis CI"
-msgstr ""
+msgstr "Travis CI"
 
 #. type: Title ==
 #: modules/ROOT/pages/technical-infrastructure.adoc:608
 #, no-wrap
 msgid "Internal and external communication channels"
-msgstr ""
+msgstr "Canals de comunicació interns i externs"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:616
@@ -1098,6 +1383,11 @@ msgid ""
 "always be highly focused and strictly technical.  When the area under "
 "discussion broadens out, it is necessary to resort to other channels."
 msgstr ""
+"Els primers canals de comunicació entre desenvolupadors son els missatges de "
+"commit del repositori i els fils del gestor d’incidències. Moltes decisions "
+"tècniques es prenen en aquests fils, però convé que les discussions que s’hi "
+"duen a terme siguin sempre molt focalitzades i estrictament tècniques. Quan "
+"l’àmbit de la discussió s’eixampla, cal recórrer a d’altres canals."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:619
@@ -1107,6 +1397,10 @@ msgid ""
 "opinion of the different parties or individuals taking part in the project "
 "is sought and strategic decisions are taken."
 msgstr ""
+"Tots els projectes nous han de crear inicialment una llista de correu o "
+"fòrum de discussió per a desenvolupament, amb arxius públics. En aquest "
+"canal és on es demana la opinió a les diferents parts o persones que "
+"participen en el projecte, i on es prenen les decisions estratègiques."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:623
@@ -1117,6 +1411,11 @@ msgid ""
 "suffice.  Later it may be necessary to create specialised communication "
 "channels for different kinds of participants."
 msgstr ""
+"Inicialment hi haurà poca distància en quant a inquietuds i llenguatge entre "
+"els desenvolupadors i els primers usuaris (early adopters), que acostumen a "
+"estar molt motivats. Per això, en molts casos podran compartir el mateix "
+"canal. Més endavant pot ser necessari crear canals de comunicació "
+"especialitzats pels diferents tipus de participant."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:627
@@ -1128,12 +1427,21 @@ msgid ""
 "recorded for reference, a very valuable asset for the whole project "
 "community, present and future."
 msgstr ""
+"Depenent de la naturalesa i composició de l’equip, pot resultar convenient "
+"disposar també d’un xat que permeti una comunicació més immediata. De tota "
+"manera el xat és complementari amb la llista o fòrum, mai l’ha de substituir."
+" La llista o fòrum és on queda registrada de forma referenciable tota la "
+"història del projecte (debats, decisions, etcètera), que és un actiu molt "
+"valuós per a tota la comunitat present i futura del projecte."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:630
 #, no-wrap
-msgid "Create a development list or forum that will initially do for users as well"
+msgid ""
+"Create a development list or forum that will initially do for users as well"
 msgstr ""
+"Crear una llista o fòrum de desenvolupament que inicialment servirà també "
+"per usuaris"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:638
@@ -1142,6 +1450,9 @@ msgid ""
 "by people carrying out development work and others who are just users of the "
 "product, the early adopters."
 msgstr ""
+"nicialment el projecte tindrà un sol fòrum de discussió dedicat que "
+"compartiran tant les persones que realitzen el desenvolupament com aquelles "
+"que simplement siguin usuàries del producte (early adopters)."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:642
@@ -1152,18 +1463,25 @@ msgid ""
 "that uses this tool and which is undergoing trials at the City Council is "
 "https://alvus.barcelona/[Alvus]."
 msgstr ""
+"Recomanem utilitzar l’eina https://discourse.org/[Discourse], que fusiona "
+"les llistes de correu tradicionals amb un fòrum via web. Cal activar les "
+"opcions per a que qui ho desitgi pugui fer tota la interacció a través de "
+"correu electrònic. Un projecte que utilitza aquesta eina i que està en "
+"proves a l’Ajuntament és https://alvus.barcelona/[Alvus]."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:645
 msgid ""
-"An alternative is to use Mailman 3.  The list could be called "
-"`NAME-OF-THE-PROJECT-``dev`"
+"An alternative is to use Mailman 3.  The list could be called `NAME-OF-THE-"
+"PROJECT-``dev`"
 msgstr ""
+"Alternativament podem utilitzar Mailman 3. La llista es pot dir `NOM-DEL-"
+"PROJECTE-``dev`."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:647
 msgid "Activate the file and use it profusely."
-msgstr ""
+msgstr "Activar l’arxiu i utilitzar-lo profusament."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:650
@@ -1171,6 +1489,8 @@ msgid ""
 "Initially in Catalan and/or Spanish.  When participants appear in other "
 "languages, create a list in English."
 msgstr ""
+"Inicialment en català i/o castellà. Quan apareguin participants en altres "
+"llengües, crear una llista en anglès."
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:654
@@ -1180,25 +1500,34 @@ msgid ""
 "the forum.  If the people behind a product can be contacted, it engenders "
 "confidence in the product."
 msgstr ""
+"Els principals desenvolupadors hi han de ser presents, però no tenen "
+"obligació de respondre a totes les peticions. Al fòrum o llista cadascú hi "
+"intervé a títol individual. Fa més confiable el producte que es pugui "
+"contactar amb les persones que hi ha a darrera."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:658
 #, no-wrap
-msgid "Create a mail list for people who use the product, if the project grows"
+msgid ""
+"Create a mail list for people who use the product, if the project grows"
 msgstr ""
+"Crear una llista de correu per persones que usen el producte, si el projecte "
+"creix"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:666
 msgid "Activate the archive."
-msgstr ""
+msgstr "Activar l’arxiu."
 
 #. type: Block title
 #: modules/ROOT/pages/technical-infrastructure.adoc:670
 #, no-wrap
-msgid "Create a development chat room for immediate communication between the team"
+msgid ""
+"Create a development chat room for immediate communication between the team"
 msgstr ""
+" Crear un xat de desenvolupament per la comunicació immediata de l’equip"
 
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:678
 msgid "Use https://gitter.im/[gitter.im] or https://riot.im/[riot.im]."
-msgstr ""
+msgstr "Usar https://gitter.im/[gitter.im] o  https://riot.im/[riot.im]."

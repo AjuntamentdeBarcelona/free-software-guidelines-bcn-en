@@ -1,26 +1,24 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# David Pretel <david@abox.com>, 2019. #zanata
+# Guillem Marpons <gmarpons@mailbox.org>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2019-03-06 22:56+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2019-03-14 00:00+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-03-13 11:11+0000\n"
+"Last-Translator: Guillem Marpons <gmarpons@mailbox.org>\n"
+"Language-Team: Catalan\n"
+"Language: ca\n"
+"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #. type: Title =
 #: modules/ROOT/pages/communities.adoc:1
 #, no-wrap
 msgid "Free software communities"
-msgstr ""
+msgstr "Comunitats obertes"
 
 #. type: Plain text
 #: modules/ROOT/pages/communities.adoc:10
@@ -31,12 +29,18 @@ msgid ""
 "ongoing basis.  This chapter focuses on the more social aspects of how to "
 "work in this kind of community which is created around these projects."
 msgstr ""
+"En un projecte de codi obert hi ha molts nivells de participació, i convé no "
+"tancar-se a cap d’ells. A més del l’equip principal de desenvolupament, "
+"normalment persones contractades per a tal fi, pot haver-hi col·laboracions "
+"puntuals o continuades per part d’altres persones. Aquest capítol es centra "
+"en els aspectes més socials de com treballar en el tipus de comunitat que es "
+"crea al voltant d’aquests projectes."
 
 #. type: Title ==
 #: modules/ROOT/pages/communities.adoc:12
 #, no-wrap
 msgid "Contributing to free software communities"
-msgstr ""
+msgstr "Contribuir en comunitats obertes"
 
 #. type: Plain text
 #: modules/ROOT/pages/communities.adoc:19
@@ -44,26 +48,27 @@ msgid ""
 "The concept of contribution covers much more than the code.  It can also "
 "consist in:"
 msgstr ""
+"El concepte de contribució va més enllà del codi. També pot consistir en:"
 
 #. type: Plain text
 #: modules/ROOT/pages/communities.adoc:21
 msgid "Translations"
-msgstr ""
+msgstr "Traduccions"
 
 #. type: Plain text
 #: modules/ROOT/pages/communities.adoc:22
 msgid "Documentation"
-msgstr ""
+msgstr "Documentació"
 
 #. type: Plain text
 #: modules/ROOT/pages/communities.adoc:23
 msgid "Bug reports"
-msgstr ""
+msgstr "Notificació de deficiències (Bug reports)"
 
 #. type: Plain text
 #: modules/ROOT/pages/communities.adoc:24
 msgid "Other tasks"
-msgstr ""
+msgstr "Altres"
 
 #. type: Plain text
 #: modules/ROOT/pages/communities.adoc:28
@@ -74,6 +79,10 @@ msgid ""
 "they work or participate on behalf of an organisation.  The reasons for this "
 "are:"
 msgstr ""
+"Una norma bàsica és que les contribucions son sempre individuals, tant en "
+"els nostres projectes com quan contribuïm a projectes externs. Això vol dir "
+"que es pot traçar sempre quina persona concreta l’ha realitzat, encara que "
+"treballi o participi en nom d’alguna organització. Les raons d’això son que:"
 
 #. type: Plain text
 #: modules/ROOT/pages/communities.adoc:30
@@ -81,6 +90,8 @@ msgid ""
 "It is the only model which free software projects are structurally equipped "
 "to handle."
 msgstr ""
+"És l’única entitat per la que els projectes de codi obert estan "
+"estructuralment equipats per gestionar."
 
 #. type: Plain text
 #: modules/ROOT/pages/communities.adoc:33
@@ -88,9 +99,14 @@ msgid ""
 "In free software projects, reputation is what makes everything tick, and "
 "that is earned or lost individually.  People will rely more or less on the "
 "code someone has developed depending on the strength of previous "
-"contributions; their opinions in the communication channels and "
-"decision-making will carry more or less weight, etc."
+"contributions; their opinions in the communication channels and decision-"
+"making will carry more or less weight, etc."
 msgstr ""
+"Dins dels projectes de codi obert la reputació és com la moneda que fa "
+"funcionar tota la maquinària, i aquesta es guanya o es perd de forma "
+"individual. Segons la solidesa demostrada en contribucions anteriors es "
+"confiarà més o menys en el codi que ha fet algú, les seves opinions als "
+"canals de comunicació i presa de decisions tindran més o menys pes, etc."
 
 #. type: Plain text
 #: modules/ROOT/pages/communities.adoc:37
@@ -99,6 +115,10 @@ msgid ""
 "model.  It makes interaction easier when they collaborate remotely.  It is "
 "also useful for them in developing a professional career."
 msgstr ""
+"Els desenvolupadors que treballen habitualment en projectes de codi obert "
+"estan acostumats a aquest model. Fa més senzilles les interaccions quan es "
+"col·labora a distància. També és d’interès per ells per construir-se una "
+"carrera professional."
 
 #. type: Plain text
 #: modules/ROOT/pages/communities.adoc:40
@@ -108,6 +128,10 @@ msgid ""
 "modifications are incorporated, sooner or later, into the original product.  "
 "That way we can:"
 msgstr ""
+"L’altra consideració important en aquest apartat, aplicable si volem "
+"modificar un component extern ja existent, és que sempre és molt convenient "
+"que les nostres modificacions al codi quedin incorporades, tard o d’hora, al "
+"producte original. Amb això aconseguim:"
 
 #. type: Plain text
 #: modules/ROOT/pages/communities.adoc:43
@@ -115,6 +139,9 @@ msgid ""
 "Reduce future maintenance costs.  If the integration is 100%, maintaining "
 "the features we have integrated might work out at zero cost to us."
 msgstr ""
+"Reduir el cost futur de manteniment. Si la integració és total, pot ser fins "
+"i tot que el manteniment de les funcionalitats integrades ens surti a cost 0."
+""
 
 #. type: Plain text
 #: modules/ROOT/pages/communities.adoc:45
@@ -122,6 +149,8 @@ msgid ""
 "Benefit from future improvements to the original product contributed by "
 "others."
 msgstr ""
+"Beneficiar-nos de futures millores del producte original aportades per "
+"altres parts."
 
 #. type: Plain text
 #: modules/ROOT/pages/communities.adoc:48
@@ -130,6 +159,10 @@ msgid ""
 "institution that contributes to the project and free software communities as "
 "a whole.  In the long run that could give it prestige and influence."
 msgstr ""
+"Si més gent utilitza la nostra funcionalitat, l’Ajuntament apareixerà com "
+"una institució que aporta al projecte i al comú global de les comunitats de "
+"programari lliure. Això a la llarga li pot donar capacitat prestigi i "
+"influència."
 
 #. type: Plain text
 #: modules/ROOT/pages/communities.adoc:52
@@ -141,52 +174,58 @@ msgid ""
 "everybody informed of our plans at all times and try to ensure they converge "
 "with those of the community we are addressing:"
 msgstr ""
+"Tenir en compte, però, que podem planificar per facilitar aquesta "
+"integració, però normalment no podrem garantir que es produeixi en les "
+"etapes inicials d’un projecte. Cada comunitat té les seves regles de "
+"governança i presa de decisions, i s’han de respectar. Però el que sí convé "
+"fer és informar en tot moment dels nostres plants i intentar que "
+"convergeixin amb els de la comunitat a la que ens adrecem. Com diu a http://"
+"producingoss.com/en/contracting.html#community-review-acceptance:"
 
-#. type: Positional ($2) AttributeList argument for style 'quote'
-#: modules/ROOT/pages/communities.adoc:54
-#, no-wrap
-msgid "Karl Fogel"
-msgstr ""
-
-#. type: Positional ($3) AttributeList argument for style 'quote'
-#: modules/ROOT/pages/communities.adoc:54
-#, no-wrap
-msgid "{quote-url}"
-msgstr ""
-
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:57
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:55
 msgid ""
-"Don't think of community scrutiny as an obstacle to be overcome — think of "
+"\"Don't think of community scrutiny as an obstacle to be overcome — think of "
 "it as a free design board and QA department.  It is a benefit to be "
-"aggressively pursued, not an obstacle to be merely endured."
+"aggressively pursued, not an obstacle to be merely endured.\""
 msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:56
+msgid ""
+"Karl Fogel, https://producingoss.com/en/contracting.html#community-review-"
+"acceptance[Producing Open Source Software]"
+msgstr ""
+"Karl Fogel, https://producingoss.com/en/contracting.html#community-review-"
+"acceptance[Producing Open Source Software]"
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:59
+#: modules/ROOT/pages/communities.adoc:58
 #, no-wrap
 msgid ""
 "Ensure the authorship of each contribution (code, documentation or messages) "
 "is individual"
 msgstr ""
+"Fer que l’autoria de cada contribució (codi, documentació o missatge) sigui "
+"individual"
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:63 modules/ROOT/pages/communities.adoc:81 modules/ROOT/pages/communities.adoc:95 modules/ROOT/pages/communities.adoc:110 modules/ROOT/pages/communities.adoc:131 modules/ROOT/pages/communities.adoc:158 modules/ROOT/pages/communities.adoc:174 modules/ROOT/pages/communities.adoc:189 modules/ROOT/pages/communities.adoc:336
+#: modules/ROOT/pages/communities.adoc:62 modules/ROOT/pages/communities.adoc:80 modules/ROOT/pages/communities.adoc:94 modules/ROOT/pages/communities.adoc:109 modules/ROOT/pages/communities.adoc:130 modules/ROOT/pages/communities.adoc:157 modules/ROOT/pages/communities.adoc:173 modules/ROOT/pages/communities.adoc:188 modules/ROOT/pages/communities.adoc:335
 msgid "Adaptation"
-msgstr ""
+msgstr "Adaptació"
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:64 modules/ROOT/pages/communities.adoc:96 modules/ROOT/pages/communities.adoc:111 modules/ROOT/pages/communities.adoc:159 modules/ROOT/pages/communities.adoc:175 modules/ROOT/pages/communities.adoc:190 modules/ROOT/pages/communities.adoc:211 modules/ROOT/pages/communities.adoc:248 modules/ROOT/pages/communities.adoc:264 modules/ROOT/pages/communities.adoc:293 modules/ROOT/pages/communities.adoc:337 modules/ROOT/pages/communities.adoc:362 modules/ROOT/pages/communities.adoc:386
+#: modules/ROOT/pages/communities.adoc:63 modules/ROOT/pages/communities.adoc:95 modules/ROOT/pages/communities.adoc:110 modules/ROOT/pages/communities.adoc:158 modules/ROOT/pages/communities.adoc:174 modules/ROOT/pages/communities.adoc:189 modules/ROOT/pages/communities.adoc:210 modules/ROOT/pages/communities.adoc:247 modules/ROOT/pages/communities.adoc:263 modules/ROOT/pages/communities.adoc:292 modules/ROOT/pages/communities.adoc:336 modules/ROOT/pages/communities.adoc:361 modules/ROOT/pages/communities.adoc:385
 msgid "Plugin"
-msgstr ""
+msgstr "Plugin"
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:65 modules/ROOT/pages/communities.adoc:97 modules/ROOT/pages/communities.adoc:160 modules/ROOT/pages/communities.adoc:212 modules/ROOT/pages/communities.adoc:222 modules/ROOT/pages/communities.adoc:237 modules/ROOT/pages/communities.adoc:249 modules/ROOT/pages/communities.adoc:265 modules/ROOT/pages/communities.adoc:294 modules/ROOT/pages/communities.adoc:316 modules/ROOT/pages/communities.adoc:338 modules/ROOT/pages/communities.adoc:363 modules/ROOT/pages/communities.adoc:387
+#: modules/ROOT/pages/communities.adoc:64 modules/ROOT/pages/communities.adoc:96 modules/ROOT/pages/communities.adoc:159 modules/ROOT/pages/communities.adoc:211 modules/ROOT/pages/communities.adoc:221 modules/ROOT/pages/communities.adoc:236 modules/ROOT/pages/communities.adoc:248 modules/ROOT/pages/communities.adoc:264 modules/ROOT/pages/communities.adoc:293 modules/ROOT/pages/communities.adoc:315 modules/ROOT/pages/communities.adoc:337 modules/ROOT/pages/communities.adoc:362 modules/ROOT/pages/communities.adoc:386
 msgid "NewProduct"
-msgstr ""
+msgstr "NouProducte"
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:68
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:67
 msgid ""
 "Don't hide the team's contributions under a corporate identity in our own "
 "projects or external projects.  In other words, use the usernames and "
@@ -194,188 +233,253 @@ msgid ""
 "repository, as well as when participating in the project communication "
 "channels or management tools."
 msgstr ""
+"No amagar les contribucions de l’equip, ni a un projecte propi, ni a un "
+"d’extern, sota una identitat corporativa. És a dir, tant als commit al "
+"repositori, com quan es participa en canals de comunicació del projecte o en "
+"eines de gestió, utilitzar noms d’usuari i adreces de correu individuals de "
+"cada persona participant."
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:70
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:69
 msgid ""
 "If any individual contributes to a software project as a worker hired "
 "directly or indirectly by the City Council on some occasions, and as a "
 "volunteer in his or her free time on other occasions, they will have to use "
 "two different emails, depending on the case:"
 msgstr ""
+"Si un mateix individu contribueix a un projecte de programari a vegades com "
+"a treballador contractat directament o indirecta per l’Ajuntament, i "
+"d’altres vegades com a voluntari en el seu temps lliure, aleshores ha "
+"d’utilitzar dues adreces de correu diferents, segons el cas:"
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:72
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:71
 msgid "A personal email when making voluntary contributions."
-msgstr ""
+msgstr "Una de personal quan faci contribucions voluntàries."
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:73
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:72
 msgid ""
 "A company or City Council email when carrying out tasks specified by their "
 "contract."
 msgstr ""
+"Una de l’empresa, o bé una proporcionada per l’Ajuntament, quan compleixi "
+"amb tasques especificades al seu contracte."
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:77
+#: modules/ROOT/pages/communities.adoc:76
 #, no-wrap
 msgid ""
 "Inform the technical communities of the component to be modified about our "
 "plans"
 msgstr ""
+"Informar dels nostres plans a les comunitats tècniques del component a "
+"modificar"
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:85
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:84
 msgid ""
 "If we want to modify or adapt an existing component, we have to be open and "
 "clear about our reasons.  As it is a free software component, they cannot "
 "prevent us from making modifications.  However, we strongly advise informing "
 "them of our needs and technical plans beforehand."
 msgstr ""
+"Si el que volem és modificar i adaptar un component ja existent, cal que "
+"siguem oberts i clars respecte de les nostres motivacions. En ser el "
+"component de programari lliure, no ens poden negar fer-hi modificacions. No "
+"obstant això, és molt convenient informar prèviament de les nostres "
+"necessitats, i de la nostra planificació tècnica."
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:87
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:86
 msgid ""
 "We need to ensure the support community of the component that is to be "
 "modified understands and gets involved in our proposal."
 msgstr ""
+"Cal esforçar-se per tal que la comunitat de suport del component a modificar "
+"entengui i s’involucri en la nostra proposta."
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:91
+#: modules/ROOT/pages/communities.adoc:90
 #, no-wrap
 msgid "Inform other relevant technical communities of our plans"
 msgstr ""
+"Informar dels nostres plans a d’altres comunitats tècniques rellevants"
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:99
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:98
 msgid ""
 "Free software communities are usually very interested in contributing ideas, "
 "technical knowledge and even working extra hours of work, when faced with "
 "technical challenges they believe could benefit them."
 msgstr ""
+"Les comunitats de programari lliure acostumen a estar molt interessades en "
+"aportar idees, coneixement tècnic, i fins i tot hores de feina més enllà "
+"d’això, davant de reptes tècnics i projectes que creguin que les poden "
+"beneficiar."
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:101
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:100
 msgid ""
 "IMI projects will study the possibilities of collaborating with the local "
 "communities of free software and innovative technologies to promote social "
 "and technological innovation."
 msgstr ""
+"Els projectes de l’IMI estudiaran les possibilitats de col·laboració amb les "
+"comunitats locals de programari lliure i tecnologies innovadores per "
+"promoure la innovació social i tecnològica."
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:105
+#: modules/ROOT/pages/communities.adoc:104
 #, no-wrap
 msgid "Hire developers who are recognised in the project we want to modify"
 msgstr ""
+"Contractar desenvolupadors reconeguts dins del projecte que es vol modificar"
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:109 modules/ROOT/pages/communities.adoc:130 modules/ROOT/pages/communities.adoc:157 modules/ROOT/pages/communities.adoc:173 modules/ROOT/pages/communities.adoc:247
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:108 modules/ROOT/pages/communities.adoc:129 modules/ROOT/pages/communities.adoc:156 modules/ROOT/pages/communities.adoc:172 modules/ROOT/pages/communities.adoc:246
 msgid "Procurement"
-msgstr ""
+msgstr "Contractar"
 
 #.   links outgoing: link:#A_1F9[_A_1F9_]
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:115
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:114
 msgid ""
 "This could be done directly or by means of a contract with a company or "
 "cooperative that wins the tender."
 msgstr ""
+"Pot ser directament o a través del contracte amb una empresa o cooperativa "
+"adjudicatària."
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:118
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:117
 msgid ""
 "There are never any guarantees that the modifications we need to make will "
 "be accepted in the original product but relying on recognised developers "
 "will give us more options for achieving that.  Aside from any technical "
 "knowledge they might have, they could bring:"
 msgstr ""
+"Mai hi ha garanties de que les modificacions que necessitem fer seran "
+"acceptades dins del producte original, però comptar amb desenvolupadors "
+"reconeguts és la via que ens dóna més opcions d’aconseguir-ho. Aquests poden "
+"aportar, a més del coneixement tècnic que puguin tenir:"
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:120
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:119
 msgid "An insider's view of the technical ideas most likely to be accepted."
 msgstr ""
+"Una visió des de dins de quines propostes tècniques poden tenir millor "
+"acceptació."
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:122
-msgid "The value of being a respected figure in the community that takes decisions."
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:121
+msgid ""
+"The value of being a respected figure in the community that takes decisions."
 msgstr ""
+"El valor que aporta ser una veu respectada dins de la comunitat que pren "
+"decisions."
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:126
+#: modules/ROOT/pages/communities.adoc:125
 #, no-wrap
 msgid ""
 "Compel the contract winner to take measures that make it easier to integrate "
 "the changes in the original product"
 msgstr ""
+"Obligar a l’adjudicatari a mesures que facilitin integrar els canvis al "
+"producte original"
 
 #.   links incoming: link:#M_34D[_M_34D_]
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:135
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:134
 msgid "That includes:"
-msgstr ""
+msgstr "Això inclou:"
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:137
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:136
 msgid ""
 "Clearly describing the collaborative tasks the contract winner is expected "
 "to take part in and explain that this is part of the budget, as described in "
 "the #h:a6bb27a3-2b23-4585-81ca-dc5b4d29ccd7[Measure: Budget for the extra "
 "costs of participating in the community of the product to be modified]."
 msgstr ""
+"Descriure amb claredat les tasques col·laboratives en que s’espera que "
+"l’adjudicatari s’involucri, i explicar que això forma part del pressupost, "
+"com es descriu a la #h:a6bb27a3-2b23-4585-81ca-dc5b4d29ccd7[Mesura: "
+"Pressupostar el sobrecost de participar en la comunitat oberta del producte "
+"a modificar]."
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:141
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:140
 msgid ""
 "The contract winner accepting and applying the Developer Guidelines, the "
 "rules for drafting documentation and the Code of Conduct for the project, if "
 "there is one, as well as other written documents governing any rules that "
 "might exist, both general and the specific rules for specific communication "
 "channels.  Should the project not have a formal set of internal rules of its "
-"own, normal rules of netiquette will apply.  "
-"https://www.ietf.org/rfc/rfc1855.txt."
+"own, normal rules of netiquette will apply.  https://www.ietf.org/rfc/"
+"rfc1855.txt."
 msgstr ""
+"Que l’adjudicatari accepti i apliqui les Directrius de desenvolupament, les "
+"normes de redacció de documentació i el Codi de conducta del projecte, si en "
+"té, o altres documents escrits que regulin les normes que puguin existir, "
+"tant generals com a les específiques per canals de comunicació concrets. En "
+"cas de que el projecte no hagi formalitzat un corpus propi de normes "
+"internes, aplicaran les normes usuals de netiqueta, p.ex. https://www.ietf."
+"org/rfc/rfc1855.txt."
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:143
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:142
 msgid ""
 "Certain awardee profiles becoming users of the project communication "
 "channels."
 msgstr ""
+"Que determinats perfils de l’adjudicatari es creïn usuaris als canals de "
+"comunicació del projecte."
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:145
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:144
 msgid ""
 "Periodically informing the community of the modifications planned, the part "
 "done and the technical decisions being taken."
 msgstr ""
+"Que s’informi periòdicament a la comunitat de les modificacions "
+"planificades, de la part executada, de les decisions tècniques que es van "
+"prenent."
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:147
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:146
 msgid ""
 "Promptly informing IMI of all the feedback received by the community, both "
 "positive and negative, on the aims of integrating new features."
 msgstr ""
+"Que s’informi puntualment a l’IMI de tot el feedback rebut per part de la "
+"comunitat, tant positiu com negatiu, sobre les pretensions d’integrar nova "
+"funcionalitat."
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:149
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:148
 msgid ""
 "IMI staff will have to monitor all of this and possibly intervene directly "
 "in the community discussions."
 msgstr ""
+"El personal de l’IMI haurà de fer seguiment de tot això i potser intervenir "
+"directament en els debats de la comunitat."
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:153
+#: modules/ROOT/pages/communities.adoc:152
 #, no-wrap
 msgid "Penalise contractors if there are any changes in the project staff"
 msgstr ""
+"Penalitzar els adjudicataris si hi ha canvis en la plantilla del projecte"
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:162
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:161
 msgid "Measures to bear in mind when drawing up the contract specifications."
-msgstr ""
+msgstr "A tenir en compte en la redacció del plec de contractació."
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:165
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:164
 msgid ""
 "A high turnover is detrimental to any project but especially when "
 "participating in free software projects.  Developers who leave not only take "
@@ -383,48 +487,60 @@ msgid ""
 "their status in the community and the human relationships they might have "
 "developed."
 msgstr ""
+"Una alta rotació penalitza qualsevol projecte, però especialment quan es "
+"participa en projectes de codi obert. Els desenvolupadors que marxen no "
+"només s’emporten amb ells un el coneixement tècnic que puguin acumular, sinó "
+"el seu estatus dins la comunitat i les relacions humanes que hi puguin haver "
+"desenvolupat."
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:169
+#: modules/ROOT/pages/communities.adoc:168
 #, no-wrap
 msgid ""
 "Budget for the extra costs of participating in the community of the product "
 "to be modified"
 msgstr ""
+"Pressupostar el sobrecost de participar en la comunitat oberta del producte "
+"a modificar"
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:178
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:177
 msgid ""
 "It needs to be specified in as much detail as possible to what extent IMI "
 "expects the contract awardee to be involved in the project and disseminate "
 "the features to be developed among:"
 msgstr ""
+"S’ha d’especificar de la manera més detallada possible com i en quina mesura "
+"l’IMI espera que l’adjudicatari s’involucrarà en el projecte i difondrà les "
+"funcionalitats a desenvolupar, tant en:"
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:180
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:179
 msgid "The development communities involved"
-msgstr ""
+msgstr "Les comunitats de desenvolupament implicades"
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:181
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:180
 msgid "Potential users"
-msgstr ""
+msgstr "Potencials usuaris i usuaries"
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:185
+#: modules/ROOT/pages/communities.adoc:184
 #, no-wrap
 msgid ""
 "Maintain a permanent private communication channel for discussing conflicts "
 "of interest"
 msgstr ""
+"Mantenir un canal de comunicació privat permanent per discutir conflictes "
+"d’interès"
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:192
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:191
 msgid "Ideally a mail thread."
-msgstr ""
+msgstr "Idealment un fil de correu."
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:195
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:194
 msgid ""
 "When people are hired to take part in an established free software project, "
 "especially if they are developers that were already taking part in it, there "
@@ -432,96 +548,109 @@ msgid ""
 "original source project.  The developers will have the feeling they have to "
 "serve two superiors and cannot always satisfy both."
 msgstr ""
+"Quan es contracta gent per participar en un projecte de codi obert ja "
+"establert, sobretot si son desenvolupadors que ja participaven al projecte, "
+"els interessos del projecte de l’Ajuntament i els del projecte de codi obert "
+"original poden entrar en conflicte. Els desenvolupadors tindran la sensació "
+"que han de servir a dos caps i que no sempre es pot satisfer als dos."
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:197
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:196
 msgid ""
 "We have to ask for maximum transparency in these cases and try to anticipate "
 "these situations."
 msgstr ""
+"S’ha de demanar màxima transparència en aquests casos i intentar anticipar "
+"aquestes situacions."
 
 #. type: Title ==
-#: modules/ROOT/pages/communities.adoc:200
+#: modules/ROOT/pages/communities.adoc:199
 #, no-wrap
 msgid "Free software community management and governance"
-msgstr ""
+msgstr "Gestió i governança de comunitats obertes"
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:207
+#: modules/ROOT/pages/communities.adoc:206
 #, no-wrap
 msgid "Recognise people who make contributions to the project"
-msgstr ""
+msgstr "Donar reconeixement a les persones que fan contribucions al projecte"
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:214
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:213
 msgid ""
 "All individuals that have made a relevant contribution to the code or the "
 "documentation should appear in a `CONTRIBUTORS` file in the repository’s "
 "root directory."
 msgstr ""
+"En un fitxer `CONTRIBUTORS` a l’arrel del repositori. A nivell individual."
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:218
+#: modules/ROOT/pages/communities.adoc:217
 #, no-wrap
 msgid ""
 "Budget for the extra cost of encouraging the creation of a free software "
 "community"
 msgstr ""
+"Pressupostar el sobrecost d’incentivar la creació d’una comunitat oberta"
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:225
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:224
 msgid "This includes things such as developers dedicating time on:"
-msgstr ""
+msgstr "Això inclou coses com que els desenvolupadors dediquin temps a:"
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:227
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:226
 msgid "Revising the code of others"
-msgstr ""
+msgstr "Revisar codi de tercers"
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:228
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:227
 msgid "Replying to messages in the project communication channels"
-msgstr ""
+msgstr "Respondre missatges als canals de comunicació del projecte"
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:229
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:228
 msgid "Intervening in StackOverflow"
-msgstr ""
+msgstr "Intervenir a StackOverflow"
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:233
+#: modules/ROOT/pages/communities.adoc:232
 #, no-wrap
 msgid ""
 "Draw up and update an internal document establishing the level of commitment "
 "we want from each party"
 msgstr ""
+"Redactar i actualitzar un document intern establint el grau de compromís que "
+"volem tenir amb cada part"
 
-#. type: quote
-#: modules/ROOT/pages/communities.adoc:239
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:238
 msgid "Pay special attention to possible early adopters."
-msgstr ""
+msgstr "Prestar especial atenció als possibles early adopters."
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:243
+#: modules/ROOT/pages/communities.adoc:242
 #, no-wrap
 msgid ""
 "In the contract, stipulate that the awardee has to include external "
 "contributions if the City Council so decides"
 msgstr ""
+"Establir per contracte que l’adjudicatari ha d’incloure contribucions "
+"externes si ho decideix l’Ajuntament"
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:250 modules/ROOT/pages/communities.adoc:266 modules/ROOT/pages/communities.adoc:295 modules/ROOT/pages/communities.adoc:317
+#: modules/ROOT/pages/communities.adoc:249 modules/ROOT/pages/communities.adoc:265 modules/ROOT/pages/communities.adoc:294 modules/ROOT/pages/communities.adoc:316
 msgid "Publication"
-msgstr ""
+msgstr "Publicació"
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:251
+#: modules/ROOT/pages/communities.adoc:250
 #, no-wrap
 msgid "Example clause: *External contributions*."
-msgstr ""
+msgstr "Exemple de clàusula: *Contribucions externes*."
 
 #. type: delimited block *
-#: modules/ROOT/pages/communities.adoc:254
+#: modules/ROOT/pages/communities.adoc:253
 msgid ""
 "While the contract remains in force, including the warranty period, the "
 "awardee has an obligation to integrate any external contributions that "
@@ -529,60 +658,83 @@ msgid ""
 "documentation and which do not involve developing features not provided for "
 "in the contract, for example, those that fix bugs."
 msgstr ""
+"Durant la duració del contracte, incloent el període de garantia, "
+"l’adjudicatari té l’obligació d’integrar aquelles contribucions externes que "
+"l’Ajuntament de Barcelona consideri que milloren el codi o la documentació "
+"pública i que no impliquen el desenvolupament de funcionalitat no prevista "
+"en el contracte per part de l’adjudicatari, per exemple aquelles que "
+"solucionen bugs."
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:259
+#: modules/ROOT/pages/communities.adoc:258
 #, no-wrap
 msgid "Publish brief Developer Guidelines"
 msgstr ""
+"Publicar unes breus Directrius per desenvolupadors (Developer Guidelines)"
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:263
+#: modules/ROOT/pages/communities.adoc:262
 msgid "Day1"
-msgstr ""
+msgstr "Dia1"
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:269
+#: modules/ROOT/pages/communities.adoc:268
 msgid ""
 "These guidelines establish the technical and social conventions that "
-"determine interactions between developers, and between developers and "
-"users.  They apply to all developers, both those hired by the City Council "
-"and external developers, as well as Council staff."
+"determine interactions between developers, and between developers and users. "
+" They apply to all developers, both those hired by the City Council and "
+"external developers, as well as Council staff."
 msgstr ""
+"Aquesta guia estableix les convencions tècniques i socials que determinen "
+"les interaccions entre desenvolupadors, i entre desenvolupadors i usuaris. "
+"És d’aplicació per tots els desenvolupadors, tant els contractats per "
+"l’Ajuntament, com els externs, com el personal del mateix Ajuntament."
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:271
+#: modules/ROOT/pages/communities.adoc:270
 msgid ""
 "They must be drawn up in English and either be a GitHub/Gitlab wiki page or "
 "a text file with light markup language."
 msgstr ""
+"S’ha de redactar en anglès i ha de ser, o bé una pàgina de la pròpia wiki de "
+"GitHub, o bé un fitxer de text amb llenguatge de marques lleuger."
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:273
+#: modules/ROOT/pages/communities.adoc:272
 msgid ""
 "The guidelines might grow over time but, initially, only three things need "
 "to be made clear:"
 msgstr ""
+"La guia pot créixer amb al temps, però a l’inici només cal deixar clares "
+"tres coses:"
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:274
+msgid ""
+"What communication channels the project has and what each one is used for."
+msgstr ""
+"Quins son els canals de comunicació de que disposa el projecte i per a què "
+"s’utilitza cadascun."
 
 #. type: Plain text
 #: modules/ROOT/pages/communities.adoc:275
-msgid "What communication channels the project has and what each one is used for."
-msgstr ""
-
-#. type: Plain text
-#: modules/ROOT/pages/communities.adoc:276
 msgid ""
 "Instructions on how to report bugs and how to make contributions to the "
 "project."
 msgstr ""
+"Instruccions de com reportar defectes (bugs) i de com fer contribucions al "
+"projecte."
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:277
-msgid "A brief description of project governance: who takes decisions and how."
+#: modules/ROOT/pages/communities.adoc:276
+msgid ""
+"A brief description of project governance: who takes decisions and how."
 msgstr ""
+"Una descripció breu de com és la governança del projecte: qui i com pren les "
+"decisions."
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:281
+#: modules/ROOT/pages/communities.adoc:280
 msgid ""
 "In many cases the only thing that needs to be said about the third point is "
 "that while the contract is in force, the City Council will prioritise the "
@@ -592,73 +744,89 @@ msgid ""
 "also be mentioned that in the future an appropriate governance model will be "
 "studied for the project’s changing circumstances."
 msgstr ""
+"En molts casos només caldrà dir que durant la duració del contracte en vigor "
+"l’Ajuntament és qui prioritza les funcionalitats a desenvolupar, els "
+"defectes a arreglar. També té la última paraula sobre les solucions "
+"tècniques a adoptar, les contribucions a integrar i les versions a publicar. "
+"Es pot dir que en un futur s’estudiarà un model de governança adequat a "
+"l’evolució de les circumstàncies del projecte."
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:283
+#: modules/ROOT/pages/communities.adoc:282
 msgid "These Developer Guidelines should, as a minimum, be linked from:"
 msgstr ""
+"Aquestes Directrius per desenvolupadors han d’estar enllaçades com a mínim "
+"des de:"
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:285 modules/ROOT/pages/communities.adoc:376
+#: modules/ROOT/pages/communities.adoc:284 modules/ROOT/pages/communities.adoc:375
 msgid "The `README` file of the main repository."
-msgstr ""
+msgstr "El fitxer `README` del repositori principal."
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:289
+#: modules/ROOT/pages/communities.adoc:288
 #, no-wrap
 msgid "Publish detailed Developer Guidelines (if the project grows)"
 msgstr ""
+"Publicar unes Directrius per desenvolupadors (Developer Guidelines) "
+"detallades (si el projecte creix)"
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:298
+#: modules/ROOT/pages/communities.adoc:297
 msgid ""
 "For big projects, and without it being the first measure to adopt, it could "
 "be useful to work on and publish some broader, more detailed Developer "
-"Guidelines than those proposed in the "
-"link:#publicar-breus-directrius-desenvolupadors[Measure: (Day 1) Publish "
-"brief Developer Guidelines]."
+"Guidelines than those proposed in the link:#publicar-breus-directrius-"
+"desenvolupadors[Measure: (Day 1) Publish brief Developer Guidelines]."
 msgstr ""
+"Per projectes grans, i sense que sigui la primera mesura a prendre, pot ser "
+"interessant treballar i publicar unes Directrius per desenvolupadors més "
+"extenses i detallades que el que es proposa a la link:#publicar-breus-"
+"directrius-desenvolupadors[Mesura: (Dia 1) Publicar unes breus Directrius "
+"per desenvolupadors (*Developer Guidelines*)]."
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:300
+#: modules/ROOT/pages/communities.adoc:299
 msgid "Things that might be included:"
-msgstr ""
+msgstr "Coses que s’hi poden incloure:"
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:301
+msgid "Codification conventions"
+msgstr "Convencions de codificació"
 
 #. type: Plain text
 #: modules/ROOT/pages/communities.adoc:302
-msgid "Codification conventions"
-msgstr ""
-
-#. type: Plain text
-#: modules/ROOT/pages/communities.adoc:303
 msgid "Documentation conventions"
-msgstr ""
+msgstr "Convencions per a la documentació"
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:305
+#: modules/ROOT/pages/communities.adoc:304
 msgid "Some examples:"
-msgstr ""
+msgstr "Alguns exemples:"
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:306
+msgid "http://subversion.apache.org/docs/community-guide/"
+msgstr "http://subversion.apache.org/docs/community-guide/"
 
 #. type: Plain text
 #: modules/ROOT/pages/communities.adoc:307
-msgid "http://subversion.apache.org/docs/community-guide/"
-msgstr ""
-
-#. type: Plain text
-#: modules/ROOT/pages/communities.adoc:308
 msgid "https://wiki.documentfoundation.org/Development"
-msgstr ""
+msgstr "https://wiki.documentfoundation.org/Development"
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:312
+#: modules/ROOT/pages/communities.adoc:311
 #, no-wrap
 msgid ""
 "Draw up a governance model for the global community that supports the "
 "product"
 msgstr ""
+"Redactar un model de governança per la comunitat global que dona suport al "
+"producte"
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:319
+#: modules/ROOT/pages/communities.adoc:318
 msgid ""
 "Projects that generate entirely free software tools and systems by means of "
 "a development service promoted and financed by the City Council will have to "
@@ -668,9 +836,17 @@ msgid ""
 "processes for including external contributions, managing intellectual "
 "property and sustainability after the project."
 msgstr ""
+"Els projectes que generen sistemes i eines completament FOSS a través d’un "
+"servei de desenvolupament promogut i finançat per l’Ajuntament hauran "
+"d’incloure un model de governança que inclogui, entre d’altres: una "
+"aproximació a la definició de la comunitat (d’altres Ajuntaments, "
+"especialistes com geodata o biblioteques, etc.), les eines de suport, la "
+"comunicació i el marketing, els processos per la inclusió de contribucions "
+"externes, la gestió de la propietat intel·lectual i la sostenibilitat més "
+"enllà del projecte."
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:322
+#: modules/ROOT/pages/communities.adoc:321
 msgid ""
 "Community governance and the technical management of these projects, "
 "including approval of the code for its incorporation in the project and "
@@ -678,21 +854,26 @@ msgid ""
 "contributions will be encouraged, although IMI will retain effective control "
 "over developments financed using public funds."
 msgstr ""
+"La governança de la comunitat i la gestió tècnica d’aquests projectes, "
+"inclosa l’aprovació del codi per a la seva incorporació al projecte i la "
+"definició de requeriments (roadmap), son aspectes diferents. Es promourà la "
+"diversitat de contribucions però l’IMI mantindrà el control efectiu dels "
+"desenvolupaments finançats per fons públics."
 
 #. type: Title ==
-#: modules/ROOT/pages/communities.adoc:325
+#: modules/ROOT/pages/communities.adoc:324
 #, no-wrap
 msgid "Proper use of the communication channels"
-msgstr ""
+msgstr "Ús adequat dels canals de comunicació"
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:332
+#: modules/ROOT/pages/communities.adoc:331
 #, no-wrap
 msgid "Avoid private debates"
-msgstr ""
+msgstr "Evitar els debats privats"
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:342
+#: modules/ROOT/pages/communities.adoc:341
 msgid ""
 "It is very tempting to have closed discussion forums where a small group of "
 "people discuss all the aspects of the project, on both a technical and a "
@@ -701,9 +882,15 @@ msgid ""
 "software projects, so everyone can read them and subscribe to them with a "
 "certain ease.  The reasons are as follows:"
 msgstr ""
+"És molt temptador tenir fòrums de debat tancats on un petit grup de persones "
+"discuteixen tots els aspectes del projecte, tant a nivell tècnic com social, "
+"i que d’allà en surtin les decisions. Però convé tenir molt en compte que en "
+"els projectes de codi obert resulten imprescindible els canals de "
+"comunicació oberts i públics, que tothom pot llegir i als que tothom es pot "
+"subscriure amb certa facilitat. Les raons son les següents:"
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:348
+#: modules/ROOT/pages/communities.adoc:347
 msgid ""
 "It is very difficult for people to want to make significant contributions to "
 "a project where the decisions are taken in a non-transparent way, like a "
@@ -714,68 +901,100 @@ msgid ""
 "Experienced developers know that the project has certain needs and not "
 "everyone can take part in decision-making with the same weight.  When in the "
 "end decisions are taken by the City Council, everyone will understand that "
-"if it is made clear from the start, as specified in the "
-"link:#publicar-breus-directrius-desenvolupadors[Measure: (Day 1) Publish "
-"brief Developer Guidelines]."
+"if it is made clear from the start, as specified in the link:#publicar-breus-"
+"directrius-desenvolupadors[Measure: (Day 1) Publish brief Developer "
+"Guidelines]."
 msgstr ""
+"És molt difícil que la gent vulgui fer contribucions significatives a un "
+"projecte on les decisions es prenen de forma opaca i com a política \"de "
+"fets consumats\". Això no vol dir que la governança del projecte hagi de "
+"funcionar com una democràcia. El requisit primordial és la *transparència*: "
+"la gent voldrà saber per què i com es prenen les decisions, i potser també "
+"dir-hi la seva, sense que necessàriament la opció que proposen sigui "
+"l’escollida. Els desenvolupadors experimentats saben que el projecte té unes "
+"necessitats i que no tothom pot participar en les decisions amb el mateix "
+"pes. Que al final les decisions les prengui l’Ajuntament és quelcom que "
+"tothom entendrà si es deixa clar des de l’inici, com s’especifica a la link:"
+"#publicar-breus-directrius-desenvolupadors[Mesura: (Dia 1) Publicar unes "
+"breus Directrius per desenvolupadors (*Developer Guidelines*)]."
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:350
+#: modules/ROOT/pages/communities.adoc:349
 msgid ""
 "It is surprising how many good ideas can be selflessly expressed through the "
 "public communication channels, if all aspects of the project are discussed "
 "there in a friendly working climate."
 msgstr ""
+"És sorprenent la quantitat de bones idees que desinteressadament poden "
+"arribar a través dels canals de comunicació públics, si en aquests es "
+"discuteixen tots els aspectes del projecte i hi ha un clima de treball "
+"cordial."
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:352
+#: modules/ROOT/pages/communities.adoc:351
 msgid ""
 "If the communication takes place in public mail lists and is then filed, "
-"anyone can consult the decision log and avoid repeating previous "
-"discussions."
+"anyone can consult the decision log and avoid repeating previous discussions."
+""
 msgstr ""
+"Si les comunicacions es fan en llistes de correu públiques i arxivades, es "
+"pot consultar tot l’historial de decisions i no tornar a repetir debats."
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:354
+#: modules/ROOT/pages/communities.adoc:353
 msgid ""
 "Open, public channels foster a more effective, polite and assertive "
 "communication culture."
 msgstr ""
+"Que els canals siguin oberts i públics incentiva una cultura comunicativa "
+"més eficaç, educada i assertiva."
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:358
+#: modules/ROOT/pages/communities.adoc:357
 #, no-wrap
 msgid ""
 "Establish the “Contributor Covenant” as the Code of Conduct for the project "
 "and its communication channels"
 msgstr ""
+"Establir el \"Contributor Covenant\" com a Codi de conducta del projecte i "
+"dels seus canals de comunicació"
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:365
+#: modules/ROOT/pages/communities.adoc:364
 msgid ""
 "A project’s *Code of Conduct* is a document or series of documents that "
 "regulates the social rules of participants’ conduct when taking part in the "
 "project, including the following aspects:"
 msgstr ""
+"El *Codi de conducta* d’un projecte és un document o conjunt de documents "
+"que regulen les normes socials d’actuació per als participants en el "
+"projecte, incloent els següents aspectes:"
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:367
+#: modules/ROOT/pages/communities.adoc:366
 msgid ""
 "Participation rules in all online communication channels associated with the "
 "project, such as chat rooms, public and private mail lists, issue managers, "
 "feature development tools and pull requests, wikis, blogs, Twitter, forums, "
 "etc."
 msgstr ""
+"Normes de participació en tots els canals de comunicació telemàtics "
+"associats al projecte, tals com xats, llistes de correu públiques i "
+"privades, eines de seguiment d’incidències (issue trackers), eines de "
+"desenvolupament de funcionalitats i pull-requests, wikis, blogs, Twitter, "
+"fòrums, etc."
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:369
+#: modules/ROOT/pages/communities.adoc:368
 msgid ""
 "Conduct rules for face-to-face activities of the community associated with "
 "the project, such as meetings and conferences."
 msgstr ""
+"Normes de conducta per activitats presencials de la comunitat associada al "
+"projecte, tals com trobades i congressos."
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:372
+#: modules/ROOT/pages/communities.adoc:371
 msgid ""
 "A code of conduct serves as a written reference for behaviour that is "
 "considered inappropriate for people taking part in the project. More "
@@ -783,27 +1002,35 @@ msgid ""
 "many free software projects lately, so it may be familiar to lots of "
 "developers already.  It has also been translated into various languages."
 msgstr ""
+"Un codi de conducta serveix per tenir una referència escrita de quins "
+"comportaments es consideren inadequats per als participants del projecte. En "
+"concret el de https://www.contributor-covenant.org/ l’utilitzen darrerament "
+"molts projectes de codi obert, i per tant pot ser que molts desenvolupadors "
+"ja hi estiguin familiaritzats. També es troba traduït a vàries llengües."
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:374
+#: modules/ROOT/pages/communities.adoc:373
 msgid "Create a link from at least:"
-msgstr ""
+msgstr "Enllaçar com a mínim des de:"
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:378
+#: modules/ROOT/pages/communities.adoc:377
 msgid ""
 "The Developer Guidelines in the _Measure_: _(Day 1) Publish brief Developer "
 "Guidelines_."
 msgstr ""
+"Les Directrius per desenvolupadors de la mesura _Mesura_: _(Dia 1) Publicar "
+"unes breus Directrius per desenvolupadors (*Developer Guidelines)_."
 
 #. type: Block title
-#: modules/ROOT/pages/communities.adoc:382
+#: modules/ROOT/pages/communities.adoc:381
 #, no-wrap
-msgid "Do not allow any insults or personal attacks in the communication channels"
-msgstr ""
+msgid ""
+"Do not allow any insults or personal attacks in the communication channels"
+msgstr "No deixar passar cap insult o atac personal als canals de comunicació"
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:390
+#: modules/ROOT/pages/communities.adoc:389
 msgid ""
 "A policy of zero tolerance should be maintained in this regard.  That "
 "doesn’t mean expelling people at the drop of a hat (sometimes that would not "
@@ -811,19 +1038,29 @@ msgid ""
 "pointing out that certain types of behaviour are not tolerated in this "
 "project."
 msgstr ""
+"Convé mantenir una política de tolerància zero en aquest aspecte. Això no "
+"vol dir expulsar a la gent a la primera de canvi (en ocasions no serà ni tan "
+"sols possible), vol dir que algú s’ha d’encarregar de fer constar "
+"sistemàticament que certs comportaments no es toleren en aquest projecte."
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:392
+#: modules/ROOT/pages/communities.adoc:391
 msgid ""
 "If it is considered opportune, they can refer to the relevant sections of "
 "the Code of Conduct (#h:c3405dee-679e-42e0-9ba6-141a0ad06965[Measure: "
 "Establish the “Contributor Covenant” as the Code of Conduct for the project "
 "and its communication channels])."
 msgstr ""
+"Si es considera oportú, es pot fer referència a les seccions pertinents del "
+"Codi de conducta (#h:c3405dee-679e-42e0-9ba6-141a0ad06965[Mesura: Establir "
+"el «Contributor Covenant» com a Codi de conducta del projecte i dels seus "
+"canals de comunicació])."
 
 #. type: Plain text
-#: modules/ROOT/pages/communities.adoc:395
+#: modules/ROOT/pages/communities.adoc:394
 msgid ""
 "At http://producingoss.com/en/setting-tone.html#prevent-rudeness there is "
 "some information on how to handle these situations."
 msgstr ""
+"A http://producingoss.com/en/setting-tone.html#prevent-rudeness es donen "
+"alguns detalls de com gestionar aquestes situacions."

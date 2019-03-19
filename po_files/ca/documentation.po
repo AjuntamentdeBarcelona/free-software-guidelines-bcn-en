@@ -1,60 +1,59 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# David Pretel <david@abox.com>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2019-03-06 22:58+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2019-03-06 22:59+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-03-13 12:49+0000\n"
+"Last-Translator: David Pretel <david@abox.com>\n"
+"Language-Team: Catalan\n"
+"Language: ca\n"
+"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #. type: Title =
 #: modules/ROOT/pages/documentation.adoc:1
 #, no-wrap
 msgid "Documentation"
-msgstr ""
+msgstr "Documentació"
 
 #. type: Block title
 #: modules/ROOT/pages/documentation.adoc:12
 #, no-wrap
 msgid "Upload a ``README`` file to the main repository"
-msgstr ""
+msgstr "Pujar un fitxer ``README`` al repositori principal"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:16 modules/ROOT/pages/documentation.adoc:150
 msgid "Day1"
-msgstr ""
+msgstr "Dia1"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:17 modules/ROOT/pages/documentation.adoc:36 modules/ROOT/pages/documentation.adoc:57 modules/ROOT/pages/documentation.adoc:69 modules/ROOT/pages/documentation.adoc:101 modules/ROOT/pages/documentation.adoc:140 modules/ROOT/pages/documentation.adoc:152 modules/ROOT/pages/documentation.adoc:189
 msgid "Plugin"
-msgstr ""
+msgstr "Plugin"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:18 modules/ROOT/pages/documentation.adoc:37 modules/ROOT/pages/documentation.adoc:58 modules/ROOT/pages/documentation.adoc:70 modules/ROOT/pages/documentation.adoc:102 modules/ROOT/pages/documentation.adoc:141 modules/ROOT/pages/documentation.adoc:153 modules/ROOT/pages/documentation.adoc:173 modules/ROOT/pages/documentation.adoc:190
 msgid "NewProduct"
-msgstr ""
+msgstr "NouProducte"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:19 modules/ROOT/pages/documentation.adoc:38 modules/ROOT/pages/documentation.adoc:71 modules/ROOT/pages/documentation.adoc:142 modules/ROOT/pages/documentation.adoc:154 modules/ROOT/pages/documentation.adoc:191
 msgid "Publication"
-msgstr ""
+msgstr "Publicació"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:21
 msgid ""
 "This must include the declaration of intent and the other information "
-"mentioned throughout this Guide that has to be included in the `README` "
-"file."
+"mentioned throughout this Guide that has to be included in the `README` file."
+""
 msgstr ""
+"Ha d’incloure la declaració de propòsit i la resta d’informacions que al "
+"llarg d’aquest document es menciona que s’han d’incloure en el `README`."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:24
@@ -65,6 +64,11 @@ msgid ""
 "has to be interpreted (i.e. in reality the file will be called `README.md` "
 "if it is written in Markdown)."
 msgstr ""
+"S’ha de redactar en anglès i el format ha de ser text amb algun llenguatge "
+"de marques lleuger. Pot no tenir extensió si conté només text pla o una "
+"extensió que indiqui amb quin format de marques s’ha d’interpretar (és a "
+"dir, en realitat es el fitxer tindrà nom `README.md` si està escrit en "
+"Markdown)."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:27
@@ -75,17 +79,24 @@ msgid ""
 "shows as the development website's home page.  So it is important to check "
 "the format is correct and that it appears correctly in a browser."
 msgstr ""
+"El contingut d’aquest fitxer (concretament la versió que hi hagi penjada a "
+"la branca `master`), formatat segons les convencions del llenguatge de "
+"marques que s’hagi utilitzat, és el que [.line-through]#GitHub# mostra com a "
+"portada de la web de desenvolupament. Per tant, convé comprovar que el "
+"format és correcte i que es visualitza bé en un navegador web."
 
 #. type: Block title
 #: modules/ROOT/pages/documentation.adoc:31
 #, no-wrap
 msgid "Use wiki formats or free markup formats for all product documentation"
 msgstr ""
+"Utilitzar, per a tota la documentació del projecte, formats de wiki o "
+"formats de marques oberts"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:35 modules/ROOT/pages/documentation.adoc:55 modules/ROOT/pages/documentation.adoc:68 modules/ROOT/pages/documentation.adoc:151 modules/ROOT/pages/documentation.adoc:188
 msgid "Integration"
-msgstr ""
+msgstr "Integració"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:41
@@ -94,26 +105,30 @@ msgid ""
 "Other documentation, whether or not it is included in the repository code, "
 "will be in the corresponding wiki format or in one of the following formats:"
 msgstr ""
+"Per la web orientada a usuaris del projecte és acceptable escriure "
+"directament HTML. La resta de documentació, estigui o no inclosa en el "
+"repositori de codi, estarà en el format de wiki corresponent, o bé en un "
+"dels següents formats:"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:43
 msgid "Asciidoc"
-msgstr ""
+msgstr "Asciidoc"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:44
 msgid "Markdown"
-msgstr ""
+msgstr "Markdown"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:45
 msgid "ReStructuredText (the Sphinx default format)"
-msgstr ""
+msgstr "ReStructuredText (és el que fa servir per defecte Sphinx)"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:46
 msgid "Org Mode"
-msgstr ""
+msgstr "Org Mode"
 
 #. type: Block title
 #: modules/ROOT/pages/documentation.adoc:50
@@ -122,16 +137,18 @@ msgid ""
 "Document the project so third parties can understand it, configure it and "
 "download it"
 msgstr ""
+"Documentar el projecte per tal que tercers siguin capaços d’entendre’l, "
+"configurar-lo i desplegar-lo"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:54
 msgid "Procurement"
-msgstr ""
+msgstr "Contractar"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:56
 msgid "Adaptation"
-msgstr ""
+msgstr "Adaptació"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:60
@@ -140,12 +157,15 @@ msgid ""
 "understand they will not have a monopoly over the configuration, deployment "
 "and maintenance of the product."
 msgstr ""
+"Les entitats adjudicatàries de contractes -- tant de desenvolupament com de "
+"desplegament -- han d’entendre que no tindran el monopoli de la "
+"configuració, el desplegament i el manteniment del producte."
 
 #. type: Block title
 #: modules/ROOT/pages/documentation.adoc:64
 #, no-wrap
 msgid "Create and maintain a User Guide in the project's GitHub/Gitlab wiki"
-msgstr ""
+msgstr "Crear i mantenir un Manual d’ús a la wiki de GitHub del projecte"
 
 #.   links outgoing: link:#A_B27[_A_B27_]
 #. type: Plain text
@@ -156,6 +176,10 @@ msgid ""
 "roles: average users, administrators, etc.  In the case of code libraries, "
 "the users are code programmers who do not participate in the project."
 msgstr ""
+"Des de ben aviat hi ha d’haver una documentació accessible via web que "
+"expliqui com utilitzar el producte a diferents nivells o per a diferents "
+"rols: usuaris corrents, administradors, etcètera. En el cas de llibreries de "
+"codi els usuaris son programadors que no participen en el projecte."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:81
@@ -168,6 +192,14 @@ msgid ""
 "the user material into English as well.  All code library and development "
 "tool documentation must be in English from the start."
 msgstr ""
+"S’ha de valorar bé en quins idiomes ha d’estar aquesta documentació, "
+"depenent de quin sigui l’àmbit esperat d’ús del producte. Es pot tenir el "
+"català o el castellà com a llengua principal de la documentació, però com a "
+"mínim les tasques principals d’administració cal també explicar-les en "
+"anglès. Si arriben mostres d’interès des d’altres territoris, convindrà que "
+"tota la documentació d’usuari es trobi també traduïda a l’anglès. En el cas "
+"de llibreries de codi o eines de desenvolupament, tota la documentació ha "
+"d’estar des de l’inici en anglès."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:85
@@ -178,6 +210,11 @@ msgid ""
 "create more infrastructure and means the documentation is automatically "
 "linked from the repository webpage."
 msgstr ""
+"La documentació mai serà complerta i estarà en constant evolució. Per això "
+"convé que sigui fàcilment actualitzable per diferents persones i recomanem "
+"inicialment usar una wiki. Fer servir la mateixa wiki de GitHub ens evita "
+"haver de preparar més infraestructura i fa que la documentació es trobi "
+"automàticament enllaçada des de la pàgina web del repositori."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:88
@@ -189,21 +226,28 @@ msgid ""
 "documents such as the installation instructions, any tutorials or the "
 "optional FAQ list."
 msgstr ""
+"Fins que no hi hagi molta documentació d’usuari/-a, és recomanable mantenir-"
+"la tota junta en una mateixa pàgina de la wiki, amb una taula de continguts "
+"a l’inici, i no subdividir-la en pàgines, ja que així es facilita la cerca "
+"de paraules clau utilitzant les funcions de cerca del navegador. Des "
+"d’aquesta pàgina convé enllaçar la resta d’elements de documentació com les "
+"instruccions d’instal·lació, possibles tutorials, o la possible llista de "
+"FAQ."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:90
 msgid "Include or link from the:"
-msgstr ""
+msgstr "Enllaçar des de:"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:92 modules/ROOT/pages/documentation.adoc:118
 msgid "Project website."
-msgstr ""
+msgstr "La web del projecte."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:93 modules/ROOT/pages/documentation.adoc:119 modules/ROOT/pages/documentation.adoc:165
 msgid "The `README` file of the main repository."
-msgstr ""
+msgstr "El fitxer `README` del repositori principal."
 
 #. type: Block title
 #: modules/ROOT/pages/documentation.adoc:97
@@ -212,6 +256,7 @@ msgid ""
 "Create and maintain a User Guide in Sphinx [.line-through]#and publish it in "
 "the GitHub Pages#"
 msgstr ""
+"Crear i mantenir un Manual d’ús en Sphinx i publicar-lo a les GitHub Pages"
 
 #.   links incoming: link:#M_09A[_M_09A_]
 #. type: Plain text
@@ -224,6 +269,12 @@ msgid ""
 "large amount of documentation, we can opt to go down this road from the "
 "beginning."
 msgstr ""
+"Aquesta és una alternativa per a projectes que creixen molt i que "
+"possiblement hagin començat posant la documentació a la wiki. S’ha de "
+"traspassar tota la informació que hi hagi a la wiki al nou format, i "
+"eliminar la wiki per no confondre als usuaris. Si es té clar des del "
+"principi que el projecte requerirà una bona quantitat de documentació, es "
+"pot optar des de l’inici per aquesta via."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:110
@@ -232,6 +283,9 @@ msgid ""
 "root directory and either be written in ReStructuredText or Markdown, the "
 "two markup languages supported by Sphinx."
 msgstr ""
+"Tota la documentació anirà a un subdirectori ` doc` dins de l’arrel del "
+"repositori i s’escriurà o bé en ReStructuredText o bé en Markdown, els dos "
+"llenguatges de marques que suporta Sphinx."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:112
@@ -240,6 +294,9 @@ msgid ""
 "audiences, the documentation will have to be in English, notwithstanding the "
 "fact they could be translated into other languages."
 msgstr ""
+"En aquest cas, per tractar-se de projectes grans i que han d’aspirar a "
+"arribar a públics amplis, la documentació haurà d’estar necessàriament en "
+"anglès, sense perjudici de que es pugui traduir a d’altres llengües."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:114
@@ -248,24 +305,29 @@ msgid ""
 "problem, facilitates both being synchronised and this being reflected in the "
 "commit log."
 msgstr ""
+"Tenir el codi i la documentació en un mateix repositori, lluny de ser un "
+"problema, facilita que ambdós vagin sincronitzats i que això quedi reflectit "
+"a l’historial de commits."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:116
 msgid "Link from the:"
-msgstr ""
+msgstr "Enllaçar des de:"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:121
 msgid ""
-"You can find an example at: "
-"https://github.com/commercialhaskell/stack/tree/master/doc"
+"You can find an example at: https://github.com/commercialhaskell/stack/tree/"
+"master/doc"
 msgstr ""
+"Un exemple el podem trobar a: https://github.com/commercialhaskell/stack/"
+"tree/master/doc"
 
 #. type: Labeled list
 #: modules/ROOT/pages/documentation.adoc:124
 #, no-wrap
 msgid "Recommendation: Create and maintain a FAQ list R_4B1"
-msgstr ""
+msgstr "Crear i mantenir un llistat de FAQ R_4B1"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:133
@@ -275,27 +337,39 @@ msgid ""
 "make it much easier for people to find the information they need and could "
 "prove to be a very profitable way of investing the project’s resources."
 msgstr ""
+"tags: NouProducte Publicació + links incoming: None + links outgoing: None + "
+"Si es realitza de forma reactiva però diligent, amb preguntes reals dels "
+"usuaris, pot facilitar molt que la gent trobi ràpidament la informació que "
+"necessita i pot resultar una manera molt rentable d’invertir els recursos "
+"del projecte."
 
 #. type: Block title
 #: modules/ROOT/pages/documentation.adoc:136
 #, no-wrap
-msgid "Create a tutorial explaining how to do some of the usual tasks, step by step"
+msgid ""
+"Create a tutorial explaining how to do some of the usual tasks, step by step"
 msgstr ""
+"Crear un tutorial explicant com fer pas a pas algunes tasques habituals"
 
 #. type: Block title
 #: modules/ROOT/pages/documentation.adoc:146
 #, no-wrap
 msgid "Upload a file with installation instructions to the main repository"
 msgstr ""
+"Pujar un fitxer amb instruccions d’instal·lació al repositori principal"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:157
 msgid ""
-"The installation procedure developed in the "
-"link:#implementar-procediments-build-installacio[Measure: (Day 1) Implement "
-"build and installation procedures with free, widely used tools] has to be "
-"explained in an `INSTALL` file in the root directory of the main repository."
+"The installation procedure developed in the link:#implementar-procediments-"
+"build-installacio[Measure: (Day 1) Implement build and installation "
+"procedures with free, widely used tools] has to be explained in an `INSTALL` "
+"file in the root directory of the main repository."
 msgstr ""
+"El procediment d’instal·lació desenvolupat a la link:#implementar-"
+"procediments-build-installacio[Mesura: (Dia 1) Implementar procediments de "
+"build i instal·lació amb eines lliures] i d’ús estès ha d’estar explicat en "
+"un fitxer `INSTALL` a l’arrel del repositori principal."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:159
@@ -303,6 +377,8 @@ msgid ""
 "It must be written in English and the format must be text with light markup "
 "language."
 msgstr ""
+"S’ha de redactar en anglès i el format ha de ser text amb algun llenguatge "
+"de marques lleuger."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:161
@@ -311,11 +387,14 @@ msgid ""
 "the product has been properly installed (e.g. by performing a set of tests, "
 "and specifying the expected result)."
 msgstr ""
+"Convé incloure alguna mesura o comanda de diagnòstic que permeti a l’usuari "
+"saber si la instal·lació s’ha executat correctament (per exemple, executar "
+"un joc de proves, i especificar el resultat esperat)."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:163
 msgid "The installation file must at least be linked from:"
-msgstr ""
+msgstr "El fitxer d’instal·lació ha d’estar enllaçat com a mínim des de:"
 
 #. type: Block title
 #: modules/ROOT/pages/documentation.adoc:169
@@ -324,6 +403,8 @@ msgid ""
 "Supplement the user documentation with screen captures, videos and demo "
 "sites"
 msgstr ""
+"Complementar la documentació d’usuari/-a amb captures de pantalla, vídeos o "
+"demos"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:175
@@ -331,6 +412,8 @@ msgid ""
 "For big projects that aim to attract the attention of lots of people, the "
 "big appeal is a demo site."
 msgstr ""
+"Per projectes web grans que vulguin atraure l’atenció de moltes persones, el "
+"millor reclam és un demo site."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:177
@@ -338,37 +421,50 @@ msgid ""
 "A video explaining the tool’s use and characteristics might also be very "
 "attractive."
 msgstr ""
+"Un vídeo explicant l’ús i les característiques de l’eina també pot resultar "
+"molt atractiu."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:180
 msgid ""
 "If the product has a graphic user interface, it is highly recommended that "
 "the explanations be accompanied by screen captures.  They could also be used "
-"in the features list described in the "
-"#h:2dc43f4e-e755-4fe5-be4e-1f9dd58fe9e9[Measure: Specify a feature list in "
-"easily accessible locations]."
+"in the features list described in the #h:2dc43f4e-e755-4fe5-be4e-"
+"1f9dd58fe9e9[Measure: Specify a feature list in easily accessible locations]."
+""
 msgstr ""
+"Si el producte té una interfície d’usuari gràfica, és molt recomanable "
+"acompanyar les explicacions amb captures de pantalla. També es poden "
+"utilitzar en el llistat de funcionalitats descrit a la #h:2dc43f4e-e755-4fe5-"
+"be4e-1f9dd58fe9e9[Mesura: Especificar en llocs fàcilment accessibles un "
+"llistat de funcionalitats]."
 
 #. type: Block title
 #: modules/ROOT/pages/documentation.adoc:184
 #, no-wrap
-msgid "Specify, in a prominent location, a distribution licence for the User Guide"
+msgid ""
+"Specify, in a prominent location, a distribution licence for the User Guide"
 msgstr ""
+"Especificar, en un lloc visible, una llicència de distribució per al Manual "
+"d’ús"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:193
 msgid ""
-"The default licence to use is "
-"https://creativecommons.org/share-your-work/public-domain/cc0[Creative "
-"Commons Zero v1.0 Universal] (CC0-1.0)."
+"The default licence to use is https://creativecommons.org/share-your-work/"
+"public-domain/cc0[Creative Commons Zero v1.0 Universal] (CC0-1.0)."
 msgstr ""
+"Per defecte utilitzar la llicència https://creativecommons.org/share-your-"
+"work/public-domain/cc0[Creative Commons Zero v1.0 Universal] (CC0-1.0)."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:195
 msgid ""
-"A summary of its characteristics can be found at: "
-"https://tldrlegal.com/license/creative-commons-cc0-1.0-universal."
+"A summary of its characteristics can be found at: https://tldrlegal.com/"
+"license/creative-commons-cc0-1.0-universal."
 msgstr ""
+"Un resum de les seves característiques es pot trobar a: https://tldrlegal."
+"com/license/creative-commons-cc0-1.0-universal."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:198
@@ -377,6 +473,9 @@ msgid ""
 "software itself.  In fact, Public Domain licences are admissible in this "
 "case."
 msgstr ""
+"En el cas de la documentació no té per què fer-se servir la mateixa "
+"llicència que per al programari en sí, i de fet en aquest cas sí que son "
+"admissibles les llicències de Domini Públic)."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:200
@@ -384,6 +483,8 @@ msgid ""
 "When creating documentation for external projects, use the licences those "
 "projects are already using."
 msgstr ""
+"En cas de crear documentació per projectes externs, utilitzar les llicències "
+"que aquests projectes ja estiguin fent servir."
 
 #. type: Block title
 #: modules/ROOT/pages/documentation.adoc:204
@@ -392,11 +493,13 @@ msgid ""
 "Specify, in a prominent location, a distribution licence for the design "
 "documents and studies commissioned"
 msgstr ""
+"Especificar, en un lloc visible, una llicència de distribució per als "
+"documents de disseny i estudis encarregats"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:208
 msgid "Document"
-msgstr ""
+msgstr "Document"
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:210
@@ -404,17 +507,27 @@ msgid ""
 "The default licence to use is https://creativecommons.org/licenses/[Creative "
 "Commons Attribution Share Alike 4.0] (CC-BY-SA-4.0)."
 msgstr ""
+"Per defecte utilitzar la llicència https://creativecommons.org/licenses/"
+"[Creative Commons Attribution Share Alike 4.0] (CC-BY-SA-4.0)."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:213
 msgid ""
-"Follow: https://wiki.creativecommons.org/wiki/Website/Publish and "
-"https://creativecommons.org/choose/#metadata."
+"Follow: https://wiki.creativecommons.org/wiki/Website/Publish and https://"
+"creativecommons.org/choose/#metadata."
 msgstr ""
+"Seguir: https://wiki.creativecommons.org/wiki/Website/Publish i https://"
+"creativecommons.org/choose/#metadata."
 
 #. type: Plain text
 #: modules/ROOT/pages/documentation.adoc:215
 msgid ""
-"To understand its characteristics you can consult: "
-"https://tldrlegal.com/license/creative-commons-attribution-sharealike-4.0-international-(cc-by-sa-4.0).[https://tldrlegal.com/license/creative-commons-attribution-sharealike-4.0-international-(cc-by-sa-4.0)]."
+"To understand its characteristics you can consult: https://tldrlegal.com/"
+"license/creative-commons-attribution-sharealike-4.0-international-(cc-by-sa-"
+"4.0).[https://tldrlegal.com/license/creative-commons-attribution-sharealike-"
+"4.0-international-(cc-by-sa-4.0)]."
 msgstr ""
+"Per entendre les seves característiques es pot consultar: https://tldrlegal."
+"com/license/creative-commons-attribution-sharealike-4.0-international-(cc-by-"
+"sa-4.0).[https://tldrlegal.com/license/creative-commons-attribution-"
+"sharealike-4.0-international-(cc-by-sa-4.0)]."

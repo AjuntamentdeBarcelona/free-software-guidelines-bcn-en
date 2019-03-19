@@ -1,36 +1,38 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# David Pretel <david@abox.com>, 2019. #zanata
+# Guillem Marpons <gmarpons@mailbox.org>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2019-03-06 21:05+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2019-03-13 23:59+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-03-13 11:10+0000\n"
+"Last-Translator: Guillem Marpons <gmarpons@mailbox.org>\n"
+"Language-Team: Catalan\n"
+"Language: ca\n"
+"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #. type: Title =
 #: modules/ROOT/pages/introduction.adoc:1
 #, no-wrap
 msgid "Introduction"
-msgstr ""
+msgstr "Introducció"
 
 #. type: Plain text
 #: modules/ROOT/pages/introduction.adoc:8
 msgid ""
 "Barcelona City Council has a policy for using and developing free software "
-"which is set out in the "
-"http://ajuntament.barcelona.cat/digital/ca/documentacio[Government Measure: "
-"Free software and agile development of public administration services], "
-"approved in October 2017."
+"which is set out in the http://ajuntament.barcelona.cat/digital/ca/"
+"documentacio[Government Measure: Free software and agile development of "
+"public administration services], approved in October 2017."
 msgstr ""
+"L’Ajuntament de Barcelona disposa d’una política d’ús i desenvolupament de "
+"programari lliure i de codi obert establerta en la http://ajuntament."
+"barcelona.cat/digital/ca/documentacio[Mesura de govern per a la "
+"digitalització oberta: Programari lliure i desenvolupament àgil de serveis a "
+"l’administració pública], l’octubre de 2017."
 
 #. type: Plain text
 #: modules/ROOT/pages/introduction.adoc:10
@@ -38,6 +40,8 @@ msgid ""
 "This policy includes a series of principles and guidelines that are outlined "
 "in the following documents, annexed to the measure:"
 msgstr ""
+"Aquesta política consta d’un seguit de principis i directrius que s’exposen "
+"als documents següents, annexos a la mesura:"
 
 #. type: Plain text
 #: modules/ROOT/pages/introduction.adoc:12
@@ -45,6 +49,8 @@ msgid ""
 "xref:{lang}/tech-practices:ROOT:aim-and-scope.adoc[Technology Code of "
 "Practice]"
 msgstr ""
+"xref:{lang}/tech-practices:ROOT:aim-and-scope.adoc[Codi de pràctiques "
+"tecnològiques]"
 
 #. type: Plain text
 #: modules/ROOT/pages/introduction.adoc:13
@@ -52,6 +58,8 @@ msgid ""
 "xref:{lang}/tech-sovereignty:ROOT:introduction.adoc[Guide to Technological "
 "Sovereignty]"
 msgstr ""
+"xref:{lang}/tech-sovereignty:ROOT:introduction.adoc[Guia sobre sobirania "
+"tecnològica]"
 
 #. type: Plain text
 #: modules/ROOT/pages/introduction.adoc:14
@@ -59,6 +67,7 @@ msgid ""
 "xref:{lang}/ict-procurement:ROOT:context.adoc[Guide to Public ICT "
 "Procurement]"
 msgstr ""
+"xref:{lang}/ict-procurement:ROOT:context.adoc[Guia de compra pública de TIC]"
 
 #. type: Plain text
 #: modules/ROOT/pages/introduction.adoc:17
@@ -69,26 +78,30 @@ msgid ""
 "their daily work on projects based on free software.  It covers aspects such "
 "as:"
 msgstr ""
+"El present document concreta aquests principis i directrius en un conjunt de "
+"mesures i recomanacions que han de guiar al personal de (l’IMI) en la gestió "
+"diària de projectes basats en programari lliure, en aspectes com:"
 
 #. type: Plain text
 #: modules/ROOT/pages/introduction.adoc:19
 msgid "Looking for and designing solutions"
-msgstr ""
+msgstr "La cerca i disseny de solucions"
 
 #. type: Plain text
 #: modules/ROOT/pages/introduction.adoc:20
 msgid "Service procurement"
-msgstr ""
+msgstr "La contractació de serveis"
 
 #. type: Plain text
 #: modules/ROOT/pages/introduction.adoc:21
 msgid "Developing, implementing and maintaining information systems"
 msgstr ""
+"El desenvolupament, implantació i manteniment de sistemes d’informació"
 
 #. type: Plain text
 #: modules/ROOT/pages/introduction.adoc:22
 msgid "Participation in free software communities"
-msgstr ""
+msgstr "La participació en comunitats obertes"
 
 #. type: Title ==
 #: modules/ROOT/pages/introduction.adoc:23
@@ -107,118 +120,121 @@ msgid ""
 "etc. As the https://www.gnu.org[GNU project] puts it:"
 msgstr ""
 
-#. type: Positional ($2) AttributeList argument for style 'quote'
-#: modules/ROOT/pages/introduction.adoc:30
-#, no-wrap
-msgid "Richard Stallman"
-msgstr ""
-
-#. type: Positional ($3) AttributeList argument for style 'quote'
-#: modules/ROOT/pages/introduction.adoc:30
-#, no-wrap
-msgid "{quote-url}"
-msgstr ""
-
-#. type: quote
-#: modules/ROOT/pages/introduction.adoc:33
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:29
 msgid ""
-"The state needs to insist on free software in its own computing for the sake "
-"of its computational sovereignty (the state's control over its own "
+"\"The state needs to insist on free software in its own computing for the "
+"sake of its computational sovereignty (the state's control over its own "
 "computing). All users deserve control over their computing, but the state "
 "has a responsibility to the people to maintain control over the computing it "
 "does on their behalf. Most government activities now depend on computing, "
 "and its control over those activities depends on its control over that "
 "computing. Losing this control in an agency whose mission is critical "
-"undermines national security."
+"undermines national security.\""
 msgstr ""
 
-#. type: quote
-#: modules/ROOT/pages/introduction.adoc:36
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:30
 msgid ""
-"Both the GNU document above and the "
-"https://ajuntament.barcelona.cat/digital/en/blog/barcelona-digital-government-open-agile-and-participatory[Release "
+"Richard Stallman, https://www.gnu.org/philosophy/government-free-software.en."
+"html[Measures Governments Can Use to Promote Free Software]"
+msgstr ""
+"Richard Stallman, https://www.gnu.org/philosophy/government-free-software.en."
+"html[Measures Governments Can Use to Promote Free Software]"
+
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:32
+msgid ""
+"Both the GNU document above and the https://ajuntament.barcelona.cat/digital/"
+"en/blog/barcelona-digital-government-open-agile-and-participatory[Release "
 "note of the Government Measure: Free software and agile development of "
 "public administration services] envision other benefits:"
 msgstr ""
 
-#. type: quote
-#: modules/ROOT/pages/introduction.adoc:38
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:34
 msgid ""
 "Encouraging local software support businesses, more easily including small "
 "and medium-sized businesses in the procurement process."
 msgstr ""
 
-#. type: quote
-#: modules/ROOT/pages/introduction.adoc:39
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:35
 msgid ""
 "Creating crucial new capabilities in the public sector through "
 "internalisation of staff and a programme to create in-house skills to drive "
 "transformation."
 msgstr ""
 
-#. type: quote
-#: modules/ROOT/pages/introduction.adoc:40
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:36
 msgid "Increasing transparency and auditability of administrative processes."
 msgstr ""
 
-#. type: quote
-#: modules/ROOT/pages/introduction.adoc:41
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:37
 msgid ""
 "Never requiring individuals or organizations that need to interact with the "
-"City Council to use a nonfree program (that would be equivalent to a "
-"state-sanctioned monopoly)."
+"City Council to use a nonfree program (that would be equivalent to a state-"
+"sanctioned monopoly)."
 msgstr ""
 
-#. type: quote
-#: modules/ROOT/pages/introduction.adoc:42
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:38
 msgid ""
 "Ensuring data sovereignty, privacy and security, for the citizens and for "
 "the municipality."
 msgstr ""
 
-#. type: quote
-#: modules/ROOT/pages/introduction.adoc:43
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:39
 msgid ""
 "Avoiding vendor lock-in and, more generally, freeing IT policy and planning "
 "from commercial strategies, constructing better tailored, more flexible, "
 "more sustainable solutions."
 msgstr ""
 
-#. type: quote
-#: modules/ROOT/pages/introduction.adoc:44
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:40
 msgid ""
 "Saving money, by avoiding proprietary license fees and through sharing and "
 "pooling of resources among municipalities and other government agencies."
 msgstr ""
 
 #. type: Title ==
-#: modules/ROOT/pages/introduction.adoc:45
+#: modules/ROOT/pages/introduction.adoc:41
 #, no-wrap
 msgid "Purpose of this Guide"
-msgstr ""
+msgstr "Objectius d’aquesta guia"
 
-#. type: quote
-#: modules/ROOT/pages/introduction.adoc:48
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:44
 msgid "This Guide serves a double purpose:"
-msgstr ""
+msgstr "L’objectiu d’aquesta guia és doble:"
 
-#. type: quote
-#: modules/ROOT/pages/introduction.adoc:50
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:46
 msgid ""
 "To help IMI staff use technologies based on free software so they make the "
 "most of its advantages and minimise potential risks."
 msgstr ""
+"Facilitar al personal de l’IMI un ús efectiu de tecnologies basades en "
+"programari lliure i de codi obert, de manera que se n’aprofitin al màxim els "
+"avantatges i es minimitzin els potencials riscos."
 
-#. type: quote
-#: modules/ROOT/pages/introduction.adoc:52
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:48
 msgid ""
 "To help maintain Barcelona City Council's reputation as a transparent and "
 "reliable institutional collaborator in free software projects, taking into "
 "account the sector's best practices."
 msgstr ""
+"Preservar la reputació de l’Ajuntament de Barcelona com a institució que "
+"col·labora en projectes de programari lliure de manera transparent, "
+"confiable i tenint en compte les millors pràctiques del sector."
 
-#. type: quote
-#: modules/ROOT/pages/introduction.adoc:56
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:52
 msgid ""
 "Despite the enormous diversity that currently exists among free software "
 "projects, a series of practices have gradually arisen that are shared by "
@@ -228,9 +244,16 @@ msgid ""
 "operational dynamics of free software projects reward certain types of "
 "conduct and penalise others."
 msgstr ""
+"Malgrat l’enorme diversitat existent entre els projectes de codi obert, amb "
+"el temps han emergit una sèrie de pràctiques que comparteixen la majoria de "
+"projectes i organitzacions que assoleixen un cert èxit. Això inclou aspectes "
+"tant tècnics, com legals, com de gestió de projectes. Algunes d’aquestes "
+"pràctiques podríem dir que son d’adopció obligatòria, en el sentit que les "
+"dinàmiques de treball dels projectes oberts premien determinades conductes i "
+"en penalitzen d’altres."
 
-#. type: quote
-#: modules/ROOT/pages/introduction.adoc:59
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:55
 msgid ""
 "In some cases free software common practices can be very different from "
 "working methods used when there is no intention of publishing the source "
@@ -239,27 +262,39 @@ msgid ""
 "organisational improvements it will bring – together with the incorporating "
 "agile methods –."
 msgstr ""
+"Aquestes pràctiques estan orientades a facilitar la màxima diversitat de "
+"participants, molts cops sense una coordinació centralitzada, i a preservar "
+"al mateix temps la qualitat del producte. En alguns casos poden diferir "
+"substancialment de la forma de treballar quan es desenvolupa sense una "
+"voluntat de publicar el codi. Per tant, el procés d’aprenentatge i adaptació "
+"de l’IMI tindrà un cost, però creiem que es veurà superat en escreix per la "
+"millora organitzativa que suposarà –en simbiosi amb la incorporació de "
+"metodologies àgils–, "
 
-#. type: quote
-#: modules/ROOT/pages/introduction.adoc:61
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:57
 msgid ""
 "This document codifies and adapts these best practices to IMI, so they may "
 "serve as a guide in the learning process and in decision-making."
 msgstr ""
+"En definitiva, aquest document pretén explicar les millors pràctiques "
+"disponibles per utilitzar i desenvolupar programari de codi obert. Ho fa "
+"codificant i adaptant a l’IMI aquestes bones pràctiques, de manera que "
+"serveixi de guia en el procés d’aprenentatge i en la presa de decisions."
 
 #. type: Title ==
-#: modules/ROOT/pages/introduction.adoc:62
+#: modules/ROOT/pages/introduction.adoc:58
 #, no-wrap
 msgid "To find out more"
-msgstr ""
+msgstr "Per saber-ne més"
 
-#. type: quote
-#: modules/ROOT/pages/introduction.adoc:68
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:64
 msgid ""
 "A very good resource for understanding all the technical, legal and social "
-"aspects of free software development is Karl Fogel’s book "
-"https://producingoss.com/en/index.html[Producing Open Source Software] (the "
-"2017 edition, only available in an e-version, which can be freely consulted "
+"aspects of free software development is Karl Fogel’s book https://"
+"producingoss.com/en/index.html[Producing Open Source Software] (the 2017 "
+"edition, only available in an e-version, which can be freely consulted "
 "online).  The book uses the term _open source_, which basically refers to "
 "the same range of projects as _free software_.  (The proponents of both "
 "terms differ on their political and philosophical views, but the practical "
@@ -267,16 +302,30 @@ msgid ""
 "have taken many of the practical recommendations in that book into account "
 "in drawing up this Guide."
 msgstr ""
+"Un molt bon recurs per entendre tots els aspectes tècnics, legals i socials "
+"que envolten el desenvolupament de programari lliure és el llibre de Karl "
+"Fogel https://producingoss.com/en/index.html[Producing Open Source Software] "
+"(en l’edició de 2017, només disponible electrònicament i consultable "
+"lliurement per Internet). En l’elaboració d’aquesta Guia s’han tingut en "
+"compte moltes de les recomanacions recollides al llibre."
 
-#. type: quote
-#: modules/ROOT/pages/introduction.adoc:70
+#. type: Plain text
+#: modules/ROOT/pages/introduction.adoc:66
 msgid ""
 "The Guide also contains lots of recommendations on service procurement.  A "
 "good document for understanding the particular features of public "
-"procurement of free software in the context of the European Union is "
-"https://joinup.ec.europa.eu/document/guideline-public-procurement-open-source-software[Guideline "
-"on public procurement of Open Source Software], published in 2010 by Rishab "
-"Aiyer Ghosh, Ruediger Glott, Patrice-Emmanuel Schmitz and Abdelkrim Boujraf, "
-"and commissioned by the European Commission under the "
+"procurement of free software in the context of the European Union is https://"
+"joinup.ec.europa.eu/document/guideline-public-procurement-open-source-"
+"software[Guideline on public procurement of Open Source Software], published "
+"in 2010 by Rishab Aiyer Ghosh, Ruediger Glott, Patrice-Emmanuel Schmitz and "
+"Abdelkrim Boujraf, and commissioned by the European Commission under the "
 "https://joinup.ec.europa.eu//[Join Up] initiative."
 msgstr ""
+"La Guia conté també una gran quantitat de recomanacions que tenen a veure "
+"amb la contractació de diferents serveis. Un bon document per entendre les "
+"particularitats de la contractació de programari lliure des de "
+"l’administració pública és la https://producingoss.com/en/index."
+"html[Guideline on public procurement of Open Source Software], publicat al "
+"2010 per Rishab Aiyer Ghosh, Ruediger Glott, Patrice-Emmanuel Schmitz i "
+"Abdelkrim Boujraf, per encàrrec de la Comissió Europea sota la iniciativa "
+"https://joinup.ec.europa.eu//[Joinup]."

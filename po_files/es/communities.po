@@ -1,0 +1,825 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2019-03-20 00:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#: modules/ROOT/pages/communities.adoc:1
+#, no-wrap
+msgid "Free software communities"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:10
+msgid ""
+"There are many levels of participation in a free software project, and none "
+"of them should be closed.  Apart from the development team, who are usually "
+"hired for that purpose, other people might contribute on an occasional or "
+"ongoing basis.  This chapter focuses on the more social aspects of how to "
+"work in this kind of community which is created around these projects."
+msgstr ""
+
+#. type: Title ==
+#: modules/ROOT/pages/communities.adoc:12
+#, no-wrap
+msgid "Contributing to free software communities"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:19
+msgid ""
+"The concept of contribution covers much more than the code.  It can also "
+"consist in:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:21
+msgid "Translations"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:22
+msgid "Documentation"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:23
+msgid "Bug reports"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:24
+msgid "Other tasks"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:28
+msgid ""
+"A basic rule is that the contributions are always individual, both in our "
+"own projects as well as when we contribute to external projects.  That means "
+"it is always possible to trace the specific person who has done it, even if "
+"they work or participate on behalf of an organisation.  The reasons for this "
+"are:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:30
+msgid ""
+"It is the only model which free software projects are structurally equipped "
+"to handle."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:33
+msgid ""
+"In free software projects, reputation is what makes everything tick, and "
+"that is earned or lost individually.  People will rely more or less on the "
+"code someone has developed depending on the strength of previous "
+"contributions; their opinions in the communication channels and "
+"decision-making will carry more or less weight, etc."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:37
+msgid ""
+"Developers who regularly work on free software projects are used to this "
+"model.  It makes interaction easier when they collaborate remotely.  It is "
+"also useful for them in developing a professional career."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:40
+msgid ""
+"The other important consideration in this section, which applies if we want "
+"to modify an existing external component, is it is always better if our code "
+"modifications are incorporated, sooner or later, into the original product.  "
+"That way we can:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:43
+msgid ""
+"Reduce future maintenance costs.  If the integration is 100%, maintaining "
+"the features we have integrated might work out at zero cost to us."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:45
+msgid ""
+"Benefit from future improvements to the original product contributed by "
+"others."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:48
+msgid ""
+"If more people use our features, the City Council will appear as an "
+"institution that contributes to the project and free software communities as "
+"a whole.  In the long run that could give it prestige and influence."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:52
+msgid ""
+"Bear in mind, however, that we can plan to facilitate this integration but, "
+"usually, we cannot guarantee it will happen in the initial stages of a "
+"project.  Each community has its own rules of governance and decision-making "
+"rules which must be respected.  But one thing that is worth doing is to keep "
+"everybody informed of our plans at all times and try to ensure they converge "
+"with those of the community we are addressing:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:55
+msgid ""
+"\"Don't think of community scrutiny as an obstacle to be overcome — think of "
+"it as a free design board and QA department.  It is a benefit to be "
+"aggressively pursued, not an obstacle to be merely endured.\""
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:56
+msgid ""
+"Karl Fogel, "
+"https://producingoss.com/en/contracting.html#community-review-acceptance[Producing "
+"Open Source Software]"
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:58
+#, no-wrap
+msgid ""
+"Ensure the authorship of each contribution (code, documentation or messages) "
+"is individual"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:62 modules/ROOT/pages/communities.adoc:80 modules/ROOT/pages/communities.adoc:94 modules/ROOT/pages/communities.adoc:109 modules/ROOT/pages/communities.adoc:130 modules/ROOT/pages/communities.adoc:157 modules/ROOT/pages/communities.adoc:173 modules/ROOT/pages/communities.adoc:188 modules/ROOT/pages/communities.adoc:335
+msgid "Adaptation"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:63 modules/ROOT/pages/communities.adoc:95 modules/ROOT/pages/communities.adoc:110 modules/ROOT/pages/communities.adoc:158 modules/ROOT/pages/communities.adoc:174 modules/ROOT/pages/communities.adoc:189 modules/ROOT/pages/communities.adoc:210 modules/ROOT/pages/communities.adoc:247 modules/ROOT/pages/communities.adoc:263 modules/ROOT/pages/communities.adoc:292 modules/ROOT/pages/communities.adoc:336 modules/ROOT/pages/communities.adoc:361 modules/ROOT/pages/communities.adoc:385
+msgid "Plugin"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:64 modules/ROOT/pages/communities.adoc:96 modules/ROOT/pages/communities.adoc:159 modules/ROOT/pages/communities.adoc:211 modules/ROOT/pages/communities.adoc:221 modules/ROOT/pages/communities.adoc:236 modules/ROOT/pages/communities.adoc:248 modules/ROOT/pages/communities.adoc:264 modules/ROOT/pages/communities.adoc:293 modules/ROOT/pages/communities.adoc:315 modules/ROOT/pages/communities.adoc:337 modules/ROOT/pages/communities.adoc:362 modules/ROOT/pages/communities.adoc:386
+msgid "NewProduct"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:67
+msgid ""
+"Don't hide the team's contributions under a corporate identity in our own "
+"projects or external projects.  In other words, use the usernames and "
+"individual email addresses of each participant for the commits in the "
+"repository, as well as when participating in the project communication "
+"channels or management tools."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:69
+msgid ""
+"If any individual contributes to a software project as a worker hired "
+"directly or indirectly by the City Council on some occasions, and as a "
+"volunteer in his or her free time on other occasions, they will have to use "
+"two different emails, depending on the case:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:71
+msgid "A personal email when making voluntary contributions."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:72
+msgid ""
+"A company or City Council email when carrying out tasks specified by their "
+"contract."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:76
+#, no-wrap
+msgid ""
+"Inform the technical communities of the component to be modified about our "
+"plans"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:84
+msgid ""
+"If we want to modify or adapt an existing component, we have to be open and "
+"clear about our reasons.  As it is a free software component, they cannot "
+"prevent us from making modifications.  However, we strongly advise informing "
+"them of our needs and technical plans beforehand."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:86
+msgid ""
+"We need to ensure the support community of the component that is to be "
+"modified understands and gets involved in our proposal."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:90
+#, no-wrap
+msgid "Inform other relevant technical communities of our plans"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:98
+msgid ""
+"Free software communities are usually very interested in contributing ideas, "
+"technical knowledge and even working extra hours of work, when faced with "
+"technical challenges they believe could benefit them."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:100
+msgid ""
+"IMI projects will study the possibilities of collaborating with the local "
+"communities of free software and innovative technologies to promote social "
+"and technological innovation."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:104
+#, no-wrap
+msgid "Hire developers who are recognised in the project we want to modify"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:108 modules/ROOT/pages/communities.adoc:129 modules/ROOT/pages/communities.adoc:156 modules/ROOT/pages/communities.adoc:172 modules/ROOT/pages/communities.adoc:246
+msgid "Procurement"
+msgstr ""
+
+#.   links outgoing: link:#A_1F9[_A_1F9_]
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:114
+msgid ""
+"This could be done directly or by means of a contract with a company or "
+"cooperative that wins the tender."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:117
+msgid ""
+"There are never any guarantees that the modifications we need to make will "
+"be accepted in the original product but relying on recognised developers "
+"will give us more options for achieving that.  Aside from any technical "
+"knowledge they might have, they could bring:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:119
+msgid "An insider's view of the technical ideas most likely to be accepted."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:121
+msgid "The value of being a respected figure in the community that takes decisions."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:125
+#, no-wrap
+msgid ""
+"Compel the contract winner to take measures that make it easier to integrate "
+"the changes in the original product"
+msgstr ""
+
+#.   links incoming: link:#M_34D[_M_34D_]
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:134
+msgid "That includes:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:136
+msgid ""
+"Clearly describing the collaborative tasks the contract winner is expected "
+"to take part in and explain that this is part of the budget, as described in "
+"the #h:a6bb27a3-2b23-4585-81ca-dc5b4d29ccd7[Measure: Budget for the extra "
+"costs of participating in the community of the product to be modified]."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:140
+msgid ""
+"The contract winner accepting and applying the Developer Guidelines, the "
+"rules for drafting documentation and the Code of Conduct for the project, if "
+"there is one, as well as other written documents governing any rules that "
+"might exist, both general and the specific rules for specific communication "
+"channels.  Should the project not have a formal set of internal rules of its "
+"own, normal rules of netiquette will apply.  "
+"https://www.ietf.org/rfc/rfc1855.txt."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:142
+msgid ""
+"Certain awardee profiles becoming users of the project communication "
+"channels."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:144
+msgid ""
+"Periodically informing the community of the modifications planned, the part "
+"done and the technical decisions being taken."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:146
+msgid ""
+"Promptly informing IMI of all the feedback received by the community, both "
+"positive and negative, on the aims of integrating new features."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:148
+msgid ""
+"IMI staff will have to monitor all of this and possibly intervene directly "
+"in the community discussions."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:152
+#, no-wrap
+msgid "Penalise contractors if there are any changes in the project staff"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:161
+msgid "Measures to bear in mind when drawing up the contract specifications."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:164
+msgid ""
+"A high turnover is detrimental to any project but especially when "
+"participating in free software projects.  Developers who leave not only take "
+"with them any technical knowledge they might have accumulated, but also "
+"their status in the community and the human relationships they might have "
+"developed."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:168
+#, no-wrap
+msgid ""
+"Budget for the extra costs of participating in the community of the product "
+"to be modified"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:177
+msgid ""
+"It needs to be specified in as much detail as possible to what extent IMI "
+"expects the contract awardee to be involved in the project and disseminate "
+"the features to be developed among:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:179
+msgid "The development communities involved"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:180
+msgid "Potential users"
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:184
+#, no-wrap
+msgid ""
+"Maintain a permanent private communication channel for discussing conflicts "
+"of interest"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:191
+msgid "Ideally a mail thread."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:194
+msgid ""
+"When people are hired to take part in an established free software project, "
+"especially if they are developers that were already taking part in it, there "
+"could be a conflict of interest between the City Council project and the "
+"original source project.  The developers will have the feeling they have to "
+"serve two superiors and cannot always satisfy both."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:196
+msgid ""
+"We have to ask for maximum transparency in these cases and try to anticipate "
+"these situations."
+msgstr ""
+
+#. type: Title ==
+#: modules/ROOT/pages/communities.adoc:199
+#, no-wrap
+msgid "Free software community management and governance"
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:206
+#, no-wrap
+msgid "Recognise people who make contributions to the project"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:213
+msgid ""
+"All individuals that have made a relevant contribution to the code or the "
+"documentation should appear in a `CONTRIBUTORS` file in the repository’s "
+"root directory."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:217
+#, no-wrap
+msgid ""
+"Budget for the extra cost of encouraging the creation of a free software "
+"community"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:224
+msgid "This includes things such as developers dedicating time on:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:226
+msgid "Revising the code of others"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:227
+msgid "Replying to messages in the project communication channels"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:228
+msgid "Intervening in StackOverflow"
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:232
+#, no-wrap
+msgid ""
+"Draw up and update an internal document establishing the level of commitment "
+"we want from each party"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:238
+msgid "Pay special attention to possible early adopters."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:242
+#, no-wrap
+msgid ""
+"In the contract, stipulate that the awardee has to include external "
+"contributions if the City Council so decides"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:249 modules/ROOT/pages/communities.adoc:265 modules/ROOT/pages/communities.adoc:294 modules/ROOT/pages/communities.adoc:316
+msgid "Publication"
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:250
+#, no-wrap
+msgid "Example clause: *External contributions*."
+msgstr ""
+
+#. type: delimited block *
+#: modules/ROOT/pages/communities.adoc:253
+msgid ""
+"While the contract remains in force, including the warranty period, the "
+"awardee has an obligation to integrate any external contributions that "
+"Barcelona City Council considers will improve the source code or the public "
+"documentation and which do not involve developing features not provided for "
+"in the contract, for example, those that fix bugs."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:258
+#, no-wrap
+msgid "Publish brief Developer Guidelines"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:262
+msgid "Day1"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:268
+msgid ""
+"These guidelines establish the technical and social conventions that "
+"determine interactions between developers, and between developers and "
+"users.  They apply to all developers, both those hired by the City Council "
+"and external developers, as well as Council staff."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:270
+msgid ""
+"They must be drawn up in English and either be a GitHub/Gitlab wiki page or "
+"a text file with light markup language."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:272
+msgid ""
+"The guidelines might grow over time but, initially, only three things need "
+"to be made clear:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:274
+msgid "What communication channels the project has and what each one is used for."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:275
+msgid ""
+"Instructions on how to report bugs and how to make contributions to the "
+"project."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:276
+msgid "A brief description of project governance: who takes decisions and how."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:280
+msgid ""
+"In many cases the only thing that needs to be said about the third point is "
+"that while the contract is in force, the City Council will prioritise the "
+"features to be developed and the bugs to be sorted out.  The Council also "
+"has the last word on the technical solutions to be adopted, the "
+"contributions to be integrated and the versions to be published.  It might "
+"also be mentioned that in the future an appropriate governance model will be "
+"studied for the project’s changing circumstances."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:282
+msgid "These Developer Guidelines should, as a minimum, be linked from:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:284 modules/ROOT/pages/communities.adoc:375
+msgid "The `README` file of the main repository."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:288
+#, no-wrap
+msgid "Publish detailed Developer Guidelines (if the project grows)"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:297
+msgid ""
+"For big projects, and without it being the first measure to adopt, it could "
+"be useful to work on and publish some broader, more detailed Developer "
+"Guidelines than those proposed in the "
+"link:#publicar-breus-directrius-desenvolupadors[Measure: (Day 1) Publish "
+"brief Developer Guidelines]."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:299
+msgid "Things that might be included:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:301
+msgid "Codification conventions"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:302
+msgid "Documentation conventions"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:304
+msgid "Some examples:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:306
+msgid "http://subversion.apache.org/docs/community-guide/"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:307
+msgid "https://wiki.documentfoundation.org/Development"
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:311
+#, no-wrap
+msgid ""
+"Draw up a governance model for the global community that supports the "
+"product"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:318
+msgid ""
+"Projects that generate entirely free software tools and systems by means of "
+"a development service promoted and financed by the City Council will have to "
+"include a governance model that includes, among other things, an approach to "
+"defining the community (of other councils, specialists such as geodata or "
+"libraries, etc.), the support tools, communication and marketing, the "
+"processes for including external contributions, managing intellectual "
+"property and sustainability after the project."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:321
+msgid ""
+"Community governance and the technical management of these projects, "
+"including approval of the code for its incorporation in the project and "
+"defining the requirements (roadmap), are different aspects.  A diversity of "
+"contributions will be encouraged, although IMI will retain effective control "
+"over developments financed using public funds."
+msgstr ""
+
+#. type: Title ==
+#: modules/ROOT/pages/communities.adoc:324
+#, no-wrap
+msgid "Proper use of the communication channels"
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:331
+#, no-wrap
+msgid "Avoid private debates"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:341
+msgid ""
+"It is very tempting to have closed discussion forums where a small group of "
+"people discuss all the aspects of the project, on both a technical and a "
+"social level, and from there come the decisions.  But it needs to be borne "
+"in mind that open, public communication channels are essential to free "
+"software projects, so everyone can read them and subscribe to them with a "
+"certain ease.  The reasons are as follows:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:347
+msgid ""
+"It is very difficult for people to want to make significant contributions to "
+"a project where the decisions are taken in a non-transparent way, like a "
+"“fait accompli” policy.  That does not mean that project governance has to "
+"work like a democracy.  The essential prerequisite is *transparency*: people "
+"will want to know why and how decisions are taken, and perhaps have their "
+"say, without the option they put forward necessarily being the one chosen.  "
+"Experienced developers know that the project has certain needs and not "
+"everyone can take part in decision-making with the same weight.  When in the "
+"end decisions are taken by the City Council, everyone will understand that "
+"if it is made clear from the start, as specified in the "
+"link:#publicar-breus-directrius-desenvolupadors[Measure: (Day 1) Publish "
+"brief Developer Guidelines]."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:349
+msgid ""
+"It is surprising how many good ideas can be selflessly expressed through the "
+"public communication channels, if all aspects of the project are discussed "
+"there in a friendly working climate."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:351
+msgid ""
+"If the communication takes place in public mail lists and is then filed, "
+"anyone can consult the decision log and avoid repeating previous "
+"discussions."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:353
+msgid ""
+"Open, public channels foster a more effective, polite and assertive "
+"communication culture."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:357
+#, no-wrap
+msgid ""
+"Establish the “Contributor Covenant” as the Code of Conduct for the project "
+"and its communication channels"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:364
+msgid ""
+"A project’s *Code of Conduct* is a document or series of documents that "
+"regulates the social rules of participants’ conduct when taking part in the "
+"project, including the following aspects:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:366
+msgid ""
+"Participation rules in all online communication channels associated with the "
+"project, such as chat rooms, public and private mail lists, issue managers, "
+"feature development tools and pull requests, wikis, blogs, Twitter, forums, "
+"etc."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:368
+msgid ""
+"Conduct rules for face-to-face activities of the community associated with "
+"the project, such as meetings and conferences."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:371
+msgid ""
+"A code of conduct serves as a written reference for behaviour that is "
+"considered inappropriate for people taking part in the project. More "
+"specifically, the https://www.contributor-covenant.org/ has been used by "
+"many free software projects lately, so it may be familiar to lots of "
+"developers already.  It has also been translated into various languages."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:373
+msgid "Create a link from at least:"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:377
+msgid ""
+"The Developer Guidelines in the _Measure_: _(Day 1) Publish brief Developer "
+"Guidelines_."
+msgstr ""
+
+#. type: Block title
+#: modules/ROOT/pages/communities.adoc:381
+#, no-wrap
+msgid "Do not allow any insults or personal attacks in the communication channels"
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:389
+msgid ""
+"A policy of zero tolerance should be maintained in this regard.  That "
+"doesn’t mean expelling people at the drop of a hat (sometimes that would not "
+"even be possible), it means someone has to be in charge of systematically "
+"pointing out that certain types of behaviour are not tolerated in this "
+"project."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:391
+msgid ""
+"If it is considered opportune, they can refer to the relevant sections of "
+"the Code of Conduct (#h:c3405dee-679e-42e0-9ba6-141a0ad06965[Measure: "
+"Establish the “Contributor Covenant” as the Code of Conduct for the project "
+"and its communication channels])."
+msgstr ""
+
+#. type: Plain text
+#: modules/ROOT/pages/communities.adoc:394
+msgid ""
+"At http://producingoss.com/en/setting-tone.html#prevent-rudeness there is "
+"some information on how to handle these situations."
+msgstr ""

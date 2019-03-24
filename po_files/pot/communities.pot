@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2019-03-14 00:00+0100\n"
+"POT-Creation-Date: 2019-03-24 10:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,20 +142,24 @@ msgid ""
 "with those of the community we are addressing:"
 msgstr ""
 
-#. type: Plain text
-#: modules/ROOT/pages/communities.adoc:55
+#. type: Positional ($2) AttributeList argument for style 'quote'
+#: modules/ROOT/pages/communities.adoc:53
+#, no-wrap
+msgid "Karl Fogel"
+msgstr ""
+
+#. type: Positional ($3) AttributeList argument for style 'quote'
+#: modules/ROOT/pages/communities.adoc:53
+#, no-wrap
+msgid "Producing Open Source Software"
+msgstr ""
+
+#. type: quote
+#: modules/ROOT/pages/communities.adoc:56
 msgid ""
 "\"Don't think of community scrutiny as an obstacle to be overcome — think of "
 "it as a free design board and QA department.  It is a benefit to be "
 "aggressively pursued, not an obstacle to be merely endured.\""
-msgstr ""
-
-#. type: Plain text
-#: modules/ROOT/pages/communities.adoc:56
-msgid ""
-"Karl Fogel, "
-"https://producingoss.com/en/contracting.html#community-review-acceptance[Producing "
-"Open Source Software]"
 msgstr ""
 
 #. type: Block title
@@ -181,7 +185,7 @@ msgstr ""
 msgid "NewProduct"
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:67
 msgid ""
 "Don't hide the team's contributions under a corporate identity in our own "
@@ -191,7 +195,7 @@ msgid ""
 "channels or management tools."
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:69
 msgid ""
 "If any individual contributes to a software project as a worker hired "
@@ -200,12 +204,12 @@ msgid ""
 "two different emails, depending on the case:"
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:71
 msgid "A personal email when making voluntary contributions."
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:72
 msgid ""
 "A company or City Council email when carrying out tasks specified by their "
@@ -220,7 +224,7 @@ msgid ""
 "plans"
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:84
 msgid ""
 "If we want to modify or adapt an existing component, we have to be open and "
@@ -229,7 +233,7 @@ msgid ""
 "them of our needs and technical plans beforehand."
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:86
 msgid ""
 "We need to ensure the support community of the component that is to be "
@@ -242,7 +246,7 @@ msgstr ""
 msgid "Inform other relevant technical communities of our plans"
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:98
 msgid ""
 "Free software communities are usually very interested in contributing ideas, "
@@ -250,7 +254,7 @@ msgid ""
 "technical challenges they believe could benefit them."
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:100
 msgid ""
 "IMI projects will study the possibilities of collaborating with the local "
@@ -264,20 +268,20 @@ msgstr ""
 msgid "Hire developers who are recognised in the project we want to modify"
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:108 modules/ROOT/pages/communities.adoc:129 modules/ROOT/pages/communities.adoc:156 modules/ROOT/pages/communities.adoc:172 modules/ROOT/pages/communities.adoc:246
 msgid "Procurement"
 msgstr ""
 
 #.   links outgoing: link:#A_1F9[_A_1F9_]
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:114
 msgid ""
 "This could be done directly or by means of a contract with a company or "
 "cooperative that wins the tender."
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:117
 msgid ""
 "There are never any guarantees that the modifications we need to make will "
@@ -286,12 +290,12 @@ msgid ""
 "knowledge they might have, they could bring:"
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:119
 msgid "An insider's view of the technical ideas most likely to be accepted."
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:121
 msgid "The value of being a respected figure in the community that takes decisions."
 msgstr ""
@@ -305,12 +309,12 @@ msgid ""
 msgstr ""
 
 #.   links incoming: link:#M_34D[_M_34D_]
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:134
 msgid "That includes:"
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:136
 msgid ""
 "Clearly describing the collaborative tasks the contract winner is expected "
@@ -319,7 +323,7 @@ msgid ""
 "costs of participating in the community of the product to be modified]."
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:140
 msgid ""
 "The contract winner accepting and applying the Developer Guidelines, the "
@@ -331,28 +335,28 @@ msgid ""
 "https://www.ietf.org/rfc/rfc1855.txt."
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:142
 msgid ""
 "Certain awardee profiles becoming users of the project communication "
 "channels."
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:144
 msgid ""
 "Periodically informing the community of the modifications planned, the part "
 "done and the technical decisions being taken."
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:146
 msgid ""
 "Promptly informing IMI of all the feedback received by the community, both "
 "positive and negative, on the aims of integrating new features."
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:148
 msgid ""
 "IMI staff will have to monitor all of this and possibly intervene directly "
@@ -365,12 +369,12 @@ msgstr ""
 msgid "Penalise contractors if there are any changes in the project staff"
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:161
 msgid "Measures to bear in mind when drawing up the contract specifications."
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:164
 msgid ""
 "A high turnover is detrimental to any project but especially when "
@@ -388,7 +392,7 @@ msgid ""
 "to be modified"
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:177
 msgid ""
 "It needs to be specified in as much detail as possible to what extent IMI "
@@ -396,12 +400,12 @@ msgid ""
 "the features to be developed among:"
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:179
 msgid "The development communities involved"
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:180
 msgid "Potential users"
 msgstr ""
@@ -414,12 +418,12 @@ msgid ""
 "of interest"
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:191
 msgid "Ideally a mail thread."
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:194
 msgid ""
 "When people are hired to take part in an established free software project, "
@@ -429,7 +433,7 @@ msgid ""
 "serve two superiors and cannot always satisfy both."
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:196
 msgid ""
 "We have to ask for maximum transparency in these cases and try to anticipate "
@@ -448,7 +452,7 @@ msgstr ""
 msgid "Recognise people who make contributions to the project"
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:213
 msgid ""
 "All individuals that have made a relevant contribution to the code or the "
@@ -464,22 +468,22 @@ msgid ""
 "community"
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:224
 msgid "This includes things such as developers dedicating time on:"
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:226
 msgid "Revising the code of others"
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:227
 msgid "Replying to messages in the project communication channels"
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:228
 msgid "Intervening in StackOverflow"
 msgstr ""
@@ -492,7 +496,7 @@ msgid ""
 "we want from each party"
 msgstr ""
 
-#. type: Plain text
+#. type: quote
 #: modules/ROOT/pages/communities.adoc:238
 msgid "Pay special attention to possible early adopters."
 msgstr ""

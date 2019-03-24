@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-03-13 11:37+0000\n"
-"Last-Translator: David Pretel <david@abox.com>\n"
+"PO-Revision-Date: 2019-03-22 10:25+0000\n"
+"Last-Translator: Guillem Marpons <gmarpons@mailbox.org>\n"
 "Language-Team: Catalan\n"
 "Language: ca\n"
 "X-Generator: Zanata 4.6.2\n"
@@ -105,6 +105,9 @@ msgid ""
 "This reinforces both the project, with more ideas and resources, and the "
 "local communities.\n"
 msgstr ""
+"*Participació de la comunitat*.\n"
+"Això reforça tant el projecte, amb més idees i recursos, com les comunitats "
+"locals.\n"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:28
@@ -1272,6 +1275,7 @@ msgstr ""
 msgid ""
 "Do not include deployment-specific or client-specific data in the code."
 msgstr ""
+"No incloure al codi dades específiques d'un desplegament, o d'un client."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:482
@@ -1281,6 +1285,10 @@ msgid ""
 "  Those configuration files should be kept in a different, private "
 "repository."
 msgstr ""
+"La parametrització, tant del procés de _build_ com de l'execució, s'ha de "
+"poder realitzar a través de fitxers de configuració, fins i tot si hi ha "
+"altres mètodes (per exemple, opcions de línia de línia de comandes). Aquests "
+"fitxers de configuració s'han de mantenir en un repositori privat diferent."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:485
@@ -1288,17 +1296,19 @@ msgid ""
 "This makes it easier to reuse the code.  It is incorrect to put the "
 "configuration:"
 msgstr ""
+"Això fa més senzilla la reutilització del codi. És incorrecte posar la "
+"configuració:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:487
 msgid "Hardwired in the code itself."
-msgstr ""
+msgstr "Fixada estàticament al propi codi."
 
 #.  (see the ref:measure M_A69 <measure_M_A69>).
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:490
 msgid "In files committed to the same repository as the code."
-msgstr ""
+msgstr "En fitxers guardats al mateix repositori que el codi."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:493
@@ -1335,6 +1345,10 @@ msgid ""
 "to understand they will not have a monopoly over the configuration, "
 "deployment and maintenance of the product."
 msgstr ""
+"La documentació ha de ser suficient perquè un tercer entengui com configurar "
+"i desplegar el producte. Les organitzacions adjudicatàries de contractes han "
+"d’entendre que no tindran el monopoli de la configuració, desplegament i "
+"manteniment del producte."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:510
@@ -1541,6 +1555,8 @@ msgid ""
 "For text documents, spreadsheets and presentations, the following formats "
 "are acceptable:"
 msgstr ""
+"Pels documents de text, fulls de càlcul i presentacions, els següents "
+"formats son acceptables:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:595
@@ -1549,6 +1565,9 @@ msgid ""
 "available (for generation, edition and parsing) in all main IT platforms "
 "including GNU/Linux."
 msgstr ""
+"Text pla basat en formats que disposen d'una implementació lliure i estable "
+"(per la generació, edició i ingestió) en les principals plataformes incloent "
+"GNU/Linux."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:596
@@ -1566,6 +1585,8 @@ msgid ""
 "We reject proprietary formats from Microsoft Office and Apple's iWork (`."
 "doc[x]`, `.ppt[x]`, etc.)"
 msgstr ""
+"Rebutgem formats propietaris com els de Microsoft Office i Apple iWork (`."
+"doc[x]`, `.ppt[x]`, etc.)"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:601
@@ -1585,6 +1606,9 @@ msgid ""
 "information with an existing service currently used at IMI that only accepts "
 "some non-open format."
 msgstr ""
+"Es justifica una excepció temporal a aquesta regla si necessitem "
+"intercanviar informació amb un servei actualment existent a l'IMI que només "
+"accepta algun format no obert."
 
 #. type: Title ==
 #: modules/ROOT/pages/collaborative-development.adoc:609
@@ -1617,6 +1641,8 @@ msgid ""
 "The standard tool for multi-lingual messages in free software projects is "
 "https://www.gnu.org/software/gettext/[`gettext`]."
 msgstr ""
+"L'eina estàndard per a missatges multi-lingües en projectes de programari "
+"lliure és https://www.gnu.org/software/gettext/[`gettext`]."
 
 #. type: Title ==
 #: modules/ROOT/pages/collaborative-development.adoc:630
@@ -1630,6 +1656,9 @@ msgid ""
 "The City Council owns the copyright of a lot of code that was not provided "
 "under a free software license, and it is therefore proprietary software."
 msgstr ""
+"L'Ajuntament és propietari dels drets d'autor de molt codi que no es va "
+"proporcionar sota una llicència de programari lliure i, per tant, és un "
+"programari propietari."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:638

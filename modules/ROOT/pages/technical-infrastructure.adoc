@@ -25,7 +25,7 @@ On this website we need to facilitate and encourage people to participate in the
 Usually both types of content are necessary but it is not always necessary to be in two separate places, with different domain names.
 In each project it leads, the City Council will have to assess to what extent the needs and mentalities of the two sets of people are different, therefore making it impossible for a single website model to accommodate both.
 
-The section link:#repositori-de-codi-i-control-de-versions[Code repository and version control] explains how to set up the development site, the only one required from the outset.
+The section <<Code repository and version control>> explains how to set up the development site, the only one required from the outset.
 We can assess if there is also a need for a site geared towards other participant profiles as the project grows.
 
 What is useful is for the project to have its own domain name (or a permanent URL under a City Council domain) from the outset.
@@ -423,8 +423,7 @@ Establish penalties (serious breach) in the contract performance conditions for 
 [.tags]
 * Adaptation
 
-[[repositori-de-codi-i-control-de-versions]]To finally enable our changes to be integrated
-and our defect notifications to make sense.
+To finally enable our changes to be integrated and our defect notifications to make sense.
 --
 
 

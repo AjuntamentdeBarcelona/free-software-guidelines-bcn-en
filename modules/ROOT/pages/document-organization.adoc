@@ -74,6 +74,7 @@ We exclude from the analysis contributions to projects that do not involve modif
 
 The `Integration`, `Adaptation`, `Plugin` and `NewProduct` use-cases may occasionally require a *migration*, if we find ourselves in a situation of implementing a system that partially or totally replaces the functions of a previous system.
 
+[[use-case-integration]]
 === `Integration` Use-Case
 
 This Use-Case may involve creating one or more own repositories, not to manage the code of any software _per se_ but to:
@@ -90,7 +91,7 @@ With regard to customisation elements, we highlight the need for *translating* u
 We contemplate two possibilities:
 
 * The following conditions are met: (1) the software to be translated is designed to incorporate translations of the interface, and (2) the translations to be carried out may be of general interest to other potential users of the tool.
-  In this case, we will try to fit the translations into the original project, which means we would find ourselves in the link:#escenari-adaptacio[Adaptation Use-Case].
+  In this case, we will try to fit the translations into the original project, which means we would find ourselves in the <<use-case-adaptation, Adaptation Use-Case>>.
 * One of the two conditions mentioned above is not met: we store the files needed for doing the translation in an own repository.
 
 [example]
@@ -99,45 +100,48 @@ We contemplate two possibilities:
 A hypothetical example would be a web portal built using a content management system such as Wordpress, with a MariaDB database.
 ====
 
-[[escenari-integracio]]These are standard free software components but to make managing them easier, it might be useful to save customised elements such as CSS files or a list of Wordpress extensions to be uploaded in a repository, along with Docker images that include all the necessary elements for its deployment.
+These are standard free software components but to make managing them easier, it might be useful to save customised elements such as CSS files or a list of Wordpress extensions to be uploaded in a repository, along with Docker images that include all the necessary elements for its deployment.
 
+[[use-case-adaptation]]
 === `Adaptation` Use-Case
 
-This use-case might involve creating one or more own repositories with the same contents described for the link:#escenari-integracio[Integration Use-Case].
+This use-case might involve creating one or more own repositories with the same contents described for the <<use-case-integration, Integration Use-Case>>.
 A distinctive feature of this use-case, however, is that Barcelona City Council is sponsoring the development of a significant contribution to a free software product that could potentially be incorporated into the original product (even if this integration does not take place while it is being developed).
-These contributions must take the form of a series of commits in a repository linked in some way to that of the original producnt.
+These contributions must take the form of a series of commits in a repository linked in some way to that of the original product.
 
 There may be various types of contributions:
 
 * New features that Barcelona City Council needs and which could be of interest to other entities or users
 * Complete translations (or significant coverage) of the user interface, as well as other localisation (l10n) and internationalisation (i18n) improvements that might be of general use to other potential users of the tool.
 
-If the translations and localisation elements are mixed with the City Council’s own customised elements, or if the original product is not designed to incorporate new translations and localisations, then it is not possible to plan a contribution like this because we would be in the link:#escenari-integracio[Integration Use-case].
+If the translations and localisation elements are mixed with the City Council's own customised elements, or if the original product is not designed to incorporate new translations and localisations, then it is not possible to plan a contribution like this because we would be in the <<use-case-integration, Integration Use-case>>.
 
 [example]
-.Barcelona City Council’s ethical mail box
+.Barcelona City Council's ethical mail box
 ====
 There was an original piece of software, that of https://www.globaleaks.org/[Globaleaks], and the features of generating an internal file and sending a reply to the user in the form of a PDF were incorporated into that.
 These features are now part of the https://github.com/globaleaks/GlobaLeaks[Globaleaks main repository]’s master branch.
 ====
 
-[[escenari-adaptacio]]Customisation tasks have been carried out in the same project, including the translation of the interface into Catalan, but as some user texts are not for general use but instead are the City Council’s own customisations, it has not been possible to contribute the translation itself to the original project.
+Customisation tasks have been carried out in the same project, including the translation of the interface into Catalan, but as some user texts are not for general use but instead are the City Council's own customisations, it has not been possible to contribute the translation itself to the original project.
 
+[[use-case-plugin]]
 === `Plugin` Use-case
 
-This is a use-case half way between integrating new features into an already existing product (link:#escenari-adaptacio[Adaptation Use-case]) and developing a new product (link:\l[NewProduct Use-case]), and it shares features of both.
+This is a use-case half way between integrating new features into an already existing product (<<use-case-adaptation, Adaptation Use-case>>) and developing a new product (<<use-case-new-product, NewProduct Use-case>>), and it shares features of both.
 
 On the one hand, it starts with an existing piece of software to which a feature has to be added.
 On the other hand, the software architecture is modular and provides for extension by means of a standardised mechanism that enables semi-independent development of the new modules in such a way that some aspects are quite similar to a new product.
-In particular, the new modules have their own repository (which is not a copy of the original product’s repository) and the releases are not linked to those of the framework product.
+In particular, the new modules have their own repository (which is not a copy of the original product's repository) and the releases are not linked to those of the framework product.
 
 [example]
 .Open Data Barcelona
 ====
-The http://opendata-ajuntament.barcelona.cat/[City Council’s open data portal] is based on https://ckan.org/[CKAN] open data portal software.
-This product is http://docs.ckan.org/en/latest/extensions/plugin-interfaces.html[easily extendible] by means of plugins or extensions and when the new portal was being developed it was necessary to modify an existing plugin (which would also correspond to the link:#escenari-adaptacio[Adaptation Use-case]) as well as create new ones.
+The http://opendata-ajuntament.barcelona.cat/[City Council's open data portal] is based on https://ckan.org/[CKAN] open data portal software.
+This product is http://docs.ckan.org/en/latest/extensions/plugin-interfaces.html[easily extendible] by means of plugins or extensions and when the new portal was being developed it was necessary to modify an existing plugin (which would also correspond to the <<use-case-adaptation, Adaptation Use-case>>) as well as create new ones.
 ====
 
+[[use-case-new-product]]
 === `NewProduct` Use-case
 
 When there is no component or combination of components available that satisfy a specific need, a new product has to be developed.
@@ -155,14 +159,16 @@ https://decidim.org/[Decidim]’s history is a little odd because it began with 
 Later it was necessary to make a fork from the original software and, finally, it was decided to rewrite the program (improving the modularity of the code, among other things).
 ====
 
+[[use-case-publication]]
 === `Publication` Use-case
 
 Barcelona City Council owns a lot of software that is currently in use but which has never been published.
 The specific measures and recommendations for this use-case explain the additional checks that are necessary for publishing, under licence, a software code that initially was not conceived for free distribution.
 
 There may be several reasons that might justify publishing a software program, provided it meets certain quality requirements.
-One possible situation is you might want to launch a new development contract for extending or adapting “ manner” an existing component (that would be the equivalent of combining the link:#escenari-adaptacio[Adaptation Use-case] and the link:#escenari-publicacio[Publication Use-case][[escenari-publicacio]]).
+One possible situation is you might want to launch a new development contract for extending or adapting “ manner” an existing component (that would be the equivalent of combining the <<use-case-adaptation, Adaptation Use-case>> and the <<use-case-publication, Publication Use-case>>).
 
+[[use-case-document]]
 === `Document` Use-case
 
 Sometimes you may want to publish a document that has been drafted (or commissioned) that might not be linked directly to a single software project.

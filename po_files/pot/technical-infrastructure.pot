@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2019-03-06 23:02+0100\n"
+"POT-Creation-Date: 2019-03-25 03:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,10 +86,10 @@ msgstr ""
 #. type: Plain text
 #: modules/ROOT/pages/technical-infrastructure.adoc:30
 msgid ""
-"The section link:#repositori-de-codi-i-control-de-versions[Code repository "
-"and version control] explains how to set up the development site, the only "
-"one required from the outset.  We can assess if there is also a need for a "
-"site geared towards other participant profiles as the project grows."
+"The section <<Code repository and version control>> explains how to set up "
+"the development site, the only one required from the outset.  We can assess "
+"if there is also a need for a site geared towards other participant profiles "
+"as the project grows."
 msgstr ""
 
 #. type: Plain text
@@ -107,27 +107,27 @@ msgid "Keep a permanent project URL and always use it to refer to the project"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:40 modules/ROOT/pages/technical-infrastructure.adoc:142 modules/ROOT/pages/technical-infrastructure.adoc:206 modules/ROOT/pages/technical-infrastructure.adoc:463 modules/ROOT/pages/technical-infrastructure.adoc:479 modules/ROOT/pages/technical-infrastructure.adoc:594
+#: modules/ROOT/pages/technical-infrastructure.adoc:40 modules/ROOT/pages/technical-infrastructure.adoc:142 modules/ROOT/pages/technical-infrastructure.adoc:206 modules/ROOT/pages/technical-infrastructure.adoc:462 modules/ROOT/pages/technical-infrastructure.adoc:478 modules/ROOT/pages/technical-infrastructure.adoc:593
 msgid "Day1"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:41 modules/ROOT/pages/technical-infrastructure.adoc:61 modules/ROOT/pages/technical-infrastructure.adoc:220 modules/ROOT/pages/technical-infrastructure.adoc:322 modules/ROOT/pages/technical-infrastructure.adoc:337 modules/ROOT/pages/technical-infrastructure.adoc:372 modules/ROOT/pages/technical-infrastructure.adoc:389 modules/ROOT/pages/technical-infrastructure.adoc:409 modules/ROOT/pages/technical-infrastructure.adoc:505 modules/ROOT/pages/technical-infrastructure.adoc:539
+#: modules/ROOT/pages/technical-infrastructure.adoc:41 modules/ROOT/pages/technical-infrastructure.adoc:61 modules/ROOT/pages/technical-infrastructure.adoc:220 modules/ROOT/pages/technical-infrastructure.adoc:322 modules/ROOT/pages/technical-infrastructure.adoc:337 modules/ROOT/pages/technical-infrastructure.adoc:372 modules/ROOT/pages/technical-infrastructure.adoc:389 modules/ROOT/pages/technical-infrastructure.adoc:409 modules/ROOT/pages/technical-infrastructure.adoc:504 modules/ROOT/pages/technical-infrastructure.adoc:538
 msgid "Integration"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:42 modules/ROOT/pages/technical-infrastructure.adoc:62 modules/ROOT/pages/technical-infrastructure.adoc:144 modules/ROOT/pages/technical-infrastructure.adoc:165 modules/ROOT/pages/technical-infrastructure.adoc:207 modules/ROOT/pages/technical-infrastructure.adoc:222 modules/ROOT/pages/technical-infrastructure.adoc:280 modules/ROOT/pages/technical-infrastructure.adoc:295 modules/ROOT/pages/technical-infrastructure.adoc:324 modules/ROOT/pages/technical-infrastructure.adoc:339 modules/ROOT/pages/technical-infrastructure.adoc:374 modules/ROOT/pages/technical-infrastructure.adoc:391 modules/ROOT/pages/technical-infrastructure.adoc:411 modules/ROOT/pages/technical-infrastructure.adoc:465 modules/ROOT/pages/technical-infrastructure.adoc:481 modules/ROOT/pages/technical-infrastructure.adoc:507 modules/ROOT/pages/technical-infrastructure.adoc:520 modules/ROOT/pages/technical-infrastructure.adoc:541 modules/ROOT/pages/technical-infrastructure.adoc:557 modules/ROOT/pages/technical-infrastructure.adoc:575 modules/ROOT/pages/technical-infrastructure.adoc:596 modules/ROOT/pages/technical-infrastructure.adoc:634 modules/ROOT/pages/technical-infrastructure.adoc:662 modules/ROOT/pages/technical-infrastructure.adoc:674
+#: modules/ROOT/pages/technical-infrastructure.adoc:42 modules/ROOT/pages/technical-infrastructure.adoc:62 modules/ROOT/pages/technical-infrastructure.adoc:144 modules/ROOT/pages/technical-infrastructure.adoc:165 modules/ROOT/pages/technical-infrastructure.adoc:207 modules/ROOT/pages/technical-infrastructure.adoc:222 modules/ROOT/pages/technical-infrastructure.adoc:280 modules/ROOT/pages/technical-infrastructure.adoc:295 modules/ROOT/pages/technical-infrastructure.adoc:324 modules/ROOT/pages/technical-infrastructure.adoc:339 modules/ROOT/pages/technical-infrastructure.adoc:374 modules/ROOT/pages/technical-infrastructure.adoc:391 modules/ROOT/pages/technical-infrastructure.adoc:411 modules/ROOT/pages/technical-infrastructure.adoc:464 modules/ROOT/pages/technical-infrastructure.adoc:480 modules/ROOT/pages/technical-infrastructure.adoc:506 modules/ROOT/pages/technical-infrastructure.adoc:519 modules/ROOT/pages/technical-infrastructure.adoc:540 modules/ROOT/pages/technical-infrastructure.adoc:556 modules/ROOT/pages/technical-infrastructure.adoc:574 modules/ROOT/pages/technical-infrastructure.adoc:595 modules/ROOT/pages/technical-infrastructure.adoc:633 modules/ROOT/pages/technical-infrastructure.adoc:661 modules/ROOT/pages/technical-infrastructure.adoc:673
 msgid "Plugin"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:43 modules/ROOT/pages/technical-infrastructure.adoc:63 modules/ROOT/pages/technical-infrastructure.adoc:145 modules/ROOT/pages/technical-infrastructure.adoc:166 modules/ROOT/pages/technical-infrastructure.adoc:208 modules/ROOT/pages/technical-infrastructure.adoc:223 modules/ROOT/pages/technical-infrastructure.adoc:281 modules/ROOT/pages/technical-infrastructure.adoc:296 modules/ROOT/pages/technical-infrastructure.adoc:308 modules/ROOT/pages/technical-infrastructure.adoc:325 modules/ROOT/pages/technical-infrastructure.adoc:340 modules/ROOT/pages/technical-infrastructure.adoc:375 modules/ROOT/pages/technical-infrastructure.adoc:392 modules/ROOT/pages/technical-infrastructure.adoc:412 modules/ROOT/pages/technical-infrastructure.adoc:466 modules/ROOT/pages/technical-infrastructure.adoc:482 modules/ROOT/pages/technical-infrastructure.adoc:508 modules/ROOT/pages/technical-infrastructure.adoc:521 modules/ROOT/pages/technical-infrastructure.adoc:542 modules/ROOT/pages/technical-infrastructure.adoc:558 modules/ROOT/pages/technical-infrastructure.adoc:597 modules/ROOT/pages/technical-infrastructure.adoc:635 modules/ROOT/pages/technical-infrastructure.adoc:663 modules/ROOT/pages/technical-infrastructure.adoc:675
+#: modules/ROOT/pages/technical-infrastructure.adoc:43 modules/ROOT/pages/technical-infrastructure.adoc:63 modules/ROOT/pages/technical-infrastructure.adoc:145 modules/ROOT/pages/technical-infrastructure.adoc:166 modules/ROOT/pages/technical-infrastructure.adoc:208 modules/ROOT/pages/technical-infrastructure.adoc:223 modules/ROOT/pages/technical-infrastructure.adoc:281 modules/ROOT/pages/technical-infrastructure.adoc:296 modules/ROOT/pages/technical-infrastructure.adoc:308 modules/ROOT/pages/technical-infrastructure.adoc:325 modules/ROOT/pages/technical-infrastructure.adoc:340 modules/ROOT/pages/technical-infrastructure.adoc:375 modules/ROOT/pages/technical-infrastructure.adoc:392 modules/ROOT/pages/technical-infrastructure.adoc:412 modules/ROOT/pages/technical-infrastructure.adoc:465 modules/ROOT/pages/technical-infrastructure.adoc:481 modules/ROOT/pages/technical-infrastructure.adoc:507 modules/ROOT/pages/technical-infrastructure.adoc:520 modules/ROOT/pages/technical-infrastructure.adoc:541 modules/ROOT/pages/technical-infrastructure.adoc:557 modules/ROOT/pages/technical-infrastructure.adoc:596 modules/ROOT/pages/technical-infrastructure.adoc:634 modules/ROOT/pages/technical-infrastructure.adoc:662 modules/ROOT/pages/technical-infrastructure.adoc:674
 msgid "NewProduct"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:44 modules/ROOT/pages/technical-infrastructure.adoc:64 modules/ROOT/pages/technical-infrastructure.adoc:146 modules/ROOT/pages/technical-infrastructure.adoc:167 modules/ROOT/pages/technical-infrastructure.adoc:209 modules/ROOT/pages/technical-infrastructure.adoc:224 modules/ROOT/pages/technical-infrastructure.adoc:282 modules/ROOT/pages/technical-infrastructure.adoc:297 modules/ROOT/pages/technical-infrastructure.adoc:309 modules/ROOT/pages/technical-infrastructure.adoc:326 modules/ROOT/pages/technical-infrastructure.adoc:376 modules/ROOT/pages/technical-infrastructure.adoc:393 modules/ROOT/pages/technical-infrastructure.adoc:413 modules/ROOT/pages/technical-infrastructure.adoc:467 modules/ROOT/pages/technical-infrastructure.adoc:483 modules/ROOT/pages/technical-infrastructure.adoc:509 modules/ROOT/pages/technical-infrastructure.adoc:522 modules/ROOT/pages/technical-infrastructure.adoc:543 modules/ROOT/pages/technical-infrastructure.adoc:559 modules/ROOT/pages/technical-infrastructure.adoc:598 modules/ROOT/pages/technical-infrastructure.adoc:636 modules/ROOT/pages/technical-infrastructure.adoc:664 modules/ROOT/pages/technical-infrastructure.adoc:676
+#: modules/ROOT/pages/technical-infrastructure.adoc:44 modules/ROOT/pages/technical-infrastructure.adoc:64 modules/ROOT/pages/technical-infrastructure.adoc:146 modules/ROOT/pages/technical-infrastructure.adoc:167 modules/ROOT/pages/technical-infrastructure.adoc:209 modules/ROOT/pages/technical-infrastructure.adoc:224 modules/ROOT/pages/technical-infrastructure.adoc:282 modules/ROOT/pages/technical-infrastructure.adoc:297 modules/ROOT/pages/technical-infrastructure.adoc:309 modules/ROOT/pages/technical-infrastructure.adoc:326 modules/ROOT/pages/technical-infrastructure.adoc:376 modules/ROOT/pages/technical-infrastructure.adoc:393 modules/ROOT/pages/technical-infrastructure.adoc:413 modules/ROOT/pages/technical-infrastructure.adoc:466 modules/ROOT/pages/technical-infrastructure.adoc:482 modules/ROOT/pages/technical-infrastructure.adoc:508 modules/ROOT/pages/technical-infrastructure.adoc:521 modules/ROOT/pages/technical-infrastructure.adoc:542 modules/ROOT/pages/technical-infrastructure.adoc:558 modules/ROOT/pages/technical-infrastructure.adoc:597 modules/ROOT/pages/technical-infrastructure.adoc:635 modules/ROOT/pages/technical-infrastructure.adoc:663 modules/ROOT/pages/technical-infrastructure.adoc:675
 msgid "Publication"
 msgstr ""
 
@@ -355,7 +355,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:143 modules/ROOT/pages/technical-infrastructure.adoc:164 modules/ROOT/pages/technical-infrastructure.adoc:221 modules/ROOT/pages/technical-infrastructure.adoc:323 modules/ROOT/pages/technical-infrastructure.adoc:338 modules/ROOT/pages/technical-infrastructure.adoc:373 modules/ROOT/pages/technical-infrastructure.adoc:390 modules/ROOT/pages/technical-infrastructure.adoc:410 modules/ROOT/pages/technical-infrastructure.adoc:425 modules/ROOT/pages/technical-infrastructure.adoc:464 modules/ROOT/pages/technical-infrastructure.adoc:480 modules/ROOT/pages/technical-infrastructure.adoc:506 modules/ROOT/pages/technical-infrastructure.adoc:540 modules/ROOT/pages/technical-infrastructure.adoc:574 modules/ROOT/pages/technical-infrastructure.adoc:595
+#: modules/ROOT/pages/technical-infrastructure.adoc:143 modules/ROOT/pages/technical-infrastructure.adoc:164 modules/ROOT/pages/technical-infrastructure.adoc:221 modules/ROOT/pages/technical-infrastructure.adoc:323 modules/ROOT/pages/technical-infrastructure.adoc:338 modules/ROOT/pages/technical-infrastructure.adoc:373 modules/ROOT/pages/technical-infrastructure.adoc:390 modules/ROOT/pages/technical-infrastructure.adoc:410 modules/ROOT/pages/technical-infrastructure.adoc:425 modules/ROOT/pages/technical-infrastructure.adoc:463 modules/ROOT/pages/technical-infrastructure.adoc:479 modules/ROOT/pages/technical-infrastructure.adoc:505 modules/ROOT/pages/technical-infrastructure.adoc:539 modules/ROOT/pages/technical-infrastructure.adoc:573 modules/ROOT/pages/technical-infrastructure.adoc:594
 msgid "Adaptation"
 msgstr ""
 
@@ -787,7 +787,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:408 modules/ROOT/pages/technical-infrastructure.adoc:519 modules/ROOT/pages/technical-infrastructure.adoc:556 modules/ROOT/pages/technical-infrastructure.adoc:573
+#: modules/ROOT/pages/technical-infrastructure.adoc:408 modules/ROOT/pages/technical-infrastructure.adoc:518 modules/ROOT/pages/technical-infrastructure.adoc:555 modules/ROOT/pages/technical-infrastructure.adoc:572
 msgid "Procurement"
 msgstr ""
 
@@ -812,27 +812,27 @@ msgid "Re-synchronise own repository with the upstream project repository weekly
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:428
+#: modules/ROOT/pages/technical-infrastructure.adoc:427
 msgid ""
-"[[repositori-de-codi-i-control-de-versions]]To finally enable our changes to "
-"be integrated and our defect notifications to make sense."
+"To finally enable our changes to be integrated and our defect notifications "
+"to make sense."
 msgstr ""
 
 #. type: Title ==
-#: modules/ROOT/pages/technical-infrastructure.adoc:431
+#: modules/ROOT/pages/technical-infrastructure.adoc:430
 #, no-wrap
 msgid "Issue manager"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:438
+#: modules/ROOT/pages/technical-infrastructure.adoc:437
 msgid ""
 "One tool all free software projects need is an issue manager or bug "
 "tracker.  At the City Council we assign it the following functions:"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:443
+#: modules/ROOT/pages/technical-infrastructure.adoc:442
 msgid ""
 "Provide notification of any defects detected (bugs tracked) by users and "
 "developers.  Also to make their treatment, evolution and eventual solution "
@@ -843,7 +843,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:448
+#: modules/ROOT/pages/technical-infrastructure.adoc:447
 msgid ""
 "Follow up tasks that are pending.  This enables one or more commits to then "
 "be linked with the closing of an issue It is also possible to see who tasks "
@@ -853,7 +853,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:451
+#: modules/ROOT/pages/technical-infrastructure.adoc:450
 msgid ""
 "Follow up how the contributions of the different parts are managed by means "
 "of the pull request mechanism.  The bug tracker could even be open to "
@@ -862,7 +862,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:453
+#: modules/ROOT/pages/technical-infrastructure.adoc:452
 msgid ""
 "It needs to be borne in mind that the bug tracker is not only important for "
 "the everyday work of developers but also that many project observers use it "
@@ -870,21 +870,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:455
+#: modules/ROOT/pages/technical-infrastructure.adoc:454
 msgid ""
 "This bug tracker has to be operational and public throughout the product’s "
 "useful life, i.e. after the contracts with the City Council have finished."
 msgstr ""
 
 #. type: Block title
-#: modules/ROOT/pages/technical-infrastructure.adoc:459
+#: modules/ROOT/pages/technical-infrastructure.adoc:458
 #, no-wrap
 msgid "Use GitHub/Gitlab for the issue manager of the project"
 msgstr ""
 
 #.  Once again it is the default option, in this case because of its automatic link with the GitHub repository and because it meets our accessibility and transparency requirements.
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:471
+#: modules/ROOT/pages/technical-infrastructure.adoc:470
 msgid ""
 "Some basic issue categories will have to be established at the start that "
 "can be modified later, depending on the needs of each project: `Bug`, "
@@ -892,30 +892,30 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/ROOT/pages/technical-infrastructure.adoc:475
+#: modules/ROOT/pages/technical-infrastructure.adoc:474
 #, no-wrap
 msgid "Link the main repository to a public issue manager"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:485
+#: modules/ROOT/pages/technical-infrastructure.adoc:484
 msgid "If this alternative is adopted, it must be borne in mind that:"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:487
+#: modules/ROOT/pages/technical-infrastructure.adoc:486
 msgid "It has to be public, in the sense that:"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:489
+#: modules/ROOT/pages/technical-infrastructure.adoc:488
 msgid ""
 "Everybody has to be able to register as a system user without paying a "
 "subscription, and thus take part in development."
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:491
+#: modules/ROOT/pages/technical-infrastructure.adoc:490
 msgid ""
 "Everybody has to be able to see the issues and follow them, without having "
 "to register as a user."
@@ -923,12 +923,12 @@ msgstr ""
 
 #.  The GitHub issue manager meets both conditions.
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:495
+#: modules/ROOT/pages/technical-infrastructure.adoc:494
 msgid "It must be linked from the code repository `README` file."
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:497
+#: modules/ROOT/pages/technical-infrastructure.adoc:496
 msgid ""
 "If the intention is for the issue manager to be part of the City Council’s "
 "own infrastructure, it has to be one of the following free tools: Gitlab, "
@@ -936,13 +936,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/ROOT/pages/technical-infrastructure.adoc:501
+#: modules/ROOT/pages/technical-infrastructure.adoc:500
 #, no-wrap
 msgid "Use the issue manager for tasks, releases and new features"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:511
+#: modules/ROOT/pages/technical-infrastructure.adoc:510
 msgid ""
 "Integrating the repository with GitHub’s issue manager means that together "
 "they make a good tool for collaborating on any code-related issue, not just "
@@ -950,41 +950,41 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/ROOT/pages/technical-infrastructure.adoc:515
+#: modules/ROOT/pages/technical-infrastructure.adoc:514
 #, no-wrap
 msgid "Draw up and maintain an issue management policy"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:524
+#: modules/ROOT/pages/technical-infrastructure.adoc:523
 msgid "It must specify:"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:526
+#: modules/ROOT/pages/technical-infrastructure.adoc:525
 msgid "Issue type (defects, tasks, milestones, etc.)."
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:528
+#: modules/ROOT/pages/technical-infrastructure.adoc:527
 msgid "Stages for those that arise."
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:531
+#: modules/ROOT/pages/technical-infrastructure.adoc:530
 msgid ""
 "This task can be given to the company awarded the contract.  It it does not "
 "have one of its own, IMI will have to provide it with one."
 msgstr ""
 
 #. type: Block title
-#: modules/ROOT/pages/technical-infrastructure.adoc:535
+#: modules/ROOT/pages/technical-infrastructure.adoc:534
 #, no-wrap
 msgid "Give everyone permission to report issues, even anonymously"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:546
+#: modules/ROOT/pages/technical-infrastructure.adoc:545
 msgid ""
 "Configure the issue manager so it will not be necessary to create an account "
 "to report defects or anything else, in order to facilitate as many "
@@ -993,25 +993,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:548
+#: modules/ROOT/pages/technical-infrastructure.adoc:547
 msgid ""
 "It is always possible to keep an eye on someone who gives us problems or "
 "rethink this policy if it doesn't work on a project."
 msgstr ""
 
 #. type: Block title
-#: modules/ROOT/pages/technical-infrastructure.adoc:552
+#: modules/ROOT/pages/technical-infrastructure.adoc:551
 #, no-wrap
 msgid "Put someone in charge of filtering issues as they arrive"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:561
+#: modules/ROOT/pages/technical-infrastructure.adoc:560
 msgid "Someone needs to be given the job of deleting duplicates, spam, etc."
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:563
+#: modules/ROOT/pages/technical-infrastructure.adoc:562
 msgid ""
 "Add a warning that it will first be necessary to look for duplicates and "
 "check privately with another person that the problem reoccurs in a second "
@@ -1019,20 +1019,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:565
+#: modules/ROOT/pages/technical-infrastructure.adoc:564
 msgid ""
 "Budget for this task if it is done under contract with a company or a "
 "cooperative."
 msgstr ""
 
 #. type: Block title
-#: modules/ROOT/pages/technical-infrastructure.adoc:569
+#: modules/ROOT/pages/technical-infrastructure.adoc:568
 #, no-wrap
 msgid "Notify the official bug tracker of the bugs in the product to be modified"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:578
+#: modules/ROOT/pages/technical-infrastructure.adoc:577
 msgid ""
 "When we are adapting an existing product, one of the main contributions we "
 "can make to the project is to detect, isolate and fix any bugs there might "
@@ -1040,7 +1040,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:580
+#: modules/ROOT/pages/technical-infrastructure.adoc:579
 msgid ""
 "Successful bidders should be contractually obliged to properly notify us of "
 "the bugs, in accordance with the guidelines of each project, to help improve "
@@ -1048,13 +1048,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/ROOT/pages/technical-infrastructure.adoc:583
+#: modules/ROOT/pages/technical-infrastructure.adoc:582
 #, no-wrap
 msgid "Integration infrastructure and testing"
 msgstr ""
 
 #. type: Block title
-#: modules/ROOT/pages/technical-infrastructure.adoc:590
+#: modules/ROOT/pages/technical-infrastructure.adoc:589
 #, no-wrap
 msgid ""
 "Link the main repository to a continuous integration system that run all the "
@@ -1062,35 +1062,35 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:601
+#: modules/ROOT/pages/technical-infrastructure.adoc:600
 msgid ""
 "Use a free software tool that we can run in our own infrastructure if "
 "needed.  We recommend one of the following tools:"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:603
+#: modules/ROOT/pages/technical-infrastructure.adoc:602
 msgid "Jenkins"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:604
+#: modules/ROOT/pages/technical-infrastructure.adoc:603
 msgid "Gitlab CI"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:605
+#: modules/ROOT/pages/technical-infrastructure.adoc:604
 msgid "Travis CI"
 msgstr ""
 
 #. type: Title ==
-#: modules/ROOT/pages/technical-infrastructure.adoc:608
+#: modules/ROOT/pages/technical-infrastructure.adoc:607
 #, no-wrap
 msgid "Internal and external communication channels"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:616
+#: modules/ROOT/pages/technical-infrastructure.adoc:615
 msgid ""
 "The first lines of communication between developers are the repository "
 "commit messages and the issue manager threads.  Many technical decisions are "
@@ -1100,7 +1100,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:619
+#: modules/ROOT/pages/technical-infrastructure.adoc:618
 msgid ""
 "Initially all new projects have to create a development mail list or a "
 "discussion forum, with public files.  This is the channel through which the "
@@ -1109,7 +1109,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:623
+#: modules/ROOT/pages/technical-infrastructure.adoc:622
 msgid ""
 "At first there will not be much that separates the developers and first "
 "users or early adopters as regards concerns and language, the latter usually "
@@ -1119,7 +1119,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:627
+#: modules/ROOT/pages/technical-infrastructure.adoc:626
 msgid ""
 "Depending on the nature and make-up of the team, it might be useful to have "
 "a chat room for more immediate communication.  Either way, it would "
@@ -1130,13 +1130,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/ROOT/pages/technical-infrastructure.adoc:630
+#: modules/ROOT/pages/technical-infrastructure.adoc:629
 #, no-wrap
 msgid "Create a development list or forum that will initially do for users as well"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:638
+#: modules/ROOT/pages/technical-infrastructure.adoc:637
 msgid ""
 "Initially the project will have a single dedicated discussion forum, shared "
 "by people carrying out development work and others who are just users of the "
@@ -1144,7 +1144,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:642
+#: modules/ROOT/pages/technical-infrastructure.adoc:641
 msgid ""
 "We recommend using https://discourse.org/[Discourse], a tool that merges "
 "traditional mail lists with a forum via web.  You need to activate the "
@@ -1154,26 +1154,26 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:645
+#: modules/ROOT/pages/technical-infrastructure.adoc:644
 msgid ""
 "An alternative is to use Mailman 3.  The list could be called "
 "`NAME-OF-THE-PROJECT-``dev`"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:647
+#: modules/ROOT/pages/technical-infrastructure.adoc:646
 msgid "Activate the file and use it profusely."
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:650
+#: modules/ROOT/pages/technical-infrastructure.adoc:649
 msgid ""
 "Initially in Catalan and/or Spanish.  When participants appear in other "
 "languages, create a list in English."
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:654
+#: modules/ROOT/pages/technical-infrastructure.adoc:653
 msgid ""
 "The main developers must be present but they are not obligated to answer all "
 "the requests.  Everyone participates on an individual basis in the list or "
@@ -1182,23 +1182,23 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/ROOT/pages/technical-infrastructure.adoc:658
+#: modules/ROOT/pages/technical-infrastructure.adoc:657
 #, no-wrap
 msgid "Create a mail list for people who use the product, if the project grows"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:666
+#: modules/ROOT/pages/technical-infrastructure.adoc:665
 msgid "Activate the archive."
 msgstr ""
 
 #. type: Block title
-#: modules/ROOT/pages/technical-infrastructure.adoc:670
+#: modules/ROOT/pages/technical-infrastructure.adoc:669
 #, no-wrap
 msgid "Create a development chat room for immediate communication between the team"
 msgstr ""
 
 #. type: Plain text
-#: modules/ROOT/pages/technical-infrastructure.adoc:678
+#: modules/ROOT/pages/technical-infrastructure.adoc:677
 msgid "Use https://gitter.im/[gitter.im] or https://riot.im/[riot.im]."
 msgstr ""

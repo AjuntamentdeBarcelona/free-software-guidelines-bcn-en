@@ -1,26 +1,24 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# David Pretel <david@abox.com>, 2019. #zanata
+# Guillem Marpons <gmarpons@mailbox.org>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2019-03-20 00:31+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2019-02-26 10:42+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-05-08 02:36+0000\n"
+"Last-Translator: Guillem Marpons <gmarpons@mailbox.org>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #. type: Title =
 #: modules/ROOT/pages/legal-aspects.adoc:1
 #, no-wrap
 msgid "Legal aspects"
-msgstr ""
+msgstr "Aspectos legales"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:9
@@ -31,12 +29,18 @@ msgid ""
 "of such licences in itself guarantees a series of inalienable rights, which "
 "allows a certain flexibility about the copyright policy."
 msgstr ""
+"Los proyectos de software libre se basan en un conjunto de tecnologías, "
+"métodos de trabajo y maneras de colaborar, pero todo ello no se sostendría "
+"sin un dispositivo legal muy especial: las licencias de software libre. El "
+"uso de licencias libres garantiza per se una serie de derechos inalienables, "
+"lo que permite en cierta manera flexibilizar la política de propiedad "
+"intelectual (PI)."
 
 #. type: Title ==
 #: modules/ROOT/pages/legal-aspects.adoc:10
 #, no-wrap
 msgid "Ownership of the code copyright"
-msgstr ""
+msgstr "Propiedad intelectual"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:16
@@ -45,6 +49,9 @@ msgid ""
 "developed for the City Council within the framework of the contract, and "
 "associated documents, is owned by the Council."
 msgstr ""
+"Hasta ahora, los contratos con proveedores establecían que todo el software "
+"desarrollado para el Ayuntamiento en el contexto del contrato, así como la "
+"documentación asociada, son propiedad del Ayuntamiento."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:20
@@ -60,6 +67,15 @@ msgid ""
 "that are not possible to do without being the legal owner of the code is "
 "relicense it or transfer the ownership."
 msgstr ""
+"Con las licencias libres, aunque no se tenga la propiedad legal del código, "
+"este se podrá utilizar tantas veces como sea necesario y para la tarea que "
+"se desee, además de poder ser modificado, adaptado y redistribuido (esto "
+"último en las condiciones que establezca la licencia). Así que el "
+"Ayuntamiento podría renunciar a toda la PI, pero de momento y de manera "
+"conservadora la sigue reclamando, como política por defecto (con las "
+"excepciones que se indican en las alternativas que se detallan a "
+"continuación). Lo único que no se puede hacer sin ser los propietarios "
+"legales del código es relicenciar."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:22
@@ -70,6 +86,11 @@ msgid ""
 "contributions from third parties, make it grow to achieve the objectives and "
 "make it sustainable in the long term."
 msgstr ""
+"El principal criterio para valorar quién se tiene que quedar con la PI en el "
+"caso de proyectos nuevos es pensar qué entidad garantiza mejor que se tomen "
+"en cada momento las medidas adecuadas para difundir el proyecto, facilitar "
+"contribuciones de terceros, hacerlo crecer hasta alcanzar los objetivos y "
+"hacerlo sostenible a largo plazo."
 
 #. type: Block title
 #: modules/ROOT/pages/legal-aspects.adoc:32
@@ -78,31 +99,33 @@ msgid ""
 "Establish Barcelona City Council as the owner of the new source code and the "
 "new documentation"
 msgstr ""
+"Establecer el Ayuntamiento de Barcelona como propietario del nuevo código "
+"fuente y la nueva documentación "
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:36 modules/ROOT/pages/legal-aspects.adoc:53 modules/ROOT/pages/legal-aspects.adoc:67 modules/ROOT/pages/legal-aspects.adoc:87 modules/ROOT/pages/legal-aspects.adoc:186 modules/ROOT/pages/legal-aspects.adoc:201 modules/ROOT/pages/legal-aspects.adoc:341
 msgid "Procurement"
-msgstr ""
+msgstr "Contratar"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:37 modules/ROOT/pages/legal-aspects.adoc:54 modules/ROOT/pages/legal-aspects.adoc:187 modules/ROOT/pages/legal-aspects.adoc:221 modules/ROOT/pages/legal-aspects.adoc:268
 msgid "Adaptation"
-msgstr ""
+msgstr "Adaptación"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:38 modules/ROOT/pages/legal-aspects.adoc:68 modules/ROOT/pages/legal-aspects.adoc:88 modules/ROOT/pages/legal-aspects.adoc:202 modules/ROOT/pages/legal-aspects.adoc:222 modules/ROOT/pages/legal-aspects.adoc:246 modules/ROOT/pages/legal-aspects.adoc:269 modules/ROOT/pages/legal-aspects.adoc:342 modules/ROOT/pages/legal-aspects.adoc:361
 msgid "Plugin"
-msgstr ""
+msgstr "Plugin"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:39 modules/ROOT/pages/legal-aspects.adoc:69 modules/ROOT/pages/legal-aspects.adoc:89 modules/ROOT/pages/legal-aspects.adoc:122 modules/ROOT/pages/legal-aspects.adoc:156 modules/ROOT/pages/legal-aspects.adoc:223 modules/ROOT/pages/legal-aspects.adoc:247 modules/ROOT/pages/legal-aspects.adoc:270 modules/ROOT/pages/legal-aspects.adoc:343 modules/ROOT/pages/legal-aspects.adoc:362
 msgid "NewProduct"
-msgstr ""
+msgstr "NuevoProducto"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:40 modules/ROOT/pages/legal-aspects.adoc:70 modules/ROOT/pages/legal-aspects.adoc:90 modules/ROOT/pages/legal-aspects.adoc:123 modules/ROOT/pages/legal-aspects.adoc:157 modules/ROOT/pages/legal-aspects.adoc:224 modules/ROOT/pages/legal-aspects.adoc:248 modules/ROOT/pages/legal-aspects.adoc:271 modules/ROOT/pages/legal-aspects.adoc:344 modules/ROOT/pages/legal-aspects.adoc:363
 msgid "Publication"
-msgstr ""
+msgstr "Publicación"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:43
@@ -111,6 +134,8 @@ msgid ""
 "to assign ownership of the copyrights in the code and the documentation that "
 "it generates."
 msgstr ""
+"Es la opción por defecto, pero no la única. Se le impone al contratista una "
+"cesión de titularidad de todo el código y documentación generadas."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:45
@@ -120,6 +145,10 @@ msgid ""
 "administrations, and on those over which it intends to decide to a large "
 "extent the rules of governance."
 msgstr ""
+"Tiene sentido especialmente que el Ayuntamiento quiera concentrar todos los "
+"derechos de propiedad sobre proyectos emblemáticos, de utilidad "
+"principalmente entre administraciones públicas, y sobre los que pretenda "
+"determinar en gran medida las reglas de gobernanza."
 
 #. type: Block title
 #: modules/ROOT/pages/legal-aspects.adoc:49
@@ -128,6 +157,8 @@ msgid ""
 "Assign ownership of the new source code to the legal owner of the original "
 "code"
 msgstr ""
+"Ceder la propiedad del nuevo código fuente al propietario legal del código "
+"original "
 
 #.  links incoming: link:#M_4DC[_M_4DC_]
 #. type: Plain text
@@ -138,12 +169,18 @@ msgid ""
 "(CLA) or equivalent contract.  If not, the parts developed by the City "
 "Council can be owned by it."
 msgstr ""
+"Cuando adaptamos un producto ya existente, puede ser que para aceptar la "
+"inclusión de nuestro código en el producto original nos pidan firmar un "
+"contributor licence agreement (CLA) o contrato equivalente. Si no es así, "
+"las partes que desarrolle el Ayuntamiento pueden ser de su propiedad."
 
 #. type: Block title
 #: modules/ROOT/pages/legal-aspects.adoc:63
 #, no-wrap
 msgid "Assign ownership of the source code to an independent non-profit"
 msgstr ""
+"Ceder la propiedad del código fuente a una entidad independiente sin ánimo "
+"de lucro"
 
 #.  links incoming: link:#M_4DC[_M_4DC_]
 #. type: Plain text
@@ -152,14 +189,24 @@ msgid ""
 "There is a third option if the aim is for ownership to eventually go to an "
 "external organisation responsible for the running and governance of the "
 "project in the long term.  Given the nature of the function, that "
-"organisation will normally take the legal form of a foundation or other "
-"non-profit entity.  This makes sense in projects where, besides the City "
+"organisation will normally take the legal form of a foundation or other non-"
+"profit entity.  This makes sense in projects where, besides the City "
 "Council, other public, private or third sector bodies are involved "
 "financially and in decision-making.  In this case copyright must be assigned "
 "by contract, either directly to the corresponding entity, or initially to "
 "the City Council, so the latter can assign copyright to the entity at a "
 "later date."
 msgstr ""
+"Hay una tercera opción, si el objetivo es que la titularidad recaiga "
+"finalmente en una entidad externa encargada de la gestión y gobernanza del "
+"proyecto a largo plazo. Por la naturaleza de la función que realizar, esta "
+"entidad tendrá normalmente forma legal de fundación. Eso tiene sentido en "
+"proyectos donde, además del Ayuntamiento, participen financieramente y en la "
+"toma de decisiones otras entidades públicas, privadas o del tercer sector. "
+"En este caso, hay que establecer por contrato una cesión de derechos, que "
+"puede ser directamente a la fundación correspondiente, o bien en primer "
+"término al Ayuntamiento, que es quien hace el contrato, a fin de que sea "
+"este quien ceda los derechos a la fundación en un momento posterior."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:79
@@ -167,6 +214,8 @@ msgid ""
 "The foundation can manage other projects freed by the City Council or of "
 "other entities linked with the public sphere."
 msgstr ""
+"Esta entidad puede gestionar otros proyectos liberados por el Ayuntamiento o "
+"de otras entidades asociadas del ámbito público."
 
 #. type: Block title
 #: modules/ROOT/pages/legal-aspects.adoc:83
@@ -175,6 +224,8 @@ msgid ""
 "Establish the supplier as the legal owner of the new source code and the new "
 "documentation"
 msgstr ""
+"Establecer la empresa o entidad proveedora como propietaria del nuevo código "
+"fuente y la documentación "
 
 #.  links incoming: link:#M_4DC[_M_4DC_]
 #. type: Plain text
@@ -183,6 +234,8 @@ msgid ""
 "It makes sense to leave ownership in the hands of the company that develops "
 "the software when:"
 msgstr ""
+"Tiene sentido dejar la titularidad en manos de la empresa que desarrolla en "
+"los siguientes casos:"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:96
@@ -190,32 +243,39 @@ msgid ""
 "Software components are for general use, including companies and not just "
 "public authorities."
 msgstr ""
+"Componentes de software que son de utilidad general, incluyendo empresas y "
+"no solo administraciones públicas."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:98
 msgid ""
 "The supplier is a company or a cooperative with a track record of publishing "
 "free software and running free software communities, and which has a "
-"credible strategy for exploiting the product based on free software "
-"licences."
+"credible strategy for exploiting the product based on free software licences."
+""
 msgstr ""
+"El proveedor es una empresa o cooperativa con una trayectoria contrastada de "
+"publicación de software libre y gestión de comunidades abiertas, y tiene una "
+"estrategia creíble de explotación del producto basada en licencias libres."
 
 #. type: Title ==
 #: modules/ROOT/pages/legal-aspects.adoc:100
 #, no-wrap
 msgid "Choose a licence for the code"
-msgstr ""
+msgstr "Escoger una licencia para el código"
 
 #.  TODO: put reference to https://www.gnu.org/licenses/license-recommendations.en.html.
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:108
 msgid "There are three options, depending on the use-case:"
-msgstr ""
+msgstr "Separaremos la decisión en tres casos, dependiendo del escenario:"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:110
 msgid "`NewProdct` or `Publication`: we choose the AGPL licence by default."
 msgstr ""
+"`NuevoProducto` o `Publicación`: escogemos, por defecto, la licencia pública "
+"general de Affero (AGPL, por sus siglas en inglés)."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:113
@@ -223,6 +283,8 @@ msgid ""
 "`Adaptation`: we modify an existing project.  In this case we have to "
 "respect the licence it already has."
 msgstr ""
+"`Adaptación`: modificamos un proyecto externo ya existente. En este caso, "
+"hay que respetar la licencia que ya tenga."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:115
@@ -230,12 +292,15 @@ msgid ""
 "`Plugin`: we choose a licence commonly used in the ecosystem in which we "
 "want to integrate a modular component."
 msgstr ""
+"`Plugin`: escogemos una licencia de uso común en el ecosistema en que "
+"queremos integrar un componente modular."
 
 #. type: Block title
 #: modules/ROOT/pages/legal-aspects.adoc:118
 #, no-wrap
 msgid "Use the AGPL-3.0 licence as the licence for distributing the project"
 msgstr ""
+"Escoger la licencia AGPL-3.0 como licencia de distribución del proyecto "
 
 #.  links outgoing: link:#A_038[_A_038_]
 #. type: Plain text
@@ -245,6 +310,9 @@ msgid ""
 "Public License v3.0] (AGPL-3.0) has all the characteristics we need for City "
 "Council projects:"
 msgstr ""
+"La licencia https://www.gnu.org/licenses/why-affero-gpl.html[GNU Affero "
+"General Public License v3.0 (AGPL-3.0)] tiene todas las características que "
+"necesitamos para los proyectos del Ayuntamiento:"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:129
@@ -254,6 +322,10 @@ msgid ""
 "demand of them to prevent private appropriation of what has been financed "
 "using public money."
 msgstr ""
+"Es una licencia con copyleft, tal como obliga la ley española para las "
+"administraciones públicas que creen productos de software libre, y tal como "
+"es razonable reclamar a las administraciones para evitar una apropiación "
+"privada de lo que ha sido financiado con dinero público."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:132
@@ -263,6 +335,11 @@ msgid ""
 "(it establishes internet access as a form of distribution for the purposes "
 "of the licence).  This is sometimes called internet copyleft."
 msgstr ""
+"Para aplicaciones en las que los usuarios interactúan principalmente a "
+"través de internet, no permite crear un servicio cerrado utilizando software "
+"con esta licencia (establece el acceso por red como una forma de "
+"distribución a efectos de la licencia). Es lo que se denomina a veces "
+"copyleft de red."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:135
@@ -273,6 +350,12 @@ msgid ""
 "licence (to adapt it to new legal and technical circumstances) and the legal "
 "defence against possible attacks on the freedoms set out in its text."
 msgstr ""
+"El órgano de gobernanza de la licencia es el proyecto GNU, que es una "
+"organización sin ánimo de lucro que trabaja en beneficio de las comunidades "
+"de software libre. Por lo tanto, es este grupo de activistas y expertos el "
+"que diseñará las futuras versiones de la licencia (para adaptarse a nuevas "
+"circunstancias técnicas o legales) y las estrategias de defensa legal frente "
+"a posibles ataques a las libertades que establece su texto."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:137
@@ -280,6 +363,8 @@ msgid ""
 "The main reason for choosing this licence as the default option are as "
 "follows:"
 msgstr ""
+"Las razones principales para escoger esta licencia como opción por defecto "
+"son las siguientes:"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:140
@@ -289,6 +374,10 @@ msgid ""
 "spend time researching the licence to decide if they want to participate in "
 "the project or not."
 msgstr ""
+"Pertenece a la familia de licencias de la GNU GPL, que es la más conocida. "
+"La mayoría de desarrolladores están familiarizados con sus condiciones y eso "
+"evita que se tenga que dedicar tiempo a investigar la licencia para decidir "
+"si se quiere participar en el proyecto o no."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:142
@@ -297,20 +386,27 @@ msgid ""
 "universal immaterial commons resource posed by free software, a risk caused "
 "by the proliferation of licences and their reciprocal incompatibilities."
 msgstr ""
+"Optar por las licencias de uso más generalizado reduce el riesgo de "
+"fragmentación de este procomún inmaterial universal que supone el software "
+"libre, riesgo provocado por la proliferación de licencias y sus "
+"incompatibilidades recíprocas."
 
 #. type: delimited block *
 #: modules/ROOT/pages/legal-aspects.adoc:147
 msgid ""
 "It is written in English.  For your information, translations into other "
-"languages can be used but the original version is the only legally valid "
-"one."
+"languages can be used but the original version is the only legally valid one."
+""
 msgstr ""
+"Está escrita en inglés. A título informativo se pueden utilizar traducciones "
+"a otros idiomas, pero solo la versión original tiene validez legal."
 
 #. type: Block title
 #: modules/ROOT/pages/legal-aspects.adoc:152
 #, no-wrap
 msgid "Use the EUPL-1.2 licence as the licence for distributing the project"
 msgstr ""
+"Escoger la licencia EUPL-1.2 como licencia de distribución del proyecto"
 
 #.  links incoming: link:#M_CAF[_M_CAF_]
 #. type: Plain text
@@ -320,17 +416,26 @@ msgid ""
 "Union Public License 1.2] (EUPL-1.2) is a licence created by the European "
 "Commission."
 msgstr ""
+"La licencia https://joinup.ec.europa.eu/page/introduction-eupl-"
+"licence[European Union Public License 1.2] (EUPL-1.2) es una licencia creada "
+"por la Comisión Europea."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:164
 msgid ""
 "The advantage it has over licences belonging to the GNU GPL family is that "
-"it has legally valid translations for all the EU’s official languages: "
-"https://joinup.ec.europa.eu/page/eupl-text-11-12.[https://joinup.ec.europa.eu/page/eupl-text-11-12].  "
-"Its design has also taken into account the legal diversity of the member "
-"states as regards copyright terminology, warranties and applicable "
-"jurisdiction."
+"it has legally valid translations for all the EU’s official languages: https:"
+"//joinup.ec.europa.eu/page/eupl-text-11-12.[https://joinup.ec.europa.eu/page/"
+"eupl-text-11-12].  Its design has also taken into account the legal "
+"diversity of the member states as regards copyright terminology, warranties "
+"and applicable jurisdiction."
 msgstr ""
+"Presenta como ventaja sobre las licencias de la familia GNU GPL el hecho de "
+"disponer de traducciones legalmente válidas a todos los idiomas oficiales de "
+"la Unión Europea: https://joinup.ec.europa.eu/page/eupl-text-11-12. También "
+"en su diseño se ha tenido en cuenta la diversidad legal de los Estados "
+"miembros en cuanto a terminología sobre copyright, garantías y jurisdicción "
+"aplicable."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:169
@@ -340,9 +445,16 @@ msgid ""
 "than those of the AGPL-3.0 and more like those of the LGPL.  However, many "
 "legal experts think these differences are irrelevant before the European "
 "courts.  The fine details of the differences with the GP-3.0 (and with the "
-"AGPL-3.0 too) are explained at: "
-"https://joinup.ec.europa.eu/news/eupl-or-gplv3-comparison-t."
+"AGPL-3.0 too) are explained at: https://joinup.ec.europa.eu/news/eupl-or-"
+"gplv3-comparison-t."
 msgstr ""
+"Igual que la AGPL-3.0, dispone de copyleft y de copyleft de red. Las "
+"condiciones de copyleft que establece en caso de enlazado (linking) con "
+"otros productos son más suaves que las de AGPL-3.0, y más parecidas a las de "
+"LGPL. No obstante, muchos juristas piensan que estas diferencias pueden ser "
+"irrelevantes de cara a los tribunales europeos. El detalle de las "
+"diferencias con GPL-3.0 (y también con AGPL-3.0) se detalla en: https://"
+"joinup.ec.europa.eu/news/eupl-or-gplv3-comparison-t."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:172
@@ -351,9 +463,15 @@ msgid ""
 "fragmentation for the free software commons, as it establishes explicit "
 "compatibility with the main families of licences with copyleft, including "
 "the GNU licences.  You can find more information on EUPL 1.2 compatibility "
-"with other licences at: "
-"https://joinup.ec.europa.eu/page/eupl-compatible-open-source-licences."
+"with other licences at: https://joinup.ec.europa.eu/page/eupl-compatible-"
+"open-source-licences."
 msgstr ""
+"Utilizar esta licencia (en su última versión, la 1.2) tendría que suponer un "
+"riesgo de fragmentación bajo por el procomún del software libre, ya que en "
+"su redactado establece compatibilidad explícita con las principales familias "
+"de licencias con copyleft, incluidas las de GNU. Se pueden encontrar más "
+"detalles sobre la compatibilidad de la EUPL-1.2 con otras licencias en https:"
+"//joinup.ec.europa.eu/page/eupl-compatible-open-source-licences."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:174
@@ -361,6 +479,8 @@ msgid ""
 "The European Commission, through its Join Up initiative, is the licence’s "
 "governance body."
 msgstr ""
+"El órgano de gobernanza de la licencia es la Comisión Europea, a través de "
+"su iniciativa Join up."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:178
@@ -373,12 +493,22 @@ msgid ""
 "In the worst case scenario, they would prefer to contribute to another "
 "project that has a licence they are used to.\n"
 msgstr ""
+"*Inconveniente*. Es una licencia mucho menos conocida y extendida que las de "
+"la familia GNU GPL.\n"
+"Muchos desarrolladores dudarán sobre si utilizarla. En el mejor de los casos "
+"se los podrá convencer de que sus condiciones son muy similares a las del "
+"AGPL-3.0. \n"
+"En el peor escenario, preferirán contribuir a otro proyecto con una licencia "
+"a la que estén habituados.\n"
 
 #. type: Block title
 #: modules/ROOT/pages/legal-aspects.adoc:182
 #, no-wrap
-msgid "Use the original licence for all code that modifies an existing component"
+msgid ""
+"Use the original licence for all code that modifies an existing component"
 msgstr ""
+"Utilizar para todo el código que modifica un componente ya existente su "
+"licencia original "
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:189
@@ -388,6 +518,10 @@ msgid ""
 "the licence we are given, although we could modify it in the case of lax "
 "permissive licences."
 msgstr ""
+"Cuando modificamos un componente, y a fin de que nuestras modificaciones "
+"puedan incorporarse potencialmente al producto original, hay que respetar la "
+"licencia que nos viene dada, aunque en el caso de licencias permisivas "
+"podríamos modificarla."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:191
@@ -395,6 +529,8 @@ msgid ""
 "For development under contract, each circumstance needs to be specified in "
 "the specifications."
 msgstr ""
+"En el caso de un desarrollo bajo contrato, hay que especificar en los "
+"pliegos esta circunstancia."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:193
@@ -402,6 +538,8 @@ msgid ""
 "If we have respected measure S_58B, the component we are modifying will have "
 "a free software licence."
 msgstr ""
+"Si hemos respetado la medida S_58B, el componente que estamos modificando "
+"tendrá una licencia libre."
 
 #. type: Block title
 #: modules/ROOT/pages/legal-aspects.adoc:197
@@ -410,6 +548,8 @@ msgid ""
 "Use a licence commonly used in the ecosystem or technological platform of "
 "the component to be developed"
 msgstr ""
+"Escoger una licencia de uso común en el ecosistema o plataforma tecnológica "
+"del componente que desarrollar "
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:207
@@ -422,12 +562,20 @@ msgid ""
 "using and contributing towards maintaining our component.  So, if the AGPL "
 "or the EUPL are among these more popular licences, we choose them."
 msgstr ""
+"Si tenemos que construir una extensión enchufable a una plataforma existente "
+"(cuyo core, por la medida S_58B, debe ser libre), tenemos un cierto margen "
+"para escoger la licencia. Conviene escoger una licencia entre las más "
+"utilizadas dentro del framework o plataforma en cuestión, con el fin de "
+"facilitar la aceptación del nuevo componente por parte de la comunidad. Nos "
+"interesa que más gente utilice y contribuya a mantener nuestro componente. "
+"Si entre estas licencias más populares se encuentran la AGPL o la EUPL, las "
+"escogeremos."
 
 #. type: Title ==
 #: modules/ROOT/pages/legal-aspects.adoc:209
 #, no-wrap
 msgid "Comply with the licence obligations"
-msgstr ""
+msgstr "Cumplir con las obligaciones de las licencias"
 
 #. type: Block title
 #: modules/ROOT/pages/legal-aspects.adoc:216
@@ -436,11 +584,13 @@ msgid ""
 "Write a checklist with the obligations of the licences used and monitor "
 "compliance"
 msgstr ""
+"Escribir una checklist con las obligaciones de las licencias usadas y hacer "
+"seguimiento de su cumplimiento "
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:220
 msgid "Integration"
-msgstr ""
+msgstr "Integración"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:227
@@ -450,6 +600,10 @@ msgid ""
 "licences for the main components of the project, whether we have chosen them "
 "or not."
 msgstr ""
+"Cada licencia otorga derechos y obligaciones diferentes, tanto para los "
+"usuarios como para los desarrolladores. Hay que garantizar que se cumple con "
+"las obligaciones de todas las licencias de los componentes principales del "
+"proyecto, las hayamos escogido nosotros o no."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:229
@@ -457,16 +611,18 @@ msgid ""
 "The summaries shown at https://tldrlegal.com/ could be very useful, for "
 "example:"
 msgstr ""
+"Pueden ser de gran utilidad los resúmenes que muestra la página https://"
+"tldrlegal.com/, por ejemplo:"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:231
 msgid "https://tldrlegal.com/license/gnu-affero-general-public-license-v3"
-msgstr ""
+msgstr "https://tldrlegal.com/license/gnu-affero-general-public-license-v3"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:233
 msgid "https://tldrlegal.com/license/european-union-public-licence"
-msgstr ""
+msgstr "https://tldrlegal.com/license/european-union-public-licence"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:235
@@ -474,25 +630,30 @@ msgid ""
 "This summary (focus particularly on the “Conditions” section of each "
 "licence) could also be useful: https://choosealicense.com/licenses/."
 msgstr ""
+"También puede servir este resumen (hay que fijarse, sobre todo, en el "
+"apartado “Conditions” de cada licencia): https://choosealicense.com/licenses/"
+"."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:237
 msgid ""
-"With regard to the EUPL it is also worth reading "
-"https://joinup.ec.europa.eu/page/guidelines-users-and-developers[Guidelines "
-"for users and developers]."
+"With regard to the EUPL it is also worth reading https://joinup.ec.europa.eu/"
+"page/guidelines-users-and-developers[Guidelines for users and developers]."
 msgstr ""
+"En el caso de la EUPL también conviene leer el documento https://joinup.ec."
+"europa.eu/page/guidelines-users-and-developers[Guidelines for users and "
+"developers]."
 
 #. type: Block title
 #: modules/ROOT/pages/legal-aspects.adoc:241
 #, no-wrap
 msgid "Upload the licence text to the main repository"
-msgstr ""
+msgstr "Subir el texto de la licencia al repositorio principal "
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:245
 msgid "Day1"
-msgstr ""
+msgstr "Día1"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:250
@@ -500,6 +661,8 @@ msgid ""
 "The licence will go in plain text in a file called `LICENSE` (no extension), "
 "in the repository’s root directory."
 msgstr ""
+"La licencia irá en texto plano en un fichero denominado LICENSE (sin "
+"extensión), en el directorio raíz del repositorio."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:252
@@ -507,16 +670,22 @@ msgid ""
 "The text of the two recommended licences (which should be copied word for "
 "word) can be found at:"
 msgstr ""
+"El texto de las dos licencias recomendadas (que hay que copiar de forma "
+"literal) se puede encontrar en:"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:254
 msgid "https://www.gnu.org/licenses/agpl.txt"
-msgstr ""
+msgstr "https://www.gnu.org/licenses/agpl.txt"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:256
-msgid "https://joinup.ec.europa.eu/sites/default/files/inline-files/EUPL%20v1_2%20EN(1).txt"
+msgid ""
+"https://joinup.ec.europa.eu/sites/default/files/inline-files/"
+"EUPL%20v1_2%20EN(1).txt"
 msgstr ""
+"https://joinup.ec.europa.eu/sites/default/files/inline-files/"
+"EUPL%20v1_2%20EN(1).txt"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:260
@@ -524,19 +693,29 @@ msgid ""
 "The `LICENSE` has to be in English.  When using the EUPL-1.2 licence, which "
 "has official translations, we have the option of including `LICENSE.ca.txt` "
 "and `LICENSE.es.txt` files.  The different translations can be found at "
-"https://joinup.ec.europa.eu/page/eupl-text-11-12.[https://joinup.ec.europa.eu/page/eupl-text-11-12]."
+"https://joinup.ec.europa.eu/page/eupl-text-11-12.[https://joinup.ec.europa."
+"eu/page/eupl-text-11-12]."
 msgstr ""
+"El fichero LICENSE debe estar en inglés. En caso de utilizar la licencia "
+"EUPL-1.2, que tiene traducciones oficiales, opcionalmente podemos incluir "
+"ficheros `LICENSE.ca.txt` y `LICENSE.es.txt`. Las diferentes traducciones se "
+"encuentran en https://joinup.ec.europa.eu/page/eupl-text-11-12.[https://"
+"joinup.ec.europa.eu/page/eupl-text-11-12]."
 
 #. type: Block title
 #: modules/ROOT/pages/legal-aspects.adoc:264
 #, no-wrap
 msgid "Include a copyright and licence notice in each code file"
 msgstr ""
+"Incluir la notificación de copyright y de licencia en cada fichero de código"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:273
-msgid "Most licences stipulate the inclusion of a licence and copyright notice."
+msgid ""
+"Most licences stipulate the inclusion of a licence and copyright notice."
 msgstr ""
+"La mayoría de licencias especifican una condición denominada, en inglés, "
+"License and copyright notice."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:275
@@ -546,6 +725,11 @@ msgid ""
 "persons or entities are the code’s copyright holders and which licence "
 "establishes the distribution terms."
 msgstr ""
+"Todos los ficheros de código del repositorio (excluyendo scripts de build o "
+"de instalación) tienen que incluir al inicio una notificación que haga "
+"explícito qué personas o entidades son propietarias legales del código (en "
+"inglés, copyright holder), y cuál es la licencia que establece los términos "
+"de la distribución."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:278
@@ -559,6 +743,15 @@ msgid ""
 "version*” or “version X or – as soon they will be approved by the European "
 "Commission – *subsequent versions* of the EUPL”."
 msgstr ""
+"Es importante señalar bajo qué versión concreta de la licencia se hace la "
+"distribución, y se recomienda señalar que se dará por realizada una "
+"actualización automática a futuras versiones de la licencia cuando estas se "
+"publiquen (normalmente para adaptarse a nuevas situaciones técnicas o "
+"jurídicas que no se habían podido prever), sin necesidad de actualizar todos "
+"los ficheros de código. En los ejemplos de más abajo eso se indica mediante "
+"frases como “either version X of the License, or (at your option) *any later "
+"version*” o bien “version X or —as soon they will be approved by the "
+"European Commission— *subsequent versions* of the EUPL”."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:282
@@ -569,6 +762,11 @@ msgid ""
 "use the AGPL-3.0 on Java code, assuming the copyright holder is Barcelona "
 "City Council:"
 msgstr ""
+"La notificación debe ir, obviamente, dentro de un comentario, empleando la "
+"sintaxis para comentarios que cada lenguaje de programación utilice. Y tiene "
+"que incluir todos los años en que se hayan realizado modificaciones en el "
+"fichero. Este sería un ejemplo, si utilizamos la AGPL-3.0 sobre código Java, "
+"suponiendo que el propietario del código sea el Ayuntamiento de Barcelona:"
 
 #. type: delimited block -
 #: modules/ROOT/pages/legal-aspects.adoc:300
@@ -591,30 +789,49 @@ msgid ""
 " * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more\n"
 " * details.\n"
 " *\n"
-" * You should have received a copy of the GNU Affero General Public "
-"License\n"
+" * You should have received a copy of the GNU Affero General Public License\n"
 " * along with this program. If not, see <http://www.gnu.org/licenses/>\n"
 " */\n"
 msgstr ""
+"/* Copyright (C) 2017, 2018 Ajuntament de Barcelona\n"
+" *\n"
+" * This program is free software: you can redistribute it and/or modify it "
+"under\n"
+" * the terms of the GNU Affero General Public License as published by the "
+"Free\n"
+" * Software Foundation, either version 3 of the License, or (at your option) "
+"any\n"
+" * later version.\n"
+" *\n"
+" * This program is distributed in the hope that it will be useful, but "
+"WITHOUT\n"
+" * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS\n"
+" * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more\n"
+" * details.\n"
+" *\n"
+" * You should have received a copy of the GNU Affero General Public License\n"
+" * along with this program. If not, see <http://www.gnu.org/licenses/>\n"
+" */\n"
 
 #. type: delimited block -
 #: modules/ROOT/pages/legal-aspects.adoc:303 modules/ROOT/pages/legal-aspects.adoc:329
 #, no-wrap
-msgid ""
-"/* This file implements a system for ...\n"
+msgid "/* This file implements a system for ...\n"
 " */\n"
-msgstr ""
+msgstr "/* This file implements a system for ...\n"
+" */\n"
 
 #. type: delimited block -
 #: modules/ROOT/pages/legal-aspects.adoc:305 modules/ROOT/pages/legal-aspects.adoc:331
 #, no-wrap
 msgid "import ...\n"
-msgstr ""
+msgstr "import ...\n"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:308
 msgid "The same example using EUPL-1.2:"
-msgstr ""
+msgstr "El mismo ejemplo, utilizando la EUPL-1.2:"
 
 #. type: delimited block -
 #: modules/ROOT/pages/legal-aspects.adoc:326
@@ -626,8 +843,7 @@ msgid ""
 "by\n"
 " * the European Commission - subsequent versions of the EUPL (the "
 "\"Licence\");\n"
-" * You may not use this work except in compliance with the Licence. You "
-"may\n"
+" * You may not use this work except in compliance with the Licence. You may\n"
 " * obtain a copy of the Licence at:\n"
 " *\n"
 " * https://joinup.ec.europa.eu/software/page/eupl\n"
@@ -635,19 +851,40 @@ msgid ""
 " * Unless required by applicable law or agreed to in writing, software\n"
 " * distributed under the Licence is distributed on an \"AS IS\" basis, "
 "WITHOUT\n"
-" * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See "
-"the\n"
+" * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the\n"
 " * Licence for the specific language governing permissions and limitations "
 "under\n"
 " * the Licence.\n"
 " */\n"
 msgstr ""
+"/* Copyright (C) 2017, 2018 Ajuntament de Barcelona\n"
+" *\n"
+" * Licensed under the EUPL, Version 1.2 or – as soon they will be approved "
+"by\n"
+" * the European Commission - subsequent versions of the EUPL (the "
+"\"Licence\");\n"
+" * You may not use this work except in compliance with the Licence. You may\n"
+" * obtain a copy of the Licence at:\n"
+" *\n"
+" * https://joinup.ec.europa.eu/software/page/eupl\n"
+" *\n"
+" * Unless required by applicable law or agreed to in writing, software\n"
+" * distributed under the Licence is distributed on an \"AS IS\" basis, "
+"WITHOUT\n"
+" * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the\n"
+" * Licence for the specific language governing permissions and limitations "
+"under\n"
+" * the Licence.\n"
+" */\n"
 
 #. type: Block title
 #: modules/ROOT/pages/legal-aspects.adoc:337
 #, no-wrap
-msgid "Establish a procedure for guaranteeing the integrity of the contributions"
+msgid ""
+"Establish a procedure for guaranteeing the integrity of the contributions"
 msgstr ""
+"Establecer un procedimiento para garantizar la integridad de las "
+"contribuciones"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:346
@@ -656,6 +893,10 @@ msgid ""
 "who wrote it (which is not always the person who makes the commit) to be "
 "there under the licence conditions of the project."
 msgstr ""
+"Eso significa que de todo el código incluido en el repositorio se tiene "
+"permiso de la persona que lo ha escrito (que no siempre es la persona que "
+"hace el commit) para que esté allí bajo las condiciones de la licencia del "
+"proyecto."
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:349
@@ -664,27 +905,34 @@ msgid ""
 "example, because Barcelona City Council is the holder) an assignment of "
 "rights must be obtained.  This can be done in the following ways:"
 msgstr ""
+"Si los propietarios del código tienen que ser diferentes de los autores (por "
+"ejemplo, porque la propiedad es del Ayuntamiento de Barcelona), hay que "
+"obtener una cesión de derechos. Esta cesión se puede conseguir de las "
+"siguientes maneras:"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:351
 msgid "A “contributor agreement”-type contract"
-msgstr ""
+msgstr "Mediante un contrato tipo contributor agreement"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:352
 msgid "The corresponding tender contract"
-msgstr ""
+msgstr "Mediante el propio contrato de la licitación correspondiente"
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:353
 msgid "Directly through the software licence"
-msgstr ""
+msgstr "Directamente, a través de la licencia del software"
 
 #. type: Block title
 #: modules/ROOT/pages/legal-aspects.adoc:357
 #, no-wrap
-msgid "Require all external code contributors to send a DCO and sign each commit"
+msgid ""
+"Require all external code contributors to send a DCO and sign each commit"
 msgstr ""
+"Obligar a todos los contribuyentes de código externos a enviar un DCO y "
+"firmar cada commit "
 
 #. type: Plain text
 #: modules/ROOT/pages/legal-aspects.adoc:366
@@ -693,3 +941,6 @@ msgid ""
 "that the developers who contribute to the project recognise and accept its "
 "licence."
 msgstr ""
+"El *Developer’s Certificate of Origin (DCO)* es el documento utilizado para "
+"verificar que los desarrolladores que hacen contribuciones al proyecto "
+"conocen y aceptan su licencia."

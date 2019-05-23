@@ -1,26 +1,24 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# David Pretel <david@abox.com>, 2019. #zanata
+# Guillem Marpons <gmarpons@mailbox.org>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2019-03-20 00:31+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2019-03-06 22:54+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-05-06 08:23+0000\n"
+"Last-Translator: Guillem Marpons <gmarpons@mailbox.org>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #. type: Title =
 #: modules/ROOT/pages/collaborative-development.adoc:1
 #, no-wrap
 msgid "Collaborative development"
-msgstr ""
+msgstr "Desarrollo colaborativo"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:9
@@ -30,11 +28,18 @@ msgid ""
 "sustainable.  Increasing the flow of resources to projects is in the "
 "interest of all projects, and it involves:"
 msgstr ""
+"En los proyectos de software libre hay una cultura de trabajar en abierto, "
+"ya que esta facilita las condiciones que los hacen sostenibles financiera y "
+"técnicamente. Es de interés para todos los proyectos incrementar la "
+"afluencia de recursos hacia los mismos, y eso pasa por lo siguiente:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:11
-msgid "Increasing the number of people and institutions that use the software."
+msgid ""
+"Increasing the number of people and institutions that use the software."
 msgstr ""
+"Incrementar la cantidad de personas o instituciones que utilizan el software."
+""
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:13
@@ -43,6 +48,9 @@ msgid ""
 "the project in any way they can, by contributing to the source code, "
 "testing, corrections, funding, dissemination, translations and so on."
 msgstr ""
+"Propiciar la transición de cualquier persona o entidad usuaria a alguien que "
+"participe en el proyecto de la manera que sea: contribuyendo con código, "
+"testing, correcciones, financiación, difusión, traducciones, etcétera."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:15
@@ -51,6 +59,9 @@ msgid ""
 "difficult to reap some of the potential benefits offered by free software, "
 "including:"
 msgstr ""
+"Fuera de este modelo, basado en incentivar la colaboración, es muy difícil "
+"materializar las ventajas potenciales que ofrece el paradigma del software "
+"libre. Hay dos elementos clave en todo esto:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:19
@@ -62,6 +73,11 @@ msgid ""
 "communication infrastructure, knowledge and decision-making involved in the "
 "project.\n"
 msgstr ""
+"*Transparencia*.\n"
+"Esta no se tiene que limitar al código.\n"
+"Para que haya verdadera colaboración, la transparencia debe abarcar toda la "
+"infraestructura de comunicación, conocimiento y toma de decisiones del "
+"proyecto.\n"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:23
@@ -74,6 +90,12 @@ msgid ""
 "That reduces the technological risk and the City Council’s dependency on "
 "specific companies.\n"
 msgstr ""
+"*Diseminación del conocimiento*.\n"
+"A diferencia de los modelos de negocio clásicos, aquí interesa que el "
+"conocimiento sobre el producto, hasta los detalles más técnicos, esté lo más "
+"distribuido posible.\n"
+"Eso reduce el riesgo tecnológico y la dependencia del Ayuntamiento sobre "
+"empresas concretas.\n"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:26
@@ -83,6 +105,9 @@ msgid ""
 "This reinforces both the project, with more ideas and resources, and the "
 "local communities.\n"
 msgstr ""
+"*Participación de la comunidad*.\n"
+"Esto refuerza tanto el proyecto, con más ideas y recursos, como las "
+"comunidades locales.\n"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:28
@@ -90,14 +115,19 @@ msgid ""
 "Working in public eye means the following elements should be publicly "
 "accessible in free formats (for reading) to anyone who is interested, so "
 "they do not have to use private tools and can do so anonymously (without "
-"having to register with any web service or much less having to hire "
-"for-payment services):"
+"having to register with any web service or much less having to hire for-"
+"payment services):"
 msgstr ""
+"Trabajar en abierto supone que los siguientes elementos sean públicamente "
+"accesibles (para lectura) a toda persona interesada en formatos abiertos, "
+"sin tener que usar herramientas privativas y de forma anónima (sin tener que "
+"registrarse en ningún servicio web y mucho menos teniendo que contratar "
+"servicios de pago):"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:30
 msgid "The code repository."
-msgstr ""
+msgstr "El repositorio de código."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:32
@@ -105,16 +135,18 @@ msgid ""
 "The issue manager or bug tracker (where, among other things, defects or bugs "
 "are notified and managed)."
 msgstr ""
+"El gestor de incidencias (donde, entre otros, se notifican y gestionan los "
+"defectos o bugs)."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:34
 msgid "Design documents."
-msgstr ""
+msgstr "Los documentos de diseño."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:36
 msgid "User documentation."
-msgstr ""
+msgstr "La documentación de usuario/a."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:38
@@ -122,11 +154,13 @@ msgid ""
 "The communication channels through which the technical team make technical "
 "decisions."
 msgstr ""
+"Los canales de comunicación donde el equipo de desarrollo toma las "
+"decisiones técnicas."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:40
 msgid "Working in public eye does NOT (necessarily) mean that:"
-msgstr ""
+msgstr "Trabajar en abierto no significa (necesariamente) lo siguiente:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:42
@@ -134,6 +168,9 @@ msgid ""
 "Project outsiders have write access to the repository (they are free to copy "
 "the code into their own repository and modify their copy)."
 msgstr ""
+"Que personas externas al proyecto tengan acceso de escritura al repositorio "
+"(son libres de copiar el código en un repositorio propio y modificar su "
+"copia)."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:45
@@ -141,6 +178,9 @@ msgid ""
 "Everyone has permission to write notifications of defects and intervene in "
 "the issue manager.  Each project can choose its own QA policy."
 msgstr ""
+"Que todo el mundo tenga permiso para escribir notificaciones de defectos e "
+"intervenir en el gestor de incidencias, cada proyecto puede escoger su "
+"política de calidad."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:47
@@ -149,6 +189,9 @@ msgid ""
 "they are open to writing) and questions via the public communication "
 "channels."
 msgstr ""
+"Que el equipo del proyecto tenga que leer y responder todas las "
+"notificaciones de defectos (si están abiertas para escritura) ni todas las "
+"preguntas en los canales de comunicación abiertos."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:49
@@ -157,12 +200,15 @@ msgid ""
 "requests and patches) they might receive, if it is felt the resources are "
 "better invested in another task."
 msgstr ""
+"Que el equipo del proyecto tenga que revisar todas las sugerencias y "
+"contribuciones (pull requests, patches) que reciba, si se considera que los "
+"recursos están mejor invertidos en otra tarea."
 
 #. type: Title ==
 #: modules/ROOT/pages/collaborative-development.adoc:51
 #, no-wrap
 msgid "Work in the public eye from day one"
-msgstr ""
+msgstr "Trabajar en abierto desde el día 1"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:56
@@ -173,6 +219,11 @@ msgid ""
 "implemented, because their cost would be prohibitive.  The reasons for that "
 "can be summed up as follows:"
 msgstr ""
+"Un aspecto importantísimo que tener en cuenta es que cuanto más tiempo se "
+"gestiona un proyecto de forma cerrada, más costoso es después abrirlo. Si se "
+"espera demasiado, puede suceder que algunas medidas no lleguen nunca a "
+"implementarse, pues su coste resultaría prohibitivo. Las razones de esto se "
+"resumen en lo siguiente:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:59
@@ -181,6 +232,10 @@ msgid ""
 "have to distract us from day 1.  In this Guide we explain how to make it "
 "clear what our commitments are, what we can achieve at each stage."
 msgstr ""
+"Tener canales de comunicación abiertos desde el día 1 no significa que los "
+"“extraños” nos tengan que distraer desde el primer día. En el presente "
+"documento se explica cómo dejar claros cuáles son nuestros compromisos, que "
+"podemos modular en cada fase."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:62
@@ -191,16 +246,25 @@ msgid ""
 "https://en.wikipedia.org/wiki/Technical_debt[technological debt] with the "
 "intention of fixing things in the future (that never comes)."
 msgstr ""
+"Es imposible compensar los incentivos que tienen los desarrolladores para "
+"hacer cosas de manera *rápida y fea* con futuras amenazas de apertura. Si no "
+"se actúa en abierto desde el principio, inevitablemente se incurrirá en "
+"https://es.wikipedia.org/wiki/Technical_debt[deuda tecnológica] con la "
+"intención de arreglar las cosas en un futuro (que nunca llega)."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:64
-msgid "When the day for “freeing the code” arrives, you suddenly find you have:"
+msgid ""
+"When the day for “freeing the code” arrives, you suddenly find you have:"
 msgstr ""
+"Cuando llega el día de abrir el código, nos encontramos de repente con que "
+"tenemos cuestiones como las siguientes:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:66
 msgid "Specific user settings and passwords in the repository."
 msgstr ""
+"Configuraciones de usuario específicas y contraseñas dentro del repositorio."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:68
@@ -208,6 +272,8 @@ msgid ""
 "Notifications of defects that contain sensitive information that cannot be "
 "made public."
 msgstr ""
+"Notificaciones de defectos que contienen información sensible que no se "
+"puede hacer pública."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:70
@@ -215,6 +281,9 @@ msgid ""
 "Correspondence between developers which mixes useful technical information "
 "with personal opinions that were not expressed so everybody could read them."
 msgstr ""
+"Correspondencia entre desarrolladores donde se mezcla información técnica "
+"útil con opiniones personales que no estaban pensadas para que todo el mundo "
+"las pudiera leer."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:72
@@ -222,6 +291,8 @@ msgid ""
 "Dependence on software components that cannot be used in a free software "
 "project, or which generate licence problems."
 msgstr ""
+"Dependencias sobre componentes de software que no se pueden usar en un "
+"proyecto de software libre, o que generan problemas de licencias."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:74
@@ -229,11 +300,13 @@ msgid ""
 "Documentation or build procedures written with proprietary tools that do not "
 "allow them to be published."
 msgstr ""
+"Documentación o procedimientos de build escritos con herramientas "
+"propietarias que no permiten su publicación."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:76
 msgid "(And a never-ending list of other things)."
-msgstr ""
+msgstr "(Y una lista inacabable de cosas)."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:78
@@ -243,6 +316,10 @@ msgid ""
 "cleaning up the defect log vs creating a new one and losing the entire log, "
 "etc.)."
 msgstr ""
+"La apertura del código provoca tener que tomar decisiones difíciles, que no "
+"se producirían si hubiera sido abierto desde el principio (perder tiempo "
+"limpiando el historial de defectos o crear uno nuevo y perder el historial "
+"completo, etcétera)."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:83
@@ -254,19 +331,32 @@ msgid ""
 "uncertainty and concern before the event.  Afterwards, it could cause an "
 "avalanche of issues that in normal conditions would have been staggered."
 msgstr ""
+"Se crea un gran acontecimiento de apertura que supone un alto riesgo para el "
+"proyecto, ya que se tienen que hacer muchos cambios de golpe, y todo el "
+"proyecto y sus potenciales vulnerabilidades quedan expuestos también de "
+"golpe (y muchos ojos, no siempre bien intencionados, estarán mirando). Antes "
+"del acontecimiento, eso crea incertidumbre y preocupación. Después del "
+"acontecimiento, puede provocar un alud de incidencias que en condiciones "
+"normales habrían llegado escalonadamente."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:85
 msgid ""
-"All these points are amply justified in sections "
-"https://producingoss.com/en/setting-tone.html#be-open-from-day-one[“Be Open "
-"From Day One”] and "
-"https://producingoss.com/en/governments-and-open-source.html#starting-open-for-govs[“Being "
-"Open Source From Day One is Especially Important for Government Projects”] "
-"from the book https://producingoss.com/en/index.html[“Producing Open Source "
-"Software”], which the people in charge of each project would do well to "
-"read."
+"All these points are amply justified in sections https://producingoss.com/en/"
+"setting-tone.html#be-open-from-day-one[“Be Open From Day One”] and https://"
+"producingoss.com/en/governments-and-open-source.html#starting-open-for-"
+"govs[“Being Open Source From Day One is Especially Important for Government "
+"Projects”] from the book https://producingoss.com/en/index.html[“Producing "
+"Open Source Software”], which the people in charge of each project would do "
+"well to read."
 msgstr ""
+"Todos estos elementos se justifican ampliamente en los apartados https://"
+"producingoss.com/es/setting-tone.html#be-open-from-day-one[“Be open from day "
+"one”] y https://producingoss.com/en/governments-and-open-source."
+"html#starting-open-for-govs[“Being open source from day one is especially "
+"important for Government projects”] del libro https://producingoss.com/en/"
+"index.html[Producing Open Source Software], cuya lectura es muy recomendable "
+"para las personas responsables de cada proyecto."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:88
@@ -275,6 +365,9 @@ msgid ""
 "freeing the code are spread throughout the Guide, tagged as `Day1`.  They "
 "are all listed in the following table:"
 msgstr ""
+"Las medidas y recomendaciones que tener en cuenta para no retrasar esta "
+"apertura se encuentran repartidas en toda la guía, etiquetadas como “Día1”. "
+"Las presentamos todas aquí listadas:"
 
 #. type: Table
 #: modules/ROOT/pages/collaborative-development.adoc:152
@@ -301,8 +394,7 @@ msgid ""
 "|Day1__;__ Plugin__;__ NewProduct__;__ Publication\n"
 "\n"
 "|R_368\n"
-"|Link the main repository to a free software continuous integration "
-"system.\n"
+"|Link the main repository to a free software continuous integration system.\n"
 "|Recommendation\n"
 "|Day1__;__ Adaptation__;__ Plugin__;__ NewProduct__;__ Publication\n"
 "\n"
@@ -346,38 +438,107 @@ msgid ""
 "|\n"
 "|Dia1__;__ Integration__;__ Plugin__;__ NewProduct__;__ Publication\n"
 msgstr ""
+"|ID\n"
+"|Title\n"
+"|Type\n"
+"|Tags\n"
+"\n"
+"|A_D4F\n"
+"Vincular el repositorio principal a un gestor de incidencias público\n"
+"|Alternativa\n"
+"|Día1_;_ Adaptación_;_ Plugin_;_ NuevoProducto_;_ Publicación\n"
+"\n"
+"|M_F25\n"
+"|Subir un fichero README al repositorio principal\n"
+"|Medida\n"
+"|Día1_;_ Plugin_;_ NuevoProducto_;_ Publicación\n"
+"\n"
+"|M_4F5\n"
+"|Publicar unas breves directrices para desarrolladores (developer "
+"guidelines)\n"
+"|Medida\n"
+"|Día1_;_ Plugin_;_ NuevoProducto_;_ Publicación\n"
+"\n"
+"|R_368\n"
+"|Vincular el repositorio principal a un sistema de integración continua con "
+"licencia libre.\n"
+"|Recomendación\n"
+"|Día1_;_ Adaptación_;_ Plugin_;_ NuevoProducto_;_ Publicación\n"
+"\n"
+"|M_97E\n"
+"|Subir el texto de la licencia al repositorio principal\n"
+"|Medida\n"
+"|Día1_;_ Plugin_;_ NuevoProducto_;_ Publicación\n"
+"\n"
+"|M_A60\n"
+"|Crear el repositorio principal en el espacio [.line-through]#GitHub# de "
+"publicación abierta_de software del Ayuntamiento \n"
+"|Medida\n"
+"|Day1__;__ Adaptation__;__ Plugin__;__ NewProduct__;__ Publication\n"
+"\n"
+"|M_A63\n"
+"|Utilizar el repositorio principal [.line-through]#en GitHub# como web de "
+"desarrollo del proyecto\n"
+"|Medida\n"
+"|Día1_;_ Plugin_;_ NuevoProducto_;_ Publicación\n"
+"\n"
+"|M_35A\n"
+"|Vincular el repositorio principal al gestor de incidencias\n"
+"|Medida\n"
+"|Día1_;_ Adaptación_;_ Plugin_;_ NuevoProducto_;_ Publicación\n"
+"\n"
+"|R_2D5\n"
+"|Reservar una URL permanente para el proyecto, y usarla siempre para hacer "
+"referencia a este\n"
+"|Recomendación\n"
+"|Día1_;_ Integración_;_ Plugin_;_ NuevoProducto_;_ Publicación\n"
+"\n"
+"|link:#M_7EA[M_7EA]\n"
+"|Implementar y documentar procedimientos de build e instalación con "
+"herramientas libres y de uso extendido\n"
+"|Medida\n"
+"|Día1_;_ Plugin_;_ NuevoProducto_;_ Publicación\n"
+"\n"
+"|M_CC5\n"
+"|Subir un fichero con instrucciones de instalación en el repositorio "
+"principal\n"
+"|Medida\n"
+"| \n"
+"|\n"
+"|Día1_;_ Integración_;_ Plugin_;_ NuevoProducto_;_ Publicación\n"
 
 #. type: Title ==
 #: modules/ROOT/pages/collaborative-development.adoc:155
 #, no-wrap
 msgid "Procurement for collaborative development"
-msgstr ""
+msgstr "Contratación para desarrollar colaborativo"
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:161
 #, no-wrap
-msgid "Award the contract to companies with experience in collaborative development"
-msgstr ""
+msgid ""
+"Award the contract to companies with experience in collaborative development"
+msgstr "Adjudicar a entidades con experiencia en desarrollo colaborativo"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:165 modules/ROOT/pages/collaborative-development.adoc:182 modules/ROOT/pages/collaborative-development.adoc:201 modules/ROOT/pages/collaborative-development.adoc:215 modules/ROOT/pages/collaborative-development.adoc:229 modules/ROOT/pages/collaborative-development.adoc:244 modules/ROOT/pages/collaborative-development.adoc:530 modules/ROOT/pages/collaborative-development.adoc:619
 msgid "Procurement"
-msgstr ""
+msgstr "Contratar"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:166 modules/ROOT/pages/collaborative-development.adoc:183 modules/ROOT/pages/collaborative-development.adoc:202 modules/ROOT/pages/collaborative-development.adoc:216 modules/ROOT/pages/collaborative-development.adoc:246 modules/ROOT/pages/collaborative-development.adoc:450 modules/ROOT/pages/collaborative-development.adoc:474 modules/ROOT/pages/collaborative-development.adoc:531 modules/ROOT/pages/collaborative-development.adoc:584 modules/ROOT/pages/collaborative-development.adoc:620
 msgid "Adaptation"
-msgstr ""
+msgstr "Adaptación"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:167 modules/ROOT/pages/collaborative-development.adoc:184 modules/ROOT/pages/collaborative-development.adoc:203 modules/ROOT/pages/collaborative-development.adoc:217 modules/ROOT/pages/collaborative-development.adoc:247 modules/ROOT/pages/collaborative-development.adoc:314 modules/ROOT/pages/collaborative-development.adoc:335 modules/ROOT/pages/collaborative-development.adoc:361 modules/ROOT/pages/collaborative-development.adoc:381 modules/ROOT/pages/collaborative-development.adoc:395 modules/ROOT/pages/collaborative-development.adoc:428 modules/ROOT/pages/collaborative-development.adoc:451 modules/ROOT/pages/collaborative-development.adoc:475 modules/ROOT/pages/collaborative-development.adoc:498 modules/ROOT/pages/collaborative-development.adoc:532 modules/ROOT/pages/collaborative-development.adoc:546 modules/ROOT/pages/collaborative-development.adoc:567 modules/ROOT/pages/collaborative-development.adoc:585 modules/ROOT/pages/collaborative-development.adoc:621
 msgid "Plugin"
-msgstr ""
+msgstr "Plugin"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:168 modules/ROOT/pages/collaborative-development.adoc:185 modules/ROOT/pages/collaborative-development.adoc:204 modules/ROOT/pages/collaborative-development.adoc:218 modules/ROOT/pages/collaborative-development.adoc:230 modules/ROOT/pages/collaborative-development.adoc:248 modules/ROOT/pages/collaborative-development.adoc:266 modules/ROOT/pages/collaborative-development.adoc:278 modules/ROOT/pages/collaborative-development.adoc:291 modules/ROOT/pages/collaborative-development.adoc:315 modules/ROOT/pages/collaborative-development.adoc:336 modules/ROOT/pages/collaborative-development.adoc:362 modules/ROOT/pages/collaborative-development.adoc:382 modules/ROOT/pages/collaborative-development.adoc:396 modules/ROOT/pages/collaborative-development.adoc:429 modules/ROOT/pages/collaborative-development.adoc:476 modules/ROOT/pages/collaborative-development.adoc:499 modules/ROOT/pages/collaborative-development.adoc:533 modules/ROOT/pages/collaborative-development.adoc:547 modules/ROOT/pages/collaborative-development.adoc:568 modules/ROOT/pages/collaborative-development.adoc:586 modules/ROOT/pages/collaborative-development.adoc:622
 msgid "NewProduct"
-msgstr ""
+msgstr "NuevoProducto"
 
 #.   links outgoing: link:#A_37A[_A_37A_] link:#A_8D9[_A_8D9_]
 #. type: Plain text
@@ -386,6 +547,8 @@ msgid ""
 "Establish the need for free software development experience as a condition "
 "of technical solvency."
 msgstr ""
+"Hay que establecer la necesidad de experiencia en software libre como "
+"condición de solvencia técnica."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:175
@@ -397,6 +560,11 @@ msgid ""
 "is no reason why that should be the result of bad faith but a lack of "
 "knowledge."
 msgstr ""
+"Por muchas condiciones que se pongan en el contrato, si la empresa "
+"adjudicataria no tiene experiencia participando en proyectos de software "
+"libre, lo más probable es que el producto acabe no siguiendo muchas de sus "
+"convenciones. En la mayoría de casos eso no tiene por qué ser resultado de "
+"una mala disposición, sino fruto del desconocimiento."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:178
@@ -405,6 +573,8 @@ msgid ""
 "Enter into a subsidiary independent validation and verification (IV&V) "
 "contract"
 msgstr ""
+"Hacer un contrato secundario de validación y verificación independiente "
+"(IV&V) "
 
 #.   links incoming: link:#M_F60[_M_F60_]
 #. type: Plain text
@@ -415,6 +585,10 @@ msgid ""
 "collaborator and carry out code checks and process analyses, reporting "
 "directly to IMI."
 msgstr ""
+"Hay que contratar a alguna entidad que sí tenga experiencia demostrable en "
+"la participación de manera sostenida en proyectos de software libre. Esta "
+"entidad actuará como colaborador externo del proyecto y hará revisiones de "
+"código y análisis de procesos, reportando directamente al IMI."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:192
@@ -422,17 +596,21 @@ msgid ""
 "In an free software project, what is being contracted is not just the code "
 "but also the process."
 msgstr ""
+"En un proyecto de software libre, lo que se está contratando no es solo el "
+"código, sino también el proceso."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:194
 msgid "Add this service to the project technical office."
-msgstr ""
+msgstr "Hay que añadir este servicio a la oficina técnica del proyecto."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:197
 #, no-wrap
 msgid "Include experience in free software projects as an award criterion"
 msgstr ""
+"Incluir como criterio de adjudicación la experiencia en proyectos de código "
+"abierto "
 
 #.   links incoming: link:#M_F60[_M_F60_]
 #. type: Plain text
@@ -441,6 +619,8 @@ msgid ""
 "Award a set number of points to companies that can certify experience in "
 "projects that have produced free software."
 msgstr ""
+"Hay que adjudicar un determinado número de puntos a las empresas que "
+"acrediten experiencia en proyectos en los que se ha producido software."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:211
@@ -449,6 +629,8 @@ msgid ""
 "Ask tenderers to provide evidence of participants' experience in free "
 "software projects"
 msgstr ""
+"Pedir a los concursantes que acrediten experiencia en proyectos de software "
+"libre de los participantes "
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:220
@@ -457,6 +639,9 @@ msgid ""
 "in public repositories and forums (StackOverflow, etc.), from projects they "
 "have taken part in."
 msgstr ""
+"Tienen que hacerlo aportando referencias a su participación individual en "
+"repositorios y foros públicos (StackOverflow, etcétera) de los proyectos en "
+"los que hayan participado."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:222
@@ -464,6 +649,8 @@ msgid ""
 "This can be done as a technical solvency criterion or a performance "
 "criterion."
 msgstr ""
+"Se puede hacer constar esta demanda como criterio de solvencia técnica o "
+"como criterio de ejecución."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:225
@@ -472,15 +659,21 @@ msgid ""
 "Split the project into groups of features that can be tendered in various "
 "lots"
 msgstr ""
+"Partir el proyecto en grupos de funcionalidad que se puedan licitar en "
+"diferentes lotes "
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:232
 msgid ""
 "Either by contracting by lots or by outsourcing specific tasks such as "
-"checking the code and its deployment, as established by the "
-"link:#fer-contracte-validacio-independent[Alternative: Enter into a "
-"subsidiary independent validation and verification (IV&V) contract]."
+"checking the code and its deployment, as established by the link:#fer-"
+"contracte-validacio-independent[Alternative: Enter into a subsidiary "
+"independent validation and verification (IV&V) contract]."
 msgstr ""
+"Ya sea contratando por lotes o externalizando tareas concretas como la "
+"revisión de código y del despliegue, como establece la alternativa link:#fer-"
+"contracte-validacio-independent[“Hacer un contrato secundario de validación "
+"y verificación (V&V) independiente”]."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:235
@@ -490,6 +683,10 @@ msgid ""
 "of the project.  The _reservoirs of distributed knowledge_ are one of the "
 "main strengths of free software projects."
 msgstr ""
+"Además de ser una política alineada con la Guía de contratación tecnológica, "
+"es muy favorable para los intereses del proyecto diseminar el conocimiento "
+"sobre el producto. Las reservas de conocimiento distribuidas son una de las "
+"principales fortalezas de los proyectos de software libre."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:237
@@ -497,26 +694,33 @@ msgid ""
 "It also helps a great deal to ensure collaborative development processes are "
 "established from the outset."
 msgstr ""
+"También ayuda mucho a que desde el principio del desarrollo se establezcan "
+"procesos de trabajo colaborativo."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:240
 #, no-wrap
 msgid "Reduce the financial stability requirements for tenders"
-msgstr ""
+msgstr "Reducir los requerimientos de estabilidad financiera de las ofertas"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:245 modules/ROOT/pages/collaborative-development.adoc:290 modules/ROOT/pages/collaborative-development.adoc:473
 msgid "Integration"
-msgstr ""
+msgstr "Integración"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:251
 msgid ""
 "This is a matter of softening the required financial solvency criteria.  The "
-"aim is avoid putting artificial impediments that prevent small and "
-"medium-sized companies and cooperatives from submitting a bid when they meet "
-"(often more than large companies) the technical solvency criteria."
+"aim is avoid putting artificial impediments that prevent small and medium-"
+"sized companies and cooperatives from submitting a bid when they meet (often "
+"more than large companies) the technical solvency criteria."
 msgstr ""
+"Se trata de suavizar los criterios de solvencia financiera exigidos. El "
+"objetivo es no poner impedimentos artificiales que puedan impedir "
+"presentarse al concurso a empresas y cooperativas pequeñas y medianas que "
+"cumplan en solvencia técnica e incluso superen a las grandes empresas en "
+"ello."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:253
@@ -528,23 +732,29 @@ msgid ""
 "software increases the sustainability of projects without the need for very "
 "high financial requirements."
 msgstr ""
+"Como se explica en la página 47 de Join up: Guideline on public procurement "
+"of Open Source Software <document/guideline-public-procurement-open-source-"
+"software> (documento encargado por la Comisión Europea), la mayor "
+"interoperabilidad e independencia de proveedores cuando se trabaja en "
+"software libre incrementa la sostenibilidad de los proyectos sin necesidad "
+"de unos requerimientos financieros muy elevados."
 
 #. type: Title ==
 #: modules/ROOT/pages/collaborative-development.adoc:256
 #, no-wrap
 msgid "Dissemination of the project"
-msgstr ""
+msgstr "Difusión del proyecto"
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:262
 #, no-wrap
 msgid "Choose a good name for the project"
-msgstr ""
+msgstr "Escoger un buen nombre para el proyecto "
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:267 modules/ROOT/pages/collaborative-development.adoc:279 modules/ROOT/pages/collaborative-development.adoc:292 modules/ROOT/pages/collaborative-development.adoc:316 modules/ROOT/pages/collaborative-development.adoc:337 modules/ROOT/pages/collaborative-development.adoc:363 modules/ROOT/pages/collaborative-development.adoc:383 modules/ROOT/pages/collaborative-development.adoc:397 modules/ROOT/pages/collaborative-development.adoc:430 modules/ROOT/pages/collaborative-development.adoc:477 modules/ROOT/pages/collaborative-development.adoc:500 modules/ROOT/pages/collaborative-development.adoc:548 modules/ROOT/pages/collaborative-development.adoc:587 modules/ROOT/pages/collaborative-development.adoc:644 modules/ROOT/pages/collaborative-development.adoc:661 modules/ROOT/pages/collaborative-development.adoc:668 modules/ROOT/pages/collaborative-development.adoc:687
 msgid "Publication"
-msgstr ""
+msgstr "Publicación"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:269
@@ -553,19 +763,24 @@ msgid ""
 "because obtaining the participation of users and developers from outside the "
 "confines of the City Council can determine the project’s level of success."
 msgstr ""
+"Esto es más importante en proyectos de software libre que en proyectos "
+"tradicionales, porque adquirir usuarios y desarrolladores fuera de los "
+"confines del Ayuntamiento puede determinar el grado de éxito del proyecto."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:271
 msgid ""
-"More specific pointers can be found at "
-"http://producingoss.com/en/getting-started.html#choosing-a-name."
+"More specific pointers can be found at http://producingoss.com/en/getting-"
+"started.html#choosing-a-name."
 msgstr ""
+"Se pueden encontrar indicaciones más concretas en http://producingoss.com/es/"
+"getting-started.html#choosing-a-name."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:274
 #, no-wrap
 msgid "Register the name in important online (Internet) sites (3.3, 7.0)"
-msgstr ""
+msgstr "Adquirir el nombre en los espacios de internet importantes"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:283
@@ -578,12 +793,20 @@ msgid ""
 "for people to identify the project, even if they are not heavily involved in "
 "it."
 msgstr ""
+"Para proyectos grandes, es recomendable pensar desde el principio en qué "
+"sitios y plataformas de internet se deberá tener presencia y asegurar la "
+"disponibilidad de los dominios o nombres de usuario correspondientes. Además "
+"de uno o más dominios ICANN propios, puede ser que un proyecto quiera tener "
+"presencia en GitHub o Twitter, por ejemplo. Utilizar en todas partes el "
+"mismo nombre de usuario facilita la identificación del proyecto por parte de "
+"personas que todavía no están demasiado involucradas."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:286
 #, no-wrap
 msgid "Draw up a clear mission statement and publish it in prominent places"
 msgstr ""
+"Redactar una declaración de propósito clara y ponerla en sitios destacados"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:297
@@ -595,6 +818,13 @@ msgid ""
 "have a minimum knowledge of the project’s area of application.  People "
 "without such knowledge will probably not be interested in the project."
 msgstr ""
+"La declaración de propósito es un texto corto, de uno o dos párrafos, que "
+"permite a los lectores decidir en 30 segundos si les interesa seguir leyendo "
+"sobre el proyecto o no. Debe ir acompañada de los enlaces necesarios por si "
+"se quiere seguir leyendo. En el redactado se puede dar por supuestos unos "
+"conocimientos mínimos del área de aplicación del proyecto. Las personas que "
+"no dispongan de estos conocimientos probablemente no estarán interesadas en "
+"el proyecto."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:299
@@ -602,11 +832,13 @@ msgid ""
 "The text should at least be in English and Catalan, for using the most "
 "suitable version in each case."
 msgstr ""
+"El texto debe estar redactado como mínimo en inglés y en catalán, para "
+"utilizar la versión que convenga en cada caso."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:301
 msgid "It should appear in the following places at least:"
-msgstr ""
+msgstr "Debe aparecer como mínimo en los siguientes sitios:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:304 modules/ROOT/pages/collaborative-development.adoc:323
@@ -615,18 +847,23 @@ msgid ""
 "should be capable of being seen without the need to scroll down the page on "
 "a desktop computer."
 msgstr ""
+"La página de inicio de la web orientada a usuarios del proyecto, en caso de "
+"tenerla. Se tiene que poder ver sin necesidad de hacer scroll en un "
+"ordenador de sobremesa."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:305 modules/ROOT/pages/collaborative-development.adoc:324 modules/ROOT/pages/collaborative-development.adoc:345 modules/ROOT/pages/collaborative-development.adoc:372 modules/ROOT/pages/collaborative-development.adoc:413
 msgid "The `README` file of the main repository."
-msgstr ""
+msgstr "El fichero README del repositorio principal."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:306 modules/ROOT/pages/collaborative-development.adoc:325
 msgid ""
-"The project list at "
-"https://ajuntamentdebarcelona.github.io/[https://ajuntamentdebarcelona.github.io]."
+"The project list at https://ajuntamentdebarcelona.github.io/[https://"
+"ajuntamentdebarcelona.github.io]."
 msgstr ""
+"El listado de proyectos en https://ajuntamentdebarcelona.github.io/[https://"
+"ajuntamentdebarcelona.github.io]."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:307 modules/ROOT/pages/collaborative-development.adoc:326
@@ -635,12 +872,15 @@ msgid ""
 "list, for example https://joinup.ec.europa.eu/[Join Up of the European "
 "Union]."
 msgstr ""
+"Cada vez que el proyecto se introduce en un repositorio o listado de "
+"proyectos de software libre, por ejemplo, el https://joinup.ec.europa.eu/"
+"[Join up de la Unión Europea]."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:310
 #, no-wrap
 msgid "Specify in prominent places that the project is free software"
-msgstr ""
+msgstr "Especificar en sitios destacados que el proyecto es libre"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:320
@@ -649,10 +889,16 @@ msgid ""
 "far to know whether they are willing to contribute to the project or not.  "
 "It is also important to state under which specific licence (including the "
 "version) the software is being distributed, using the full name or "
-"identifier, whichever is best in each case, exactly as they appear at "
-"https://spdx.org/licenses/.  Specify the licence in the following places at "
-"least:"
+"identifier, whichever is best in each case, exactly as they appear at https:/"
+"/spdx.org/licenses/.  Specify the licence in the following places at least:"
 msgstr ""
+"Esta medida facilita que los potenciales colaboradores no tengan que buscar "
+"demasiado para saber si estarán dispuestos a contribuir o no en el proyecto. "
+"Es importante, además, indicar bajo qué licencia concreta se distribuye el "
+"software (incluyendo la versión), utilizando el nombre completo o bien el "
+"identificador, lo que más convenga en cada caso, exactamente como aparecen "
+"en https://spdx.org/licenses/.Especificar la licencia como mínimo en los "
+"siguientes sitios:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:328
@@ -661,12 +907,16 @@ msgid ""
 "relegate this to a “downloads” or “development” page which might require "
 "more than one click."
 msgstr ""
+"En cuanto a la web orientada a usuarios del proyecto, es importante no "
+"relegar esta información a una página de \"descargas\" o de \"desarrollo\" "
+"que requiera más de un clic."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:331
 #, no-wrap
 msgid "Specify a feature list in easily accessible places"
 msgstr ""
+"Especificar en sitios fácilmente accesibles un listado de funcionalidades "
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:339
@@ -674,11 +924,14 @@ msgid ""
 "This helps people to decide whether or not the project might cover their "
 "needs."
 msgstr ""
+"Sirve para que las personas acaben de decidir si el proyecto puede cubrir o "
+"no sus necesidades."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:341
 msgid "Include the list, or create a visible link to it from at least:"
 msgstr ""
+"Debe enlazarse de forma visible como mínimo desde los siguientes elementos:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:344 modules/ROOT/pages/collaborative-development.adoc:371
@@ -687,6 +940,9 @@ msgid ""
 "The link should be capable of being seen without the need to scroll down the "
 "page on a desktop computer."
 msgstr ""
+"La página de inicio de la web orientada a usuarios del proyecto, en caso de "
+"tenerla. El enlace se tiene que poder ver sin necesidad de hacer scroll en "
+"un ordenador de sobremesa."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:348
@@ -695,6 +951,9 @@ msgid ""
 "sentences, or an even more graphic form.  Often it is a kind of extension of "
 "the mission statement."
 msgstr ""
+"Es mejor en forma de listado con viñetas y frases simples, o de una manera "
+"todavía más gráfica. Muchas veces es una especie de extensión de la "
+"declaración de propósito."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:350
@@ -702,6 +961,8 @@ msgid ""
 "If a feature has not been implemented yet, it can be specified in brackets "
 "as: _planned_ or _work-in-progress_."
 msgstr ""
+"Si una funcionalidad todavía no está implementada se puede especificar entre "
+"paréntesis _planned_ o _work-in-progress_."
 
 #.  As explained in more detail in measure _M_: _Specify and maintain a website with the development status of the project_,
 #. type: Plain text
@@ -710,12 +971,18 @@ msgid ""
 "It makes no sense, and indeed could be counter-productive, to falsify or "
 "exaggerate the product’s real technical merits."
 msgstr ""
+"Como se explica con más detalle en la medida M, “especificar y mantener una "
+"página con el estado de desarrollo del proyecto” no tiene sentido, y, de "
+"hecho, puede ser muy contraproducente falsear o exagerar los verdaderos "
+"méritos técnicos del producto."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:357
 #, no-wrap
 msgid "Specify the main technical requirements in easily accessible places"
 msgstr ""
+"Especificar en sitios fácilmente accesibles los principales requerimientos "
+"técnicos "
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:366
@@ -725,32 +992,43 @@ msgid ""
 "necessary so a potential user can see whether they can use the solution or "
 "not."
 msgstr ""
+"Por ejemplo, qué arquitectura hardware o software se necesita para "
+"instalarlo, qué sistema operativo, etcétera. También es una información "
+"necesaria para que los usuarios potenciales averigüen si pueden utilizar la "
+"solución o no."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:368
-msgid "Include this information, or create a visible link to it from at least:"
+msgid ""
+"Include this information, or create a visible link to it from at least:"
 msgstr ""
+"Debe enlazarse de forma visible como mínimo desde los siguientes elementos:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:374
 msgid ""
-"This is better in the form of a list with bullet points and simple "
-"sentences."
-msgstr ""
+"This is better in the form of a list with bullet points and simple sentences."
+""
+msgstr "Es mejor en forma de listado con viñetas y frases simples."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:377
 #, no-wrap
-msgid "Specify the differences with similar products in easily accessible places"
+msgid ""
+"Specify the differences with similar products in easily accessible places"
 msgstr ""
+"Especificar en sitios fácilmente accesibles las diferencias con productos "
+"similares "
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:385
 msgid ""
-"Above all, highlight the advantages compared with better-known and "
-"well-established tools, free or privately owned, but do not hide the "
-"limitations."
+"Above all, highlight the advantages compared with better-known and well-"
+"established tools, free or privately owned, but do not hide the limitations."
 msgstr ""
+"Se recomienda destacar sobre todo las ventajas respecto a las herramientas "
+"más conocidas y bien establecidas, libres o propietarias, pero no esconder "
+"las limitaciones."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:388
@@ -759,12 +1037,16 @@ msgid ""
 "is one.  Strictly technical differences can also be linked from or included "
 "on the development website."
 msgstr ""
+"También es recomendable enlazar de forma visible desde la web orientada a "
+"usuarios del proyecto, en caso de tenerla. Las diferencias estrictamente "
+"técnicas también se pueden enlazar desde la web de desarrollo."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:391
 #, no-wrap
 msgid "Specify and maintain a page with the development status of the project"
 msgstr ""
+"Especificar y mantener una página con el estado de desarrollo del proyecto "
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:399
@@ -772,6 +1054,8 @@ msgid ""
 "This involves writing a list which is periodically updated for each release "
 "or important milestone containing:"
 msgstr ""
+"Se trata de escribir un listado, que se va actualizando periódicamente en "
+"cada release o hito importante, que contenga lo siguiente:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:401
@@ -779,6 +1063,8 @@ msgid ""
 "The previous releases, with the publication date and the main changes that "
 "were introduced."
 msgstr ""
+"Los releases anteriores, con la fecha de publicación y los principales "
+"cambios que se introdujeron."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:402
@@ -786,16 +1072,18 @@ msgid ""
 "Future releases or project milestones with a tentative date as a very "
 "schematic roadmap."
 msgstr ""
+"Futuros releases o hitos del proyecto con fecha tentativa de realización, a "
+"modo de hoja de ruta muy esquemática."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:404
 msgid "The purpose of this page is to highlight three things:"
-msgstr ""
+msgstr "El objetivo de esta página es contribuir a visibilizar tres cosas:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:406
 msgid "Which milestones have been achieved."
-msgstr ""
+msgstr "Qué hitos se han alcanzado ya."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:407
@@ -803,6 +1091,8 @@ msgid ""
 "Where the project is heading and how far there is to go to reach the other "
 "milestones."
 msgstr ""
+"Hacia dónde se dirige el proyecto y cuán lejos se encuentran los hitos que "
+"se espera alcanzar."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:408
@@ -810,16 +1100,18 @@ msgid ""
 "How active the project and its community are and how well maintained the "
 "code is."
 msgstr ""
+"Cuán activos están el proyecto y su comunidad, y cuán bien mantenido está el "
+"código."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:410
 msgid "Create a link from at least:"
-msgstr ""
+msgstr "Enlazar como mínimo desde los siguientes elementos:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:412
 msgid "The website targeted at project users"
-msgstr ""
+msgstr "La web orientada a usuarios del proyecto."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:418
@@ -833,6 +1125,14 @@ msgid ""
 "software software projects have a “Known bugs” section on their website, and "
 "some of these bugs stay there for years."
 msgstr ""
+"Es muy importante ser transparentes y no falsear el estado real del proyecto."
+" Es más pernicioso atraer usuarios con expectativas que no se podrán cumplir "
+"que pecar de conservadurismo a la hora de exponer el progreso realizado o "
+"esperado. Todos los proyectos tienen defectos y facilita el trabajo de todos "
+"(desarrolladores, promotores del proyecto y potenciales usuarios externos) "
+"tratarlos con transparencia. Muchos proyectos de software libre exitosos "
+"contienen en su página un apartado titulado “Known bugs” (errores "
+"conocidos), y algunos de estos defectos permanecen allí durante años."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:421
@@ -842,6 +1142,11 @@ msgid ""
 "product.  Anybody can refute our affirmations if they are not certain, as "
 "explained in: http://producingoss.com/en/marketing.html#goldfish-bowl."
 msgstr ""
+"Además, en el caso del software libre, todo el código y todo el proceso de "
+"desarrollo están a la vista de todo el mundo, y todo el mundo puede instalar "
+"y probar el producto. Cualquiera puede refutar nuestras afirmaciones si no "
+"son ciertas, como se explica en http://producingoss.com/es/marketing."
+"html#goldfish-bowl."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:424
@@ -850,6 +1155,8 @@ msgid ""
 "Establish measures to improve the visibility of the progress and level of "
 "activity on the project"
 msgstr ""
+"Establecer medidas para visibilizar mejor el progreso y el grado de "
+"actividad del proyecto"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:432
@@ -858,11 +1165,15 @@ msgid ""
 "the users’ and developers’ websites, or other places, with information from, "
 "for example:"
 msgstr ""
+"Se pueden poner indicadores y alimentadores automáticos en la página de "
+"inicio de las webs (tanto en la de usuarios como en la de desarrollo), o en "
+"otros lugares, con informaciones que provengan, por ejemplo, de los "
+"siguientes espacios"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:434
 msgid "The repository, e.g. the latest commit messages."
-msgstr ""
+msgstr "El repositorio, por ejemplo, los últimos mensajes de commit."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:435
@@ -870,16 +1181,18 @@ msgid ""
 "The continuous integration system, e.g. what builds or test series have "
 "worked or failed recently."
 msgstr ""
+"El sistema de integración continua, por ejemplo, qué builds o conjuntos de "
+"test han funcionado o fallado últimamente."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:436
 msgid "The issue and bug notification system."
-msgstr ""
+msgstr "El sistema de notificación de incidencias o defectos."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:437
 msgid "Project and user Twitter profiles."
-msgstr ""
+msgstr "Twitter del proyecto o de usuarios de la aplicación."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:439
@@ -887,6 +1200,8 @@ msgid ""
 "Another possibility is to show in graphic form a kind of progress calendar "
 "with the different versions."
 msgstr ""
+"También se puede mostrar de manera gráfica una especie de calendario de "
+"progreso con las diferentes versiones."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:441
@@ -894,14 +1209,19 @@ msgid ""
 "By way of example, the way the https://launchpad.net/inkscape[Ubuntu "
 "Launchpad example project] information is shown could be added."
 msgstr ""
+"Se puede tomar como modelo la manera que muestra la información de https://"
+"launchpad.net/inkscape[proyectos de ejemplo el Launchpad de Ubuntu]."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:443
 msgid ""
-"The aim is to reinforce and highlight all the points made in the "
-"#h:a22a9688-f8e2-473d-baf5-8989693a41c1[Measure: Specify and maintain a page "
-"with the development status of the project]."
+"The aim is to reinforce and highlight all the points made in the #h:a22a9688-"
+"f8e2-473d-baf5-8989693a41c1[Measure: Specify and maintain a page with the "
+"development status of the project]."
 msgstr ""
+"El objetivo es fortalecer y hacer más visual todo lo mencionado en la medida "
+"#h:a22a9688-f8e2-473d-baf5-8989693a41c1[“Especificar y mantener una página "
+"con el estado de desarrollo del proyecto]”."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:446
@@ -910,6 +1230,8 @@ msgid ""
 "Negotiate beforehand how to highlight the contributions sponsored by the "
 "City Council"
 msgstr ""
+"Negociar a priori la manera de hacer visibles las aportaciones patrocinadas "
+"por el Ayuntamiento"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:455
@@ -920,6 +1242,13 @@ msgid ""
 "form that takes will depend on each project and the nature of the "
 "contributions.  Some examples:"
 msgstr ""
+"Al Ayuntamiento de Barcelona le puede interesar que los proyectos de "
+"software que no han sido iniciados por el Ayuntamiento, pero en los que "
+"realiza contribuciones de cualquier tipo (extensiones, traducciones, horas "
+"de trabajo de mantenimiento), reconozcan y den publicidad a estas "
+"contribuciones. La manera en que eso se concrete dependerá de cada proyecto "
+"y de la naturaleza de las aportaciones. Algunos ejemplos pueden ser los "
+"siguientes:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:457
@@ -927,11 +1256,13 @@ msgid ""
 "Mention in a public list of bodies that participate in or contribute to the "
 "project."
 msgstr ""
+"Mención en una lista pública de entidades que participan en el proyecto o "
+"contribuyen a este."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:458
 msgid "The City Council logo appearing in the project website."
-msgstr ""
+msgstr "Aparición del logo del Ayuntamiento en la web del proyecto."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:460
@@ -940,32 +1271,42 @@ msgid ""
 "development community about the kind of recognition the City Council would "
 "like in each case."
 msgstr ""
+"Es conveniente, antes de iniciar la colaboración, hablar con la comunidad de "
+"desarrollo del proyecto sobre qué reconocimiento desearía obtener el "
+"Ayuntamiento en cada caso."
 
 #. type: Title ==
 #: modules/ROOT/pages/collaborative-development.adoc:463
 #, no-wrap
 msgid "Parametrisation, configuration and installation"
-msgstr ""
+msgstr "Parametrización, configuración e instalación"
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:469
 #, no-wrap
 msgid "Parametrise the product using configuration files"
 msgstr ""
+"Obligar a los adjudicatarios a parametrizar el producto usando ficheros de "
+"configuración"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:479
-msgid "Do not include deployment-specific or client-specific data in the code."
-msgstr ""
+msgid ""
+"Do not include deployment-specific or client-specific data in the code."
+msgstr "No hay que utilizar valores mágicos en el código."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:482
 msgid ""
 "Build-time and execution-time parametrisation should be possible through "
-"configuration files, even if other methods exist (e.g. command-line "
-"options).  Those configuration files should be kept in a different, private "
+"configuration files, even if other methods exist (e.g. command-line options)."
+"  Those configuration files should be kept in a different, private "
 "repository."
 msgstr ""
+"La parametritzación, tanto del proceso de build como de la ejecución, se "
+"tiene que poder realizar a través de ficheros de configuración, hasta hay "
+"otros métodos (por ejemplo, opciones de línea de comandos). Estos ficheros "
+"de configuración se tienen que mantener en un repositorio privado diferente."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:485
@@ -973,17 +1314,19 @@ msgid ""
 "This makes it easier to reuse the code.  It is incorrect to put the "
 "configuration:"
 msgstr ""
+"Esto hace más sencilla la reutilización del código. Es incorrecto poner la "
+"configuración:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:487
 msgid "Hardwired in the code itself."
-msgstr ""
+msgstr "Fijada estáticamente al propio código."
 
 #.  (see the ref:measure M_A69 <measure_M_A69>).
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:490
 msgid "In files committed to the same repository as the code."
-msgstr ""
+msgstr "En ficheros guardados al mismo repositorio que el código."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:493
@@ -992,11 +1335,13 @@ msgid ""
 "Implement and document build and installation procedures with widely used "
 "free tools"
 msgstr ""
+"Implementar y documentar procedimientos de build e instalación con "
+"herramientas libres y de uso extendido "
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:497
 msgid "Day1"
-msgstr ""
+msgstr "Día1"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:503
@@ -1005,6 +1350,10 @@ msgid ""
 "documenting them.  Without this information, the effort any developer has to "
 "put in to test the tool will probably be too great for anyone to try it."
 msgstr ""
+"Es muy importante no esperar para construir y documentar un sistema de build "
+"del software, ya que, sin ello, el esfuerzo que deberá realizar cualquier "
+"desarrollador para probar la herramienta será probablemente demasiado alto "
+"como para que nadie lo intente."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:506
@@ -1014,6 +1363,10 @@ msgid ""
 "to understand they will not have a monopoly over the configuration, "
 "deployment and maintenance of the product."
 msgstr ""
+"La documentación tiene que ser suficiente para que un tercero entienda como "
+"configurar y desplegar el producto. Las organizaciones adjudicatorias de "
+"contratos tienen que entender que no tendrán el monopolio de la "
+"configuración, despliegue y mantenimiento del producto."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:510
@@ -1025,40 +1378,50 @@ msgid ""
 "another.  Some examples of commonly used build tools (some of which can also "
 "be used in configuration and installation procedures) that we recommend are:"
 msgstr ""
+"Por supuesto, no se puede obligar a los usuarios y potenciales colaboradores "
+"de un proyecto de software libre a depender de herramientas que no sean al "
+"mismo tiempo libres, y, dentro de estas, conviene escoger las de uso más "
+"extendido y que resulten más familiares para la mayoría de desarrolladores. "
+"Esto último puede variar de una comunidad a otra. Algunos ejemplos de "
+"herramientas de _build_ (algunas también sirven para los procedimientos de "
+"configuración e instalación) de uso común y que recomendamos son las "
+"siguientes:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:512
 msgid "For Java projects: Maven, Gradle, Ant (also for other languages)."
-msgstr ""
+msgstr "Para proyectos Java: Maven, Ant (también sirve para otros lenguajes)."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:513
 msgid ""
-"For Python projects follow the advice of "
-"http://python-packaging.readthedocs.io/en/latest/index.html, which also "
-"includes information on packaging."
+"For Python projects follow the advice of http://python-packaging.readthedocs."
+"io/en/latest/index.html, which also includes information on packaging."
 msgstr ""
+"Para proyectos Python recomendamos seguir los consejos de http://python-"
+"packaging.readthedocs.io/en/latest/index.html, que incluyen también "
+"información sobre empaquetado."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:514
 msgid "For JavaScript projects (and front-end in general): Gulp."
-msgstr ""
+msgstr "Para proyectos JavaScript (y para front-end en general): Gulp.js."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:515
 msgid "For Ruby projects: Rake."
-msgstr ""
+msgstr "Para proyectos Ruby: Rake."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:516
 msgid "General use: Nix, CMake."
-msgstr ""
+msgstr "Uso general: CMake, Nix."
 
 #. type: Title ==
 #: modules/ROOT/pages/collaborative-development.adoc:519
 #, no-wrap
 msgid "Packaging and deployment"
-msgstr ""
+msgstr "Empaquetado y despliegue"
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:525
@@ -1067,6 +1430,8 @@ msgid ""
 "Get the successful bidder responsible for deployment to use the same code "
 "published in the main repository"
 msgstr ""
+"Obligar al adjudicatario que hace el despliegue a usar el mismo código "
+"publicado en el repositorio principal"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:536
@@ -1077,6 +1442,12 @@ msgid ""
 "security patch, improvement or modification of any kind that is applied to "
 "the code in production must be reflected in the repository."
 msgstr ""
+"Como condición de transparencia, el código fuente que en cada momento se "
+"utiliza para construir (build) y desplegar los servicios en producción debe "
+"estar disponible en el repositorio público del Ayuntamiento, preferentemente "
+"bajo la rama master. Cualquier patch de seguridad, mejora o modificación de "
+"cualquier tipo que se aplique al código en producción debe reflejarse en el "
+"repositorio."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:539
@@ -1084,12 +1455,15 @@ msgid ""
 "The code available in the public repository is the one fully covered by a "
 "free software licence.  Nothing can be added to it."
 msgstr ""
+"El código disponible en el repositorio público es el que está cubierto "
+"totalmente por una licencia libre. No se puede hacer ningún añadido."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:542
 #, no-wrap
 msgid "Establish and explicit versioning policy in the ``README`` file"
 msgstr ""
+"Establecer una política de versiones explícita en el fichero ' ' README``"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:551
@@ -1098,6 +1472,9 @@ msgid ""
 "projects normally use version identifiers based on `MAJOR.MINOR.PATCH` "
 "number sequences."
 msgstr ""
+"Es conveniente que cada repositorio tenga una política de versiones "
+"explícita. Los proyectos de software utilizan normalmente identificadores de "
+"versiones basados en secuencias de números del estilo `MAJOR.MINOR.PATCH`."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:555
@@ -1108,12 +1485,18 @@ msgid ""
 "to it.  If there is no clear policy, we can subscribe to a well-known "
 "generic policy, such as http://semver/[Semantic Versioning]."
 msgstr ""
+"Hay que escoger una política de versiones adecuada a cada proyecto. Cada "
+"comunidad tecnológica (Java, Python, Drupal, etcétera) puede tener una "
+"política de versiones preferente, y es aconsejable informarse de cuál es y "
+"adherirse a ella. En caso de que no haya una política clara, nos podemos "
+"adherir a una política genérica y bien conocida, como http://semver/"
+"[Semantic Versioning]."
 
 #. type: Title ==
 #: modules/ROOT/pages/collaborative-development.adoc:557
 #, no-wrap
 msgid "Use free formats and standards"
-msgstr ""
+msgstr "Uso de formatos y estándares abiertos"
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:563
@@ -1122,6 +1505,8 @@ msgid ""
 "Check the user interface of web applications are strictly based on widely "
 "adopted W3C standards"
 msgstr ""
+"Comprobar que la interfaz de usuario cumple con los estándares del W3C, en "
+"caso de aplicaciones web "
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:571
@@ -1131,6 +1516,12 @@ msgid ""
 "should not require the use of features provided by privately owned browser "
 "extensions."
 msgstr ""
+"Las interfaces web de usuario, tanto las de uso para los ciudadanos como las "
+"de administración y uso interno, deben cumplir con los estándares del World "
+"Wide Web Consortium (W3C) y no tienen que requerir el uso de funcionalidades "
+"proporcionadas por extensiones propietarias de los navegadores Gecko "
+"(Firefox), WebKit/Blink (Chrome, Safari, Konqueror) o Trident/EdgeHTML "
+"(Microsoft)."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:573
@@ -1138,27 +1529,32 @@ msgid ""
 "The presentation has to be displayed correctly, and the product has to be "
 "fully functional, with browsers of the following families:"
 msgstr ""
+"La presentación se tiene que visualizar correctamente, y el producto debe "
+"ser plenamente funcional, con los navegadores de la familia:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:575
 msgid "Gecko (Firefox)"
-msgstr ""
+msgstr "Gecko (Firefox)"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:576
 msgid "WebKit/Blink (Chrome, Safari, Konqueror)"
-msgstr ""
+msgstr "WebKit/Blink (Chrome, Safari, Konqueror)"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:577
 msgid "Trident/EdgeHTML (Microsoft)"
-msgstr ""
+msgstr "Trident/EdgeHTML (Microsoft)"
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:580
 #, no-wrap
-msgid "Use open formats in exchanging files with the citizens and for internal use"
+msgid ""
+"Use open formats in exchanging files with the citizens and for internal use"
 msgstr ""
+"Utilizar formatos abiertos en el intercambio de documentos con los "
+"ciudadanos y con otros sistemas "
 
 #.  TODO: machine-readable formats whenever useful.
 #. type: Plain text
@@ -1166,10 +1562,14 @@ msgstr ""
 msgid ""
 "Any exchange of documents that involves downloading or uploading files to "
 "the developed system has to be done exclusively with open formats, as "
-"defined by the Barcelona City Council "
-"xref:en/tech-sovereignty:interoperability.adoc[Technological Sovereignty "
-"Guide]."
+"defined by the Barcelona City Council xref:en/tech-sovereignty:"
+"interoperability.adoc[Technological Sovereignty Guide]."
 msgstr ""
+"Todo el intercambio de documentos con los ciudadanos que implique la "
+"descarga o carga de ficheros debe producirse exclusivamente con formatos "
+"abiertos, según la definición que ofrece la xref:en/tech-sovereignty:"
+"interoperability.adoc[Guía de compra tecnológica] del Ayuntamiento de "
+"Barcelona."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:593
@@ -1177,6 +1577,8 @@ msgid ""
 "For text documents, spreadsheets and presentations, the following formats "
 "are acceptable:"
 msgstr ""
+"Para documentos de texto, hojas de cálculo y presentaciones, los siguientes "
+"formatos son aceptables:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:595
@@ -1185,23 +1587,28 @@ msgid ""
 "available (for generation, edition and parsing) in all main IT platforms "
 "including GNU/Linux."
 msgstr ""
+"Formatos basados en texto sin formato que tienen una implementación estable "
+"y gratuita disponible (para generación, edición y análisis) en todas las "
+"plataformas de TI principales, incluyendo GNU / Linux."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:596
 msgid "OpenDocument formats, https://www.oasis-open.org/[]."
-msgstr ""
+msgstr "OpenDocument format, https://www.oasis-open.org/[]."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:597
 msgid "PDF files."
-msgstr ""
+msgstr "archivos PDF."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:599
 msgid ""
-"We reject proprietary formats from Microsoft Office and Apple's iWork "
-"(`.doc[x]`, `.ppt[x]`, etc.)"
+"We reject proprietary formats from Microsoft Office and Apple's iWork (`."
+"doc[x]`, `.ppt[x]`, etc.)"
 msgstr ""
+"Rechazamos los formatos propietarios de Microsoft Office e iWork de Apple (`."
+"doc [x]`, `.ppt [x]`, etc.)"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:601
@@ -1210,6 +1617,9 @@ msgid ""
 "which a stable and free implementation exists in all main IT platforms "
 "including GNU/Linux."
 msgstr ""
+"Imágenes, audio y vídeo también se realizará mediante formatos abiertos para "
+"los que existan implementaciones libres en las principales plataformas "
+"informáticas, incluyendo GNU/Linux."
 
 #. type: delimited block *
 #: modules/ROOT/pages/collaborative-development.adoc:605
@@ -1218,12 +1628,15 @@ msgid ""
 "information with an existing service currently used at IMI that only accepts "
 "some non-open format."
 msgstr ""
+"Una excepción temporal a esta regla se justifica si necesitamos intercambiar "
+"información con un servicio existente actualmente usado en el IMI que solo "
+"acepta algún formato no abierto."
 
 #. type: Title ==
 #: modules/ROOT/pages/collaborative-development.adoc:609
 #, no-wrap
 msgid "Internationalisation"
-msgstr ""
+msgstr "Internacionalización"
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:615
@@ -1232,6 +1645,8 @@ msgid ""
 "Define and budget the technical requirements so the product can be "
 "translated and internationalised"
 msgstr ""
+"Definir y presupuestar los requerimientos técnicos para que el producto "
+"pueda ser traducido e internacionalizado "
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:625
@@ -1239,6 +1654,9 @@ msgid ""
 "All the messages shown to users have to be internationalised.  Use the usual "
 "mechanisms in each language/platform."
 msgstr ""
+"Todos los mensajes mostrados a los usuarios tienen que estar "
+"internacionalizados. Deben utilizarse los mecanismos habituales en cada "
+"lenguaje y plataforma."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:627
@@ -1246,12 +1664,14 @@ msgid ""
 "The standard tool for multi-lingual messages in free software projects is "
 "https://www.gnu.org/software/gettext/[`gettext`]."
 msgstr ""
+"La herramienta estándar para mensajes mulilíngue en proyectos de software "
+"libre es https://www.gnu.org/software/gettext/[`gettext`]."
 
 #. type: Title ==
 #: modules/ROOT/pages/collaborative-development.adoc:630
 #, no-wrap
 msgid "Freeing software that was proprietary"
-msgstr ""
+msgstr "Apertura de un código inicialmente cerrado"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:636
@@ -1259,6 +1679,9 @@ msgid ""
 "The City Council owns the copyright of a lot of code that was not provided "
 "under a free software license, and it is therefore proprietary software."
 msgstr ""
+"El Ayuntamiento es propietario de los derechos de autor de mucho código que "
+"no se proporcionó bajo una licéncia de software libre y, por lo tanto, es un "
+"software propietario."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:638
@@ -1268,6 +1691,10 @@ msgid ""
 "as free software, and in most cases developed without public distribution in "
 "mind."
 msgstr ""
+"Esta sección aborda aquellos problemas que afectan específicamente a la "
+"publicación bajo una licencia libre de componentes de software que no se "
+"entregaron como software libre, y que en la mayoría de los casos se "
+"desarrollaron sin prever una distribución pública."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:640
@@ -1276,6 +1703,7 @@ msgid ""
 "Judge whether it is convenient or not to publicly distribute some City "
 "Council software"
 msgstr ""
+"Juzgar la conveniencia o no de publicar un código en poder del Ayuntamiento "
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:646
@@ -1284,6 +1712,9 @@ msgid ""
 "Barcelona City Council under a free software licence, we need to check "
 "whether:"
 msgstr ""
+"Antes de publicar bajo licencia libre un componente o sistema de software ya "
+"existente y en uso en el Ayuntamiento de Barcelona hay que comprobar lo "
+"siguiente:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:648
@@ -1291,6 +1722,8 @@ msgid ""
 "It corresponds to a general need: it could be useful to more institutions or "
 "organisations, besides the City Council."
 msgstr ""
+"Corresponde a una necesidad general: puede ser de utilidad para más "
+"instituciones u organizaciones, además del Ayuntamiento."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:649
@@ -1298,6 +1731,8 @@ msgid ""
 "It has some aspect that sets it apart from other, existing free software "
 "solutions."
 msgstr ""
+"Tiene algún aspecto que lo diferencia favorablemente de otras soluciones "
+"libres existentes."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:650
@@ -1305,11 +1740,13 @@ msgid ""
 "Barcelona City Council holds legal title over the whole code it aims to "
 "release, or can obtain legal title."
 msgstr ""
+"El Ayuntamiento de Barcelona es titular legal de todo el código que se "
+"pretende liberar, o puede hacer gestiones para obtener esta titularidad."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:651
 msgid "It can be used on free software platforms."
-msgstr ""
+msgstr "Se puede ejecutar sobre plataformas libres."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:652
@@ -1318,11 +1755,15 @@ msgid ""
 "high enough quality, or the improvement requirements have been clearly "
 "identified and there is a strategy for tackling them."
 msgstr ""
+"El código y la documentación asociada tienen la calidad y la madurez "
+"suficientes, o bien los requerimientos de mejora están claramente "
+"identificados y existe una estrategia para abordarlos."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:653
 msgid "Freeing the code will not pose any legal risks for either party."
 msgstr ""
+"La apertura de la solución no supondrá riesgos legales para ninguna parte."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:654
@@ -1331,20 +1772,27 @@ msgid ""
 "responsibility is handed over to other bodies or organisations, possibly a "
 "free software community of developers and users."
 msgstr ""
+"Se dispone de los recursos para responder a incidencias de mantenimiento "
+"mientras no se traspase esta responsabilidad a otras entidades, posiblemente "
+"una comunidad de desarrolladores y usuarios."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:657
 #, no-wrap
 msgid "Look for sensitive information or user settings in the code repository"
 msgstr ""
+"Buscar en el repositorio de código información sensible o configuraciones de "
+"usuario "
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:664
 #, no-wrap
 msgid ""
-"Notify in new public spaces geared towards developers that this was a "
-"non-free project"
+"Notify in new public spaces geared towards developers that this was a non-"
+"free project"
 msgstr ""
+"Avisar en los nuevos espacios públicos orientados a desarrolladores de que "
+"este era un proyecto cerrado "
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:673
@@ -1358,26 +1806,39 @@ msgid ""
 "etcetera) so it has been decided to remove the version control history and "
 "create a new top-skim repository that only contains the latest version."
 msgstr ""
+"Se trata de explicar que el proyecto ha funcionado hasta un determinado "
+"momento como un proyecto cerrado y, por lo tanto, pueden esperarse ciertas "
+"inconveniencias. Conviene reducir las expectativas de los nuevos usuarios y "
+"desarrolladores en cuanto a calidad y transparencia de algunos elementos del "
+"proyecto. Deben explicarse los compromisos a los que se ha tenido que llegar "
+"para hacer posible la apertura. Por ejemplo, es posible que en el "
+"repositorio de código haya muchos datos sensibles (datos de usuarios "
+"concretos, etcétera) y que se haya optado por perder el historial del "
+"control de versiones y crear un repositorio nuevo top-skim que solo contenga "
+"la última versión."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:675
 msgid "This information should be published in at least the following places:"
 msgstr ""
+"Esta información conviene que sea publicada como mínimo en los siguientes "
+"espacios:"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:677
 msgid "The development website (now public)."
-msgstr ""
+msgstr "La web de desarrollo (ahora pública)."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:678
 msgid "Public mail lists."
-msgstr ""
+msgstr "Listas de correo públicas."
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:680
 msgid "The aim of this measure is to avoid an avalanche of requests."
 msgstr ""
+"El objetivo de esta medida es evitar un alud de peticiones inasumibles."
 
 #. type: Block title
 #: modules/ROOT/pages/collaborative-development.adoc:683
@@ -1386,6 +1847,8 @@ msgid ""
 "Warn developers of the possible consequences of the project's imminent "
 "public release"
 msgstr ""
+"Avisar a los desarrolladores de las posibles consecuencias de la inminente "
+"apertura del proyecto "
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:691
@@ -1395,6 +1858,14 @@ msgid ""
 "private emails, it is worth informing them (not negotiating) of this fact.  "
 "Freeing a code that was not initially written to be free software might make "
 "its authors uncomfortable, so we need to explain that that’s normal.  The "
-"following work can be referred to, to help clarify the situation: "
-"http://producingoss.com/en/opening-closed-projects.html."
+"following work can be referred to, to help clarify the situation: http://"
+"producingoss.com/en/opening-closed-projects.html."
 msgstr ""
+"Si tenemos alguna manera —por ejemplo, mediante listas de correo privadas— "
+"de acceder a las personas que han participado o que participan en un "
+"proyecto que vamos a publicar, es conveniente notificar este hecho. El hecho "
+"de publicar un código que no se escribió desde el principio para ser "
+"software libre puede provocar incomodidad a sus autores, y hay que explicar "
+"que se trata de algo normal. Se puede referir el siguiente trabajo para "
+"ayudar a aclarar la situación: http://producingoss.com/en/opening-closed-"
+"projects.html."

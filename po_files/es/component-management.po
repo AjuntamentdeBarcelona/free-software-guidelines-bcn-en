@@ -1,32 +1,30 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# David Pretel <david@abox.com>, 2019. #zanata
+# Guillem Marpons <gmarpons@mailbox.org>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2019-03-20 00:31+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2019-03-06 22:58+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-05-07 11:58+0000\n"
+"Last-Translator: Guillem Marpons <gmarpons@mailbox.org>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #. type: Title =
 #: modules/ROOT/pages/component-management.adoc:1
 #, no-wrap
 msgid "Component management"
-msgstr ""
+msgstr "Gestión de componentes"
 
 #. type: Title ==
 #: modules/ROOT/pages/component-management.adoc:7
 #, no-wrap
 msgid "Look for and select free software components"
-msgstr ""
+msgstr "Búsqueda y selección de componentes de software libre"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:13
@@ -35,6 +33,9 @@ msgid ""
 "be a free software solution (or combination of solutions) that would solve "
 "the problem, at least partly."
 msgstr ""
+"A no ser que nuestra necesidad sea muy especializada, es probable que ya "
+"exista una solución libre (o combinación de soluciones) que resuelva el "
+"problema, como mínimo en parte."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:15
@@ -43,6 +44,9 @@ msgid ""
 "possibilities of being transformed and adapted to our needs than traditional "
 "applications."
 msgstr ""
+"Hay que tener en cuenta que los proyectos de software libre ofrecen más "
+"posibilidades de transformación y adaptación a nuestras necesidades que las "
+"aplicaciones tradicionales."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:18
@@ -53,6 +57,12 @@ msgid ""
 "(and avoiding the so-called *Not invented here* or “*NIH* syndrome”) can be "
 "extraordinary, in the short and long terms:"
 msgstr ""
+"Conocer si un proyecto se adecua a nuestras necesidades y cumple con los "
+"mínimos exigibles en los aspectos técnico, legal y social puede resultar "
+"costoso. Pero los beneficios de encontrar un proyecto existente al que "
+"sumarse, en lugar de reinventar la rueda —y evitar el denominado síndrome "
+"*Not invented here* o *(NIH)*—, pueden ser extraordinarios, tanto a corto "
+"como a largo plazo:"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:20
@@ -61,6 +71,9 @@ msgid ""
 "implemented, so we could build prototypes and carry out concept tests very "
 "quickly."
 msgstr ""
+"Puede ser que de entrada muchas de las funcionalidades que necesitamos ya "
+"estén implementadas, y podamos construir muy rápidamente prototipos y "
+"pruebas de concepto."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:22
@@ -69,6 +82,9 @@ msgid ""
 "tried to implement a system similar to the one we want, possibly discovering "
 "opportunities we had not thought about."
 msgstr ""
+"Podemos beneficiarnos de la experiencia adquirida por otros usuarios que ya "
+"han intentado implantar un sistema parecido al que queremos, quizás "
+"descubriendo oportunidades que no habíamos pensado."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:25
@@ -77,6 +93,9 @@ msgid ""
 "organisations.  This includes potential future features and applications, "
 "which could in turn interest other users."
 msgstr ""
+"Podemos compartir el gasto de construir una herramienta compleja con otros "
+"usuarios y entidades. Eso incluye potenciales futuras funcionalidades y "
+"ampliaciones, que pueden interesar también a otros usuarios."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:28
@@ -87,6 +106,12 @@ msgid ""
 "third parties.  With very little outlay on maintenance we get long-term "
 "sustainability and less danger of creating a *technological debt*."
 msgstr ""
+"Si el producto tiene una base de usuarios suficiente, obtenemos una "
+"herramienta que evoluciona en el tiempo, mejorando con las aportaciones de "
+"otras partes, adaptándose a futuros cambios tecnológicos, incorporando "
+"nuevas funcionalidades propias o de terceros. Con muy poco gasto en "
+"mantenimiento obtenemos sostenibilidad a largo plazo y una reducción del "
+"peligro de crear *deuda tecnológica*."
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:31
@@ -95,26 +120,28 @@ msgid ""
 "Look for an existing project or component that might solve the problem, "
 "perhaps partially"
 msgstr ""
+"Buscar un proyecto o componente existente que resuelva el problema, quizás "
+"parcialmente "
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:35
 msgid "Preliminary"
-msgstr ""
+msgstr "Ante"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:36
 msgid "design"
-msgstr ""
+msgstr "proyecto"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:37 modules/ROOT/pages/component-management.adoc:61 modules/ROOT/pages/component-management.adoc:164 modules/ROOT/pages/component-management.adoc:182 modules/ROOT/pages/component-management.adoc:237 modules/ROOT/pages/component-management.adoc:260 modules/ROOT/pages/component-management.adoc:279 modules/ROOT/pages/component-management.adoc:301 modules/ROOT/pages/component-management.adoc:320 modules/ROOT/pages/component-management.adoc:336 modules/ROOT/pages/component-management.adoc:382 modules/ROOT/pages/component-management.adoc:404 modules/ROOT/pages/component-management.adoc:460 modules/ROOT/pages/component-management.adoc:470 modules/ROOT/pages/component-management.adoc:481 modules/ROOT/pages/component-management.adoc:508 modules/ROOT/pages/component-management.adoc:522 modules/ROOT/pages/component-management.adoc:535
 msgid "Integration"
-msgstr ""
+msgstr "Integración"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:38
 msgid "Adaptation Plugin NewProduct"
-msgstr ""
+msgstr "Adaptaciñon Plugin NuevoProducto"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:40
@@ -122,6 +149,8 @@ msgid ""
 "Besides using the normal search engines, it is worth going directly to the "
 "following sites:"
 msgstr ""
+"Además de utilizar los motores de búsqueda habituales, conviene buscar "
+"directamente en sitios como los siguientes:"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:42
@@ -129,26 +158,28 @@ msgid ""
 "https://joinup.ec.europa.eu/solutions[Repository of the EU Joinup initiative "
 "solutions]"
 msgstr ""
+"https://joinup.ec.europa.eu/solutions[Repositorio de soluciones de la "
+"iniciativa Join up de la UE]"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:43
 msgid "https://www.gnu.org/software/software.en.html[GNU software list]"
-msgstr ""
+msgstr "https://www.gnu.org/software/software.en.html[Lista de software GNU]"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:44
 msgid "https://openhub.net/[OpenHub]"
-msgstr ""
+msgstr "https://openhub.net/[OpenHub]"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:45
 msgid "https://github.com/[GitHub]"
-msgstr ""
+msgstr "https://github.com/[GitHub]"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:46
 msgid "https://freshcode.club/[Freshcode.club]"
-msgstr ""
+msgstr "https://freshcode.club/[Freshcode.club]"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:47
@@ -156,6 +187,8 @@ msgid ""
 "https://administracionelectronica.gob.es/ctt/buscadorSoluciones.htm[Centro "
 "de Transferencia de Tecnología (CTT), Solutions finder]."
 msgstr ""
+"https://administracionelectronica.gob.es/ctt/buscadorSoluciones.htm[Buscador "
+"de soluciones del Centro de Transferencia de Tecnología]."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:49
@@ -163,16 +196,18 @@ msgid ""
 "Depending on the platform or technological architecture being worked on, it "
 "is also necessary to search for specialised repositories, such as the:"
 msgstr ""
+"Dependiendo de la plataforma o arquitectura tecnológica con la que se "
+"trabaje, también hay que buscar en repositorios especializados, tales como:"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:51
 msgid "Drupal repository"
-msgstr ""
+msgstr "Repositorio de Drupal"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:52
 msgid "CKAN repository"
-msgstr ""
+msgstr "Repositorio de CKAN"
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:56
@@ -181,37 +216,40 @@ msgid ""
 "Fill in a comparative grid of the different components to be assessed to "
 "cover a need"
 msgstr ""
+"Rellenar una tabla comparativa de los diferentes componentes que evaluar "
+"para cubrir una necesidad "
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:60 modules/ROOT/pages/component-management.adoc:181 modules/ROOT/pages/component-management.adoc:236 modules/ROOT/pages/component-management.adoc:259 modules/ROOT/pages/component-management.adoc:278 modules/ROOT/pages/component-management.adoc:300 modules/ROOT/pages/component-management.adoc:335 modules/ROOT/pages/component-management.adoc:359
 msgid "PreliminaryDesign"
-msgstr ""
+msgstr "Anteproyecto"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:62 modules/ROOT/pages/component-management.adoc:165 modules/ROOT/pages/component-management.adoc:183 modules/ROOT/pages/component-management.adoc:238 modules/ROOT/pages/component-management.adoc:261 modules/ROOT/pages/component-management.adoc:280 modules/ROOT/pages/component-management.adoc:302 modules/ROOT/pages/component-management.adoc:321 modules/ROOT/pages/component-management.adoc:337 modules/ROOT/pages/component-management.adoc:360 modules/ROOT/pages/component-management.adoc:383 modules/ROOT/pages/component-management.adoc:405 modules/ROOT/pages/component-management.adoc:461 modules/ROOT/pages/component-management.adoc:471 modules/ROOT/pages/component-management.adoc:482 modules/ROOT/pages/component-management.adoc:509 modules/ROOT/pages/component-management.adoc:523 modules/ROOT/pages/component-management.adoc:536
 msgid "Adaptation"
-msgstr ""
+msgstr "Adaptación"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:63 modules/ROOT/pages/component-management.adoc:166 modules/ROOT/pages/component-management.adoc:184 modules/ROOT/pages/component-management.adoc:239 modules/ROOT/pages/component-management.adoc:262 modules/ROOT/pages/component-management.adoc:281 modules/ROOT/pages/component-management.adoc:303 modules/ROOT/pages/component-management.adoc:322 modules/ROOT/pages/component-management.adoc:338 modules/ROOT/pages/component-management.adoc:384 modules/ROOT/pages/component-management.adoc:406 modules/ROOT/pages/component-management.adoc:422 modules/ROOT/pages/component-management.adoc:462 modules/ROOT/pages/component-management.adoc:472 modules/ROOT/pages/component-management.adoc:483 modules/ROOT/pages/component-management.adoc:510 modules/ROOT/pages/component-management.adoc:524 modules/ROOT/pages/component-management.adoc:537
 msgid "Plugin"
-msgstr ""
+msgstr "Plugin"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:64 modules/ROOT/pages/component-management.adoc:185 modules/ROOT/pages/component-management.adoc:240 modules/ROOT/pages/component-management.adoc:263 modules/ROOT/pages/component-management.adoc:282 modules/ROOT/pages/component-management.adoc:304 modules/ROOT/pages/component-management.adoc:339 modules/ROOT/pages/component-management.adoc:361 modules/ROOT/pages/component-management.adoc:385 modules/ROOT/pages/component-management.adoc:407 modules/ROOT/pages/component-management.adoc:423 modules/ROOT/pages/component-management.adoc:484 modules/ROOT/pages/component-management.adoc:511 modules/ROOT/pages/component-management.adoc:525 modules/ROOT/pages/component-management.adoc:538
 msgid "NewProduct"
-msgstr ""
+msgstr "NuevoProducto"
 
 #.   links outgoing: link:#mesura-s-58b[_S_58B_] link:#S_453[_S_453_] link:#S_223[_S_223_] link:#S_5BD[_S_5BD_] link:#S_160[_S_160_] link:#S_0F3[_S_0F3_] link:#S_1C4[_S_1C4_] link:#S_24A[_S_24A_] link:#S_2F1[_S_2F1_]
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:68
 msgid "This might have to be repeated for every component in a system."
 msgstr ""
+"Puede tener que repetirse para cada uno de los componentes de un sistema."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:70
 msgid "Example grid:"
-msgstr ""
+msgstr "Ejemplo de tabla:"
 
 #. type: Table
 #: modules/ROOT/pages/component-management.adoc:142
@@ -287,6 +325,75 @@ msgid ""
 "|\n"
 "|\n"
 msgstr ""
+"| Elemento\n"
+"| Componente A\n"
+"| Componente B\n"
+"| Componente C\n"
+"\n"
+"| Nombre\n"
+"|\n"
+"|\n"
+"|\n"
+"\n"
+"| Licencia (y condiciones que nos pueden afectar)\n"
+"|\n"
+"|\n"
+"|\n"
+"\n"
+"| % de la funcionalidad que necesitamos\n"
+"|\n"
+"|\n"
+"|\n"
+"\n"
+"| Proyectos IMI que ya lo utilizan y personas familiarizadas\n"
+"|\n"
+"|\n"
+"|\n"
+"\n"
+"| Soporte comercial\n"
+"|\n"
+"|\n"
+"|\n"
+"\n"
+"| Otras grandes organizaciones que lo utilizan\n"
+"|\n"
+"|\n"
+"|\n"
+"\n"
+"| Actividad en el bug \n"
+"|\n"
+"|\n"
+"|\n"
+"\n"
+"| Diversidad de commits\n"
+"|\n"
+"|\n"
+"|\n"
+"\n"
+"| Diversidad de organizaciones\n"
+"|\n"
+"|\n"
+"|\n"
+"\n"
+"| Tono y utilidad de los foros de discusión\n"
+"|\n"
+"|\n"
+"|\n"
+"\n"
+"| Comunicación pública del proyecto\n"
+"|\n"
+"|\n"
+"|\n"
+"\n"
+"| Méritos de calidad del código\n"
+"|\n"
+"|\n"
+"|\n"
+"\n"
+"| Otras consideracioness\n"
+"|\n"
+"|\n"
+"|\n"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:145
@@ -294,59 +401,64 @@ msgid ""
 "Other things that could be taken into account, besides the sub-measures "
 "below:"
 msgstr ""
+"Otras cuestiones que se pueden tener en cuenta, además de las submedidas que "
+"se desarrollan más adelante:"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:147
 msgid "How easy the different components are to adapt and develop"
-msgstr ""
+msgstr "Facilidad de adaptación y evolución de los diferentes componentes"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:149
 msgid "Immediate and long-term costs, including starting costs"
 msgstr ""
+"Coste inmediato y coste a largo plazo, incluyendo los costes de salida"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:151
 msgid "Existence of a local or global support network or informal community"
-msgstr ""
+msgstr "Existencia de una comunidad informal o red de soporte local y global"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:153
 msgid "Innovative solutions (and the value that brings)"
-msgstr ""
+msgstr "Soluciones innovadoras (y valor que eso aporta)"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:155
 msgid "Impact on data privacy and sovereignty"
-msgstr ""
+msgstr "Impacto sobre la privacidad y la soberanía de datos"
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:160
 #, no-wrap
 msgid "Choose components with a licence approved by the FSF or the OSI"
 msgstr ""
+"Escoger componentes con una licencia aprobada por la OSI o por la FSF "
 
 #.   links incoming: link:#M_408[_M_408_]
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:170
 msgid "The two sets of valid licences are almost identical:"
-msgstr ""
+msgstr "Los dos conjuntos de licencias válidas son casi idénticos:"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:172
 msgid "https://www.gnu.org/licenses/license-list.en.html"
-msgstr ""
+msgstr "https://www.gnu.org/licenses/license-list.es.html"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:173
 msgid "https://opensource.org/licenses"
-msgstr ""
+msgstr "https://opensource.org/licenses"
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:177
 #, no-wrap
 msgid "Select components with a greater diversity and weight of contributors"
 msgstr ""
+"Favorecer componentes con una mayor diversidad y peso de los contribuyentes "
 
 #.   links incoming: link:#M_408[_M_408_]
 #. type: Plain text
@@ -355,6 +467,8 @@ msgid ""
 "Here we understand contributions in a broad sense: commits in the code "
 "repository, bug reports, translations, etc."
 msgstr ""
+"Aquí entendemos contribuciones en un sentido amplio: commits en el "
+"repositorio de código, bug reports, traducciones, etcétera."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:191
@@ -362,6 +476,9 @@ msgid ""
 "Diversity (different people and organisations involved) is more important "
 "than the number of contributions (e.g. the number of commits per month)."
 msgstr ""
+"Es más importante la diversidad (personas y entidades diferentes que "
+"participan) que la cantidad de las contribuciones (por ejemplo, número de "
+"commits por mes)."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:194
@@ -372,18 +489,25 @@ msgid ""
 "a very good sign that lots of people make contributions on an individual "
 "basis and these are taken into account."
 msgstr ""
+"Si el componente presenta contribuciones por parte de organizaciones "
+"importantes (empresas de un cierto tamaño, universidades, instituciones), es "
+"más probable que, aunque alguno de los contribuyentes falle, el proyecto "
+"continúe. Pero también puede ser muy buena señal que muchas personas a "
+"título individual hagan contribuciones y que se tengan en cuenta."
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:198
 #, no-wrap
 msgid "Select components with recent activity"
-msgstr ""
+msgstr "Favorecer componentes con actividad reciente "
 
 #.   links incoming: link:#M_408[_M_408_]
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:205
 msgid "First of all we need to look at the bug tracker, noting:"
 msgstr ""
+"En primer lugar, hay que analizar la actividad en el bug tracker y observar "
+"lo siguiente:"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:208
@@ -393,6 +517,10 @@ msgid ""
 "to grow in a straight line with the number of users but the number of "
 "developers usually grows more slowly."
 msgstr ""
+"La cantidad de notificaciones de deficiencias. No nos tiene que alarmar que "
+"haya muchas notificaciones abiertas y no resueltas, el número de incidencias "
+"tiende a crecer linealmente con el número de usuarios, pero, en cambio, el "
+"número de desarrolladores suele crecer más lentamente."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:212
@@ -402,6 +530,10 @@ msgid ""
 "open issues.  The important thing is to see whether the developers are "
 "regularly involved in the bug tracker, that they haven't abandoned it."
 msgstr ""
+"Que los desarrolladores estén respondiendo a las incidencias. Insistimos: si "
+"el número de usuarios es elevado, habrá siempre muchas incidencias abiertas, "
+"pero es importante observar que los desarrolladores participan habitualmente "
+"en el bug tracker, que no lo hayan abandonado."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:214
@@ -409,6 +541,8 @@ msgid ""
 "Then it is important to look at the project's public activity, bearing in "
 "mind:"
 msgstr ""
+"Después hay que mirar la actividad pública del proyecto, teniendo en cuenta "
+"lo siguiente:"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:216
@@ -416,6 +550,8 @@ msgid ""
 "How long ago the latest releases were published, news items were posted in a "
 "blog or similar site."
 msgstr ""
+"Antigüedad de las últimas releases públicas, noticias publicadas en forma de "
+"blog o similar."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:217
@@ -423,12 +559,14 @@ msgid ""
 "The tone, usefulness and diversity of the participants in the project's "
 "discussion forums and public communication channels."
 msgstr ""
+"El tono, la utilidad y la diversidad de participantes en el foros de "
+"discusión y canales de comunicación públicos del proyecto."
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:221
 #, no-wrap
 msgid "Select components with full and up-to-date documentation"
-msgstr ""
+msgstr "Favorecer componentes con una documentación completa y al día "
 
 #.   links incoming: link:#M_408[_M_408_]
 #. type: Plain text
@@ -437,12 +575,14 @@ msgid ""
 "When the documentation is in a public repository and there is a good range "
 "of people contributing to it, that too is a very good sign."
 msgstr ""
+"Que la documentación esté en un repositorio público y que haya bastante "
+"diversidad de personas que contribuyan también es una muy buena señal."
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:232
 #, no-wrap
 msgid "Select components where there is commercial support available"
-msgstr ""
+msgstr "Favorecer componentes para los que exista soporte comercial "
 
 #.   links incoming: link:#M_408[_M_408_]
 #. type: Plain text
@@ -454,6 +594,11 @@ msgid ""
 "people offering professional support for the component in question, and it "
 "can therefore be assumed they are very familiar with it."
 msgstr ""
+"En productos con licencia libre, siempre será posible contratar a alguien a "
+"fin de que los modifique y mantenga o resuelva problemas. No obstante, "
+"obtenemos una mayor garantía de éxito si ya existen empresas o personas que "
+"ofrecen soporte profesional sobre el componente en cuestión, y que, por lo "
+"tanto, se puede asumir que lo conocen bien."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:249
@@ -466,6 +611,13 @@ msgid ""
 "not simply be discarded but it is better if the professional support is "
 "diversified."
 msgstr ""
+"Es mejor que haya diferentes empresas ofreciendo servicios comerciales sobre "
+"el producto que solo una, ya que en este segundo caso incurriríamos en una "
+"mayor dependencia hacia esta empresa. Es habitual un modelo de negocio en el "
+"que la misma empresa que desarrolla el producto (quizás sin mucho soporte "
+"comunitario externo) ofrezca también soporte comercial sobre este. No se "
+"tiene que descartar de entrada, pero es mejor que el soporte profesional se "
+"encuentre diversificado."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:251
@@ -474,6 +626,9 @@ msgid ""
 "relation to a product at the start could also make it easier to carry out a "
 "tentative evaluation of the cost of adapting or maintaining it."
 msgstr ""
+"La existencia de empresas que ya inicialmente ofrecen servicios "
+"profesionales sobre un producto puede facilitar también realizar una "
+"evaluación tentativa del coste que supondrá adaptarlo o mantenerlo."
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:255
@@ -482,6 +637,8 @@ msgid ""
 "Select components that provide access to development and installation "
 "information"
 msgstr ""
+"Favorecer componentes que faciliten el acceso a la información sobre el "
+"desarrollo y la instalación "
 
 #.   links incoming: link:#M_408[_M_408_]
 #. type: Plain text
@@ -490,6 +647,8 @@ msgid ""
 "Transparency is a basic cornerstone of free software.  Without it, it would "
 "be very difficult for all the rest to work well."
 msgstr ""
+"La transparencia es un pilar básico de los proyectos de software libre, sin "
+"ella es muy difícil que todo el resto funcione bien."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:270
@@ -498,12 +657,15 @@ msgid ""
 "makes the possibility of carrying out an independent technical assessment of "
 "it easier."
 msgstr ""
+"Que un componente ofrezca instrucciones detalladas y precisas sobre cómo "
+"instalarlo facilita que se pueda hacer una evaluación técnica independiente "
+"de este."
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:274
 #, no-wrap
 msgid "Select components with good code quality metrics"
-msgstr ""
+msgstr "Favorecer componentes con buenas métricas de calidad del código"
 
 #.   links incoming: link:#M_408[_M_408_]
 #. type: Plain text
@@ -514,27 +676,33 @@ msgid ""
 "metrics on free software that it would be very difficult to get in the case "
 "of privately owned software."
 msgstr ""
+"El hecho de que tanto el código como las herramientas de gestión de "
+"proyectos (bug-trackers, listas de correo, foros) sean públicas implica que, "
+"sobre los proyectos de software libre, sea posible extraer algunas métricas "
+"objetivas muy difíciles de conseguir en el caso de software privativo."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:288
 msgid "Some metrics that can be obtained for certain projects:"
 msgstr ""
+"Algunas métricas que se pueden obtener para ciertos proyectos son las "
+"siguientes:"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:290
 msgid "Number of comments, from https://openhub.net/[OpenHub]."
-msgstr ""
+msgstr "Cantidad de comentarios, en https://openhub.net/[OpenHub]."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:292
 msgid "Percentage of source code in test cases"
-msgstr ""
+msgstr "Porcentaje de código cubierto por los casos de prueba."
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:296
 #, no-wrap
 msgid "Select components that IMI is already familiar with"
-msgstr ""
+msgstr "Favorecer componentes con los que el IMI ya ha adquirido familiaridad"
 
 #.   links incoming: link:#M_408[_M_408_]
 #. type: Plain text
@@ -543,11 +711,16 @@ msgid ""
 "When we need to adapt an existing source code, if we know the project and "
 "the community that sustains it beforehand, it has lots of advantages:"
 msgstr ""
+"Cuando necesitamos adaptar un componente de software libre ya existente, "
+"conocer de antemano el proyecto y la comunidad que lo sustenta presenta "
+"muchas ventajas:"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:310
 msgid "Perhaps IMI has already identified key people in the community."
 msgstr ""
+"Puede ser que el IMI tenga ya identificadas personas clave dentro de la "
+"comunidad."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:312
@@ -556,12 +729,15 @@ msgid ""
 "money, of the cost of any intended modifications and the possibilities of "
 "them being integrated in to the original product."
 msgstr ""
+"Se puede hacer una estimación más realista del coste en tiempo y en dinero "
+"de las modificaciones que se pretende hacer, y de las posibilidades de que "
+"sean integradas en el producto original."
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:316
 #, no-wrap
 msgid "Select components that have a licence compatible with the GPL licence"
-msgstr ""
+msgstr "Favorecer componentes con una licencia compatible con la GPL"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:324
@@ -569,6 +745,8 @@ msgid ""
 "The Free Software Foundation gives this information in its list of licences: "
 "https://www.gnu.org/licenses/license-list.en.html."
 msgstr ""
+"Esta información la ofrece la Free Software Foundation (FSF) en su listado "
+"de licencias: https://www.gnu.org/licenses/license-list.es.html."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:327
@@ -577,12 +755,17 @@ msgid ""
 "licence conflicts with other components we might need, all our components "
 "should be GPL-compatible."
 msgstr ""
+"Las licencias de la familia de la General Public License (GPL) son unas de "
+"las más comunes. Para evitar conflictos de licencia con otros componentes "
+"que posiblemente necesitaremos, conviene que todos nuestros componentes sean "
+"compatibles con GPL."
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:331
 #, no-wrap
 msgid "Select Debian stable components"
 msgstr ""
+"Favorecer componentes que formen parte de la distribución estable de Debian"
 
 #.   links incoming: link:#M_408[_M_408_]
 #. type: Plain text
@@ -593,6 +776,10 @@ msgid ""
 "having to be adapted and which is multi-architecture, is considered to be a "
 "durable and reliable component."
 msgstr ""
+"Todo componente de la solución que esté incluido en la distribución estable "
+"de Debian en el momento de diseñar el proyecto, o que se pueda ejecutar "
+"sobre Debian Estable sin necesidad de adaptación, y que sea "
+"multiarquitectura, se considera un componente duradero y fiable."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:345
@@ -601,6 +788,10 @@ msgid ""
 "to the project website, can be run on free software platforms, preferably "
 "GNU/Linux and without any restrictions in terms of:"
 msgstr ""
+"Cuando menos, hay que favorecer componentes que puedan ejecutarse, en su "
+"versión estándar descargable en la web del proyecto, sobre plataformas "
+"libres, preferiblemente GNU/Linux y sin que existan restricciones en cuanto "
+"a lo siguiente:"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:347
@@ -608,6 +799,8 @@ msgid ""
 "Requiring a particular GNU/Linux distribution (e.g. a program that only runs "
 "in CentOS environments and not on Debian)."
 msgstr ""
+"Requerir una distribución particular de GNU/Linux (por ejemplo, un software "
+"que solo se ejecute en entornos CentOS y no sobre Debian)."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:349
@@ -617,6 +810,11 @@ msgid ""
 "that requires a Linux kernel in a 3.* version, or some basic libraries of "
 "the system that are obsolete."
 msgstr ""
+"Versiones demasiado específicas de los elementos principales de la "
+"plataforma, sobre todo si se trata de versiones demasiado antiguas o fuera "
+"de su periodo de mantenimiento estándar (por ejemplo, un software que "
+"requiera un kernel de Linux en una versión 3.*, o unas librerías básicas del "
+"sistema desfasadas)."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:351
@@ -624,6 +822,8 @@ msgid ""
 "Requiring a specific hardware architecture (e.g. solutions that only run on "
 "Intel machines)."
 msgstr ""
+"Requerir una arquitectura de hardware específica (por ejemplo, soluciones "
+"que solo se ejecuten en máquinas Intel)."
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:355
@@ -632,6 +832,8 @@ msgid ""
 "Consider all the possibilities and implications before initiating a social "
 "fork"
 msgstr ""
+"Considerar todas las posibilidades y todas las implicaciones antes de "
+"iniciar un fork social "
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:363
@@ -641,6 +843,10 @@ msgid ""
 "plans governing the project, it might be necessary to make a fork (in the "
 "strict sense of the word, a social fork)."
 msgstr ""
+"Cuando se dispone de un código que ha sido publicado con licencia libre pero "
+"se necesita evolucionar el producto en una dirección incompatible con los "
+"planes de quien gobierna el proyecto, puede ser necesario hacer un fork (en "
+"el sentido fuerte del término, o social fork)."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:367
@@ -651,12 +857,17 @@ msgid ""
 "the original community and forcing each developer to decide which version to "
 "prioritise."
 msgstr ""
+"Hacer un fork tiene muchos inconvenientes, y, por lo tanto, tiene que ser el "
+"último recurso. Por una parte, dificulta mucho compartir código con el "
+"producto original a partir del momento del fork. Y, quizás más "
+"significativo, supone dividir la comunidad original y obligar a cada "
+"desarrollador a decidir qué proyecto prioriza."
 
 #. type: Title ==
 #: modules/ROOT/pages/component-management.adoc:370
 #, no-wrap
 msgid "Managing dependencies"
-msgstr ""
+msgstr "Gestión de dependencias"
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:377
@@ -665,16 +876,18 @@ msgid ""
 "Keep a thorough record of all the software packages used, which have to be "
 "free software"
 msgstr ""
+"Llevar un registro exhaustivo de todos los paquetes de software utilizados, "
+"que tienen que ser libres "
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:381 modules/ROOT/pages/component-management.adoc:480 modules/ROOT/pages/component-management.adoc:507 modules/ROOT/pages/component-management.adoc:521
 msgid "Procurement"
-msgstr ""
+msgstr "Contratar"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:386 modules/ROOT/pages/component-management.adoc:408 modules/ROOT/pages/component-management.adoc:424 modules/ROOT/pages/component-management.adoc:441 modules/ROOT/pages/component-management.adoc:512 modules/ROOT/pages/component-management.adoc:526 modules/ROOT/pages/component-management.adoc:539
 msgid "Publication"
-msgstr ""
+msgstr "Publicación"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:388
@@ -682,49 +895,61 @@ msgid ""
 "In the case of a contract, include this in the specifications and add that "
 "IMI has the last word on including a dependency."
 msgstr ""
+"En caso de contrato, debe indicarse en los pliegos y añadir que el IMI tiene "
+"la última palabra sobre la inclusión de una dependencia."
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:390
 #, no-wrap
 msgid "Procurement Clause: Managing software dependencies"
-msgstr ""
+msgstr "Ejemplo de cláusula: Gestión de las dependencias de software"
 
 #. type: delimited block =
 #: modules/ROOT/pages/component-management.adoc:395
 msgid ""
 "The successful bidder should keep a thorough record of all the software "
 "packages used in the solution, which have to be distributed under a software "
-"licence accepted by the Free Software Foundation "
-"(https://www.gnu.org/licenses/license-list.en.html) or the Open Source "
-"Initiative (OSI, https://opensource.org/licenses).  As an additional "
-"requirement, the licence for all packages used should not pose any "
-"incompatibility problems with the main product licence, EUPL-1.2.  Barcelona "
-"City Council reserves the right to demand a software dependency be removed "
-"if it considers that it constitutes a legal risk and the successful bidder "
-"has to replace the package with another one, or cover the feature with a "
-"development of its own."
+"licence accepted by the Free Software Foundation (https://www.gnu.org/"
+"licenses/license-list.en.html) or the Open Source Initiative (OSI, https://"
+"opensource.org/licenses).  As an additional requirement, the licence for all "
+"packages used should not pose any incompatibility problems with the main "
+"product licence, EUPL-1.2.  Barcelona City Council reserves the right to "
+"demand a software dependency be removed if it considers that it constitutes "
+"a legal risk and the successful bidder has to replace the package with "
+"another one, or cover the feature with a development of its own."
 msgstr ""
+"El adjudicatario llevará un registro exhaustivo de todos los paquetes de "
+"software utilizados en la solución, que tienen que estar distribuidos bajo "
+"una licencia de software aceptada por la Open Source Initiative (OSI, https:/"
+"/opensource.org/licenses) o bien por el proyecto GNU (https://www.gnu.org/"
+"licenses/license-list.es.html). Como requisito adicional, la licencia de "
+"todos los paquetes utilizados no tiene que producir problemas de "
+"incompatibilidad con la licencia principal del producto, la EUPL-1.2. El "
+"Ayuntamiento de Barcelona se reserva la potestad de exigir que se retire una "
+"dependencia de software del producto si considera que puede constituir un "
+"riesgo legal y el adjudicatario está obligado a sustituir el paquete por "
+"otro, o bien cubrir la funcionalidad con desarrollo propio."
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:400
 #, no-wrap
 msgid "Use a licence monitoring program"
-msgstr ""
+msgstr "Utilizar un software de monitorización de licencias "
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:410
 msgid "For example:"
-msgstr ""
+msgstr "Por ejemplo:"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:412
 msgid "https://www.fossology.org/"
-msgstr ""
+msgstr "https://www.fossology.org/"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:413
 msgid "http://creadur.apache.org/"
-msgstr ""
+msgstr "http://creadur.apache.org/"
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:418
@@ -733,16 +958,24 @@ msgid ""
 "Do not copy external dependencies to the repository unless it is an "
 "exceptional case"
 msgstr ""
+"No copiar dependencias externas al repositorio si no es por una causa "
+"excepcional"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:428
 msgid ""
 "Sometimes it is decided to copy a sub-component that is available in an own "
 "repository to the repository of the component we are building (whether it is "
-"in source, binary or byte code).  The term for this is a bundled "
-"dependency.  The idea behind it is to make a deployment or development cycle "
-"easier, but it is regarded as bad practice because:"
+"in source, binary or byte code).  The term for this is a bundled dependency. "
+" The idea behind it is to make a deployment or development cycle easier, but "
+"it is regarded as bad practice because:"
 msgstr ""
+"A veces se decide copiar un subcomponente que se encuentra disponible en un "
+"repositorio propio en el repositorio del componente que estamos construyendo "
+"(sea en forma de código fuente, binario o de bytecode). Se dice que esta "
+"dependencia se encuentra bundled. A veces se busca con eso un despliegue o "
+"un ciclo de desarrollo más sencillo, pero se considera una mala práctica por "
+"los siguientes motivos:"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:430
@@ -750,6 +983,8 @@ msgid ""
 "Changes and updates in the sub-component dirty the record of changes to the "
 "main component."
 msgstr ""
+"Los cambios y actualizaciones en el subcomponente ensucian la historia de "
+"cambios del componente principal."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:431
@@ -757,6 +992,8 @@ msgid ""
 "It is more difficult to properly account for the authorship and licensing of "
 "each part of the code."
 msgstr ""
+"Es más difícil dar cuenta correctamente de la autoría y licenciamiento de "
+"cada parte del código."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:433
@@ -764,22 +1001,27 @@ msgid ""
 "There might be exceptional circumstances that justify ignoring this measure, "
 "but they need to be explained to the project administration."
 msgstr ""
+"Pueden darse circunstancias excepcionales que justifiquen no obedecer esta "
+"medida."
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:437
 #, no-wrap
-msgid "Look for unsuitable dependencies and find replacements with a free licence"
+msgid ""
+"Look for unsuitable dependencies and find replacements with a free licence"
 msgstr ""
+"Buscar las dependencias inadecuadas y encontrar sustitutos con licencia "
+"libre "
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:444
 msgid "The following components need to be deleted:"
-msgstr ""
+msgstr "Deben eliminarse los componentes con las siguientes características:"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:446
 msgid "Any with a proprietary licence."
-msgstr ""
+msgstr "Con licencia propietaria."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:448
@@ -787,6 +1029,8 @@ msgid ""
 "Any that are owned by Barcelona City Council but cannot be freed for the "
 "moment."
 msgstr ""
+"Propiedad del Ayuntamiento de Barcelona, pero que de momento no se puedan "
+"abrir."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:450
@@ -794,54 +1038,61 @@ msgid ""
 "Any that show any kind of licence incompatibility with the other product "
 "components to be freed."
 msgstr ""
+"Que presenten algún tipo de incompatibilidad de licencia con otros "
+"componentes del producto que abrir."
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:452
 msgid "Any that cannot be installed in a free software operating system."
-msgstr ""
+msgstr "Que no puedan ser instalados en un sistema operativo libre."
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:456
 #, no-wrap
 msgid "Finance a security audit of the component to be used"
-msgstr ""
+msgstr "Financiar una auditoría de seguridad del componente que utilizar "
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:466
 #, no-wrap
 msgid "Finance meetings and hackathons on the component to be used"
 msgstr ""
+"Financiar encuentros y hackathons relacionadas con el componente que "
+"utilizar"
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:476
 #, no-wrap
 msgid "Involve IMI staff in development tasks"
-msgstr ""
+msgstr "Integrar personal del IMI en las tareas de desarrollo"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:486
-msgid "This can be done on a contract basis and for any development-related task:"
+msgid ""
+"This can be done on a contract basis and for any development-related task:"
 msgstr ""
+"Se puede establecer por contrato y puede ser cualquier tarea relacionada con "
+"el desarrollo:"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:488
 msgid "Writing code"
-msgstr ""
+msgstr "Escritura de código"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:489
 msgid "Writing documents"
-msgstr ""
+msgstr "Escritura de documentación"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:490
 msgid "Revising code"
-msgstr ""
+msgstr "Revisiones de código"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:491
 msgid "Creating, performing and analysing batteries of tests"
-msgstr ""
+msgstr "Creación, ejecución y análisis de baterías de pruebas"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:494
@@ -851,40 +1102,51 @@ msgid ""
 "to increase our technological sovereignty and avoid being dependent on "
 "single suppliers as much as possible."
 msgstr ""
+"El objetivo es tener personal propio familiarizado con un software que se "
+"seguirá utilizando en el futuro, una vez se acabe el contrato de desarrollo "
+"actual. Se trata de profundizar en la soberanía y evitar al máximo la "
+"dependencia de proveedores únicos."
 
 #. type: Title ==
 #: modules/ROOT/pages/component-management.adoc:497
 #, no-wrap
 msgid "Replace the usual private services"
-msgstr ""
+msgstr "Sustitución de servicios privativos habituales"
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:503
 #, no-wrap
 msgid "Use Matomo/Piwik for web analytics"
-msgstr ""
+msgstr "Utilizar Piwik (si se necesita una herramienta de analítica web) "
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:514
 msgid "Do not use Google Analytics, use Matomo instead."
 msgstr ""
+"No hay que utilizar Google Analytics. En su lugar, pueden utilizarse "
+"herramientas como Piwik."
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:517
 #, no-wrap
 msgid "Use OpenStreetMap for showing cartographic information"
 msgstr ""
+"Utilizar OpenStreetMap (si se necesita presentar información cartográfica "
+"presente en esta herramienta) "
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:528
-msgid "Do not use Google Maps, prefer OSM if cartographic information is required."
-msgstr ""
+msgid ""
+"Do not use Google Maps, prefer OSM if cartographic information is required."
+msgstr "No hay que utilizar Google Maps."
 
 #. type: Block title
 #: modules/ROOT/pages/component-management.adoc:531
 #, no-wrap
 msgid "Publish Android apps in F-Droid"
 msgstr ""
+"Publicar apps Android en F-Droid (si uno de los productos es una app "
+"Android)"
 
 #. type: Plain text
 #: modules/ROOT/pages/component-management.adoc:541
@@ -892,3 +1154,6 @@ msgid ""
 "Apps for the Android platform should be published in the free F-Droid "
 "repository, as well as Google Play and those most people use."
 msgstr ""
+"En el caso de apps para la plataforma Android, publicar las apps en el "
+"repositorio libre F-Droid, además del repositorio Google Play o aquellos que "
+"más personas utilicen."

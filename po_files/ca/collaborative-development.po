@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-03-22 10:25+0000\n"
+"PO-Revision-Date: 2019-03-25 02:27+0000\n"
 "Last-Translator: Guillem Marpons <gmarpons@mailbox.org>\n"
 "Language-Team: Catalan\n"
 "Language: ca\n"
@@ -772,7 +772,7 @@ msgstr ""
 #: modules/ROOT/pages/collaborative-development.adoc:274
 #, no-wrap
 msgid "Register the name in important online (Internet) sites (3.3, 7.0)"
-msgstr " Adquirir el nom en els espais d’Internet importants"
+msgstr "Adquirir el nom en els espais d’Internet importants"
 
 #. type: Plain text
 #: modules/ROOT/pages/collaborative-development.adoc:283

@@ -1,0 +1,865 @@
+= Desenvolupament col·laboratiu
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+En els projectes de programari lliure hi ha una cultura de «treballar en
+obert», ja que aquesta facilita les condicions que els fan sostenibles
+financerament i tècnica. És d’interès per a tots els projectes incrementar
+l’afluència de recursos cap al mateix, i això passa per:
+
+* Incrementar la quantitat de persones o institucions que utilitzen el
+  programari.
+
+* Propiciar la transició de qualsevol persona o entitat usuària a algú que
+  participa en el projecte de la manera que sigui: contribuint amb codi,
+  testing, correccions, finançament, difusió, traduccions, etcètera.
+
+Fora d’aquest model, basat en incentivar la col·laboració, és molt difícil
+materialitzar els potencials avantatges que ofereix el paradigma del
+programari lliure. Hi ha dos elements claus en tot això:
+
+* *Transparència*.
+  Aquesta no s’ha de limitar al codi.
+  Per a que hi hagi verdadera col·laboració la transparència ha d’abastar tota la infraestructura de comunicació, coneixement i presa de decisions del projecte.
+
+* *Disseminació del coneixement*.
+  A diferència dels models de negoci clàssics, aquí interessa que el coneixement sobre el producte, fins als detalls més tècnics, estigui el més distribuït possible. 
+  Això redueix el risc tecnològic i la dependència de l’Ajuntament sobre empreses concretes.
+
+* *Participació de la comunitat*.
+  Això reforça tant el projecte, amb més idees i recursos, com les comunitats locals.
+
+Treballar en obert suposa que els següents elements siguin públicament
+accessibles (per lectura) a tota persona interessada en formats oberts,
+sense haver d’usar eines privatives i de forma anònima (sense haver-se de
+registrar a cap servei web i molt menys havent de contractar serveis de
+pagament):
+
+* El repositori de codi.
+
+* El gestor d’incidències (on, entre d’altres, es notifiquen i gestionen els
+  defectes o bugs).
+
+* Els documents de disseny.
+
+* La documentació d’usuari/-a.
+
+* Els canals de comunicació on l’equip de desenvolupament pren les decisions
+  tècniques.
+
+Treballar en obert NO vol dir (necessàriament) que:
+
+* Persones externes al projecte tinguin accés d’escriptura al repositori (son
+  lliures de copiar el codi en un repositori propi i modificar la seva còpia).
+
+* Tothom tingui permís per escriure notificacions de defectes i intervenir al
+  gestor d’incidències, cada projecte pot triar la seva política de QA.
+
+* L’equip del projecte hagi de llegir i respondre totes les notificacions de
+  defectes (si estan obertes per escriptura) ni totes les preguntes als canals
+  de comunicació oberts.
+
+* L’equip del projecte hagi de revisar totes les suggerències i contribucions
+  (_pull requests, patches_) que rebi, si es considera que els recursos estan
+  millor invertits en una altra tasca.
+
+
+== Treballar en obert des del dia 1
+
+Un aspecte importantíssim a tenir en compte és que quant més temps es
+gestiona un projecte de forma tancada, més costós és després obrir-lo. Si
+s’espera massa, pot ser que algunes mesures no s’arribin a implementar mai,
+ja que el seu cost resultaria prohibitiu. Les raons d’això es resumeixen en:
+
+* Tenir canals de comunicació oberts des del dia 1 no vol dir que els
+  "estranys" ens hagin de distreure des del dia 1. En el present document
+  s’explica com deixar clar quins son els nostres compromisos, que podem
+  modular a cada fase.
+
+* És impossible compensar els incentius que tenen els desenvolupadors per fer
+  coses de manera "ràpida i lletja" amb futures amenaces d’obertura. Si no
+  s’actua en obert des de l’inici, inevitablement incorreran en
+  https://en.wikipedia.org/wiki/Technical_debt[deute tecnològic] amb la
+  intenció d’arreglar les coses en un futur (que mai arriba).
+
+* Quan arriba el dia d'"obrir el codi", ens trobem de cop i volta que tenim:
+
+** Configuracions d’usuari específiques i contrasenyes dins del repositori.
+
+** Notificacions de defectes que contenen informació sensible que no es pot fer
+   pública.
+
+** Correspondència entre desenvolupadors on es barreja informació tècnica útil
+   amb opinions personals que no estaven pensades per a que tothom les pogués
+   llegir.
+
+** Dependències sobre components de software que no es poden usar en un
+   projecte de codi obert, o que generen problemes de llicències.
+
+** Documentació o procediments de build escrits amb eines propietàries que no
+   permeten la seva publicació.
+
+** (I una llista inacabable de coses).
+
+L’obertura del codi provoca haver de prendre decisions difícils, que no es
+produirien si hagués estat obert des de l’inici (perdre temps netejant
+l’historial de defectes vs. crear-ne un de nou i perdre l’historial
+complert, etc).
+
+Es crea un gran "esdeveniment d’obertura" que suposa un alt risc per al
+projecte, ja que s’han de fer molts canvis de cop, i tot el projecte i les
+seves potencials vulnerabilitats queden exposades també de cop (i molts
+ulls, no sempre ben intencionats, estaran mirant). Abans de l’esdeveniment,
+això crea incertesa i preocupació. Després de l’esdeveniment, pot provocar
+una allau d’incidències que en condicions normals haguessin arribat
+escalonadament.
+
+Tots aquests elements es justifiquen abastament als apartats
+https://producingoss.com/en/setting-tone.html#be-open-from-day-one[Be open
+from day one] i
+https://producingoss.com/en/governments-and-open-source.html#starting-open-for-govs[Being
+Open Source From Day One is Especially Important for Government Projects]
+del llibre https://producingoss.com/en/index.html[Producing Open Source
+Software], que convé molt que llegeixin les persones responsables de cada
+projecte.
+
+Les mesures i recomanacions a tenir en compte per no retardar aquesta
+obertura es troben repartides per tota la Guia, etiquetades com a `Dia
+1`. Les presentem totes aquí llistades:
+
+[cols="10,40,10,40", options="header"]
+|===
+|ID
+|Title
+|Type
+|Tags
+
+|A_D4F
+|Vincular el repositori principal a un gestor d'incidències públic
+|Alternativa
+|Dia1;_ _ Adaptació_;_ Plugin_;_ NouProducte_; _ Publicació
+
+|M_F25
+|Pujar un fitxer ``README`` al repositori principal
+|Mesura
+|Dia1_;_ Plugin_;_ NouProducte_;_ Publicació
+
+|M_4F5
+|Publicar unes breus Directrius per desenvolupadors (Developer Guidelines)
+|Mesura
+|Dia1_;_ Plugin_;_ NouProducte_;_ Publicació
+
+|R_368
+|Vincular el repositori principal a un sistema d'integració contínua de codi obert
+|Recomanació
+|Dia1_;_ Adaptació_;_ Plugin_;_  NouProducte_;_ Publicació
+
+|M_97E
+|Pujar el text de la llicència al repositori principal
+|Mesura
+|Dia1_;_ Plugin_;_ NouProducte_;_ Publicació
+
+|M_A60
+|Crear el repositori principal a l'espai [.line-through]#GitHub# public software forge de l'Ajuntament
+|Mesura
+|Dia1_;_Adaptació_;_ Plugin_;_ NouProducte_;_ Publicació
+
+|M_A63
+|Utilitzar el respositori de [.line-through]#GitHub# com la web de desenvolupament del projecte
+|Mesura
+|Dia1_;_ Plugin_;_ NouProducte_;_ Publicació
+
+|M_35A
+|Vincular el repositori principal al gestor d'incidències de GitHub
+|Mesura
+|Dia1_;_ Adaptació_;_ Plugin_;_ NouProducte_;_ Publicació
+
+|R_2D5
+|Reservar una URL permanent per al projecte, i usar-la sempre per fer-hi referència
+|Recomanació
+|Dia1_;_ Integració_;_ Plugin_;_ NouProducte_;_ Publicació
+
+|link:#M_7EA[M_7EA]
+|Implementar i documentar procediments de build i instal·lació amb eines lliures i d'ús estès
+|Mesura
+|Dia1_;_ Plugin_;_ NouProducte_;_ Publicació
+
+|M_CC5
+|Pujar un fitxer amb instruccions d'instal·lació al repositori principal
+|Mesura
+| 
+|
+|Dia1_;_ Integració_;_ Plugin_;_ NouProducte_;_ Publicació
+|===
+
+
+== Contractació per a desenvolupar en obert
+
+:!measure:
+:sect: 3.2
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Adjudicar a entitats amb experiència en desenvolupament obert
+--
+[.tags]
+* Contractar
+* Adaptació
+* Plugin
+* NouProducte
+
+
+Establir la necessitat d’experiència en codi obert com a condició de
+solvència tècnica.
+
+Per moltes condicions que es posin al contracte, si l’empresa adjudicatària
+no té experiència participant en projectes de codi obert, el més probable és
+que el producte no acabi sent obert del tot. En la majoria de casos això no
+té perquè ser resultat d’una mala disposició, sinó fruit del desconeixement.
+--
+
+[sidebar.alternative, id="{sect}.{counter:measure:A}"]
+.Fer un contracte secundari de validació i verificació independent (IV&V)
+--
+[.tags]
+* Contractar
+* Adaptació
+* Plugin
+* NouProducte
+
+
+Contractar alguna entitat que sí tingui experiència demostrable en
+participar de manera sostinguda en projectes de codi obert. Aquesta entitat
+actuarà com un col·laborador extern del projecte i farà revisions de codi i
+anàlisis de processos, reportant directament a l’IMI.
+
+En un projecte de codi obert el que s’està contractant no és només el codi,
+sinó també el procés.
+
+Afegir aquest servei a la oficina tècnica del projecte.
+--
+
+[sidebar.alternative, id="{sect}.{counter:measure:A}"]
+.Incloure com a criteri d’adjudicació l’experiència en projectes de codi obert
+--
+[.tags]
+* Contractar
+* Adaptació
+* Plugin
+* NouProducte
+
+
+Adjudicar un determinat nombre de punts a les empreses que acreditin
+experiència en projectes on s’ha produït programari lliure treballant en
+obert.
+--
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Demanar als concursants que acreditin experiència en projectes de codi obert dels participants
+--
+[.tags]
+* Contractar
+* Adaptació
+* Plugin
+* NouProducte
+
+Ho han de fer aportant referències a la seva participació individual en
+repositoris i fòrums oberts (StackOverflow, etc.), dels projectes en que
+hagin participat.
+
+Es pot fer constar aquesta demanda com a criteri de solvència tècnica o com
+a criteri d’execució.
+--
+
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
+.Partir el projecte en grups de funcionalitat que es puguin licitar en diferents lots
+--
+[.tags]
+* Contractar
+* NouProducte
+
+Bé sigui contractant per lots, bé sigui externalitzant tasques concretes com
+la revisió de codi i del desplegament, com estableix la
+link:#fer-contracte-validacio-independent[Alternativa: Fer un contracte
+secundari de validació i verificació (IV&V) independent].
+
+A més de ser una política alineada amb la Guia de contractació tecnològica,
+és molt favorable pels interessos del projecte disseminar el coneixement
+sobre el producte. Les _reserves de coneixement distribuïdes_ son una de les
+principals fortaleses dels projectes de codi obert.
+
+També ajuda molt a que des de l’inici del desenvolupament s’estableixin
+processos de treball en obert.
+--
+
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
+.Reduir els requeriments d’estabilitat financera de les ofertes
+--
+[.tags]
+* Contractar
+* Integració
+* Adaptació
+* Plugin
+* NouProducte
+
+Es tracta de suavitzar els criteris de solvència financera
+exigits. L’objectiu és no posar impediments artificials que puguin impedir
+presentar-se al concurs a empreses i cooperatives petites i mitjanes que
+compleixin (o fins i tot superin a les grans) en solvència tècnica.
+
+Com s’explica a la joinup:Guideline on public procurement of Open Source
+Software<document/guideline-public-procurement-open-source-software>, pàgina
+47, (document encarregat per la Comissió Europea) la major interoperabilitat
+i independència de proveïdors quan es treballa en codi obert incrementa la
+sostenibilitat dels projectes sense necessitat d’uns requeriments financers
+molt elevats.
+--
+
+
+== Difusió del projecte
+
+:!measure:
+:sect: 3.3
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Escollir un bon nom per al projecte
+--
+[.tags]
+* NouProducte
+* Publicació
+
+Això és més important en projectes de codi obert que en projectes
+tradicionals perquè adquirir usuaris i desenvolupadors fora dels confins de
+l’Ajuntament pot determinar el grau d’èxit del projecte.
+
+Es poden trobar algunes indicacions més concretes a
+http://producingoss.com/en/getting-started.html#choosing-a-name.
+--
+
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
+.Adquirir el nom en els espais d’Internet importants
+--
+[.tags]
+* NouProducte
+* Publicació
+
+Per projectes grans és recomanable pensar des del principi en quins llocs i
+plataformes d’Internet s’haurà de tenir presència i assegurar la
+disponibilitat dels dominis o noms d’usuari corresponents. A més d’un o més
+dominis ICANN propis, pot ser que un projecte vulgui tenir presència a
+GitHub o Twitter, per exemple. Utilitzar a tot arreu el mateix nom d’usuari
+facilita la identificació del projecte per part de persones que encara no hi
+estan massa involucrades.
+--
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Redactar una declaració de propòsit clara i posar-la a llocs destacats
+--
+[.tags]
+* Integració
+* NouProducte
+* Publicació
+
+La declaració de propòsit és un text curt, d’un o dos paràgrafs, que permet
+a la gent decidir en 30 segons si els interessa seguir llegint sobre el
+projecte o no. Ha d’anar acompanyada dels enllaços necessaris per si la
+resposta afirmativa. En el redactat es pot donar per suposats uns
+coneixements mínims de l’àrea d’aplicació del projecte. Les persones que no
+disposen d’aquests coneixements probablement no estaran interessades en el
+projecte.
+
+El text s’ha de tenir redactat com a mínim en anglès i en català, per
+utilitzar la versió que convingui en cada cas.
+
+Ha d’aparèixer com a mínim als següents llocs:
+
+* La pàgina d’inici de la web orientada a usuaris del projecte, cas de
+  tenir-ne. S’ha de poder veure sense necessitat de fer scroll en un ordinador
+  de sobretaula.
+* El fitxer `README` del repositori principal.
+* El llistat de projectes a https://ajuntamentdebarcelona.github.io.
+* Cada vegada que el projecte s’introdueix a un repositori o llistat de
+  projectes de codi obert, per exemple el https://joinup.ec.europa.eu/[Join Up
+  de la Unió Europea].
+--
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Especificar en llocs destacats que el projecte és lliure
+--
+[.tags]
+* Plugin
+* NouProducte
+* Publicació
+
+És important, a més, indicar sota quina llicència concreta es distribueix el
+programari (incloent la versió), utilitzant el nom complert o bé
+l’identificador, el que més convingui en cada cas, exactament com apareixen
+a https://spdx.org/licenses/. Especificar la llicència com a mínim en els
+següents llocs:
+
+* La pàgina d’inici de la web orientada a usuaris del projecte, cas de
+  tenir-ne. S’ha de poder veure sense necessitat de fer scroll en un ordinador
+  de sobretaula.
+* El fitxer `README` del repositori principal.
+* El llistat de projectes a https://ajuntamentdebarcelona.github.io.
+* Cada vegada que el projecte s’introdueix a un repositori o llistat de
+  projectes de codi obert, per exemple el https://joinup.ec.europa.eu/[Join Up
+  de la Unió Europea].
+
+En quant a la web orientada a usuaris del projecte, és important no relegar
+aquesta informació a una pàgina de «descàrregues» o de «desenvolupament» que
+requereixi més d’un clic.
+--
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Especificar en llocs fàcilment accessibles un llistat de funcionalitats
+--
+[.tags]
+* Plugin
+* NouProducte
+* Publicació
+
+Serveix per què la gent acabi de decidir si el projecte pot cobrir o no les
+seves necessitats.
+
+Enllaçar de forma visible com a mínim des de:
+
+* *La pàgina d’inici de la web orientada a usuaris del projecte, cas de*
+  tenir-ne. L’enllaç s’ha de poder veure sense necessitat de fer scroll en un
+  ordinador de sobretaula.
+* El fitxer `README` del repositori principal.
+
+Millor en forma de llistat amb vinyetes i frases simples, o d’una manera
+encara més gràfica. Molts cops és una mena d’extensió de la declaració de
+propòsit.
+
+Si una funcionalitat encara no està implementada es pot especificar entre
+parèntesis: _planned_ o _work-in-progress_.
+
+
+Especificar i mantenir una pàgina amb l’estat de desenvolupament del
+projecte, no té sentit, i de fet pot ser molt contraproduent, falsejar o
+exagerar els veritables mèrits tècnics del producte.
+--
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Especificar en llocs fàcilment accessibles els principals requeriments tècnics
+--
+[.tags]
+* Plugin
+* NouProducte
+* Publicació
+
+Per exemple quina arquitectura hardware/software es necessita per
+instal·lar-ho, quin sistema operatiu, etc. També és una informació
+necessària per què un potencial usuari esbrini si pot utilitzar la solució o
+no.
+
+Enllaçar de forma visible com a mínim des de:
+
+* *La pàgina d’inici de la web orientada a usuaris del projecte, cas de*
+  tenir-ne. L’enllaç s’ha de poder veure sense necessitat de fer scroll en un
+  ordinador de sobretaula.
+* El fitxer `README` del repositori principal.
+
+Millor en forma de llistat amb vinyetes i frases simples.
+--
+
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
+.Especificar en llocs fàcilment accessibles les diferències amb productes similars
+--
+[.tags]
+* Plugin
+* NouProducte
+* Publicació
+
+Destacar sobretot els avantatges respecte les eines més conegudes i ben
+establertes, lliures o propietàries, però no amagar les limitacions.
+
+Enllaçar de forma visible des de la web orientada a usuaris del projecte,
+cas de tenir-ne. Les diferències estrictament tècniques també es poden
+enllaçar des de la web de desenvolupament.
+--
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Especificar i mantenir una pàgina amb l’estat de desenvolupament del projecte
+--
+[.tags]
+* Plugin
+* NouProducte
+* Publicació
+
+Es tracta d’escriure un llistat, que es va actualitzant periòdicament a cada
+release o fita important, que contingui:
+
+* Les release anteriors, amb la data de publicació i els principals canvis que
+  s’hi van introduir.
+* Futures release o fites del projecte amb data temptativa de realització, a
+  mode de full de ruta molt esquemàtic.
+
+L’objectiu d’aquesta pàgina és contribuir a visibilitzar tres coses:
+
+* Quines fites s’han assolit ja.
+* Cap a on es dirigeix el projecte i com de lluny es troben les fites que
+  s’espera assolir.
+* Com d’actius son el projecte i la seva comunitat, i com de ben mantingut
+  està el codi.
+
+Enllaçar com a mínim des de:
+
+* La web orientada a usuaris del projecte.
+* El fitxer `README` del repositori principal.
+
+És molt important ser transparents i no falsejar l’estat real del
+projecte. És més perniciós atraure usuaris amb expectatives que no es podran
+complir que no pecar de conservadorisme a l’hora d’exposar el progrés
+realitzat o esperat. Tots els projectes tenen defectes i facilita la vida a
+tothom (desenvolupadors, promotors del projecte i potencials usuaris
+externs) tractar-los amb transparència. Molts projectes de programari lliure
+exitosos contenen a la seva pàgina un apartat titulat "Known bugs", i alguns
+d’aquests defectes romanen allà durant anys.
+
+A més, en el cas del codi obert, tot el codi i tot el procés de
+desenvolupament està a la vista de tothom, i tothom pot instal·lar i provar
+el producte. Qualsevol pot refutar les nostres afirmacions si no son certes,
+com s’explica a http://producingoss.com/en/marketing.html#goldfish-bowl.
+--
+
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
+.Establir mesures per visibilitzar millor el progrés i el grau d’activitat del projecte
+--
+[.tags]
+* Plugin
+* NouProducte
+* Publicació
+
+Es poden posar indicadors i alimentadors automàtics a la pàgina d’inici de
+les webs (tant a la d’usuaris com la de desenvolupament), o en altres llocs,
+amb informacions que provinguin, per exemple, de:
+
+* El repositori, per exemple els darrers missatges de commit.
+* El sistema d’integració continua, per exemple quins builds o conjunts de
+  testos han funcionat o fallat darrerament.
+* El sistema de notificació d’incidències o defectes.
+* Twitter del projecte o d’usuaris de l’aplicació.
+
+També es pot mostrar de manera gràfica una mena de calendari de progrés amb
+les diferents versions.
+
+Es pot agafar com exemple la manera que mostra la informació de projectes d’
+https://launchpad.net/inkscape[exemple el Launchpad d’Ubuntu].
+
+L’objectiu és enfortir i fer més visual tot allò esmentat a la
+#h:a22a9688-f8e2-473d-baf5-8989693a41c1[Mesura: Especificar i mantenir una
+pàgina amb l’estat de desenvolupament del projecte].
+--
+
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
+.Negociar a priori la manera de fer visibles les aportacions patrocinades per l’Ajuntament
+--
+[.tags]
+* Adaptació
+* Plugin
+
+A l’Ajuntament de Barcelona li pot interessar que els projectes de
+programari que no han estat iniciats per l’Ajuntament, però als quals
+realitza contribucions de qualsevol tipus (extensions, traduccions, hores de
+treball de manteniment) reconeguin i donin publicitat a aquestes
+contribucions. La manera en que això es concreti dependrà de cada projecte i
+de la naturalesa de les aportacions. Alguns exemples poden ser:
+
+* Esment en una llista pública d’entitats que participen o contribueixen al
+  projecte.
+* Aparició del logo de l’Ajuntament a la web del projecte.
+
+És convenient, abans d’iniciar la col·laboració, parlar amb la comunitat de
+desenvolupament del projecte sobre quin reconeixement desitjaria obtenir
+l’Ajuntament en cada cas.
+--
+
+
+== Parametrització, configuració i instal·lació
+
+:!measure:
+:sect: 3.4
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Obligar als adjudicataris a parametritzar el producte usant fitxers de configuració
+--
+[.tags]
+* Integració
+* Adaptació
+* Plugin
+* NouProducte
+* Publicació
+
+No incloure al codi dades específiques d'un desplegament, o d'un client.
+
+La parametrització, tant del procés de _build_ com de l'execució, s'ha de
+poder realitzar a través de fitxers de configuració, fins i tot si hi ha
+altres mètodes (per exemple, opcions de línia de línia de comandes). Aquests
+fitxers de configuració s'han de mantenir en un repositori privat diferent.
+
+Això fa més senzilla la reutilització del codi. És incorrecte posar la
+configuració:
+
+* Fixada estàticament al propi codi.
+
+* En fitxers guardats al mateix repositori que el codi.
+--
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Implementar i documentar procediments de build i instal·lació amb eines lliures i d’ús estès
+--
+[.tags]
+* Dia1
+* Plugin
+* NouProducte
+* Publicació
+
+És molt important no esperar gens a construir i documentar un sistema de
+build del programari, ja que sense això l’esforç que ha de realitzar
+qualsevol desenvolupador per provar l’eina serà probablement massa gran com
+perquè ningú ho intenti.
+
+La documentació ha de ser suficient perquè un tercer entengui com configurar
+i desplegar el producte. Les organitzacions adjudicatàries de contractes han
+d’entendre que no tindran el monopoli de la configuració, desplegament i
+manteniment del producte.
+
+Per suposat no es pot obligar als usuaris i potencials col·laborador d’un
+projecte de codi obert a dependre d’eines que no siguin alhora programari
+lliure, i dins d’aquestes convé triar les d’ús més estès i que resultin més
+familiars a la majoria de desenvolupadors. Això últim pot variar d’una
+comunitat a una altra. Alguns exemples d’eines de build (algunes també
+serveixen per als procediments de configuració i instal·lació) d’ús comú i
+que recomanem son:
+
+* Per a projectes Java: Maven, Ant (també serveix per altres llenguatges).
+* Per a projectes Python recomanem seguir els consell de
+  http://python-packaging.readthedocs.io/en/latest/index.html, que inclouen
+  també informació sobre empaquetament.
+* Per a projectes JavaScript (i per front-end en general): Gulp.js.
+* Per a projectes Ruby: Rake.
+* Ús general: CMake, Nix.
+--
+
+
+== Empaquetat i desplegament
+
+:!measure:
+:sect: 3.5
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Obligar a l’adjudicatari que fa el desplegament a usar el mateix codi publicat al repositori principal
+--
+[.tags]
+* Contractar
+* Adaptació
+* Plugin
+* NouProducte
+
+Com a condició de transparència, el codi font que en cada moment s’utilitza
+per construir (build) i desplegar els serveis en producció ha d’estar
+disponible en el repositori públic de l’Ajuntament, preferentment sota la
+branca master. Qualsevol patch de seguretat, millora o modificació de
+qualsevol tipus que s’apliqui al codi en producció s’ha de reflectir al
+repositori.
+
+El codi disponible al repositori públic és el que està cobert totalment per
+una llicència lliure. No s’hi pot fer cap afegit.
+--
+
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
+.Establir una política de versions explícita en el fitxer ``README``
+--
+[.tags]
+* Plugin
+* NouProducte
+* Publicació
+
+Convé que cada repositori tingui una política de versions explícita. Els
+projectes de programari utilitzen normalment identificadors de versions
+basats en seqüències de nombres de l’estil `MAJOR.MINOR.PATCH`.
+
+Cal escollir una política de versions adient a cada projecte. Cada comunitat
+tecnològica (Java, Python, Drupal, etcètera) pot tenir una política de
+versions preferent i és aconsellable informar-se de quina és i
+adherir-s’hi. En cas que no hi hagi una política clara podem adherir-nos a
+una política genèrica i ben coneguda, com el http://semver/[Semantic
+Versioning].
+--
+
+== Ús de formats i estàndards oberts
+
+:!measure:
+:sect: 3.6
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Comprovar que la interfície d’usuari que compleix amb els estàndards del W3C, en cas d’aplicacions web
+--
+[.tags]
+* Plugin
+* NouProducte
+
+Les interfícies web d’usuari, tant les d’ús per als ciutadans com les
+d’administració i ús intern, han de complir amb els estàndards del World
+Wide Web Consortium (W3C) i no han de requerir l’ús de funcionalitats
+proporcionades per extensions propietàries dels navegadors.
+
+La presentació s’ha de visualitzar correctament, i el producte ha de ser
+plenament funcional, amb els navegadors de la família:
+
+* Gecko (Firefox)
+* WebKit/Blink (Chrome, Safari, Konqueror)
+* Trident/EdgeHTML (Microsoft)
+--
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Utilitzar formats oberts en l’intercanvi de documents amb el ciutadà i amb altres sistemes
+--
+[.tags]
+* Adaptació
+* Plugin
+* NouProducte
+* Publicació
+
+
+Tot l’intercanvi de documents amb el ciutadà que impliqui la descàrrega o
+càrrega de fitxers s’ha de produir exclusivament amb formats oberts, segons
+la definició que en dona la Guia de Compra Tecnològica de l’Ajuntament de
+Barcelona.xref:en/tech-sovereignty:interoperability.adoc[Technological
+Sovereignty Guide].
+
+Pels documents de text, fulls de càlcul i presentacions, els següents
+formats son acceptables:
+
+* Text pla basat en formats que disposen d'una implementació lliure i estable
+  (per la generació, edició i ingestió) en les principals plataformes incloent
+  GNU/Linux.
+* OpenDocument Format, https://www.oasis-open.org/[].
+* format PDF.
+
+Rebutgem formats propietaris com els de Microsoft Office i Apple iWork
+(`.doc[x]`, `.ppt[x]`, etc.)
+
+L’intercanvi d’imatges, àudio i vídeo també es realitzarà mitjançant formats
+oberts pels quals existeixin implementacions lliures en les principals
+plataformes informàtiques incloent GNU/Linux.
+
+[.exception]
+****
+Es justifica una excepció temporal a aquesta regla si necessitem
+intercanviar informació amb un servei actualment existent a l'IMI que només
+accepta algun format no obert.
+****
+--
+
+
+== Internacionalització
+
+:!measure:
+:sect: 3.7
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Definir i pressupostar els requeriments tècnics per què el producte pugui ser traduït i internacionalitzat
+--
+[.tags]
+* Contractar
+* Adaptació
+* Plugin
+* NouProducte
+
+Tots els missatges mostrats a l’usuari han d’estar
+internacionalitzats. Utilitzar els mecanismes habituals en cada
+llenguatge/plataforma.
+
+L'eina estàndard per a missatges multi-lingües en projectes de programari
+lliure és https://www.gnu.org/software/gettext/[`gettext`].
+--
+
+
+== Obertura d’un codi inicialment tancat
+
+:!measure:
+:sect: 3.8
+
+L'Ajuntament és propietari dels drets d'autor de molt codi que no es va
+proporcionar sota una llicència de programari lliure i, per tant, és un
+programari propietari.
+
+En aquest apartat s’explica com preparar un codi que era tancat per, a
+partir de la decisió de publicar-lo, poder-lo evolucionar i mantenir en
+obert.
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Jutjar la conveniència o no de publicar un codi en poder de l’Ajuntament
+--
+[.tags]
+* Publicació
+
+Abans de publicar sota llicència lliure un component o sistema software ja
+existent i en ús a l’Ajuntament de Barcelona cal comprovar que:
+
+* Correspon a una necessitat general: pot ser d’utilitat per a més
+  institucions o organitzacions, a més de l’Ajuntament.
+* Té algun aspecte que el diferencia favorablement d’altres solucions obertes
+  existents.
+* L’Ajuntament de Barcelona és titular legal de tot el codi que es pretén
+  alliberar, o pot fer gestions per obtenir aquesta titularitat.
+* Es pot executar sobre plataformes lliures.
+* El codi (i la documentació associada) té la qualitat i la maduresa
+  suficients, o bé els requeriments de millora estan clarament identificats i
+  existeix una estratègia per abordar-los.
+* L’obertura de la solució no suposarà riscos legals per a cap part.
+* Es disposa dels recursos per respondre a incidències de manteniment mentre
+  no es traspassi aquesta responsabilitat a d’altres entitats, possiblement
+  una comunitat oberta de desenvolupadors i usuaris.
+--
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Buscar al repositori de codi informació sensible o configuracions d’usuari
+--
+[.tags]
+* Publicació
+--
+
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
+.Avisar als nous espais públics orientats a desenvolupadors que aquest era un projecte tancat
+--
+[.tags]
+* Publicació
+
+Es tracta d’explicar que el projecte ha funcionat fins a un determinat
+moment com un projecte tancat i per tant cal esperar certes
+inconveniències. Convé reduir les expectatives del nous usuaris i
+desenvolupadors en quant a qualitat i transparència d’alguns elements del
+projecte. S’han d’explicar els compromisos als que s’ha hagut d’arribar per
+fer possible l’obertura. Per exemple, és possible que en el repositori de
+codi hi hagi moltes dades sensibles (dades d’usuaris concrets, etcètera) i
+que s’hagi optat per perdre l’historial del control de versions i crear un
+repositori nou top-skim que només contingui la darrera versió.
+
+Aquesta informació convé publicar-la com a mínim a:
+
+* La web de desenvolupament (ara pública i oberta).
+* Llistes de correu públiques.
+
+L’objectiu d’aquesta mesura és evitar un allau de peticions inassumibles.
+--
+
+[sidebar.recommendation, id="{sect}.{counter:measure:A}"]
+.Avisar als desenvolupadors de les possibles conseqüències de la imminent obertura del projecte
+--
+[.tags]
+* Publicació
+
+Si tenim alguna manera, per exemple mitjançant llistes de correu privades,
+d’accedir a les persones que han participat o que participen en un projecte
+que anem a obrir, és convenient notificar aquest fet. El fet d’obrir un codi
+que no es va escriure des de l’inici per ser obert pot provocar incomoditat
+als seus autors, i cal explicar que això és normal. Es pot referir el
+següent treball per ajudar a aclarir la situació:
+http://producingoss.com/en/opening-closed-projects.html.
+--

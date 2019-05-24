@@ -1,0 +1,125 @@
+= Introducció
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+L’Ajuntament de Barcelona disposa d’una política d’ús i desenvolupament de
+programari lliure i de codi obert establerta en la
+http://ajuntament.barcelona.cat/digital/ca/documentacio[Mesura de govern per
+a la digitalització oberta: Programari lliure i desenvolupament àgil de
+serveis a l’administració pública], l’octubre de 2017.
+
+Aquesta política consta d’un seguit de principis i directrius que s’exposen
+als documents següents, annexos a la mesura:
+
+* xref:{lang}/tech-practices:ROOT:aim-and-scope.adoc[Codi de pràctiques
+  tecnològiques]
+* xref:{lang}/tech-sovereignty:ROOT:introduction.adoc[Guia sobre sobirania
+  tecnològica]
+* xref:{lang}/ict-procurement:ROOT:context.adoc[Guia de compra pública de TIC]
+
+El present document concreta aquests principis i directrius en un conjunt de
+mesures i recomanacions que han de guiar al personal de (l’IMI) en la gestió
+diària de projectes basats en programari lliure, en aspectes com:
+
+* La cerca i disseny de solucions
+* La contractació de serveis
+* El desenvolupament, implantació i manteniment de sistemes d’informació
+* La participació en comunitats obertes
+
+== Beneficis d'utilitzar i desenvolupar solucions IT lliures
+
+El principal avantatge que s’espera en utilitzar i desenvolupar programari
+lliure és que l’Ajuntament recuperi o mantingui el control de la seva
+informàtica, sense cedir-la a mans privades. És crucial per a una entitat
+que implementi serveis públics i processi molta informació sobre els
+ciutadans poder conèixer amb exactitud què s'està executant, en quins
+ordinadors, qui té accés a les dades, etc. Com diu a https: //www.gnu. org
+[Projecte GNU]:
+
+[quote, "Richard Stallman", "Measures Governments Can Use to Promote Free Software"]
+"L’estat ha d’insistir en el programari lliure en la seva pròpia informàtica
+pel bé de la seva sobirania tecnològica (el control de l’estat sobre la seva
+pròpia computació). Tots els usuaris mereixen el control de la seva
+informàtica, però l’estat té la responsabilitat de mantenir el control sobre
+la computació que fa en nom de la ciutadania. La majoria de les activitats
+governamentals ara depenen de la informàtica, i el seu control sobre
+aquestes activitats depèn del seu control sobre aquesta computació. La
+pèrdua d’aquest control en una agència la missió de la qual és crítica
+soscava la seguretat nacional. "
+
+Tant el document de GNU anterior com la
+https://ajuntament.barcelona.cat/digital/ca/blog/barcelona-digital-government-open-agile-and-participatives.cat[Mesura
+de govern: programari lliure i desenvolupament àgil de serveis
+d’administració pública] preveuen altres avantatges:
+
+* Foment de negocis locals de suport i manteniment de programari, facilitant
+  la inclusió de petites i mitjanes empreses en el procés de contractació.
+* Creació de noves capacitats crucials en el sector públic a través de la
+  internalització del personal i un programa per crear habilitats internes per
+  impulsar la transformació.
+* Increment de la transparència i auditabilitat dels processos administratius.
+* No obligar a cap persona o organització que necessiti interactuar amb
+  l'Ajuntament a utilitzar un programa específic (això equivaldria a un
+  monopoli sancionat per l'Estat).
+* Garantia de la sobirania de dades, la privacitat i la seguretat, de la
+  ciutadania i del municipi.
+* Evitar la dependència de proveïdors únics (_vendor_lock-in_) i, de manera
+  més general, alliberar la planificació i les decisions sobre informàtica de
+  les estratègies comercials, construint solucions més adaptades, més
+  flexibles i sostenibles.
+* Estalvi de diners, evitant pagar per les llicències i compartint i
+  mancomunant recursos entre municipis i amb altres agències governamentals.
+
+== Objectius d’aquesta guia
+
+L’objectiu d’aquesta guia és doble:
+
+. Facilitar al personal de l’IMI un ús efectiu de tecnologies basades en
+  programari lliure i de codi obert, de manera que se n’aprofitin al màxim els
+  avantatges i es minimitzin els potencials riscos.
+
+. Preservar la reputació de l’Ajuntament de Barcelona com a institució que
+  col·labora en projectes de programari lliure de manera transparent,
+  confiable i tenint en compte les millors pràctiques del sector.
+
+Malgrat l’enorme diversitat existent entre els projectes de codi obert, amb
+el temps han emergit una sèrie de pràctiques que comparteixen la majoria de
+projectes i organitzacions que assoleixen un cert èxit. Això inclou aspectes
+tant tècnics, com legals, com de gestió de projectes. Algunes d’aquestes
+pràctiques podríem dir que son d’adopció obligatòria, en el sentit que les
+dinàmiques de treball dels projectes oberts premien determinades conductes i
+en penalitzen d’altres.
+
+Aquestes pràctiques estan orientades a facilitar la màxima diversitat de
+participants, molts cops sense una coordinació centralitzada, i a preservar
+al mateix temps la qualitat del producte. En alguns casos poden diferir
+substancialment de la forma de treballar quan es desenvolupa sense una
+voluntat de publicar el codi. Per tant, el procés d’aprenentatge i adaptació
+de l’IMI tindrà un cost, però creiem que es veurà superat en escreix per la
+millora organitzativa que suposarà –en simbiosi amb la incorporació de
+metodologies àgils–, 
+
+En definitiva, aquest document pretén explicar les millors pràctiques
+disponibles per utilitzar i desenvolupar programari de codi obert. Ho fa
+codificant i adaptant a l’IMI aquestes bones pràctiques, de manera que
+serveixi de guia en el procés d’aprenentatge i en la presa de decisions.
+
+== Per saber-ne més
+
+Un molt bon recurs per entendre tots els aspectes tècnics, legals i socials
+que envolten el desenvolupament de programari lliure és el llibre de Karl
+Fogel https://producingoss.com/en/index.html[Producing Open Source Software]
+(en l’edició de 2017, només disponible electrònicament i consultable
+lliurement per Internet). En l’elaboració d’aquesta Guia s’han tingut en
+compte moltes de les recomanacions recollides al llibre.
+
+La Guia conté també una gran quantitat de recomanacions que tenen a veure
+amb la contractació de diferents serveis. Un bon document per entendre les
+particularitats de la contractació de programari lliure des de
+l’administració pública és la
+https://producingoss.com/en/index.html[Guideline on public procurement of
+Open Source Software], publicat al 2010 per Rishab Aiyer Ghosh, Ruediger
+Glott, Patrice-Emmanuel Schmitz i Abdelkrim Boujraf, per encàrrec de la
+Comissió Europea sota la iniciativa https://joinup.ec.europa.eu//[Joinup].

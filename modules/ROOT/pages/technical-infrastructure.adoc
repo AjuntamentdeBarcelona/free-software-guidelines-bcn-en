@@ -454,7 +454,7 @@ This bug tracker has to be operational and public throughout the product’s use
 
 // M_35A
 // Was: Link the main repository to the GitHub issue manager
-[sidebar.measure]
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Use GitHub/Gitlab for the issue manager of the project
 --
 [.tags]
